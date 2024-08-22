@@ -33,20 +33,20 @@ a {
     align-items: center;
     justify-content: space-between;
     margin: 0 80px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .procurando {
     padding: 13px;
     border-radius: 30px;
-    width: 445px;
-    height: 45px;
+    width: 400px;
+    height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
 
 }
 
 .imagemLogo img {
-    width: 180px;
+    width: 150px;
 }
 
 .linha{
@@ -61,6 +61,6 @@ a {
 
 .item {
     color: #fff;
-    margin: 15px;
+    margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
 }
