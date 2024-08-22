@@ -10,5 +10,57 @@ a {
     text-decoration: none;
 }
 
+/* FONTES */
+
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
 /* CABEÇALHO */
 
+#header {
+    background-color: #252160;
+}
+
+.cabecalhoUm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+    padding: 10px;
+}
+
+.procurando {
+    padding: 13px;
+    border-radius: 30px;
+    width: 445px;
+    height: 45px;
+    font: 600 16px 'WorkSans', sans-serif;
+
+}
+
+.imagemLogo img {
+    width: 180px;
+}
+
+.linha{
+    background-color: #fff;
+    height: 0.4px;
+}
+
+.cabecalho2 {
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+.item {
+    color: #fff;
+    margin: 15px;
+    font: 600 16px 'WorkSans', sans-serif;
+}
