@@ -1,0 +1,153 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FONTES */
+
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+/* CABEÇALHO */
+
+#header {
+    background-color: #252160;
+}
+
+.cabecalhoUm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+    padding: 10px;
+}
+
+.procurando {
+    padding: 13px;
+    border-radius: 30px;
+    width: 445px;
+    height: 45px;
+    font: 600 16px 'WorkSans', sans-serif;
+
+}
+
+.imagemLogo img {
+    width: 180px;
+}
+
+.linha {
+    background-color: #fff;
+    height: 0.4px;
+}
+
+.cabecalho2 {
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+.item {
+    color: #fff;
+    margin: 15px;
+    font: 600 16px 'WorkSans', sans-serif;
+}
+
+
+/* CANO CURTO FEMININO LISA  */
+h1 {
+    font-family: "LibreFranklin";
+    margin-top: 20vh;
+}
+
+.conjuntoDeMeia {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.meiaPretaCanoCurto,
+.meiaCinzaCanoCurto,
+.conjuntoMeiasPBC {
+    width: 45%;
+    /* Ajuste a largura para garantir que duas fiquem lado a lado */
+    margin-bottom: 20px;
+    /* Espaçamento entre as divs */
+}
+
+
+#meiaLisaCanoCurto {
+    border-radius: 10vh;
+    width: 513px;
+    height: 450px;
+    border: 1px solid #474646;
+    align-items: center;
+}
+
+.cores {
+    display: flex;
+}
+
+.branco,
+.preto,
+.cinza {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.349);
+    border-radius: 50%;
+    width: 4vh;
+    height: 4vh;
+    margin: 0.75vh;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+.preto{
+    background-color: black;
+}
+.cinza{
+    background-color: #A5A5A5;
+}
+
+
+/* CSS para centralizar a imagem dentro da div */
+.imagem {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 250px; /* Ajuste a altura conforme necessário */
+}
+
+.imagem img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse os limites da div */
+     width: 344px;
+    height: 250px;
+}
+
+
+.descricao {
+    font-family: "WorkSans";
+}
+
+.fonte-fina {
+    font-family: "WorkSans";
+    font-weight: 300;
+}
+
+.preco {
+    font-family: "WorkSans";
+}
+
+.informacao-produto{
+    margin-left: 3vh;
+}
