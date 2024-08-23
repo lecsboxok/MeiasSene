@@ -33,23 +33,23 @@ a {
     align-items: center;
     justify-content: space-between;
     margin: 0 80px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .procurando {
     padding: 13px;
     border-radius: 30px;
-    width: 445px;
-    height: 45px;
+    width: 400px;
+    height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
 
 }
 
 .imagemLogo img {
-    width: 180px;
+    width: 150px;
 }
 
-.linha {
+.linha{
     background-color: #fff;
     height: 0.4px;
 }
@@ -61,146 +61,6 @@ a {
 
 .item {
     color: #fff;
-    margin: 15px;
+    margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-}
-
-
-/* CANO CURTO FEMININO LISA  */
-h1 {
-    font-family: "LibreFranklin";
-    margin-top: 20vh;
-}
-
-
-
-/* IMAGENS DAS MEIAS */
-.imagem, .imagemKit{
-    display: flex;
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    align-items: center;
-    /* Centraliza verticalmente */
-    height: 250px;
-    /* Ajuste a altura conforme necessário */
-}
-
-.imagemKit img {
-    width: 390px;
-    height: 200px;
-    max-width: 100%;
-    /* Garante que a imagem não ultrapasse os limites da div */
-}
-
-
-.imagem img {
-    max-width: 100%;
-    /* Garante que a imagem não ultrapasse os limites da div */
-    width: 244px;
-    height: 200px;
-}
-
-
-
-.informacao-produto{
-    margin-left: 3vh;
-}
-
-
-/* TODAS AS MEIAS */
-.conjuntoDeMeia {
-    margin-top: 10vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-
-
-/* DIV DE CADA MEIA PARA FAZER A BORDA */
-#meiaLisaCanoCurto {
-    border-radius: 10vh;
-    width: 410px;
-    height: 480px;
-    border: 1px solid #474646;
-    align-items: center;
-}
-
-.cores {
-    display: flex;
-    margin-left: 2vh;
-}
-
-.branco,
-.preto,
-.cinza {
-
-    border-radius: 50%;
-    width: 4vh;
-    height: 4vh;
-    margin: 0.75vh;
-
-    background-color: #ffffff;
-}
-
-.preto {
-    background-color: black;
-}
-
-.cinza {
-    background-color: #A5A5A5;
-}
-
-.branco {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.215);
-}
-
-
-
-.informacoes-preco {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-
-
-/* DESCRIÇÃO PARA MUDAR FONTE */
-
-.descricao {
-    font-family: "WorkSans";
-}
-
-.fonte-fina {
-    font-family: "WorkSans";
-    font-weight: 300;
-}
-
-.preco {
-    font-family: "WorkSans";
-    font-size: 3.75vh;
-}
-
-.informacoes-preco {
-    display: flex;
-    flex-direction: column;
-    /* Organiza o conteúdo da div em coluna */
-    justify-content: center;
-    /* Centraliza verticalmente */
-    align-items: center;
-    /* Centraliza horizontalmente */
-    text-align: center;
-    /* Centraliza o texto dentro da div */
-}
-
-
-
-.btn-euQuero{
-    background-color: #252160;
-    margin-top: 3vh;
-    color: #fff;
-    width: 265px;
-    height: 44px;
-    border-radius: 20px;
 }
