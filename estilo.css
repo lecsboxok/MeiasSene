@@ -49,7 +49,7 @@ a {
     width: 150px;
 }
 
-.linha{
+.linha {
     background-color: #fff;
     height: 0.4px;
 }
@@ -63,4 +63,152 @@ a {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
+}
+
+
+
+/* COMEÇO DAS MEIAS CANO CURTO */
+.titulo {
+    font-family: "LibreFranklin";
+    margin-top: 10vh;
+}
+
+/* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
+
+.todas-as-meias-feminina-cano-curto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#div-meia-cano-curto {
+    align-items: center;
+    width: 390px;
+    height: 450px;
+    margin-top: 10vh;
+    border: 1px solid #A5A5A5;
+    border-radius: 20px;
+
+}
+
+/* CORES */
+.cores-branca-preto-cinza,
+.cores-rosa-verde,
+.cores-verdeEscuro-verdeClaro-cinza,
+.cores-azulEscuro-pretaRosa {
+    display: flex;
+    gap: 1vh;
+    margin-top: 0.75vh;
+}
+
+.branca,
+.preta,
+.cinza,
+.verde,
+.verdeClaro,
+.verdeEscuro,
+.azulEscuro,
+.pretaRosa,
+.rosa {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: aqua;
+}
+/* .branca{
+
+}
+.preta{
+
+}
+.cinza{
+
+}
+.verde{
+
+}
+.verdeClaro{
+
+}
+.verdeEscuro  */
+
+
+/* arrumando as imagens das meias cano curto */
+
+.Quadrado-da-meia-preta-cano-curto img,
+/* imagem da primeira meia, preta cano curto */
+.Quadrado-da-meia-verde-cano-curto img,
+/* imagem da meia, verde cano curto */
+.Quadrado-da-meia-BrancaRosa-cano-curto img,
+/* imagem da meia, rosa cano curto */
+.Quadrado-da-meia-pretaRosa-cano-curto img {
+    /* imagem dameia, preta com rosa cano curto */
+    width: 250px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.Quadrado-do-kit-cinza-cano-curto img,
+.Quadrado-do-kit-preta-cinza-branco-cano-curto img {
+    width: 370px;
+    height: 200px;
+}
+
+
+
+
+
+/* estilizando as informações */
+.informacoes-meia-cano-curto-feminino{
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.CanoCurtoSubtitulo {
+    font-family: 'WorkSans';
+    font-weight: 600;
+}
+
+.numeracao {
+    font-family: 'WorkSans';
+    font-weight: 300;
+}
+
+.preco {
+    font-family: 'WorkSans';
+    font-size: 4vh;
+    font-weight: 800;
+}
+
+.texto-a-vista {
+    font-family: 'WorkSans';
+    font-weight: 300;
+}
+
+.preco-informacoes {
+    text-align: center;
+}
+#preco-informacoes-meia-preta-cinza-branca{
+    margin-top: 4vh;
+}
+
+.botao-euQuero {
+    background-color: #252160;
+    color: #fff;
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 5vh;
+    font-family: 'WorkSans';
+    font-weight: 600;
+    font-size: 3vh;
+}
+#botao-da-meia-preta-branca-cinza{
+    margin-top: 6.75vh;
+    font-family: 'WorkSans';
+    font-weight: 600;
 }
