@@ -105,35 +105,49 @@ a {
 .branca,
 .preta,
 .cinza,
-.verde,
+.verde-agua,
 .verdeClaro,
-.verdeEscuro,
-.azulEscuro,
+.verdeMusgo,
+.roxo,
 .pretaRosa,
 .rosa {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
-    background-color: aqua;
 }
-/* .branca{
+.branca{
+background-color: #ffffff;
+box-shadow: 10px 10px 20px 5px #0000004f;}
 
-}
 .preta{
+    background-color: #000000;
 
 }
+
 .cinza{
-
+background-color: #A5A5A5;
 }
-.verde{
 
+.verde-agua{
+background-color: #00BDB5;
+}
+.rosa{
+    background-color: #DA6A9E;
+}
+.verdeMusgo{
+background-color: #7BC194;
 }
 .verdeClaro{
+    background-color: #54C999;
 
 }
-.verdeEscuro  */
 
-
+.pretaRosa{
+    background: linear-gradient(to right, #000000 50%, #DA598F 50%);
+}
+.roxo{
+    background-color: #5034A9;
+}
 /* arrumando as imagens das meias cano curto */
 
 .Quadrado-da-meia-preta-cano-curto img,
