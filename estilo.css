@@ -71,6 +71,7 @@ a {
 .titulo {
     font-family: "LibreFranklin";
     margin-top: 10vh;
+    margin-left: 5vh;
 }
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
@@ -117,7 +118,7 @@ a {
 }
 .branca{
 background-color: #ffffff;
-box-shadow: 10px 10px 20px 5px #0000004f;}
+box-shadow: 5px 2px 22px 5px #00000044;}
 
 .preta{
     background-color: #000000;
