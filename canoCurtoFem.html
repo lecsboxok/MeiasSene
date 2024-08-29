@@ -58,7 +58,7 @@
                         <h3 class="numeracao"> 34 á 38</h3>
                         <div class="cores-branca-preto-cinza">
                             <div class="preta"></div>
-                            <div class="branca"></div>
+                            <div class="branca brancaKit"></div>
                             <div class="cinza"></div>
                         </div>
                     </div>
@@ -151,79 +151,67 @@
             </div>
         </section>
     </main>
+    <script>
+        // Definindo as imagens para cada cor em cada quadrado
+        const botaoEuQueroDois = document.querySelector('.Quadrado-do-kit-cinza-cano-curto .botao-euQuero');
 
-   <script>
-    // Selecionando as divs de cor
-    const preta = document.querySelector('.preta');
-    const branca = document.querySelector('.branca');
-    const cinza = document.querySelector('.cinza');
-    const botaoEuQuero = document.querySelector('.botao-euQuero');
+        const imagensPorCor = {
+            'Quadrado-da-meia-preta-cano-curto': {
+                preta: 'img/meiaCanoCurtoFeminiaPreta.png',
+                branca: 'img/meiaBrancaTransicao.png',
+                cinza: 'img/meiaCinza-transicao.png'
+            },
+            'Quadrado-do-kit-cinza-cano-curto': {
+                preta: 'img/meiaPretaKit-transicao.png',
+                brancaKit: 'img/meiaBrancaKit-transicao.png',
+                cinza: 'img/CanoCurtoCinzaFeminina3pares.png'
+            },
+        
+            // Adicione mais quadrados aqui com suas respectivas imagens
+        };
 
-    // Selecionando a imagem que será trocada
-    const imgMeia = document.querySelector('.Quadrado-da-meia-preta-cano-curto img');
+        document.querySelectorAll('.todas-as-meias-feminina-cano-curto > div').forEach((quadrado) => {
+            const imgMeia = quadrado.querySelector('img');
+            const cores = quadrado.querySelectorAll('.preta, .branca, .cinza, .brancaKit');
+            const quadradoId = quadrado.className.split(' ')[0]; // Pegando o primeiro nome de classe
 
-    // Variável para armazenar a imagem atual
-    let currentImage = 'img/meiaCanoCurtoFeminiaPreta.png'; // Caminho da imagem original
-    let selectedColor = ''; // Variável para armazenar a cor selecionada
+            let currentImage = imgMeia.src; // Armazena a imagem atual
+            let selectedColor = ''; // Armazena a cor selecionada
 
-    // Funções para trocar a imagem ao passar o mouse
-    preta.addEventListener('mouseover', () => {
-        imgMeia.src = 'img/meiaCanoCurtoFeminiaPreta.png'; // Caminho da imagem preta
-    });
+            // Adicionando eventos para cada cor
+            cores.forEach((cor) => {
+                const corNome = cor.className; // Pegando o nome da classe (preta, branca, cinza)
 
-    branca.addEventListener('mouseover', () => {
-        imgMeia.src = 'img/meiaBrancaTransicao.png'; // Caminho da imagem branca
-    });
+                cor.addEventListener('mouseover', () => {
+                    imgMeia.src = imagensPorCor[quadradoId][corNome]; // Trocando a imagem para a cor correspondente
+                });
 
-    cinza.addEventListener('mouseover', () => {
-        imgMeia.src = 'img/meiaCinza-transicao.png'; // Caminho da imagem cinza
-    });
+                cor.addEventListener('mouseout', () => {
+                    imgMeia.src = currentImage; // Voltando para a imagem original
+                });
 
-    // Resetar para a imagem original quando o mouse sair
-    preta.addEventListener('mouseout', () => {
-        imgMeia.src = currentImage;
-    });
+                cor.addEventListener('click', () => {
+                    currentImage = imagensPorCor[quadradoId][corNome];
+                    selectedColor = corNome;
+                    imgMeia.src = currentImage;
+                });
+            });
 
-    branca.addEventListener('mouseout', () => {
-        imgMeia.src = currentImage;
-    });
 
-    cinza.addEventListener('mouseout', () => {
-        imgMeia.src = currentImage;
-    });
+            const botaoEuQuero = quadrado.querySelector('.botao-euQuero');
+            botaoEuQuero.addEventListener('click', () => {
+                if (selectedColor) {
+                    window.location.href = `descricao/canoCurto${selectedColor.charAt(0).toUpperCase() + selectedColor.slice(1)}.html`;
+                } else {
+                    alert('Por favor, selecione uma cor.');
+                }
+            });
+        });
 
-    // Definir a imagem ao clicar e manter a imagem trocada
-    preta.addEventListener('click', () => {
-        currentImage = 'img/meiaCanoCurtoFeminiaPreta.png';
-        selectedColor = 'preta';
-        imgMeia.src = currentImage;
-    });
+         
+        
+    </script>
 
-    branca.addEventListener('click', () => {
-        currentImage = 'img/meiaBrancaTransicao.png';
-        selectedColor = 'branca';
-        imgMeia.src = currentImage;
-    });
-
-    cinza.addEventListener('click', () => {
-        currentImage = 'img/meiaCinza-transicao.png';
-        selectedColor = 'cinza';
-        imgMeia.src = currentImage;
-    });
-
-    // Redirecionar para a página correspondente ao clicar no botão "Eu Quero!"
-    botaoEuQuero.addEventListener('click', () => {
-        if (selectedColor === 'preta') {
-            window.location.href = 'pagina-preta.html';
-        } else if (selectedColor === 'branca') {
-            window.location.href = 'pagina-branca.html';
-        } else if (selectedColor === 'cinza') {
-            window.location.href = 'pagina-cinza.html';
-        } else {
-            alert('Por favor, selecione uma cor.');
-        }
-    });
-</script>
 
 
 
