@@ -152,58 +152,79 @@
         </section>
     </main>
 
-    <script>
-        // Selecionando as divs de cor
-        const preta = document.querySelector('.preta');
-        const branca = document.querySelector('.branca');
-        const cinza = document.querySelector('.cinza');
-    
-        // Selecionando a imagem que será trocada
-        const imgMeia = document.querySelector('.Quadrado-da-meia-preta-cano-curto img');
-    
-        // Variável para armazenar a imagem atual
-        let currentImage = 'img/meiaCanoCurtoFeminiaPreta.png'; // Caminho da imagem original
-    
-        // Funções para trocar a imagem ao passar o mouse
-        branca.addEventListener('mouseover', () => {
-            imgMeia.src = 'img/meiaBrancaTransicao.png'; // Caminho da imagem branca
-        });
-     
-    
-        cinza.addEventListener('mouseover', () => {
-            imgMeia.src = 'img/meiaCinza-transicao.png'; // Caminho da imagem cinza
-        });
-    
-        // Resetar para a imagem original quando o mouse sair
-        preta.addEventListener('mouseout', () => {
-            imgMeia.src = currentImage;
-        });
-    
-        branca.addEventListener('mouseout', () => {
-            imgMeia.src = currentImage;
-        });
-    
-        cinza.addEventListener('mouseout', () => {
-            imgMeia.src = currentImage;
-        });
-    
-        // Definir a imagem ao clicar e manter a imagem trocada
-        branca.addEventListener('click', () => {
-            currentImage = 'img/meiaBrancaTransicao.png';
-            imgMeia.src = currentImage;
-        });
-    
-        cinza.addEventListener('click', () => {
-            currentImage = 'img/meiaCinza-transicao.png';
-            imgMeia.src = currentImage;
-        });
-    
-        preta.addEventListener('click', () => {
-            currentImage = 'img/meiaCanoCurtoFeminiaPreta.png';
-            imgMeia.src = currentImage;
-        });
-    </script>
-    
+   <script>
+    // Selecionando as divs de cor
+    const preta = document.querySelector('.preta');
+    const branca = document.querySelector('.branca');
+    const cinza = document.querySelector('.cinza');
+    const botaoEuQuero = document.querySelector('.botao-euQuero');
+
+    // Selecionando a imagem que será trocada
+    const imgMeia = document.querySelector('.Quadrado-da-meia-preta-cano-curto img');
+
+    // Variável para armazenar a imagem atual
+    let currentImage = 'img/meiaCanoCurtoFeminiaPreta.png'; // Caminho da imagem original
+    let selectedColor = ''; // Variável para armazenar a cor selecionada
+
+    // Funções para trocar a imagem ao passar o mouse
+    preta.addEventListener('mouseover', () => {
+        imgMeia.src = 'img/meiaCanoCurtoFeminiaPreta.png'; // Caminho da imagem preta
+    });
+
+    branca.addEventListener('mouseover', () => {
+        imgMeia.src = 'img/meiaBrancaTransicao.png'; // Caminho da imagem branca
+    });
+
+    cinza.addEventListener('mouseover', () => {
+        imgMeia.src = 'img/meiaCinza-transicao.png'; // Caminho da imagem cinza
+    });
+
+    // Resetar para a imagem original quando o mouse sair
+    preta.addEventListener('mouseout', () => {
+        imgMeia.src = currentImage;
+    });
+
+    branca.addEventListener('mouseout', () => {
+        imgMeia.src = currentImage;
+    });
+
+    cinza.addEventListener('mouseout', () => {
+        imgMeia.src = currentImage;
+    });
+
+    // Definir a imagem ao clicar e manter a imagem trocada
+    preta.addEventListener('click', () => {
+        currentImage = 'img/meiaCanoCurtoFeminiaPreta.png';
+        selectedColor = 'preta';
+        imgMeia.src = currentImage;
+    });
+
+    branca.addEventListener('click', () => {
+        currentImage = 'img/meiaBrancaTransicao.png';
+        selectedColor = 'branca';
+        imgMeia.src = currentImage;
+    });
+
+    cinza.addEventListener('click', () => {
+        currentImage = 'img/meiaCinza-transicao.png';
+        selectedColor = 'cinza';
+        imgMeia.src = currentImage;
+    });
+
+    // Redirecionar para a página correspondente ao clicar no botão "Eu Quero!"
+    botaoEuQuero.addEventListener('click', () => {
+        if (selectedColor === 'preta') {
+            window.location.href = 'pagina-preta.html';
+        } else if (selectedColor === 'branca') {
+            window.location.href = 'pagina-branca.html';
+        } else if (selectedColor === 'cinza') {
+            window.location.href = 'pagina-cinza.html';
+        } else {
+            alert('Por favor, selecione uma cor.');
+        }
+    });
+</script>
+
 
 
 </body>
