@@ -219,11 +219,15 @@
 
             // Evento para o botão "Eu Quero!" dentro do quadrado atual
             quadrado.querySelector('.botao-euQuero').addEventListener('click', () => {
-                // Se não houver cor selecionada, assume 'preta'
-                const corSelecionada = selectedColor || 'preta';
-                // Redireciona para o HTML de descrição com a cor selecionada como parâmetro
-                window.location.href = `descricaoFeminina/CanoCurtoFeminina.html?cor=${corSelecionada}`;
+                const corSelecionada = selectedColor;
+
+                if (corSelecionada) {
+                    window.location.href = `descricaoFeminina/CanoCurtoFeminina.html?cor=${corSelecionada}`;
+                } else {
+                    alert('Por favor, selecione uma cor.');
+                }
             });
+
         });
 
     </script>
