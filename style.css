@@ -26,6 +26,9 @@ a {
 
 #header {
     background-color: #252160;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .cabecalhoUm {
@@ -64,9 +67,52 @@ a {
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
 }
+/* FIM DO CABEÇALHO */
 
+/* CARROSSEL */
 
-
+.carrossel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  
+  #carrosselContainer {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+  }
+  
+  #imagemCarrossel {
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .bolinhas {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .bolinha {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .bolinha.ativa {
+    background-color: #F4B17A;
+  }
 
 
 
