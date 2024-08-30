@@ -31,7 +31,7 @@
             <h1 class="titulo">Cano Curto/ Cano Curto Desenhado Feminino </h1>
             <div class="todas-as-meias-feminina-cano-curto">
                 <div class="Quadrado-da-meia-preta-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"> <img src="img/meiaCanoCurtoFeminiaPreta.png" alt=""></div>
+                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-Preta.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
@@ -52,14 +52,14 @@
 
 
                 <div class="Quadrado-do-kit-cinza-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"><img src="img/CanoCurtoCinzaFeminina3pares.png" alt=""></div>
+                    <div class="container"><img src="img-feminino/CanoCurto-3-Cinza.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
                         <div class="cores-branca-preto-cinza">
-                            <div class="preta"></div>
+                            <div class="preta pretaKit"></div>
                             <div class="branca brancaKit"></div>
-                            <div class="cinza"></div>
+                            <div class="cinza "></div>
                         </div>
                     </div>
                     <div class="preco-informacoes">
@@ -73,7 +73,7 @@
 
 
                 <div class="Quadrado-do-kit-preta-cinza-branco-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"> <img src="img/3paresDeMeiaCanoCurto.png" alt=""></div>
+                    <div class="container"> <img src="img-feminino/CanoCurto-3-PretaCinzaBranca.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
@@ -88,14 +88,14 @@
 
 
                 <div class="Quadrado-da-meia-verde-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"> <img src="img/meia-cano-curto-verde.png" alt=""></div>
+                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-BrancaVerdeClaro.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
                         <div class="cores-verdeEscuro-verdeClaro-cinza">
                             <div class="verdeClaro"></div>
                             <div class="verdeMusgo"></div>
-                            <div class="cinza"></div>
+                            <div class="cinza Cinza-Branca"></div>
                         </div>
                     </div>
                     <div class="preco-informacoes">
@@ -109,7 +109,7 @@
 
 
                 <div class="Quadrado-da-meia-BrancaRosa-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"> <img src="img/meia-cano-curto-rosa.png" alt=""></div>
+                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-BrancaRosa.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
@@ -130,7 +130,7 @@
 
 
                 <div class="Quadrado-da-meia-pretaRosa-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"> <img src="img/meia-cano-curto-preta-rosa.png" alt=""></div>
+                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-PretaRosa.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
@@ -157,15 +157,15 @@
 
         const imagensPorCor = {
             'Quadrado-da-meia-preta-cano-curto': {
-                preta: 'img/meiaCanoCurtoFeminiaPreta.png',
-                branca: 'img/meiaBrancaTransicao.png',
-                cinza: 'img/meiaCinza-transicao.png'
+                preta: 'img-feminino/MeiaCanoCurto-Preta.png',
+                branca: 'img-feminino/MeiaCanoCurto-Branca.png',
+                cinza: 'img-feminino/MeiaCanoCurto-Cinza.png'
             },
-            'Quadrado-do-kit-cinza-cano-curto': {
-                preta: 'img/meiaPretaKit-transicao.png',
-                brancaKit: 'img/meiaBrancaKit-transicao.png',
-                cinza: 'img/CanoCurtoCinzaFeminina3pares.png'
-            },
+            // 'Quadrado-do-kit-cinza-cano-curto': {
+            //     preta: 'img/meiaPretaKit-transicao.png',
+            //     brancaKit: 'img/meiaBrancaKit-transicao.png',
+            //     cinza: 'img/CanoCurtoCinzaFeminina3pares.png'
+            // },
         
             // Adicione mais quadrados aqui com suas respectivas imagens
         };
@@ -201,7 +201,7 @@
             const botaoEuQuero = quadrado.querySelector('.botao-euQuero');
             botaoEuQuero.addEventListener('click', () => {
                 if (selectedColor) {
-                    window.location.href = `descricao/canoCurto${selectedColor.charAt(0).toUpperCase() + selectedColor.slice(1)}.html`;
+                    window.location.href = `descricao/CanoCurto${selectedColor.charAt(0).toUpperCase() + selectedColor.slice(1)}.html`;
                 } else {
                     alert('Por favor, selecione uma cor.');
                 }
