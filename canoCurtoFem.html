@@ -38,7 +38,6 @@
                         <div class="cores-branca-preto-cinza">
                             <div class="preta"></div>
                             <div class="branca"></div>
-
                             <div class="cinza"></div>
                         </div>
                     </div>
@@ -57,9 +56,9 @@
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
                         <div class="cores-branca-preto-cinza">
-                            <div class="preta pretaKit"></div>
-                            <div class="branca brancaKit"></div>
-                            <div class="cinza "></div>
+                            <div class="pretaKit"></div>
+                            <div class="brancaKit"></div>
+                            <div class="cinzaKit"></div>
                         </div>
                     </div>
                     <div class="preco-informacoes">
@@ -88,14 +87,14 @@
 
 
                 <div class="Quadrado-da-meia-verde-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-BrancaVerdeClaro.png" alt=""></div>
+                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-BrancaVerdeMusgo.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
                         <div class="cores-verdeEscuro-verdeClaro-cinza">
                             <div class="verdeClaro"></div>
                             <div class="verdeMusgo"></div>
-                            <div class="cinza Cinza-Branca"></div>
+                            <div class="CinzaBranca"></div>
                         </div>
                     </div>
                     <div class="preco-informacoes">
@@ -134,7 +133,7 @@
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
-                        <div class="cores-azulEscuro-pretaRosa">
+                        <div class="cores-roxo-pretaRosa">
                             <div class="roxo"></div>
                             <div class="pretaRosa"></div>
 
@@ -152,64 +151,81 @@
         </section>
     </main>
     <script>
-        // Definindo as imagens para cada cor em cada quadrado
-        const botaoEuQueroDois = document.querySelector('.Quadrado-do-kit-cinza-cano-curto .botao-euQuero');
-
         const imagensPorCor = {
             'Quadrado-da-meia-preta-cano-curto': {
                 preta: 'img-feminino/MeiaCanoCurto-Preta.png',
                 branca: 'img-feminino/MeiaCanoCurto-Branca.png',
                 cinza: 'img-feminino/MeiaCanoCurto-Cinza.png'
             },
-            // 'Quadrado-do-kit-cinza-cano-curto': {
-            //     preta: 'img/meiaPretaKit-transicao.png',
-            //     brancaKit: 'img/meiaBrancaKit-transicao.png',
-            //     cinza: 'img/CanoCurtoCinzaFeminina3pares.png'
-            // },
-        
-            // Adicione mais quadrados aqui com suas respectivas imagens
+            'Quadrado-do-kit-cinza-cano-curto': {
+                pretaKit: 'img-feminino/CanoCurto-3-Preta.png',
+                brancaKit: 'img-feminino/CanoCurto-3-Branca.png',
+                cinzaKit: 'img-feminino/CanoCurto-3-Cinza.png'
+            },
+            'Quadrado-da-meia-verde-cano-curto': {
+                verdeClaro: 'img-feminino/MeiaCanoCurto-BrancaVerdeClaro.png',
+                verdeMusgo: 'img-feminino/MeiaCanoCurto-BrancaVerdeMusgo.png',
+                CinzaBranca: 'img-feminino/MeiaCanoCurto-BrancaCinza.png'
+            },
+            'Quadrado-do-kit-preta-cinza-branco-cano-curto': {
+                preta: 'img-feminino/CanoCurto-3-Preta.png',
+                cinza: 'img-feminino/CanoCurto-3-Cinza.png',
+                branca: 'img-feminino/CanoCurto-3-Branca.png'
+            }
         };
 
+        // Para cada quadrado de meia na seção "todas-as-meias-feminina-cano-curto"
         document.querySelectorAll('.todas-as-meias-feminina-cano-curto > div').forEach((quadrado) => {
+            // Seleciona a imagem da meia dentro do quadrado atual
             const imgMeia = quadrado.querySelector('img');
-            const cores = quadrado.querySelectorAll('.preta, .branca, .cinza, .brancaKit');
-            const quadradoId = quadrado.className.split(' ')[0]; // Pegando o primeiro nome de classe
 
-            let currentImage = imgMeia.src; // Armazena a imagem atual
-            let selectedColor = ''; // Armazena a cor selecionada
+            // Seleciona todas as cores disponíveis para o quadrado atual
+            const cores = quadrado.querySelectorAll('.preta, .branca, .cinza, .pretaKit, .brancaKit, .cinzaKit, .verdeClaro, .verdeMusgo, .CinzaBranca, .verde-agua, .rosa, .roxo, .pretaRosa');
 
-            // Adicionando eventos para cada cor
+            // Obtém o nome da classe do quadrado (primeiro nome de classe)
+            const quadradoId = quadrado.className.split(' ')[0];
+
+            // Armazena a imagem atual para restaurar depois
+            let currentImage = imgMeia.src;
+
+            // Armazena a cor selecionada pelo usuário
+            let selectedColor = '';
+
+            // Adiciona eventos para cada cor
             cores.forEach((cor) => {
-                const corNome = cor.className; // Pegando o nome da classe (preta, branca, cinza)
+                // Obtém o nome da classe da cor (ex.: preta, branca, cinza)
+                const corNome = cor.className;
 
+                // Quando o mouse está sobre a cor
                 cor.addEventListener('mouseover', () => {
-                    imgMeia.src = imagensPorCor[quadradoId][corNome]; // Trocando a imagem para a cor correspondente
+                    // Troca a imagem da meia para a cor correspondente
+                    imgMeia.src = imagensPorCor[quadradoId][corNome];
                 });
 
+                // Quando o mouse sai da cor
                 cor.addEventListener('mouseout', () => {
-                    imgMeia.src = currentImage; // Voltando para a imagem original
+                    // Restaura a imagem original da meia
+                    imgMeia.src = currentImage;
                 });
 
+                // Quando a cor é clicada
                 cor.addEventListener('click', () => {
+                    // Atualiza a imagem da meia para a cor selecionada
                     currentImage = imagensPorCor[quadradoId][corNome];
                     selectedColor = corNome;
                     imgMeia.src = currentImage;
                 });
             });
 
-
-            const botaoEuQuero = quadrado.querySelector('.botao-euQuero');
-            botaoEuQuero.addEventListener('click', () => {
-                if (selectedColor) {
-                    window.location.href = `descricao/CanoCurto${selectedColor.charAt(0).toUpperCase() + selectedColor.slice(1)}.html`;
-                } else {
-                    alert('Por favor, selecione uma cor.');
-                }
+            // Evento para o botão "Eu Quero!" dentro do quadrado atual
+            quadrado.querySelector('.botao-euQuero').addEventListener('click', () => {
+                // Se não houver cor selecionada, assume 'preta'
+                const corSelecionada = selectedColor || 'preta';
+                // Redireciona para o HTML de descrição com a cor selecionada como parâmetro
+                window.location.href = `descricaoFeminina/CanoCurtoFeminina.html?cor=${corSelecionada}`;
             });
         });
 
-         
-        
     </script>
 
 
