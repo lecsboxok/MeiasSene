@@ -90,7 +90,7 @@ a {
   
   #imagemCarrossel {
     width: 100%;
-    height: 90vh;
+    height: auto;
   }
   
   .bolinhas {
