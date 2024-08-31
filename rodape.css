@@ -1,0 +1,145 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FONTES */
+
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+/* RODAPÉ */
+
+#footer{
+    background-color: #252160;
+    color: white;
+}
+
+.container-rodape{
+    padding: 65px 100px 25px 100px;
+}
+
+.imgLogo-rodape{
+    width: 200px;
+}
+
+.linha1-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contatos-rodape, .acompanhe-rodape{
+    margin-top: 20px;
+}
+
+.whats-rodape, .email-rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.whats-rodape a, .email-rodape a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imgContatos-rodape {
+    width: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imgContatos-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-rodape{
+    font: 650 20px 'LibreFranklin', sans-serif;
+}
+
+.texto-rodape{
+    font: 400 18px 'WorkSans', sans-serif;
+}
+
+.texto2-rodape:hover{
+    color: #b4b4b4;
+    transform: scale(0.97);
+}
+
+.texto2-rodape{
+    font: 400 18px 'WorkSans', sans-serif;
+    margin-top: 12px;
+    transition: transform 0.3s ease;
+}
+
+.imgRedes-rodape{
+    width: 30px;
+    margin: 0 6px;
+    transition: transform 0.3s ease;
+}
+
+.imgRedes-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.redes-rodape{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linha2-rodape{
+    margin-top: 60px;
+}
+
+.categGeral-rodape{
+    display: flex;
+}
+
+.subCategoria1-rodape{
+    margin-right: 90px;
+}
+
+.textoInst-rodape{
+    margin-top: 20px;
+}
+
+.categGeral-rodape{
+    margin-top: 10px;
+}
+
+.linha2-rodape{
+    display: flex;
+    flex-direction: row;
+}
+
+.categorias-rodape{
+    margin-left: 213px;
+}
+
+.final-rodape{
+    margin-top: 110px;
+    text-align: center;
+}
+
+.textoFinal-rodape{
+    font: 400 15px 'WorkSans', sans-serif;
+}
