@@ -1,129 +1,125 @@
 /* RESET */
 * {
-    box-sizing: border-box;
-    border: 0;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* FONTES */
 
 @font-face {
-    font-family: 'LibreFranklin';
-    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+  font-family: 'LibreFranklin';
+  src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+  font-family: 'WorkSans';
+  src: url(fonts/WorkSans-VariableFont_wght.ttf);
 }
 
 /* CABEÇALHO */
 
 #header {
-    background-color: #252160;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+  background-color: #252160;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 .cabecalhoUm {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 80px;
-    padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 80px;
+  padding: 5px;
 }
 
 .procurando {
-    padding: 13px;
-    border-radius: 30px;
-    width: 400px;
-    height: 35px;
-    font: 600 16px 'WorkSans', sans-serif;
+  padding: 13px;
+  border-radius: 30px;
+  width: 400px;
+  height: 35px;
+  font: 600 16px 'WorkSans', sans-serif;
 
 }
 
 .imagemLogo img {
-    width: 150px;
+  width: 150px;
 }
 
-.linha{
-    background-color: #fff;
-    height: 0.4px;
+.linha {
+  background-color: #fff;
+  height: 0.4px;
 }
 
 .cabecalho2 {
-    text-align: center;
-    padding: 15px 0 10px 0;
+  text-align: center;
+  padding: 15px 0 10px 0;
 }
 
 .item {
-    color: #fff;
-    margin: 20px;
-    font: 600 16px 'WorkSans', sans-serif;
+  color: #fff;
+  margin: 20px;
+  font: 600 16px 'WorkSans', sans-serif;
 }
+
 /* FIM DO CABEÇALHO */
 
 /* CARROSSEL */
 
 .carrossel {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 60px;
-  }
-  
-  #carrosselContainer {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slide {
-    flex: 0 0 100%;
-    box-sizing: border-box;
-  }
-  
-  #imagemCarrossel {
-    width: 100%;
-    height: auto;
-  }
-  
-  .bolinhas {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-  }
-  
-  .bolinha {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #f1f1f1;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .bolinha.ativa {
-    background-color: #F4B17A;
-  }
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 60px;
+}
 
+#carrosselContainer {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
 
+.slide {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+}
 
+#imagemCarrossel {
+  width: 100%;
+  height: auto;
+}
 
+.bolinhas {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
 
+.bolinha {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  margin: 0 5px;
+  cursor: pointer;
+}
 
+.bolinha.ativa {
+  background-color: #F4B17A;
+}
 
-
-
-
-
+.pagamento {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 
 
