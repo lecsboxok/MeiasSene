@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descrição da Meia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="descricao-meia">
+        <img id="imagemMeia" src="" alt="Imagem da Meia">
+        <p id="descricaoMeia"></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const cor = urlParams.get('cor');
+
+            fetch('../meias.json')
+                .then(response => response.json())
+                .then(meias => {
+                    const meia = meias[cor];
+                    if (meia) {
+                        document.getElementById('imagemMeia').src = '../' + meia.imagem; // Ajusta o caminho da imagem
+                        document.getElementById('descricaoMeia').textContent = meia.descricao;
+                    } else {
+                        // Fallback para quando a cor não é encontrada
+                        document.getElementById('imagemMeia').src = '../img/placeholder.png';
+                        document.getElementById('descricaoMeia').textContent = 'Meia não encontrada.';
+                    }
+                });
+        });
+    </script>
+</body>
+
+</html>
