@@ -113,7 +113,7 @@
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
                         <div class="cores-rosa-verde">
-                            <div class="verde-agua"></div>
+                            <div class="verdeAgua"></div>
                             <div class="rosa"></div>
                         </div>
                     </div>
@@ -171,6 +171,14 @@
                 preta: 'img-feminino/CanoCurto-3-Preta.png',
                 cinza: 'img-feminino/CanoCurto-3-Cinza.png',
                 branca: 'img-feminino/CanoCurto-3-Branca.png'
+            },
+            'Quadrado-da-meia-BrancaRosa-cano-curto':{
+                verdeAgua: 'img-feminino/MeiaCanoCurto-BrancaVerdeAgua.png',
+                rosa: 'img-feminino/MeiaCanoCurto-BrancaRosa.png'
+            },
+            'Quadrado-da-meia-pretaRosa-cano-curto':{
+                pretaRosa: 'img-feminino/MeiaCanoCurto-PretaRosa.png',
+                roxo: 'img-feminino/MeiaCanoCurto-BrancaRoxo.png'
             }
         };
 
@@ -180,7 +188,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('.preta, .branca, .cinza, .pretaKit, .brancaKit, .cinzaKit, .verdeClaro, .verdeMusgo, .CinzaBranca, .verde-agua, .rosa, .roxo, .pretaRosa');
+            const cores = quadrado.querySelectorAll('.preta, .branca, .cinza, .pretaKit, .brancaKit, .cinzaKit, .verdeClaro, .verdeMusgo, .CinzaBranca, .verdeAgua, .rosa, .roxo, .pretaRosa');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
