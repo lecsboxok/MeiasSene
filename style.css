@@ -76,7 +76,7 @@ a {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 60px;
+  height: 100vh;
 }
 
 #carrosselContainer {
@@ -115,11 +115,104 @@ a {
   background-color: #F4B17A;
 }
 
+/* CONTEÚDO */
+
+h2 {
+  font: 200 30px 'LibreFranklin', sans-serif;
+}
+
+p {
+  font: 400 20px 'WorkSans', sans-serif;
+}
+
+span {
+  font-weight: 500;
+}
+
+.container {
+  margin: 150px 130px;
+}
+
+.tituloCabecalho {
+  margin: 50px 0;
+}
+
+.cadaCategoria {
+  display: flex;
+  justify-content: space-around;
+}
+
+.categoriaSeparadamente {
+  text-align: center;
+}
+
+.imgCategoria img {
+  background-color: #F4B17A;
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+#esportes {
+  background: url(img/BannerEsportivo.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.esporte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textoEsporte {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.textoEsporte .tituloCabecalho {
+  margin: 10px 0;
+}
+
+.textoEsporte h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font: 200 40px 'LibreFranklin', sans-serif;
+}
+
+.textoEsporte a {
+  font: 200 20px 'WorkSans', sans-serif;
+  color: #fff;
+}
+
+.botaoEsportes {
+  background-color: #000;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 30px;
+}
+
 .pagamento {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 100px;
 }
 
+.formaPagamento {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #000 solid 1px;
+  border-radius: 20px;
+}
 
-
+.formaPagamento img {
+  width: 90px;
+}
