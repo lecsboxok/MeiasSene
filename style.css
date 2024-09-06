@@ -138,9 +138,10 @@ span {
 }
 
 /* MAIS VENDIDAS */
-/* .maisVendidos {
-
-} */
+.maisVendidos .tituloCabecalho span {
+  border-bottom: #252160 solid 4px;
+  padding-right: 40px;
+}
 
 
 .todas-as-meias-feminina-cano-curto {
@@ -311,7 +312,12 @@ span {
   font-weight: 600;
 }
 
-/*  */
+/* CATEGORIA */
+
+.categoria .tituloCabecalho span {
+  border-bottom: #F4B17A solid 4px;
+  padding-right: 40px;
+}
 
 .cadaCategoria {
   display: flex;
@@ -328,6 +334,8 @@ span {
   width: 120px;
   margin-bottom: 5px;
 }
+
+/* MEIA ESPORTE */
 
 #esportes {
   background: url(img/BannerEsportivo.png) center;
@@ -372,6 +380,13 @@ span {
   margin: 0 30px;
 }
 
+/* PAGAMENTO */
+
+.tudoPagamento .tituloCabecalho span {
+  border-bottom: #406474 solid 4px;
+  padding-right: 40px;
+}
+
 .pagamento {
   display: flex;
   align-items: center;
@@ -391,4 +406,35 @@ span {
 
 .formaPagamento img {
   width: 90px;
+}
+
+/* REVENDEDOR */
+
+#revendedor .container{
+  margin: 0;
+  background-color: #589EA8;
+}
+
+.tudoRevendedor {
+  display: flex;
+}
+
+.textoRevendedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caixasRevendedor {
+  display: flex;
+}
+
+.caixinha {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 160px;
+  padding: 30px 0;
 }
