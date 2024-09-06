@@ -1,14 +1,21 @@
 {
   "preta": {
     "imagem": "img-feminino/MeiaCanoCurto-Preta.png",
-    "descricaoMeia": "nsjsnnss"
+    "codigo": "Código: 4631"
   },
   "branca": {
     "imagem": "img-feminino/MeiaCanoCurto-Branca.png",
-    "descricaoMeia": "ddddddddddd"
+    "codigo": "jjjjjjjjjjjjjj"
+    
   },
   "cinza": {
-    "imagem": "img-feminino/MeiaCanoCurto-Cinza.png",
-    "descricaoMeia": "gggggggggggggggg"
-  }
+    "imagem": "img-feminino/MeiaCanoCurto-Cinza.png"
+   
+  },
+
+
+  "pretaKit":{
+    "imagem": "img-feminino/CanoCurto-3-Preta.png"
+  },
+  "brancaKit":{}
 }

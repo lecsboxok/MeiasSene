@@ -39,8 +39,9 @@
             <div class="TodasInformacoes">
                 <div class="informacoes">
                     <h2 class="titulo">Cano Curto - Lisa Preta</h2>
-                    <p class="codigo">Código: 4631</p>
+                    <p id="codigo"></p>    <!-- Código: 4631 -->
                 </div>
+            
                 <div class="linhaDescricaoDoProduto"></div>
                 <div class="informacoesPrecoTamanho">
                     <h3 class="precoContainer">R$ 4,70</h3>
@@ -234,11 +235,11 @@
                     const meia = meias[cor];
                     if (meia) {
                         document.getElementById('imagemMeia').src = '../' + meia.imagem; // Ajusta o caminho da imagem
-                        document.getElementById('descricaoMeia').textContent = meia.descricao;
+                        document.getElementById('codigo').textContent = meia.codigo;
                     } else {
                         // Fallback para quando a cor não é encontrada
                         document.getElementById('imagemMeia').src = '../img/placeholder.png';
-                        document.getElementById('descricaoMeia').textContent = 'Meia não encontrada.';
+                        document.getElementById('codigo').textContent = 'Meia não encontrada.';
                     }
                 });
         });
