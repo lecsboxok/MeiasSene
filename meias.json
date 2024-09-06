@@ -1,8 +1,11 @@
 {
-  "preta": {
+"preta": {
     "imagem": "img-feminino/MeiaCanoCurto-Preta.png",
-    "codigo": "Código: 4631"
-  },
+    "codigo": "Código: 4631",
+    "class": "imagem-preta",
+    "preco": "44,00"
+
+},
   "branca": {
     "imagem": "img-feminino/MeiaCanoCurto-Branca.png",
     "codigo": "jjjjjjjjjjjjjj"
@@ -15,7 +18,9 @@
 
 
   "pretaKit":{
-    "imagem": "img-feminino/CanoCurto-3-Preta.png"
+    "imagem": "img-feminino/CanoCurto-3-Preta.png",
+    "class": "ImagemPreta-Kit3",
+    "preco": "55"
   },
   "brancaKit":{}
 }

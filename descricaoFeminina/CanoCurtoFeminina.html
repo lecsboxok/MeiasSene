@@ -44,7 +44,7 @@
             
                 <div class="linhaDescricaoDoProduto"></div>
                 <div class="informacoesPrecoTamanho">
-                    <h3 class="precoContainer">R$ 4,70</h3>
+                    <h3 class="precoContainer" id="preco">R$ 4,70</h3>
                     <h3 class="numeracao"> 34 á 38</h3>
                     <button class="btn-shopee"> Compre na Shopee <i class="fas fa-store"></i></button>
                     <button class="btn-whatsapp"> Compre via <i class="fab fa-whatsapp"></i></button>
@@ -225,7 +225,7 @@
 
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
+       document.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
             const cor = urlParams.get('cor');
 
@@ -233,12 +233,18 @@
                 .then(response => response.json())
                 .then(meias => {
                     const meia = meias[cor];
+                    const imagemElement = document.getElementById('imagemMeia');
+
                     if (meia) {
-                        document.getElementById('imagemMeia').src = '../' + meia.imagem; // Ajusta o caminho da imagem
-                        document.getElementById('codigo').textContent = meia.codigo;
+                        imagemElement.src = '../' + meia.imagem;
+                        imagemElement.className = meia.class || ''; // Define a classe da imagem
+                        document.getElementById('codigo').textContent = meia.codigo || '';
+                        document.getElementById('preco').textContent = meia.preco || '';
+
                     } else {
                         // Fallback para quando a cor não é encontrada
-                        document.getElementById('imagemMeia').src = '../img/placeholder.png';
+                        imagemElement.src = '../img/placeholder.png';
+                        imagemElement.className = ''; // Remove a classe da imagem
                         document.getElementById('codigo').textContent = 'Meia não encontrada.';
                     }
                 });
