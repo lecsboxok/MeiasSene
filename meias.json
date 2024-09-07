@@ -1,26 +1,74 @@
 {
-"preta": {
+  "preta": {
     "imagem": "img-feminino/MeiaCanoCurto-Preta.png",
     "codigo": "Código: 4631",
-    "class": "imagem-preta",
-    "preco": "44,00"
-
-},
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,70",
+    "titulo": "Cano Curto - Lisa Preta"
+  },
   "branca": {
     "imagem": "img-feminino/MeiaCanoCurto-Branca.png",
-    "codigo": "jjjjjjjjjjjjjj"
-    
+    "codigo": "jjjjjjjjjjjjjj",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,70",
+    "titulo": "Cano Curto - Lisa Preta"
   },
   "cinza": {
-    "imagem": "img-feminino/MeiaCanoCurto-Cinza.png"
-   
+    "imagem": "img-feminino/MeiaCanoCurto-Cinza.png",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,70",
+    "titulo": "Cano Curto - Lisa Preta"
   },
 
-
-  "pretaKit":{
+  
+  "pretaKit": {
     "imagem": "img-feminino/CanoCurto-3-Preta.png",
-    "class": "ImagemPreta-Kit3",
-    "preco": "55"
+    "class": "Imagem-Kit3-Feminina",
+    "preco": "R$: 14,10",
+    "titulo": "Cano Curto - Lisa Kit 3 Pares ",
+    "codigo": "nao sei"
   },
-  "brancaKit":{}
+  "brancaKit": {
+    "imagem": "img-feminino/CanoCurto-3-Branca.png",
+    "class": "Imagem-Kit3-Feminina",
+    "preco": "R$: 14,10",
+    "titulo": "Cano Curto - Lisa Kit 3 Pares ",
+    "codigo": "nao sei"
+  },
+
+
+  "cinzaKit": {
+    "imagem":"img-feminino/CanoCurto-3-Cinza.png",
+    "class": "Imagem-Kit3-Feminina",
+    "preco": "R$: 14,10",
+    "titulo": "Cano Curto - Lisa Kit 3 Pares ",
+    "codigo": "nao sei"
+
+  },
+
+
+  "verdeClaro":{
+    "imagem": "img-feminino/MeiaCanoCurto-BrancaVerdeClaro.png",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,80",
+    "titulo": "Cano Curto - Desenhada Sortida ",
+    "codigo": "nao sei"
+
+  },
+
+  "verdeMusgo":{
+    "imagem": "img-feminino/MeiaCanoCurto-BrancaVerdeMusgo.png",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,80",
+    "titulo": "Cano Curto - Desenhada Sortida ",
+    "codigo": "nao sei"
+  },
+
+  "CinzaBranca":{
+    "imagem": "img-feminino/MeiaCanoCurto-BrancaCinza.png",
+    "class": "imagemCanoCurtoBrancaCinza-Feminina",
+    "preco": "R$: 4,80",
+    "titulo": "Cano Curto - Desenhada Sortida ",
+    "codigo": "nao sei"
+  }
 }

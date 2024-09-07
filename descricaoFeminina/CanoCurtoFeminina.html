@@ -38,7 +38,7 @@
             </div>
             <div class="TodasInformacoes">
                 <div class="informacoes">
-                    <h2 class="titulo">Cano Curto - Lisa Preta</h2>
+                    <h2 id="titulo"></h2>
                     <p id="codigo"></p>    <!-- Código: 4631 -->
                 </div>
             
@@ -240,6 +240,7 @@
                         imagemElement.className = meia.class || ''; // Define a classe da imagem
                         document.getElementById('codigo').textContent = meia.codigo || '';
                         document.getElementById('preco').textContent = meia.preco || '';
+                         document.getElementById('titulo').textContent = meia.titulo || ''
 
                     } else {
                         // Fallback para quando a cor não é encontrada

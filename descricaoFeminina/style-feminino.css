@@ -81,6 +81,7 @@ a {
     border-radius: 30px;
 }
 
+
 .container {
     display: flex;
     align-items: center;
@@ -105,7 +106,7 @@ a {
 }
 
 /* EDITANDO AS FONTES DE INFORMACOES */
-.titulo {
+#titulo {
     font-family: 'WorkSans';
     font-size: 5vh;
     font-weight: 600;
@@ -213,7 +214,7 @@ a {
 
 #divMeiasBaby {
     align-items: center;
-    width: 340px;
+    width: 320px;
     height: 420px;
     margin-top: 10vh;
     border: 1px solid #A5A5A5;
@@ -286,15 +287,19 @@ a {
 }
 
 
+/* ARRUMANDO AS IMAGENS PELO JSON */
 
-
-.imagem-preta{
+.imagemCanoCurto-Feminina{
     width: 50vh;
-    height: 50vh;
+    height: 43vh;
 }
 .ImagemPreta-Kit3{
-    width: 84vh;
-    height: 52vh;
+    width: 80vh;
+    height: 45vh;
+}
+.imagemCanoCurtoBrancaCinza-Feminina{
+    width: 43vh;
+    height: 35vh;
 }
 
 /* arrumando as imagens das meias cano curto */
