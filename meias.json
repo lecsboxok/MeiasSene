@@ -11,64 +11,82 @@
     "codigo": "jjjjjjjjjjjjjj",
     "class": "imagemCanoCurto-Feminina",
     "preco": "R$: 4,70",
-    "titulo": "Cano Curto - Lisa Preta"
+    "titulo": "Cano Curto - Lisa Branca"
   },
   "cinza": {
     "imagem": "img-feminino/MeiaCanoCurto-Cinza.png",
     "class": "imagemCanoCurto-Feminina",
     "preco": "R$: 4,70",
-    "titulo": "Cano Curto - Lisa Preta"
+    "titulo": "Cano Curto - Lisa Cinza"
   },
-
-  
   "pretaKit": {
     "imagem": "img-feminino/CanoCurto-3-Preta.png",
     "class": "Imagem-Kit3-Feminina",
     "preco": "R$: 14,10",
-    "titulo": "Cano Curto - Lisa Kit 3 Pares ",
+    "titulo": "Cano Curto - Lisa Preta Kit 3 Pares",
     "codigo": "nao sei"
   },
   "brancaKit": {
     "imagem": "img-feminino/CanoCurto-3-Branca.png",
     "class": "Imagem-Kit3-Feminina",
     "preco": "R$: 14,10",
-    "titulo": "Cano Curto - Lisa Kit 3 Pares ",
+    "titulo": "Cano Curto - Lisa Branca Kit 3 Pares  ",
     "codigo": "nao sei"
   },
-
-
   "cinzaKit": {
-    "imagem":"img-feminino/CanoCurto-3-Cinza.png",
+    "imagem": "img-feminino/CanoCurto-3-Cinza.png",
     "class": "Imagem-Kit3-Feminina",
     "preco": "R$: 14,10",
-    "titulo": "Cano Curto - Lisa Kit 3 Pares ",
+    "titulo": "Cano Curto - Lisa CinzaKit 3 Pares ",
     "codigo": "nao sei"
-
   },
-
-
-  "verdeClaro":{
+  "verdeClaro": {
     "imagem": "img-feminino/MeiaCanoCurto-BrancaVerdeClaro.png",
     "class": "imagemCanoCurto-Feminina",
     "preco": "R$: 4,80",
-    "titulo": "Cano Curto - Desenhada Sortida ",
+    "titulo": "Cano Curto - Desenhada Sortida Verde Claro ",
     "codigo": "nao sei"
-
   },
-
-  "verdeMusgo":{
+  "verdeMusgo": {
     "imagem": "img-feminino/MeiaCanoCurto-BrancaVerdeMusgo.png",
     "class": "imagemCanoCurto-Feminina",
     "preco": "R$: 4,80",
-    "titulo": "Cano Curto - Desenhada Sortida ",
+    "titulo": "Cano Curto - Desenhada Sortida Verde Musgo ",
     "codigo": "nao sei"
   },
-
-  "CinzaBranca":{
+  "CinzaBranca": {
     "imagem": "img-feminino/MeiaCanoCurto-BrancaCinza.png",
     "class": "imagemCanoCurtoBrancaCinza-Feminina",
     "preco": "R$: 4,80",
-    "titulo": "Cano Curto - Desenhada Sortida ",
+    "titulo": "Cano Curto - Desenhada Sortida Cinza ",
     "codigo": "nao sei"
-  }
+  },
+  "verdeAgua": {
+    "imagem": "img-feminino/MeiaCanoCurto-BrancaVerdeAgua.png",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,80",
+    "titulo": "Cano Curto - Desenhada Sortida Verde Agua ",
+    "codigo": "nao sei"
+  },
+  "rosa": {
+    "imagem": "img-feminino/MeiaCanoCurto-BrancaRosa.png",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,80",
+    "titulo": "Cano Curto - Desenhada Sortida Rosa ",
+    "codigo": "nao sei"
+  },
+  "pretaRosa": {
+    "imagem": "img-feminino/MeiaCanoCurto-PretaRosa.png",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,80",
+    "titulo": "Cano Curto - Desenhada Sortida Preta-Rosa ",
+    "codigo": "nao sei"
+  },
+  "roxo":{
+    "imagem": "img-feminino/MeiaCanoCurto-BrancaRoxo.png",
+    "class": "imagemCanoCurto-Feminina",
+    "preco": "R$: 4,80",
+    "titulo": "Cano Curto - Desenhada Sortida Branca-Roxo ",
+    "codigo": "nao sei"
+}
 }

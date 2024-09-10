@@ -225,7 +225,7 @@
 
 
     <script>
-       document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
             const cor = urlParams.get('cor');
 
@@ -234,28 +234,32 @@
                 .then(meias => {
                     const meia = meias[cor];
                     const imagemElement = document.getElementById('imagemMeia');
+                    const whatsappButton = document.querySelector('.btn-whatsapp');
 
                     if (meia) {
                         imagemElement.src = '../' + meia.imagem;
                         imagemElement.className = meia.class || ''; // Define a classe da imagem
                         document.getElementById('codigo').textContent = meia.codigo || '';
                         document.getElementById('preco').textContent = meia.preco || '';
-                         document.getElementById('titulo').textContent = meia.titulo || ''
+                        document.getElementById('titulo').textContent = meia.titulo || '';
 
+                        const mensagem = `Olá, gostaria de comprar a meia ${meia.titulo}, do preço: ${meia.preco}. Referência: ${meia.codigo || 'não informado'}.`;
+                        const whatsappLink = `https://wa.me/5516997021783?text=${encodeURIComponent(mensagem)}`;
+                        whatsappButton.setAttribute('onclick', `window.open('${whatsappLink}', '_blank')`);
                     } else {
                         // Fallback para quando a cor não é encontrada
                         imagemElement.src = '../img/placeholder.png';
                         imagemElement.className = ''; // Remove a classe da imagem
                         document.getElementById('codigo').textContent = 'Meia não encontrada.';
+
+                        const fallbackMensagem = 'Meia não encontrada.';
+                        const fallbackWhatsappLink = `https://wa.me/5516997021783?text=${encodeURIComponent(fallbackMensagem)}`;
+                        whatsappButton.setAttribute('onclick', `window.open('${fallbackWhatsappLink}', '_blank')`);
                     }
                 });
         });
+
     </script>
-
-
-
-
-
 
 
 
