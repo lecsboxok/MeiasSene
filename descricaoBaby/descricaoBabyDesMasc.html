@@ -44,8 +44,8 @@
             
                 <div class="linhaDescricaoDoProduto"></div>
                 <div class="informacoesPrecoTamanho">
-                    <h3 class="precoContainer" id="preco">R$ 4,70</h3>
-                    <h3 class="numeracao"> 34 á 38</h3>
+                    <h3 class="precoContainer" id="preco"></h3>
+                    <h3 class="numeracao"></h3>
                     <button class="btn-shopee"> Compre na Shopee <i class="fas fa-store"></i></button>
                     <button class="btn-whatsapp"> Compre via <i class="fab fa-whatsapp"></i></button>
                 </div>
@@ -57,10 +57,7 @@
             <div class="linhaUm-Descricao-do-produto"></div>
             <div class="linhaDois-Descricao-do-produto"></div>
             <div class="texto-Descricao">
-                <p>Uma meia cano curto lisa é um tipo de perfil ou moldura que possui uma seção transversal
-                    semicircular, criando uma aparência suave e arredondada. É curta, indicando que sua extensão ou
-                    comprimento é limitado, e lisa, o que significa que não possui texturas ou detalhes adicionais em
-                    sua superfície.</p>
+                <p>Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo.</p>
                 <div class="elementosDoTexto-Descricao">
                     <p>• Algodão 60% </p>
                     <p>• Poliamida 28% </p>
@@ -105,10 +102,11 @@
                         <h3 class="numeracao"> 6 á 12 meses</h3>
                         <div class="coresMeiaDesenhada">
                             <div class="AzulEscuro"></div>
+
                         </div>
                     </div>
                     <div class="preco-informacoes">
-                        <h3 class="preco">R$ 3,80</h3>
+                        <h3 class="preco">R$: 3,80</h3>
                         <h3 class="texto-a-vista">Á Vista</h3>
                         <button class="botao-euQuero">Eu Quero!</button>
                     </div>
@@ -228,7 +226,7 @@
             const urlParams = new URLSearchParams(window.location.search);
             const cor = urlParams.get('cor');
 
-            fetch('../meias.json')
+            fetch('../baby.json')
                 .then(response => response.json())
                 .then(meias => {
                     const meia = meias[cor];

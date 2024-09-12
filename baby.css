@@ -29,57 +29,59 @@ a {
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  
-  .cabecalhoUm {
+}
+
+.cabecalhoUm {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 80px;
     padding: 5px;
-  }
-  
-  .procurando {
+}
+
+.procurando {
     padding: 13px;
     border-radius: 30px;
     width: 400px;
     height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .imagemLogo img {
+
+}
+
+.imagemLogo img {
     width: 150px;
-  }
-  
-  .linha {
+}
+
+.linha {
     background-color: #fff;
     height: 0.4px;
-  }
-  
-  .cabecalho2 {
+}
+
+.cabecalho2 {
     text-align: center;
     padding: 15px 0 10px 0;
-  }
-  
-  .item {
+}
+
+.item {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-  }
-  
-  /* FIM DO CABEÇALHO */
+}
+
+/* FIM DO CABEÇALHO */
 
 
 
 /* COMEÇO DAS MEIAS CANO CURTO */
 .titulo {
     font-family: "LibreFranklin";
-    
+
     margin-left: 5vh;
 }
-#meiasBabyDesMasc{
-padding-top: 20vh;}
+
+#meiasBabyDesMasc {
+    padding-top: 20vh;
+}
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
 
@@ -105,7 +107,8 @@ padding-top: 20vh;}
 .cores-azul-marinho,
 .cores-marrom-azul,
 .cores-vermelho-amarelo,
-.cores-azulTurquesa-cinza{
+.cores-azulTurquesa-cinza,
+.cores-kit-des-0a6 {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -122,65 +125,97 @@ padding-top: 20vh;}
 .vermelho,
 .amarelo,
 .azulTurquesa,
-.cinzaMescla{
+.cinzaMescla,
+.kit1Des0a6,
+.kit2Des0a6,
+.kit1Des6a12,
+.kit2Des6a12  {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
+    cursor: pointer;
 }
 
-.branca, .brancaKit{
-background-color: #ffffff;
-border: 1px solid #76767688;}
+.branca,
+.brancaKit {
+    background-color: #ffffff;
+    border: 1px solid #76767688;
+}
 
-.preta, .pretaKit{
+.preta,
+.pretaKit {
     background-color: #000000;
 
 }
 
-.cinza{
-background-color: #96A6B5;
+.cinza {
+    background-color: #96A6B5;
 }
 
-.verde{
-background-color: #07D90A;
+.verde {
+    background-color: #07D90A;
 }
 
-.offwhite{
+.offwhite {
     background-color: #9B9B82;
 }
 
-.azul{
+.azul {
     background-color: #8FC1EF;
 }
 
-.marinho{
+.marinho {
     background-color: #0F1922;
 }
 
-.marrom{
+.marrom {
     background-color: #B9B29E;
 }
 
-.azulTriangulo{
+.azulTriangulo {
     background-color: #0385DE;
 }
 
-.vermelho{
+.vermelho {
     background-color: #D30411;
 }
 
-.amarelo{
+.amarelo {
     background-color: #F8D408;
 }
 
-.azulTurquesa{
+.azulTurquesa {
     background: linear-gradient(to right, #01C1F6 50%, #AFCF88 50%);
 }
 
-.cinzaMescla{
+.cinzaMescla {
     background: linear-gradient(to right, #ABB0AA 50%, #0389DB 50%);
 }
 
+.kit1Des0a6, .kit2Des0a6, .kit2Des6a12, .kit1Des6a12{
+    /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
+    background-color: #ffffff;
+    border: 1px solid #76767688;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kit1Des0a6 p, .kit2Des0a6 p, .kit1Des6a12 p, .kit2Des6a12{
+    font: 400 16px 'WorkSans', sans-serif;
+}
+
+
+.parte2{
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+    flex-wrap: wrap;
+}
+
+.Quadrado-da-meia-kit1-0a6, .Quadrado-da-meia-kit1-6a12{
+    margin: 0 50px;
+}
 
 /* arrumando as imagens das meias cano curto */
 
@@ -189,8 +224,8 @@ background-color: #07D90A;
 .Quadrado-da-meia-astronauta img,
 .Quadrado-da-meia-triangulo img,
 .Quadrado-da-meia-marinheiro img,
-.Quadrado-da-meia-leao img{
-   width: 220px;
+.Quadrado-da-meia-leao img {
+    width: 220px;
     height: 200px;
 }
 
@@ -202,7 +237,7 @@ background-color: #07D90A;
 .Quadrado-da-meia-kit1-0a6 img,
 .Quadrado-da-meia-kit2-0a6 img,
 .Quadrado-da-meia-kit1-6a12 img,
-.Quadrado-da-meia-kit2-6a12 img{
+.Quadrado-da-meia-kit2-6a12 img {
     width: 320px;
     height: 150px;
     margin: 45px 30px;
@@ -213,9 +248,10 @@ background-color: #07D90A;
 
 
 /* estilizando as informações */
-.informacoes-meia{
+.informacoes-meia {
     margin: 2vh 2vh 0 2vh;
 }
+
 .Subtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
@@ -238,11 +274,12 @@ background-color: #07D90A;
 }
 
 .preco-informacoes {
-    text-align: center;   
-     margin-top: 2vh;
+    text-align: center;
+    margin-top: 2vh;
 
 }
-#preco-informacoes-meia-preta-cinza-branca{
+
+#preco-informacoes-meia-preta-cinza-branca {
     margin-top: 4vh;
 }
 
@@ -258,7 +295,8 @@ background-color: #07D90A;
     font-size: 3vh;
     margin-bottom: 20px;
 }
-#botao-da-meia-preta-branca-cinza{
+
+#botao-da-meia-preta-branca-cinza {
     margin-top: 6.75vh;
     font-family: 'WorkSans';
     font-weight: 600;
@@ -333,19 +371,22 @@ a {
     flex-wrap: wrap;
 }
 
-.contatos-rodape, .acompanhe-rodape {
+.contatos-rodape,
+.acompanhe-rodape {
     margin-top: 20px;
     transition: margin-top 0.5s ease;
 }
 
-.whats-rodape, .email-rodape {
+.whats-rodape,
+.email-rodape {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
 
-.whats-rodape a, .email-rodape a {
+.whats-rodape a,
+.email-rodape a {
     display: inline-flex;
     align-items: center;
     margin: 0;
@@ -446,7 +487,8 @@ a {
         padding: 50px 50px;
     }
 
-    .linha1-rodape, .linha2-rodape {
+    .linha1-rodape,
+    .linha2-rodape {
         display: block;
         text-align: center;
     }
@@ -460,7 +502,9 @@ a {
         font-size: 18px;
     }
 
-    .acompanhe-rodape, .institucional-rodape, .categorias-rodape {
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
         margin-top: 60px;
     }
 
@@ -485,12 +529,20 @@ a {
         margin-right: 50px;
     }
 
-    .categGeral-rodape{
+    .categGeral-rodape {
         justify-content: center;
         align-items: center;
     }
 
-    .whats-rodape, .email-rodape {
-        justify-content: center; /* Centraliza o conteúdo */
+    .whats-rodape,
+    .email-rodape {
+        justify-content: center;
+        /* Centraliza o conteúdo */
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Quadrado-da-meia-kit1-0a6, .Quadrado-da-meia-kit1-6a12{
+        margin: 0;
     }
 }

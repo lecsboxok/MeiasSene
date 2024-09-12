@@ -1,0 +1,16 @@
+{
+    "preta": {
+      "imagem": "img-feminino/MeiaCanoCurto-Preta.png",
+      "codigo": "Código: 4631",
+      "class": "imagemCanoCurto-Feminina",
+      "preco": "R$: 4,70",
+      "titulo": "Cano Curto - Lisa Preta"
+    },
+    "branca": {
+      "imagem": "img-feminino/MeiaCanoCurto-Branca.png",
+      "codigo": "jjjjjjjjjjjjjj",
+      "class": "imagemCanoCurto-Feminina",
+      "preco": "R$: 4,70",
+      "titulo": "Cano Curto - Lisa Branca"
+    }
+}
