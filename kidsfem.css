@@ -29,68 +29,84 @@ a {
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  
-  .cabecalhoUm {
+}
+
+.cabecalhoUm {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 80px;
     padding: 5px;
-  }
-  
-  .procurando {
+}
+
+.procurando {
     padding: 13px;
     border-radius: 30px;
     width: 400px;
     height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .imagemLogo img {
+
+}
+
+.imagemLogo img {
     width: 150px;
-  }
-  
-  .linha {
+}
+
+.linha {
     background-color: #fff;
     height: 0.4px;
-  }
-  
-  .cabecalho2 {
+}
+
+.cabecalho2 {
     text-align: center;
     padding: 15px 0 10px 0;
-  }
-  
-  .item {
+}
+
+.item {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-  }
-  
-  /* FIM DO CABEÇALHO */
+}
+
+/* FIM DO CABEÇALHO */
 
 
 
-/* COMEÇO DAS MEIAS CANO CURTO */
+/* COMEÇO DAS MEIAS KIDS FEMINO */
 .titulo {
     font-family: "LibreFranklin";
-    
+
     margin-left: 5vh;
 }
-#meiasCanoCurto{
-padding-top: 20vh;}
+
+.subtitulo {
+    font-family: 'WorkSans';
+    font-weight: 300;
+    margin-left: 7vh;
+    margin-top: 1vh;
+}
+
+.subtitulo-m {
+    font-family: 'WorkSans';
+    font-weight: 300;
+    margin-left: 7vh;
+    margin-top: 10vh;
+}
+
+#meiasKidsFemino {
+    padding-top: 20vh;
+}
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
 
-.todas-as-meias-feminina-cano-curto {
+.todas-as-meias-feminina-kids {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-#div-meia-cano-curto {
+#div-meia-kids-femino {
     align-items: center;
     width: 390px;
     margin-top: 10vh;
@@ -100,74 +116,129 @@ padding-top: 20vh;}
 }
 
 /* CORES */
-.cores-branca-preto-cinza,
-.cores-rosa-verde,
-.cores-verdeEscuro-verdeClaro-cinza,
-.cores-roxo-pretaRosa {
+
+.cores-verde-rosa,
+.cores-preto-vermelho,
+.cores-cinza-rosa2,
+.cores-branca-rosa3,
+.cores-lilas-rosa4,
+.cores-cinza2-rosa5,
+.cores-verde2-rosa6,
+.cores-branca2-cinza3,
+.cores-rosa7-lilas2 {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
 
-.branca,
-.preta,
+.vermelho,
+.preto,
+.verde,
+.verde2,
+.rosa1,
+.rosa2,
+.rosa3,
+.rosa4,
+.rosa5,
+.rosa6,
+.rosa7,
 .cinza,
-.verdeAgua,
-.verdeClaro,
-.verdeMusgo,
-.roxo,
-.CinzaBranca,
-.pretaRosa,
-.rosa, .pretaKit, .brancaKit, .cinzaKit {
+.cinza2,
+.cinza3,
+.branca,
+.branca2,
+.lilas,
+.lilas2 {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
+    cursor: pointer;
 }
-.branca, .brancaKit{
-background-color: #ffffff;
-border: 1px solid #76767688;}
 
-.preta, .pretaKit{
+.preto {
     background-color: #000000;
 
 }
 
-.cinza, .cinzaKit, .CinzaBranca{
-background-color: #A5A5A5;
+.vermelho {
+    background-color: #C1212A;
 }
 
-.verdeAgua{
-background-color: #00BDB5;
-}
-.rosa{
-    background-color: #DA6A9E;
-}
-.verdeMusgo{
-background-color: #7BC194;
-}
-.verdeClaro{
-    background-color: #54C999;
-
+.verde {
+    background-color: #64C9AE;
 }
 
-.pretaRosa{
-    background: linear-gradient(to right, #000000 50%, #DA598F 50%);
+.verde2 {
+    background-color: #C5CE9F;
 }
-.roxo{
-    background-color: #5034A9;
-}
-/* arrumando as imagens das meias cano curto */
 
-.Quadrado-da-meia-preta-cano-curto img,
-/* imagem da primeira meia, preta cano curto */
-.Quadrado-da-meia-verde-cano-curto img,
-/* imagem da meia, verde cano curto */
-.Quadrado-da-meia-BrancaRosa-cano-curto img,
-/* imagem da meia, rosa cano curto */
-.Quadrado-da-meia-pretaRosa-cano-curto img {
-    /* imagem dameia, preta com rosa cano curto */
+.rosa1,
+.rosa2,
+.rosa,
+.rosa6,
+.rosa5 {
+    background-color: #FCE6ED;
+}
+
+.rosa3 {
+    background-color: #D05274;
+}
+
+.rosa4 {
+    background-color: #DF2D8B;
+}
+.rosa7{
+    background-color: #B24D77;
+}
+
+
+.lilas {
+    background-color: #BD8FE2;
+}
+
+.lilas2 {
+    background-color: #C2C4D3;
+}
+
+.cinza,
+.cinza2,
+.cinza3 {
+    background-color: #A5A5A5;
+}
+
+.branca,
+.branca2 {
+    background-color: #fff;
+    border: 1px solid #76767688;
+}
+
+
+
+.Quadrado-da-meia-cachorrinho img,
+.Quadrado-da-meia-joaninha img {
     width: 250px;
     height: 200px;
+}
+
+.Quadrado-da-meia-joaninha img,
+.Quadrado-da-meia-unicornio img,
+.Quadrado-da-meia-pinguim img,
+.Quadrado-da-meia-motoqueira img,
+.Quadrado-da-meia-coracao img,
+.Quadrado-da-meia-keep img,
+.Quadrado-da-meia-panda img,
+.Quadrado-da-meia-maquiagem  img {
+    width: 200px;
+    height: 200px;
+}
+
+.Kit-numero-um img,
+.Kit-numero-dois img,
+.KitM-numero-um img,
+.KitG-meias img {
+    width: 320px;
+    height: 150px;
+    margin: 45px 30px;
 }
 
 .container {
@@ -175,22 +246,19 @@ background-color: #7BC194;
     justify-content: center;
 }
 
-.Quadrado-do-kit-cinza-cano-curto img,
-.Quadrado-do-kit-preta-cinza-branco-cano-curto img {
-    width: 370px;
-    height: 200px;
-}
+
 
 
 
 
 
 /* estilizando as informações */
-.informacoes-meia-cano-curto-feminino{
+.informacoes-meia-kids-femino {
     margin-left: 2vh;
     margin-top: 2vh;
 }
-.CanoCurtoSubtitulo {
+
+.KidsFeminoSubtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
 }
@@ -212,11 +280,12 @@ background-color: #7BC194;
 }
 
 .preco-informacoes {
-    text-align: center;   
-     margin-top: 2vh;
+    text-align: center;
+    margin-top: 2vh;
 
 }
-#preco-informacoes-meia-preta-cinza-branca{
+
+#preco-informacoes-meia-preta-cinza-branca {
     margin-top: 4vh;
 }
 
@@ -232,7 +301,8 @@ background-color: #7BC194;
     font-size: 3vh;
     margin-bottom: 20px;
 }
-#botao-da-meia-preta-branca-cinza{
+
+#botao-da-meia-preta-branca-cinza {
     margin-top: 6.75vh;
     font-family: 'WorkSans';
     font-weight: 600;
@@ -307,19 +377,22 @@ a {
     flex-wrap: wrap;
 }
 
-.contatos-rodape, .acompanhe-rodape {
+.contatos-rodape,
+.acompanhe-rodape {
     margin-top: 20px;
     transition: margin-top 0.5s ease;
 }
 
-.whats-rodape, .email-rodape {
+.whats-rodape,
+.email-rodape {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
 
-.whats-rodape a, .email-rodape a {
+.whats-rodape a,
+.email-rodape a {
     display: inline-flex;
     align-items: center;
     margin: 0;
@@ -420,7 +493,8 @@ a {
         padding: 50px 50px;
     }
 
-    .linha1-rodape, .linha2-rodape {
+    .linha1-rodape,
+    .linha2-rodape {
         display: block;
         text-align: center;
     }
@@ -434,7 +508,9 @@ a {
         font-size: 18px;
     }
 
-    .acompanhe-rodape, .institucional-rodape, .categorias-rodape {
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
         margin-top: 60px;
     }
 
@@ -459,12 +535,14 @@ a {
         margin-right: 50px;
     }
 
-    .categGeral-rodape{
+    .categGeral-rodape {
         justify-content: center;
         align-items: center;
     }
 
-    .whats-rodape, .email-rodape {
-        justify-content: center; /* Centraliza o conteúdo */
+    .whats-rodape,
+    .email-rodape {
+        justify-content: center;
+        /* Centraliza o conteúdo */
     }
 }
