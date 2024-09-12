@@ -1,4 +1,3 @@
-/* RESET */
 * {
     box-sizing: border-box;
     border: 0;
@@ -14,15 +13,16 @@ a {
 
 @font-face {
     font-family: 'LibreFranklin';
-    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+    src: url(../fonts/LibreFranklin-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: 'WorkSans';
-    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
 }
 
-/* CABEÇALHO */
+
+
 
 #header {
     background-color: #252160;
@@ -72,27 +72,149 @@ a {
 
 
 
-/* COMEÇO DAS MEIAS CANO CURTO */
-.titulo {
-    font-family: "LibreFranklin";
-    
+/* COMEÇO DE DESCRIÇÃO */
+
+#imagemMeia {
+    margin-top: 20vh;
+    border: 1px solid #A5A5A5;
+    margin-left: 5vh;
+    border-radius: 30px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Para permitir que os itens quebrem linha em telas menores */
+}
+
+.TodasInformacoes {
+    margin-left: 20vh;
+    margin-top: 25vh;
+    max-width: 50%;
+}
+
+
+.linhaDescricaoDoProduto {
+    max-width: 100%;
+    width: 120vh;
+    height: 0.4px;
+    margin-top: 3vh;
+    background-color: #A5A5A5;
+}
+
+/* EDITANDO AS FONTES DE INFORMACOES */
+#titulo {
+    font-family: 'WorkSans';
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+.precoContainer {
+    font-family: 'WorkSans';
+    font-size: 6vh;
+    font-weight: 600;
+    margin-top:7vh;
+}
+
+.numeracao {
+    font-family: 'WorkSans';
+    font-weight: 300;
+
+    margin-top: 0.75vh;
+}
+
+#codigo {
+    font-family: 'WorkSans';
+    font-weight: 300;
+    margin-top: 0.75vh;
+}
+
+.informacoesPrecoTamanho button {
+    width: 229px;
+    height: 55px;
+    background-color: #252160;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    font-family: 'WorkSans';
+    font-size: 2.75vh;
+    font-weight: 300;
+    margin-top: 10vh;
+}
+
+.btn-whatsapp {
+    margin-left: 3vh;
+}
+.fa-whatsapp{
+    margin-left: 1vh;
+}
+/* DESCRIÇÃO DO PRODUTO */
+
+.titulo-DescricaoProduto {
+    font-family: 'WorkSans';
+    font-weight: 600;
+    margin-top: 15vh;
+    margin-left: 6vh;
+}
+
+.linhaUm-Descricao-do-produto {
+    background-color: #000000;
+    height: 1vh;
+    width: 5vh;
+    margin-left: 6vh;
+    margin-top: 1vh;
+}
+
+.linhaDois-Descricao-do-produto {
+    background-color: #000000;
+    height: 0.05vh;
+    width: 100%;
+}
+
+.texto-Descricao {
+    font-family: 'WorkSans';
+    font-weight: 400;
+    margin-top: 7vh;
     margin-left: 5vh;
 }
-#meiasCanoCurto{
-padding-top: 20vh;}
 
-/* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
+.elementosDoTexto-Descricao {
+    margin-top: 3vh;
+}
 
-.todas-as-meias-feminina-cano-curto {
+.titulo-CompreJunto  {
+    text-align: center;
+    font-family: 'LibreFranklin';
+    font-weight: 500;
+    margin-top: 17vh;
+}
+
+.linhaTres-CompreJunto {
+    background-color: #252160;
+    height: 0.55vh;
+    margin-top: 3vh;
+    width: 30vh;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+
+
+
+
+/* PARTE DE COMPRE JUNTO */
+.todasAsMeiasBaby-CompreJunto {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-#div-meia-cano-curto {
+#divMeiasBaby {
     align-items: center;
-    width: 390px;
+    width: 320px;
     margin-top: 10vh;
     border: 1px solid #A5A5A5;
     border-radius: 20px;
@@ -100,99 +222,106 @@ padding-top: 20vh;}
 }
 
 /* CORES */
-.cores-branca-preto-cinza,
-.cores-rosa-verde,
-.cores-verdeEscuro-verdeClaro-cinza,
-.cores-roxo-pretaRosa {
+.coresSapatilhaBaby,
+.coresMeiaDesenhada,
+.coresMeiaBabyColor {
     display: flex;
     gap: 1vh;
-    margin-top: 0.75vh;
+    margin-top: 2vh;
 }
 
-.branca,
-.preta,
-.cinza,
-.verdeAgua,
-.verdeClaro,
-.verdeMusgo,
-.roxo,
-.CinzaBranca,
-.pretaRosa,
-.rosa, .pretaKit, .brancaKit, .cinzaKit {
-    width: 5vh;
-    height: 5vh;
+
+.RosaClaro,
+.Lilas,
+.VerdeAgua,
+.RosaChoque,
+.Branco,
+.AzulEscuro,
+.BrancoSapatilha,
+.VermelhoSapatilha,
+.AzulEscuroSapatilha,
+.AzulClaroSapatilha,
+.VerdeAguaSapatilha {
+    width: 4vh;
+    height: 4vh;
     border-radius: 50%;
 }
-.branca, .brancaKit{
-background-color: #ffffff;
-border: 1px solid #76767688;}
 
-.preta, .pretaKit{
-    background-color: #000000;
-
+.BrancoSapatilha,
+.Branco {
+    background-color: #ffffff;
+    border: 1px solid #76767688;
 }
 
-.cinza, .cinzaKit, .CinzaBranca{
-background-color: #A5A5A5;
+.Lilas{
+    background-color: #9197D5;
 }
-
-.verdeAgua{
-background-color: #00BDB5;
+.VerdeAgua{
+    background-color: #04C7AF;
 }
-.rosa{
-    background-color: #DA6A9E;
+.RosaChoque{
+    background-color: #DF2D8B;
 }
-.verdeMusgo{
-background-color: #7BC194;
-}
-.verdeClaro{
-    background-color: #54C999;
+.RosaClaro{
+    background-color: #FCE6ED;
 
 }
+.AzulEscuro{
+    background-color: #0C1628;
+}
+.BrancoSapatilha{
+    background-color: #FFFFFF;
+}
+.VermelhoSapatilha{
+    background-color: #C1212A;
+}
+.AzulEscuroSapatilha{
+    background-color: #1F2240;
+}
+.AzulClaroSapatilha{
+    background-color: #8ECBE8;
+}
+.VerdeAguaSapatilha{
+    background-color: #64C9AE;
+}
 
-.pretaRosa{
-    background: linear-gradient(to right, #000000 50%, #DA598F 50%);
+
+/* ARRUMANDO AS IMAGENS PELO JSON */
+
+.imagemCanoCurto-Feminina{
+    width: 50vh;
+    height: 43vh;
 }
-.roxo{
-    background-color: #5034A9;
+.ImagemPreta-Kit3{
+    width: 80vh;
+    height: 45vh;
 }
+.imagemCanoCurtoBrancaCinza-Feminina{
+    width: 43vh;
+    height: 35vh;
+}
+
 /* arrumando as imagens das meias cano curto */
 
-.Quadrado-da-meia-preta-cano-curto img,
-/* imagem da primeira meia, preta cano curto */
-.Quadrado-da-meia-verde-cano-curto img,
-/* imagem da meia, verde cano curto */
-.Quadrado-da-meia-BrancaRosa-cano-curto img,
-/* imagem da meia, rosa cano curto */
-.Quadrado-da-meia-pretaRosa-cano-curto img {
-    /* imagem dameia, preta com rosa cano curto */
-    width: 250px;
-    height: 200px;
-}
 
-.container {
+.Imagem-CompreJunto {
+    margin-top: 1.74vh;
     display: flex;
     justify-content: center;
 }
 
-.Quadrado-do-kit-cinza-cano-curto img,
-.Quadrado-do-kit-preta-cinza-branco-cano-curto img {
-    width: 370px;
-    height: 200px;
-}
-
-
-
-
 
 /* estilizando as informações */
-.informacoes-meia-cano-curto-feminino{
+.informacoesMeiaBaby{
     margin-left: 2vh;
     margin-top: 2vh;
 }
-.CanoCurtoSubtitulo {
+
+.MeiaBabySubtitulo{
     font-family: 'WorkSans';
     font-weight: 600;
+    font-size: 2.55vh;
+    margin-top: 0.75vh;
 }
 
 .numeracao {
@@ -212,31 +341,26 @@ background-color: #7BC194;
 }
 
 .preco-informacoes {
-    text-align: center;   
-     margin-top: 2vh;
-
-}
-#preco-informacoes-meia-preta-cinza-branca{
+    text-align: center;
     margin-top: 4vh;
+
 }
 
+.texto-a-vista{
+    margin-top: 1vh;
+}
 .botao-euQuero {
     background-color: #252160;
     color: #fff;
-    width: 240px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     border-radius: 20px;
-    margin-top: 3vh;
     font-family: 'WorkSans';
     font-weight: 600;
-    font-size: 3vh;
+    font-size: 2.55vh;
+    margin-top: 3vh;
     margin-bottom: 20px;
 }
-#botao-da-meia-preta-branca-cinza{
-    margin-top: 6.75vh;
-    font-family: 'WorkSans';
-    font-weight: 600;
-}
 
 
 
@@ -247,36 +371,14 @@ background-color: #7BC194;
 
 
 
+/* RODAPE */
 
 
-/* ---------------------------RODAPE ----------------------------------------------------------- */
-
-/* RESET */
-* {
-    box-sizing: border-box;
-    border: 0;
-    padding: 0;
-    margin: 0;
-}
 
 a {
     text-decoration: none;
     color: white;
 }
-
-/* FONTES */
-
-@font-face {
-    font-family: 'LibreFranklin';
-    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: 'WorkSans';
-    src: url(fonts/WorkSans-VariableFont_wght.ttf);
-}
-
-/* RODAPÉ */
 
 #footer {
     background-color: #252160;

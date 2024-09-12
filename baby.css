@@ -78,19 +78,19 @@ a {
     
     margin-left: 5vh;
 }
-#meiasCanoCurto{
+#meiasBabyDesMasc{
 padding-top: 20vh;}
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
 
-.todas-as-meias-feminina-cano-curto {
+.todas-as-meias-baby-des-masc {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-#div-meia-cano-curto {
+#div-meia {
     align-items: center;
     width: 390px;
     margin-top: 10vh;
@@ -100,29 +100,34 @@ padding-top: 20vh;}
 }
 
 /* CORES */
-.cores-branca-preto-cinza,
-.cores-rosa-verde,
-.cores-verdeEscuro-verdeClaro-cinza,
-.cores-roxo-pretaRosa {
+.cores-verde-offwhite,
+.cores-branca-cinza,
+.cores-azul-marinho,
+.cores-marrom-azul,
+.cores-vermelho-amarelo,
+.cores-azulTurquesa-cinza{
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
 
-.branca,
-.preta,
+.verde,
+.offwhite,
 .cinza,
-.verdeAgua,
-.verdeClaro,
-.verdeMusgo,
-.roxo,
-.CinzaBranca,
-.pretaRosa,
-.rosa, .pretaKit, .brancaKit, .cinzaKit {
+.branca,
+.azul,
+.marinho,
+.marrom,
+.azulTriangulo,
+.vermelho,
+.amarelo,
+.azulTurquesa,
+.cinzaMescla{
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
 }
+
 .branca, .brancaKit{
 background-color: #ffffff;
 border: 1px solid #76767688;}
@@ -132,41 +137,60 @@ border: 1px solid #76767688;}
 
 }
 
-.cinza, .cinzaKit, .CinzaBranca{
-background-color: #A5A5A5;
+.cinza{
+background-color: #96A6B5;
 }
 
-.verdeAgua{
-background-color: #00BDB5;
-}
-.rosa{
-    background-color: #DA6A9E;
-}
-.verdeMusgo{
-background-color: #7BC194;
-}
-.verdeClaro{
-    background-color: #54C999;
-
+.verde{
+background-color: #07D90A;
 }
 
-.pretaRosa{
-    background: linear-gradient(to right, #000000 50%, #DA598F 50%);
+.offwhite{
+    background-color: #9B9B82;
 }
-.roxo{
-    background-color: #5034A9;
+
+.azul{
+    background-color: #8FC1EF;
 }
+
+.marinho{
+    background-color: #0F1922;
+}
+
+.marrom{
+    background-color: #B9B29E;
+}
+
+.azulTriangulo{
+    background-color: #0385DE;
+}
+
+.vermelho{
+    background-color: #D30411;
+}
+
+.amarelo{
+    background-color: #F8D408;
+}
+
+.azulTurquesa{
+    background: linear-gradient(to right, #01C1F6 50%, #AFCF88 50%);
+}
+
+.cinzaMescla{
+    background: linear-gradient(to right, #ABB0AA 50%, #0389DB 50%);
+}
+
+
 /* arrumando as imagens das meias cano curto */
 
-.Quadrado-da-meia-preta-cano-curto img,
-/* imagem da primeira meia, preta cano curto */
-.Quadrado-da-meia-verde-cano-curto img,
-/* imagem da meia, verde cano curto */
-.Quadrado-da-meia-BrancaRosa-cano-curto img,
-/* imagem da meia, rosa cano curto */
-.Quadrado-da-meia-pretaRosa-cano-curto img {
-    /* imagem dameia, preta com rosa cano curto */
-    width: 250px;
+.Quadrado-da-meia-elefante img,
+.Quadrado-da-meia-quadrados img,
+.Quadrado-da-meia-astronauta img,
+.Quadrado-da-meia-triangulo img,
+.Quadrado-da-meia-marinheiro img,
+.Quadrado-da-meia-leao img{
+   width: 220px;
     height: 200px;
 }
 
@@ -175,10 +199,13 @@ background-color: #7BC194;
     justify-content: center;
 }
 
-.Quadrado-do-kit-cinza-cano-curto img,
-.Quadrado-do-kit-preta-cinza-branco-cano-curto img {
-    width: 370px;
-    height: 200px;
+.Quadrado-da-meia-kit1-0a6 img,
+.Quadrado-da-meia-kit2-0a6 img,
+.Quadrado-da-meia-kit1-6a12 img,
+.Quadrado-da-meia-kit2-6a12 img{
+    width: 320px;
+    height: 150px;
+    margin: 45px 30px;
 }
 
 
@@ -186,11 +213,10 @@ background-color: #7BC194;
 
 
 /* estilizando as informações */
-.informacoes-meia-cano-curto-feminino{
-    margin-left: 2vh;
-    margin-top: 2vh;
+.informacoes-meia{
+    margin: 2vh 2vh 0 2vh;
 }
-.CanoCurtoSubtitulo {
+.Subtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
 }
