@@ -90,6 +90,8 @@ a {
     /* Para permitir que os itens quebrem linha em telas menores */
 }
 
+
+
 .TodasInformacoes {
     margin-left: 20vh;
     margin-top: 25vh;
@@ -293,7 +295,7 @@ a {
     width: 50vh;
     height: 43vh;
 }
-.ImagemPreta-Kit3{
+.Imagem-Kit3-Feminina{
     width: 80vh;
     height: 45vh;
 }
@@ -346,6 +348,11 @@ a {
     margin-top: 4vh;
 
 }
+#preco-informacoes-Baby{
+    margin-top: 3vh;
+    text-align: center;
+    margin-top: 6vh;
+}
 
 .texto-a-vista{
     margin-top: 1vh;
@@ -361,11 +368,6 @@ a {
     font-size: 2.55vh;
     margin-top: 3vh;
 }
-
-
-
-
-
 
 
 
