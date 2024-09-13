@@ -93,16 +93,8 @@ a {
 
 }
 
-.parteDois {
-    display: flex;
-    justify-content: center;
-    /* Para adicionar espaçamento entre os blocos */
-}
 
-.Quadrado-da-meia-BrancaRosa-cano-curto,
-.Quadrado-da-meia-pretaRosa-cano-curto {
-    margin: 0 50px;
-}
+
 
 #div-meia-cano-curto {
     align-items: center;
@@ -126,7 +118,7 @@ a {
 
 .selected {
     border: 2px solid #000000;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .tresCoresKit,
@@ -167,7 +159,8 @@ a {
 
 .branca,
 .brancaKit {
-border: 1px solid rgb(91, 87, 87);}
+    border: 1px solid rgb(91, 87, 87);
+}
 
 .preta,
 .pretaKit {
@@ -473,10 +466,6 @@ a {
 
 @media screen and (max-width: 500px) {
 
-    .Quadrado-da-meia-pretaRosa-cano-curto,
-    .Quadrado-da-meia-BrancaRosa-cano-curto {
-        margin: 0
-    }
 
 
 
@@ -590,6 +579,46 @@ a {
     background-color: #D6D3DC;
 }
 
-#container img{
+#container img {
     width: 45vh;
+}
+
+
+/* MEIA CANO LONGO CASUAL */
+
+.Quadrado-da-meia-abelha-cano-longo img,
+/* imagem da primeira meia, preta cano curto */
+.Quadrado-da-meia-cacto-cano-longo img,
+/* imagem da meia, verde cano curto */
+.Quadrado-da-meia-caveira-cano-longo img,
+/* imagem da meia, rosa cano curto */
+.Quadrado-da-meia-melancia-cano-longo img,
+.Quadrado-da-meia-vaquinha-cano-longo img,
+.Quadrado-da-meia-arcoIris-cano-longo img {
+    /* imagem dameia, preta com rosa cano curto */
+    width: 250px;
+    height: 200px;
+}
+
+.cor-da-meia-caveira,
+.cor-da-meia-abelha,
+.cor-da-meia-ArcoIris,
+.cor-da-meia-cacto ,
+.cor-da-meia-vaquinha,
+.cor-da-meia-melancia{
+    display: flex;
+    gap: 1vh;
+    margin-top: 0.75vh;
+    cursor: pointer;
+}
+
+.ArcoIris img,
+.caveira img,
+.melancia img,
+.abelha img,
+.cacto img,
+.vaquinha img {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
 }

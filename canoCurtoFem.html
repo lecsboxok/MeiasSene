@@ -94,49 +94,47 @@
 
 
 
-                <div class="  parteDois">
-                    <div class="todas-as-meias-feminina-cano-curto">
-                        <div class="Quadrado-da-meia-BrancaRosa-cano-curto" id="div-meia-cano-curto">
-                            <div class="container"> <img src="img-feminino/MeiaCanoCurto-BrancaRosa.png" alt=""></div>
-                            <div class="informacoes-meia-cano-curto-feminino">
-                                <h3 class="CanoCurtoSubtitulo"> Cano Curto - Desenhada Sortida</h3>
-                                <h3 class="numeracao"> 34 á 38</h3>
-                                <div class="cores-rosa-verde">
-                                    <div class="verdeAgua"></div>
-                                    <div class="rosa"></div>
-                                </div>
-                            </div>
-                            <div class="preco-informacoes">
-                                <h3 class="preco">R$4,80</h3>
-                                <h3 class="texto-a-vista">Á Vista</h3>
-                                <button class="botao-euQuero">Eu Quero!</button>
-                            </div>
-                        </div>
 
 
-
-
-
-                        <div class="Quadrado-da-meia-pretaRosa-cano-curto" id="div-meia-cano-curto">
-                            <div class="container"> <img src="img-feminino/MeiaCanoCurto-PretaRosa.png" alt=""></div>
-                            <div class="informacoes-meia-cano-curto-feminino">
-                                <h3 class="CanoCurtoSubtitulo"> Cano Curto - Desenhada Sortida</h3>
-                                <h3 class="numeracao"> 34 á 38</h3>
-                                <div class="cores-roxo-pretaRosa">
-                                    <div class="roxo"></div>
-                                    <div class="pretaRosa"></div>
-
-                                </div>
-                            </div>
-                            <div class="preco-informacoes">
-                                <h3 class="preco">R$4,80</h3>
-                                <h3 class="texto-a-vista">Á Vista</h3>
-                                <button class="botao-euQuero">Eu Quero!</button>
-                            </div>
+                <div class="Quadrado-da-meia-BrancaRosa-cano-curto" id="div-meia-cano-curto">
+                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-BrancaRosa.png" alt=""></div>
+                    <div class="informacoes-meia-cano-curto-feminino">
+                        <h3 class="CanoCurtoSubtitulo"> Cano Curto - Desenhada Sortida</h3>
+                        <h3 class="numeracao"> 34 á 38</h3>
+                        <div class="cores-rosa-verde">
+                            <div class="verdeAgua"></div>
+                            <div class="rosa"></div>
                         </div>
                     </div>
-
+                    <div class="preco-informacoes">
+                        <h3 class="preco">R$4,80</h3>
+                        <h3 class="texto-a-vista">Á Vista</h3>
+                        <button class="botao-euQuero">Eu Quero!</button>
+                    </div>
                 </div>
+
+
+
+
+
+                <div class="Quadrado-da-meia-pretaRosa-cano-curto" id="div-meia-cano-curto">
+                    <div class="container"> <img src="img-feminino/MeiaCanoCurto-PretaRosa.png" alt=""></div>
+                    <div class="informacoes-meia-cano-curto-feminino">
+                        <h3 class="CanoCurtoSubtitulo"> Cano Curto - Desenhada Sortida</h3>
+                        <h3 class="numeracao"> 34 á 38</h3>
+                        <div class="cores-roxo-pretaRosa">
+                            <div class="roxo"></div>
+                            <div class="pretaRosa"></div>
+
+                        </div>
+                    </div>
+                    <div class="preco-informacoes">
+                        <h3 class="preco">R$4,80</h3>
+                        <h3 class="texto-a-vista">Á Vista</h3>
+                        <button class="botao-euQuero">Eu Quero!</button>
+                    </div>
+                </div>
+
         </section>
     </main>
 
@@ -300,17 +298,16 @@
             // Evento para o botão "Eu Quero!" dentro do quadrado atual
             quadrado.querySelector('.botao-euQuero').addEventListener('click', () => {
                 const corSelecionada = selectedColor;
-                const isKit = quadrado.classList.contains('kit'); // Verifica se é um kit
 
-                if (isKit || corSelecionada) {
-                    window.location.href = `descricaoFeminina/CanoCurtoFeminina.html?cor=${corSelecionada || 'default'}`; // Se for kit, usa 'default'
+                if (corSelecionada) {
+                    window.location.href = `descricaoFeminina/CanoCurtoFeminina.html?cor=${corSelecionada}`;
                 } else {
                     alert('Por favor, selecione uma cor.');
                 }
             });
 
         });
-      
+
 
         document.querySelectorAll('.cores-branca-preto-cinza div, .cores-rosa-verde div, .cores-verdeEscuro-verdeClaro-cinza div,.cores-roxo-pretaRosa div').forEach(cor => {
             cor.addEventListener('click', function () {
