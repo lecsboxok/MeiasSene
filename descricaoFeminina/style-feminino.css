@@ -143,14 +143,17 @@ a {
     font-family: 'WorkSans';
     font-size: 2.75vh;
     font-weight: 300;
+    cursor: pointer;
     margin-top: 10vh;
 }
 
 .btn-whatsapp {
     margin-left: 3vh;
+    cursor: pointer;
 }
 .fa-whatsapp{
     margin-left: 1vh;
+    cursor: pointer;
 }
 /* DESCRIÇÃO DO PRODUTO */
 
@@ -230,6 +233,7 @@ a {
     display: flex;
     gap: 1vh;
     margin-top: 2vh;
+    cursor: pointer;
 }
 
 
@@ -371,6 +375,7 @@ a {
     font-weight: 600;
     font-size: 2.55vh;
     margin-top: 3vh;
+    cursor: pointer;
 }
 
 
