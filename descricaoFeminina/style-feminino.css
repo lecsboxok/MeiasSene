@@ -91,7 +91,6 @@ a {
 }
 
 
-
 .TodasInformacoes {
     margin-left: 20vh;
     margin-top: 25vh;
@@ -245,6 +244,7 @@ a {
 .AzulEscuroSapatilha,
 .AzulClaroSapatilha,
 .VerdeAguaSapatilha {
+    cursor: pointer;
     width: 4vh;
     height: 4vh;
     border-radius: 50%;
@@ -297,7 +297,11 @@ a {
 }
 .Imagem-Kit3-Feminina{
     width: 80vh;
-    height: 45vh;
+    height: 40vh;
+}
+.Imagem-Kit3-Feminina-TresCores{
+    width: 82vh;
+    height: 40vh;
 }
 .imagemCanoCurtoBrancaCinza-Feminina{
     width: 43vh;

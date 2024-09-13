@@ -118,9 +118,15 @@ a {
 .cores-rosa-verde,
 .cores-verdeEscuro-verdeClaro-cinza,
 .cores-roxo-pretaRosa {
+    cursor: pointer;
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
+}
+
+.selected {
+    border: 3px solid #000000;
+    border-radius: 50%; 
 }
 
 .tresCoresKit,
@@ -143,432 +149,441 @@ a {
 }
 
 
-.tresCoresKit{
-    background: linear-gradient(right #000000 45%, #00FF00 73%, #0000FF 33%);
+.tresCoresKit {
+    background: linear-gradient(to right,
+            #FFFFFF 0%, #FFFFFF 33.33%,
+            /* Primeiro terço em branco */
+            #000000 33.33%, #000000 66.66%,
+            /* Segundo terço em preto */
+            #808080 66.66%, #808080 100%
+            /* Terceiro terço em cinza */
+        )
+}
+
+.tresCoresKit {
+    border: 1px solid rgb(87, 83, 83);
 }
 
 
-    .branca,
-    .brancaKit {
-        background-color: #ffffff;
-        border: 1px solid #76767688;
+.branca,
+.brancaKit {
+border: 1px solid rgb(91, 87, 87);}
+
+.preta,
+.pretaKit {
+    background-color: #000000;
+
+}
+
+.cinza,
+.cinzaKit,
+.CinzaBranca {
+    background-color: #A5A5A5;
+}
+
+.verdeAgua {
+    background-color: #00BDB5;
+}
+
+.rosa {
+    background-color: #DA6A9E;
+}
+
+.verdeMusgo {
+    background-color: #7BC194;
+}
+
+.verdeClaro {
+    background-color: #54C999;
+
+}
+
+.pretaRosa {
+    background: linear-gradient(to right, #000000 50%, #DA598F 50%);
+}
+
+.roxo {
+    background-color: #5034A9;
+}
+
+/* arrumando as imagens das meias cano curto */
+
+.Quadrado-da-meia-preta-cano-curto img,
+/* imagem da primeira meia, preta cano curto */
+.Quadrado-da-meia-verde-cano-curto img,
+/* imagem da meia, verde cano curto */
+.Quadrado-da-meia-BrancaRosa-cano-curto img,
+/* imagem da meia, rosa cano curto */
+.Quadrado-da-meia-pretaRosa-cano-curto img {
+    /* imagem dameia, preta com rosa cano curto */
+    width: 250px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.Quadrado-do-kit-cinza-cano-curto img {
+    margin-top: 4vh;
+    width: 370px;
+    height: 170px;
+}
+
+
+
+
+/* estilizando as informações */
+.informacoes-meia-cano-curto-feminino {
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+.CanoCurtoSubtitulo {
+    font-family: 'WorkSans';
+    font-weight: 600;
+}
+
+.numeracao {
+    font-family: 'WorkSans';
+    font-weight: 300;
+}
+
+.preco {
+    font-family: 'WorkSans';
+    font-size: 4vh;
+    font-weight: 800;
+}
+
+.texto-a-vista {
+    font-family: 'WorkSans';
+    font-weight: 300;
+}
+
+.preco-informacoes {
+    text-align: center;
+    margin-top: 2vh;
+
+}
+
+#preco-informacoes-meia-preta-cinza-branca {
+    margin-top: 4vh;
+}
+
+.botao-euQuero {
+    background-color: #252160;
+    color: #fff;
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 3vh;
+    font-family: 'WorkSans';
+    font-weight: 600;
+    font-size: 3vh;
+    margin-bottom: 20px;
+}
+
+#botao-da-meia-preta-branca-cinza {
+    margin-top: 6.75vh;
+    font-family: 'WorkSans';
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------RODAPE ----------------------------------------------------------- */
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FONTES */
+
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+/* RODAPÉ */
+
+#footer {
+    background-color: #252160;
+    color: white;
+    margin-top: 120px;
+    transition: background-color 0.5s ease;
+}
+
+#footer:hover {
+    background-color: #1e1b55;
+}
+
+.container-rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 65px 100px 25px 100px;
+    transition: padding 0.5s ease;
+}
+
+.imgLogo-rodape {
+    width: 200px;
+}
+
+.linha1-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contatos-rodape,
+.acompanhe-rodape {
+    margin-top: 20px;
+    transition: margin-top 0.5s ease;
+}
+
+.whats-rodape,
+.email-rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.whats-rodape a,
+.email-rodape a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imgContatos-rodape {
+    width: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imgContatos-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-rodape {
+    font: 650 20px 'LibreFranklin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.titulo-rodape:hover {
+    color: #b4b4b4;
+}
+
+.texto-rodape {
+    font: 400 18px 'WorkSans', sans-serif;
+}
+
+.texto2-rodape {
+    font: 400 18px 'WorkSans', sans-serif;
+    margin-top: 12px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.texto2-rodape:hover {
+    color: #b4b4b4;
+    transform: scale(0.97);
+}
+
+.imgRedes-rodape {
+    width: 30px;
+    margin: 0 6px;
+    transition: transform 0.3s ease;
+}
+
+.imgRedes-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.redes-rodape {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linha2-rodape {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.categGeral-rodape {
+    display: flex;
+}
+
+.subCategoria1-rodape {
+    margin-right: 90px;
+}
+
+.textoInst-rodape {
+    margin-top: 20px;
+}
+
+.categGeral-rodape {
+    margin-top: 10px;
+}
+
+.categorias-rodape {
+    margin-left: 213px;
+}
+
+.final-rodape {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.textoFinal-rodape {
+    font: 400 15px 'WorkSans', sans-serif;
+}
+
+/* VERSÃO MOBILE */
+
+@media screen and (max-width: 500px) {
+
+    .Quadrado-da-meia-pretaRosa-cano-curto,
+    .Quadrado-da-meia-BrancaRosa-cano-curto {
+        margin: 0
     }
 
-    .preta,
-    .pretaKit {
-        background-color: #000000;
-
-    }
-
-    .cinza,
-    .cinzaKit,
-    .CinzaBranca {
-        background-color: #A5A5A5;
-    }
-
-    .verdeAgua {
-        background-color: #00BDB5;
-    }
-
-    .rosa {
-        background-color: #DA6A9E;
-    }
-
-    .verdeMusgo {
-        background-color: #7BC194;
-    }
-
-    .verdeClaro {
-        background-color: #54C999;
-
-    }
-
-    .pretaRosa {
-        background: linear-gradient(to right, #000000 50%, #DA598F 50%);
-    }
-
-    .roxo {
-        background-color: #5034A9;
-    }
-
-    /* arrumando as imagens das meias cano curto */
-
-    .Quadrado-da-meia-preta-cano-curto img,
-    /* imagem da primeira meia, preta cano curto */
-    .Quadrado-da-meia-verde-cano-curto img,
-    /* imagem da meia, verde cano curto */
-    .Quadrado-da-meia-BrancaRosa-cano-curto img,
-    /* imagem da meia, rosa cano curto */
-    .Quadrado-da-meia-pretaRosa-cano-curto img {
-        /* imagem dameia, preta com rosa cano curto */
-        width: 250px;
-        height: 200px;
-    }
-
-    .container {
-        display: flex;
-        justify-content: center;
-    }
-
-    .Quadrado-do-kit-cinza-cano-curto img,
-    .Quadrado-do-kit-preta-cinza-branco-cano-curto img {
-        width: 370px;
-        height: 200px;
-    }
 
 
-
-
-
-    /* estilizando as informações */
-    .informacoes-meia-cano-curto-feminino {
-        margin-left: 2vh;
-        margin-top: 2vh;
-    }
-
-    .CanoCurtoSubtitulo {
-        font-family: 'WorkSans';
-        font-weight: 600;
-    }
-
-    .numeracao {
-        font-family: 'WorkSans';
-        font-weight: 300;
-    }
-
-    .preco {
-        font-family: 'WorkSans';
-        font-size: 4vh;
-        font-weight: 800;
-    }
-
-    .texto-a-vista {
-        font-family: 'WorkSans';
-        font-weight: 300;
-    }
-
-    .preco-informacoes {
-        text-align: center;
-        margin-top: 2vh;
-
-    }
-
-    #preco-informacoes-meia-preta-cinza-branca {
-        margin-top: 4vh;
-    }
-
-    .botao-euQuero {
-        background-color: #252160;
-        color: #fff;
-        width: 240px;
-        height: 50px;
-        border-radius: 20px;
-        margin-top: 3vh;
-        font-family: 'WorkSans';
-        font-weight: 600;
-        font-size: 3vh;
-        margin-bottom: 20px;
-    }
-
-    #botao-da-meia-preta-branca-cinza {
-        margin-top: 6.75vh;
-        font-family: 'WorkSans';
-        font-weight: 600;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-    /* ---------------------------RODAPE ----------------------------------------------------------- */
-
-    /* RESET */
-    * {
-        box-sizing: border-box;
-        border: 0;
-        padding: 0;
-        margin: 0;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
-
-    /* FONTES */
-
-    @font-face {
-        font-family: 'LibreFranklin';
-        src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
-    }
-
-    @font-face {
-        font-family: 'WorkSans';
-        src: url(fonts/WorkSans-VariableFont_wght.ttf);
-    }
-
-    /* RODAPÉ */
-
-    #footer {
-        background-color: #252160;
-        color: white;
-        margin-top: 120px;
-        transition: background-color 0.5s ease;
-    }
-
-    #footer:hover {
-        background-color: #1e1b55;
-    }
 
     .container-rodape {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 65px 100px 25px 100px;
-        transition: padding 0.5s ease;
+        padding: 50px 50px;
+    }
+
+    .linha1-rodape,
+    .linha2-rodape {
+        display: block;
+        text-align: center;
+    }
+
+    .contatos-rodape {
+        margin-top: 40px;
+    }
+
+    .titulo-rodape {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
+        margin-top: 60px;
+    }
+
+    .categorias-rodape {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .final-rodape {
+        margin-top: 60px;
     }
 
     .imgLogo-rodape {
-        width: 200px;
+        width: 150px;
     }
 
-    .linha1-rodape {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    .imgRedes-rodape {
+        margin: 10px;
     }
 
-    .contatos-rodape,
-    .acompanhe-rodape {
-        margin-top: 20px;
-        transition: margin-top 0.5s ease;
+    .subCategoria1-rodape {
+        margin-right: 50px;
+    }
+
+    .categGeral-rodape {
+        justify-content: center;
+        align-items: center;
     }
 
     .whats-rodape,
     .email-rodape {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 10px;
+        justify-content: center;
+        /* Centraliza o conteúdo */
     }
-
-    .whats-rodape a,
-    .email-rodape a {
-        display: inline-flex;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    .imgContatos-rodape {
-        width: 30px;
-        margin-right: 10px;
-        transition: transform 0.3s ease;
-    }
-
-    .imgContatos-rodape:hover {
-        transform: translateY(-5px);
-    }
-
-    .titulo-rodape {
-        font: 650 20px 'LibreFranklin', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        transition: color 0.3s ease;
-    }
-
-    .titulo-rodape:hover {
-        color: #b4b4b4;
-    }
-
-    .texto-rodape {
-        font: 400 18px 'WorkSans', sans-serif;
-    }
-
-    .texto2-rodape {
-        font: 400 18px 'WorkSans', sans-serif;
-        margin-top: 12px;
-        transition: transform 0.3s ease, color 0.3s ease;
-    }
-
-    .texto2-rodape:hover {
-        color: #b4b4b4;
-        transform: scale(0.97);
-    }
-
-    .imgRedes-rodape {
-        width: 30px;
-        margin: 0 6px;
-        transition: transform 0.3s ease;
-    }
-
-    .imgRedes-rodape:hover {
-        transform: translateY(-5px);
-    }
-
-    .redes-rodape {
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .linha2-rodape {
-        margin-top: 60px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .categGeral-rodape {
-        display: flex;
-    }
-
-    .subCategoria1-rodape {
-        margin-right: 90px;
-    }
-
-    .textoInst-rodape {
-        margin-top: 20px;
-    }
-
-    .categGeral-rodape {
-        margin-top: 10px;
-    }
-
-    .categorias-rodape {
-        margin-left: 213px;
-    }
-
-    .final-rodape {
-        margin-top: 110px;
-        text-align: center;
-    }
-
-    .textoFinal-rodape {
-        font: 400 15px 'WorkSans', sans-serif;
-    }
-
-    /* VERSÃO MOBILE */
-
-    @media screen and (max-width: 500px) {
-
-        .Quadrado-da-meia-pretaRosa-cano-curto, .Quadrado-da-meia-BrancaRosa-cano-curto {
-            margin: 0
-        }
+}
 
 
 
 
-        .container-rodape {
-            padding: 50px 50px;
-        }
-
-        .linha1-rodape,
-        .linha2-rodape {
-            display: block;
-            text-align: center;
-        }
-
-        .contatos-rodape {
-            margin-top: 40px;
-        }
-
-        .titulo-rodape {
-            text-align: center;
-            font-size: 18px;
-        }
-
-        .acompanhe-rodape,
-        .institucional-rodape,
-        .categorias-rodape {
-            margin-top: 60px;
-        }
-
-        .categorias-rodape {
-            margin-left: 0;
-            text-align: center;
-        }
-
-        .final-rodape {
-            margin-top: 60px;
-        }
-
-        .imgLogo-rodape {
-            width: 150px;
-        }
-
-        .imgRedes-rodape {
-            margin: 10px;
-        }
-
-        .subCategoria1-rodape {
-            margin-right: 50px;
-        }
-
-        .categGeral-rodape {
-            justify-content: center;
-            align-items: center;
-        }
-
-        .whats-rodape,
-        .email-rodape {
-            justify-content: center;
-            /* Centraliza o conteúdo */
-        }
-    }
+/* MEIA FEMININA CASUAL */
 
 
 
 
-    /* MEIA FEMININA CASUAL */
+.Quadrado-da-meia-Casual-Listrada-PretaRosa img,
+/* imagem da primeira meia, preta cano curto */
+.Quadrado-da-meia-Casual-DesenhadaCoracao-Branca img,
+/* imagem da meia, verde cano curto */
+.Quadrado-da-meia-Casual-Branca-Rendada img {
+    /* imagem da meia, rosa cano curto */
+    /* imagem dameia, preta com rosa cano curto */
+    width: 250px;
+    height: 200px;
+}
 
 
+/* CORES */
 
+.cores-Branca-Rendada,
+.cores-desenhada-Coracao-cinza,
+.cores-meia-casual-listradas {
+    display: flex;
+    gap: 1vh;
+    margin-top: 0.75vh;
+}
 
-    .Quadrado-da-meia-Casual-Listrada-PretaRosa img,
-    /* imagem da primeira meia, preta cano curto */
-    .Quadrado-da-meia-Casual-DesenhadaCoracao-Branca img,
-    /* imagem da meia, verde cano curto */
-    .Quadrado-da-meia-Casual-Branca-Rendada img {
-        /* imagem da meia, rosa cano curto */
-        /* imagem dameia, preta com rosa cano curto */
-        width: 250px;
-        height: 200px;
-    }
+.ListradaPretaRosa img,
+.ListradaVerde img,
+.DesenhoBrancoCoracao img,
+.DesenhoCinzaCoracao img,
+.BrancaRendada,
+.RosaClaroCasual {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+}
 
+.BrancaRendada {
+    background-color: white;
+    border: 1px solid rgb(163, 160, 160);
+}
 
-    /* CORES */
-
-    .cores-Branca-Rendada,
-    .cores-desenhada-Coracao-cinza,
-    .cores-meia-casual-listradas {
-        display: flex;
-        gap: 1vh;
-        margin-top: 0.75vh;
-    }
-
-    .ListradaPretaRosa img,
-    .ListradaVerde img,
-    .DesenhoBrancoCoracao img,
-    .DesenhoCinzaCoracao img,
-    .BrancaRendada,
-    .RosaClaroCasual {
-        width: 5vh;
-        height: 5vh;
-        border-radius: 50%;
-    }
-
-    .BrancaRendada {
-        background-color: white;
-        border: 1px solid rgb(163, 160, 160);
-    }
-
-    .RosaClaroCasual {
-        background-color: #D6D3DC;
-    }
+.RosaClaroCasual {
+    background-color: #D6D3DC;
+}
