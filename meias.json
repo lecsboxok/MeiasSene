@@ -96,6 +96,52 @@
     "preco": "R$: 4,80",
     "titulo": "Cano Curto - Desenhada Sortida Branca-Roxo ",
     "codigo": "Referência: 4611-3/2 "
+},
+"ListradaPretaRosa":{
+  "imagem": "img-feminino/MeiaCanoCurtoCasualListrada-PretaRosa.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 5,00 ",
+  "titulo": "Casual Cano Curto - Chevron Marinho",
+  "codigo": "Referência: 3611-2/2 "
+},
+"ListradaVerde":{
+  "imagem": "img-feminino/MeiaCanoCurtoCasualListrada-Verde.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 5,00 ",
+  "titulo": "Casual Cano Curto - Chevron Verde",
+  "codigo": "Referência: 3611-2/1 "
+},
+"DesenhoBrancoCoracao":{
+  "imagem": "img-feminino/MeiaCanoCurtoCasualDesenhada-BrancaCoracao.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 5,00 ",
+  "titulo": "Casual Cano Curto - Coração Branco",
+  "codigo": "Referência: 3611-3/1 "
+},
+
+"DesenhoCinzaCoracao":{
+  "imagem": "img-feminino/MeiaCanoCurtoCasualDesenhada-CinzaCoracao.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 5,00 ",
+  "titulo": "Casual Cano Curto - Coração Cinza",
+  "codigo": "Referência: 3611-3/2 "
+},
+
+"BrancaRendada":{
+  "imagem": "img-feminino/MeiaCanoCurtoCasual-BrancaRendada.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 5,00 ",
+  "titulo": "Casual Cano Curto - Rendada Branca",
+  "codigo": "Referência: 3611-1/1 "
+},
+
+"RosaClaroCasual":{
+  "imagem": "img-feminino/MeiaCanoCurtoCasual-RosaRendada.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 5,00 ",
+  "titulo": "Casual Cano Curto - Rendada Rosa",
+  "codigo": "Referência: 3611-1/2 "
 }
+
 
 }

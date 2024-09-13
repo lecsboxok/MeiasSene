@@ -115,6 +115,35 @@ a {
   background-color: #F4B17A;
 }
 
+.carrossel #prev,
+.carrossel #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.carrossel #prev svg,
+.carrossel #next svg{
+  width: 15px;
+}
+
+.carrossel #prev {
+    left: 20px;
+}
+
+.carrossel #next {
+    right: 20px;
+}
+
 /* CONTEÚDO */
 
 h2 {
