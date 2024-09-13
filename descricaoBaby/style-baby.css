@@ -215,6 +215,7 @@ a {
 #divMeiasBaby {
     align-items: center;
     width: 320px;
+    height: 420px;
     margin-top: 10vh;
     border: 1px solid #A5A5A5;
     border-radius: 20px;
@@ -359,7 +360,6 @@ a {
     font-weight: 600;
     font-size: 2.55vh;
     margin-top: 3vh;
-    margin-bottom: 20px;
 }
 
 
