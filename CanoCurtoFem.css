@@ -125,7 +125,7 @@ a {
 }
 
 .selected {
-    border: 3px solid #000000;
+    border: 2px solid #000000;
     border-radius: 50%; 
 }
 
@@ -226,7 +226,7 @@ border: 1px solid rgb(91, 87, 87);}
 }
 
 .Quadrado-do-kit-cinza-cano-curto img {
-    margin-top: 4vh;
+    margin-top: 2vh;
     width: 370px;
     height: 170px;
 }
@@ -282,6 +282,7 @@ border: 1px solid rgb(91, 87, 87);}
     font-weight: 600;
     font-size: 3vh;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 #botao-da-meia-preta-branca-cinza {
@@ -566,6 +567,7 @@ a {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
+    cursor: pointer;
 }
 
 .ListradaPretaRosa img,
@@ -586,4 +588,8 @@ a {
 
 .RosaClaroCasual {
     background-color: #D6D3DC;
+}
+
+#container img{
+    width: 45vh;
 }
