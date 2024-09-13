@@ -109,28 +109,27 @@ a {
 .cores-vermelho-amarelo,
 .cores-azulTurquesa-cinza,
 .cores-kit-des-0a6,
-.cores-kit-des-6a12 {
+.cores-kit-des-6a12,
+.cores-branca-verde-colors,
+.cores-branca-verde-colors2,
+.cores-kit-colors-masc,
+.cores-kit-colors-masc2 {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
 
-.verde,
-.offwhite,
-.cinza,
-.branca,
-.azul,
-.marinho,
-.marrom,
-.azulTriangulo,
-.vermelho,
-.amarelo,
-.azulTurquesa,
-.cinzaMescla,
-.kit1Des0a6,
-.kit2Des0a6,
-.kit1Des6a12,
-.kit2Des6a12  {
+.verde, .offwhite, .cinza,
+.branca, .azul, .marinho,
+.marrom, .azulTriangulo, .vermelho,
+.amarelo, .azulTurquesa, .cinzaMescla,
+.kit1Des0a6, .kit2Des0a6, .kit1Des6a12,
+.kit2Des6a12, .brancaC, .azulC,
+.marinhoC, .cinzaC, .verdeC,
+.brancaC2, .azulC2, .marinhoC2,
+.cinzaC2, .verdeC2, .kit1Colors1,
+.kit2Colors1, .kit1Colors2,
+.kit2Colors2  {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -138,7 +137,7 @@ a {
 }
 
 .branca,
-.brancaKit {
+.brancaKit, .brancaC, .brancaC2  {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
@@ -165,7 +164,7 @@ a {
     background-color: #8FC1EF;
 }
 
-.marinho {
+.marinho, .marinhoC, .marinhoC2 {
     background-color: #0F1922;
 }
 
@@ -193,7 +192,20 @@ a {
     background: linear-gradient(to right, #ABB0AA 50%, #0389DB 50%);
 }
 
-.kit1Des0a6, .kit2Des0a6, .kit2Des6a12, .kit1Des6a12{
+.azulC, .azulC2{
+    background-color: #76A6EF;
+}
+
+.cinzaC, .cinzaC2{
+    background-color: #7F9299;
+}
+
+.verdeC, .verdeC2{
+    background-color: #81D49E;
+}
+
+.kit1Des0a6, .kit2Des0a6, .kit2Des6a12, .kit1Des6a12, .kit1Colors1,
+.kit2Colors1,  .kit1Colors2, .kit2Colors2{
     /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -202,7 +214,8 @@ a {
     justify-content: center;
 }
 
-.kit1Des0a6 p, .kit2Des0a6 p, .kit1Des6a12 p, .kit2Des6a12{
+.kit1Des0a6 p, .kit2Des0a6 p, .kit1Des6a12 p, .kit2Des6a12, .kit1Colors1 p,
+.kit2Colors1 p, .kit1Colors2 p, .kit2Colors2 p{
     font: 400 16px 'WorkSans', sans-serif;
 }
 
@@ -225,7 +238,9 @@ a {
 .Quadrado-da-meia-astronauta img,
 .Quadrado-da-meia-triangulo img,
 .Quadrado-da-meia-marinheiro img,
-.Quadrado-da-meia-leao img {
+.Quadrado-da-meia-leao img,
+.Quadrado-da-meia-colors1 img,
+.Quadrado-da-meia-colors2 img {
     width: 220px;
     height: 200px;
 }
@@ -241,7 +256,13 @@ a {
 .Quadrado-da-meia-kit2-6a12 img {
     width: 320px;
     height: 150px;
-    margin: 45px 30px;
+    margin: 45px;
+}
+
+.Quadrado-da-meia-kitcolors1 img, .Quadrado-da-meia-kitcolors2 img{
+    width: 320px;
+    height: 150px;
+    margin: 13px 0;
 }
 
 
