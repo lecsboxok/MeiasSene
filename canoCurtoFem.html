@@ -53,7 +53,7 @@
 
 
                 <div class="Quadrado-do-kit-cinza-cano-curto" id="div-meia-cano-curto">
-                    <div class="container"><img src="img-feminino/CanoCurto-3-Cinza.png" alt=""></div>
+                    <div class="container"><img class="le" src="img-feminino/CanoCurto-3-Cinza.png" alt=""></div>
                     <div class="informacoes-meia-cano-curto-feminino">
                         <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa Kit 3 Pares</h3>
                         <h3 class="numeracao"> 34 á 38</h3>
@@ -231,7 +231,8 @@
             'Quadrado-do-kit-cinza-cano-curto': {
                 pretaKit: 'img-feminino/CanoCurto-3-Preta.png',
                 brancaKit: 'img-feminino/CanoCurto-3-Branca.png',
-                cinzaKit: 'img-feminino/CanoCurto-3-Cinza.png'
+                cinzaKit: 'img-feminino/CanoCurto-3-Cinza.png',
+                tresCoresKit: 'img-feminino/CanoCurto-3-PretaCinzaBranca.png'
             },
             'Quadrado-da-meia-verde-cano-curto': {
                 verdeClaro: 'img-feminino/MeiaCanoCurto-BrancaVerdeClaro.png',
@@ -259,7 +260,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('.preta, .branca, .cinza, .pretaKit, .brancaKit, .cinzaKit, .verdeClaro, .verdeMusgo, .CinzaBranca, .verdeAgua, .rosa, .roxo, .pretaRosa');
+            const cores = quadrado.querySelectorAll('.preta, .tresCoresKit, .branca, .cinza, .pretaKit, .brancaKit, .cinzaKit, .verdeClaro, .verdeMusgo, .CinzaBranca, .verdeAgua, .rosa, .roxo, .pretaRosa');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
@@ -309,7 +310,20 @@
             });
 
         });
+      
 
+        document.querySelectorAll('.cores-branca-preto-cinza div, .cores-rosa-verde div, .cores-verdeEscuro-verdeClaro-cinza div,.cores-roxo-pretaRosa div').forEach(cor => {
+            cor.addEventListener('click', function () {
+                // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
+                document.querySelectorAll('.cores-branca-preto-cinza div, .cores-rosa-verde div, .cores-verdeEscuro-verdeClaro-cinza div,.cores-roxo-pretaRosa div').forEach(c => {
+                    c.classList.remove('selected');
+                });
+
+                // Adiciona a borda na cor selecionada
+                this.classList.add('selected');
+                console.log('Classe "selected" adicionada a:', this); // Verifique se o elemento correto está sendo selecionado
+            });
+        });
     </script>
 
 

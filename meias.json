@@ -38,7 +38,14 @@
     "imagem": "img-feminino/CanoCurto-3-Cinza.png",
     "class": "Imagem-Kit3-Feminina",
     "preco": "R$: 14,10",
-    "titulo": "Cano Curto - Lisa CinzaKit 3 Pares ",
+    "titulo": "Cano Curto - Lisa Cinza Kit 3 Pares ",
+    "codigo": "Referência: 4633"
+  },
+  "tresCoresKit":{
+    "imagem": "img-feminino/CanoCurto-3-PretaCinzaBranca.png",
+    "class": "Imagem-Kit3-Feminina-TresCores",
+    "preco": "R$: 14,10",
+    "titulo": "Cano Curto - Lisa 3 Pares ",
     "codigo": "Referência: 4633"
   },
   "verdeClaro": {
