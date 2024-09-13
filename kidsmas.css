@@ -99,14 +99,14 @@ a {
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
 
-.todas-as-meias-feminina-kids {
+.todas-as-meias-masculinas-kids {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-#div-meia-kids-femino {
+#div-meia-kids-masculino {
     align-items: center;
     width: 390px;
     margin-top: 10vh;
@@ -117,46 +117,15 @@ a {
 
 /* CORES */
 
-.cores-verde-rosa,
-.cores-preto-vermelho,
-.cores-cinza-rosa2,
-.cores-branca-rosa3,
-.cores-lilas-rosa4,
-.cores-cinza2-rosa5,
-.cores-verde2-rosa6,
-.cores-branca2-cinza3,
-.cores-rosa7-lilas2,
-.cores-kit-feminino
+.cores-bege-cinza
  {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
 
-.vermelho,
-.preto,
-.verde,
-.verde2,
-.rosa1,
-.rosa2,
-.rosa3,
-.rosa4,
-.rosa5,
-.rosa6,
-.rosa7,
-.cinza,
-.cinza2,
-.cinza3,
-.branca,
-.branca2,
-.lilas,
-.lilas2,
-.kitGmeias1,
-.kitGmeias2,
-.kitMmeias1,
-.kitMmeias2,
-.kitPmeias1,
-.kitPmeias2{
+.bege,
+.cinza{
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -167,22 +136,13 @@ a {
     border: 2px solid #000000;
 }
 
-.preto {
-    background-color: #000000;
 
-}
 
 .vermelho {
     background-color: #C1212A;
 }
 
-.verde {
-    background-color: #64C9AE;
-}
 
-.verde2 {
-    background-color: #C5CE9F;
-}
 
 .rosa1,
 .rosa2,
@@ -212,9 +172,7 @@ a {
     background-color: #C2C4D3;
 }
 
-.cinza,
-.cinza2,
-.cinza3 {
+.cinza {
     background-color: #A5A5A5;
 }
 
@@ -232,14 +190,7 @@ a {
     height: 200px;
 }
 
-.Quadrado-da-meia-joaninha img,
-.Quadrado-da-meia-unicornio img,
-.Quadrado-da-meia-pinguim img,
-.Quadrado-da-meia-motoqueira img,
-.Quadrado-da-meia-coracao img,
-.Quadrado-da-meia-keep img,
-.Quadrado-da-meia-panda img,
-.Quadrado-da-meia-maquiagem  img {
+.Quadrado-da-meia-raposa img {
     width: 200px;
     height: 200px;
 }
@@ -282,7 +233,7 @@ a {
     margin-top: 2vh;
 }
 
-.KidsFeminoSubtitulo {
+.KidsMasculinoSubtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
 }
