@@ -125,7 +125,9 @@ a {
 .cores-cinza2-rosa5,
 .cores-verde2-rosa6,
 .cores-branca2-cinza3,
-.cores-rosa7-lilas2 {
+.cores-rosa7-lilas2,
+.cores-kit-feminino
+ {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -148,7 +150,13 @@ a {
 .branca,
 .branca2,
 .lilas,
-.lilas2 {
+.lilas2,
+.kitGmeias1,
+.kitGmeias2,
+.kitMmeias1,
+.kitMmeias2,
+.kitPmeias1,
+.kitPmeias2{
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -235,10 +243,22 @@ a {
 .Kit-numero-um img,
 .Kit-numero-dois img,
 .KitM-numero-um img,
-.KitG-meias img {
+.KitM-numero-dois img,
+.KitG-meias img,
+.kitGmeias img,
+.KitM-meias img,
+.KitP-meias img{
     width: 320px;
     height: 150px;
     margin: 45px 30px;
+}
+
+.kitGmeias1, .kitGmeias2, .kitMmeias1, .kitMmeias2, .kitPmeias1, .kitPmeias2 {
+    background-color: #ffffff;
+    border: 1px solid #76767688;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
