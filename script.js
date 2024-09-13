@@ -32,9 +32,11 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(proximaImagem, 5000);
 
     // Adicionar evento de clique para voltar para a imagem anterior
-    document.querySelector('.carrossel').addEventListener('click', imagemAnterior);
+    document.querySelector('.setinhaPrev').addEventListener('click', imagemAnterior);
+    document.querySelector('.setinhaNext').addEventListener('click', proximaImagem);
+    document.querySelector('.carrossel-container').addEventListener('click', proximaImagem);
+
 
     // Atualizar a imagem inicial
     atualizarImagem();
-
 });
