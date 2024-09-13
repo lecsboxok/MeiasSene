@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meias Sene</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style-feminino.css">
+    <link rel="stylesheet" href="style-baby.css">
 </head>
 
 <body>
@@ -39,30 +39,25 @@
             <div class="TodasInformacoes">
                 <div class="informacoes">
                     <h2 id="titulo"></h2>
-                    <p id="codigo"></p> <!-- Código: 4631 -->
+                    <p id="codigo"></p>  
                 </div>
-
+            
                 <div class="linhaDescricaoDoProduto"></div>
                 <div class="informacoesPrecoTamanho">
-                    <h3 class="precoContainer" id="preco">gggg</h3>
-                    <h3 class="numeracao"> 34 á 38</h3>
-                    <button class="btn-shopee"> Compre na </button>
+                    <h3 class="precoContainer" id="preco"></h3>
+                    <h3 class="numeracao" id="numeracao"></h3>
+                    <button class="btn-shopee"> Compre na Shopee <i class="fas fa-store"></i></button>
                     <button class="btn-whatsapp"> Compre via <i class="fab fa-whatsapp"></i></button>
                 </div>
             </div>
         </div>
-        <style>
 
-        </style>
         <section class="DescricaoDoProduto">
             <h2 class="titulo-DescricaoProduto">DESCRIÇÃO DO PRODUTO</h2>
             <div class="linhaUm-Descricao-do-produto"></div>
             <div class="linhaDois-Descricao-do-produto"></div>
             <div class="texto-Descricao">
-                <p>Uma meia cano curto lisa é um tipo de perfil ou moldura que possui uma seção transversal
-                    semicircular, criando uma aparência suave e arredondada. É curta, indicando que sua extensão ou
-                    comprimento é limitado, e lisa, o que significa que não possui texturas ou detalhes adicionais em
-                    sua superfície.</p>
+                <p>Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo.</p>
                 <div class="elementosDoTexto-Descricao">
                     <p>• Algodão 60% </p>
                     <p>• Poliamida 28% </p>
@@ -99,7 +94,7 @@
 
 
 
-                <div class="Quadrado-da-Meia-DesenhadaAzulEscuro-Baby" id="divMeiasBaby">
+                <div class="Quadrado-da-Meia-Desenhada-Baby" id="divMeiasBaby">
                     <div class="Imagem-CompreJunto"><img src="../img-baby/MeiaDesenhadaAzulEscuro-Feminina.png" alt="">
                     </div>
                     <div class="informacoesMeiaBaby">
@@ -134,10 +129,10 @@
                             <div class="VerdeAguaSapatilha"></div>
                         </div>
                     </div>
-                    <div id="preco-informacoes-Baby">
+                    <div class="preco-informacoes" id="preco-informacoes-meia-preta-cinza-branca">
                         <h3 class="preco">R$ 3,40 </h3>
                         <h3 class="texto-a-vista">Á Vista</h3>
-                        <button class="botao-euQuero">Eu Quero!</button>
+                        <button class="botao-euQuero" id="botao-da-meia-preta-branca-cinza">Eu Quero!</button>
                     </div>
                 </div>
             </div>
@@ -231,7 +226,7 @@
             const urlParams = new URLSearchParams(window.location.search);
             const cor = urlParams.get('cor');
 
-            fetch('../meias.json')
+            fetch('../baby.json')
                 .then(response => response.json())
                 .then(meias => {
                     const meia = meias[cor];
@@ -244,8 +239,9 @@
                         document.getElementById('codigo').textContent = meia.codigo || '';
                         document.getElementById('preco').textContent = meia.preco || '';
                         document.getElementById('titulo').textContent = meia.titulo || '';
+                        document.getElementById('numeracao').textContent = meia.numeracao || '';
 
-                        const mensagem = `Olá, gostaria de comprar a meia ${meia.titulo}, do preço: ${meia.preco}.  ${meia.codigo || 'não informado'}.`;
+                        const mensagem = `Olá, gostaria de comprar a meia ${meia.titulo}, do preço: ${meia.preco} e da numeração: ${meia.numeracao}. ${meia.codigo || 'não informado'}.`;
                         const whatsappLink = `https://wa.me/5516997021783?text=${encodeURIComponent(mensagem)}`;
                         whatsappButton.setAttribute('onclick', `window.open('${whatsappLink}', '_blank')`);
                     } else {
@@ -287,11 +283,8 @@
                 AzulEscuroSapatilha: '../img-baby/MeiaBrancaAzulEscuroSapatilha-Masculina.png',
                 AzulClaroSapatilha: '../img-baby/MeiaBrancaAzulClaroSapatilha-Masculina.png',
                 VerdeAguaSapatilha: '../img-baby/MeiaBrancaVerdeAguaSapatilha-Masculina.png'
-            },
+             }
 
-            'Quadrado-da-Meia-DesenhadaAzulEscuro-Baby': {
-                AzulEscuro: '../img-baby/MeiaDesenhadaAzulEscuro-Feminina.png'
-            },
         };
 
 

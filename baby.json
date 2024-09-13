@@ -1,0 +1,129 @@
+{
+    "verde": {
+      "imagem": "img-baby/babyElefanteVerde.png",
+      "codigo": "Referência: 1121-1/1",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Elefante Verde Masculina",
+      "numeracao": "0 á 6 meses"
+    },
+    "offwhite": {
+      "imagem": "img-baby/babyElefanteMarrom.png",
+      "codigo": "Referência: 1121-1/2",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Elefante Off White Masculina",
+      "numeracao": "0 á 6 meses"
+    },
+    "cinza": {
+      "imagem": "img-baby/quadradosCinza.png",
+      "codigo": "Referência: 1121-2/1",
+      "preco": "R$ 3,70",
+      "titulo": "Meia Baby Desenhada Quadrados Cinza Masculina",
+      "numeracao": "0 á 6 meses"
+    },
+    "branca": {
+      "imagem": "img-baby/quadradosAzul.png",
+      "codigo": "Referência: 1121-2/2",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Quadrados Branco Masculina",
+      "numeracao": "0 á 6 meses"
+    },
+    "azul": {
+      "imagem": "img-baby/astronautaAzul.png",
+      "codigo": "Referência: 1121-3/1",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Astronauta Azul Masculina",
+      "numeracao": "0 á 6 meses"
+    },
+    "marinho": {
+      "imagem": "img-baby/astronautaMarinho.png",
+      "codigo": "Referência: 1121-3/2",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Astronauta Marinho Masculina",
+      "numeracao": "0 á 6 meses"
+    },
+    "marrom": {
+      "imagem": "img-baby/trianguloMarrom.png",
+      "codigo": "Referência: 1221-1/1",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Tringulo Marrom Masculina",
+      "numeracao": "6 á 12 meses"
+    },
+    "azulTriangulo": {
+      "imagem": "img-baby/trianguloAzul.png",
+      "codigo": "Referência: 1221-1/2",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Tringulo Marrom Masculina",
+      "numeracao": "6 á 12 meses"
+    },
+    "vermelho": {
+      "imagem": "img-baby/marinheiroVermelho.png",
+      "codigo": "Referência: 1221-2/1",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Marinheiro Vermelho Masculina",
+      "numeracao": "6 á 12 meses"
+    },
+    "amarelo": {
+      "imagem": "img-baby/marinheiroAmarelo.png",
+      "codigo": "Referência: 1221-2/2",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Marinheiro Amarelo Masculina",
+      "numeracao": "6 á 12 meses"
+    },
+    "azulTurquesa": {
+      "imagem": "img-baby/leaoAzul-turquesa.png",
+      "codigo": "Referência: 1221-3/2",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Leão Azul Tuquesa Masculina",
+      "numeracao": "6 á 12 meses"
+    },
+    "cinzaMescla": {
+      "imagem": "img-baby/leaoCinza-mescla.png",
+      "codigo": "Referência: 1221-3/1",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Leão Cinza Mescla Masculina",
+      "numeracao": "6 á 12 meses"
+    },
+    "kit1Des0a6": {
+      "imagem": "img-baby/kit1-desenhada0a6.png",
+      "codigo": "Referência: 1123-1",
+      "preco": "R$ 11,10",
+      "class": "img-babyKit",
+      "titulo": "Meia Kids Desenhada Masculina - Kit Nº1",
+      "numeracao": "0 á 6 meses"
+    },
+    "kit2Des0a6": {
+      "imagem": "img-baby/kit2-desenhada0a6.png",
+      "codigo": "Referência: 1123-2",
+      "preco": "R$ 11,10",
+      "class": "img-babyKit",
+      "titulo": "Meia Kids Desenhada Masculina - Kit Nº2",
+      "numeracao": "0 á 6 meses"
+    },
+    "kit1Des6a12": {
+      "imagem": "img-baby/kit1-desenhada6a12.png",
+      "codigo": "Referência: 1223-1",
+      "preco": "R$ 11,10",
+      "class": "img-babyKit",
+      "titulo": "Meia Kids Desenhada Masculina - Kit Nº1",
+      "numeracao": "6 á 12 meses"
+    },
+    "kit2Des6a12": {
+      "imagem": "img-baby/kit2-desenhada6a12.png",
+      "codigo": "Referência: 1223-2",
+      "preco": "R$ 11,10",
+      "class": "img-babyKit",
+      "titulo": "Meia Kids Desenhada Masculina - Kit Nº2",
+      "numeracao": "6 á 12 meses"
+    }
+}

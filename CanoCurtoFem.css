@@ -79,20 +79,32 @@ a {
     margin-left: 5vh;
 }
 
-#meiasBabyDesMasc {
+#meiasCanoCurto {
     padding-top: 20vh;
 }
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
 
-.todas-as-meias-baby-des-masc {
+.todas-as-meias-feminina-cano-curto {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-self: center;
 
 }
 
-#div-meia {
+.parteDois {
+    display: flex;
+    justify-content: center;
+    /* Para adicionar espaçamento entre os blocos */
+}
+
+.Quadrado-da-meia-BrancaRosa-cano-curto,
+.Quadrado-da-meia-pretaRosa-cano-curto {
+    margin: 0 50px;
+}
+
+#div-meia-cano-curto {
     align-items: center;
     width: 390px;
     margin-top: 10vh;
@@ -102,46 +114,60 @@ a {
 }
 
 /* CORES */
-.cores-verde-offwhite,
-.cores-branca-cinza,
-.cores-azul-marinho,
-.cores-marrom-azul,
-.cores-vermelho-amarelo,
-.cores-azulTurquesa-cinza,
-.cores-kit-des-0a6,
-.cores-kit-des-6a12 {
+.cores-branca-preto-cinza,
+.cores-rosa-verde,
+.cores-verdeEscuro-verdeClaro-cinza,
+.cores-roxo-pretaRosa {
+    cursor: pointer;
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
 
-.verde,
-.offwhite,
-.cinza,
+.selected {
+    border: 2px solid #000000;
+    border-radius: 50%; 
+}
+
+.tresCoresKit,
 .branca,
-.azul,
-.marinho,
-.marrom,
-.azulTriangulo,
-.vermelho,
-.amarelo,
-.azulTurquesa,
-.cinzaMescla,
-.kit1Des0a6,
-.kit2Des0a6,
-.kit1Des6a12,
-.kit2Des6a12  {
+.preta,
+.cinza,
+.verdeAgua,
+.verdeClaro,
+.verdeMusgo,
+.roxo,
+.CinzaBranca,
+.pretaRosa,
+.rosa,
+.pretaKit,
+.brancaKit,
+.cinzaKit {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
-    cursor: pointer;
 }
+
+
+.tresCoresKit {
+    background: linear-gradient(to right,
+            #FFFFFF 0%, #FFFFFF 33.33%,
+            /* Primeiro terço em branco */
+            #000000 33.33%, #000000 66.66%,
+            /* Segundo terço em preto */
+            #808080 66.66%, #808080 100%
+            /* Terceiro terço em cinza */
+        )
+}
+
+.tresCoresKit {
+    border: 1px solid rgb(87, 83, 83);
+}
+
 
 .branca,
 .brancaKit {
-    background-color: #ffffff;
-    border: 1px solid #76767688;
-}
+border: 1px solid rgb(91, 87, 87);}
 
 .preta,
 .pretaKit {
@@ -149,84 +175,48 @@ a {
 
 }
 
-.cinza {
-    background-color: #96A6B5;
+.cinza,
+.cinzaKit,
+.CinzaBranca {
+    background-color: #A5A5A5;
 }
 
-.verde {
-    background-color: #07D90A;
+.verdeAgua {
+    background-color: #00BDB5;
 }
 
-.offwhite {
-    background-color: #9B9B82;
+.rosa {
+    background-color: #DA6A9E;
 }
 
-.azul {
-    background-color: #8FC1EF;
+.verdeMusgo {
+    background-color: #7BC194;
 }
 
-.marinho {
-    background-color: #0F1922;
+.verdeClaro {
+    background-color: #54C999;
+
 }
 
-.marrom {
-    background-color: #B9B29E;
+.pretaRosa {
+    background: linear-gradient(to right, #000000 50%, #DA598F 50%);
 }
 
-.azulTriangulo {
-    background-color: #0385DE;
-}
-
-.vermelho {
-    background-color: #D30411;
-}
-
-.amarelo {
-    background-color: #F8D408;
-}
-
-.azulTurquesa {
-    background: linear-gradient(to right, #01C1F6 50%, #AFCF88 50%);
-}
-
-.cinzaMescla {
-    background: linear-gradient(to right, #ABB0AA 50%, #0389DB 50%);
-}
-
-.kit1Des0a6, .kit2Des0a6, .kit2Des6a12, .kit1Des6a12{
-    /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
-    background-color: #ffffff;
-    border: 1px solid #76767688;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.kit1Des0a6 p, .kit2Des0a6 p, .kit1Des6a12 p, .kit2Des6a12{
-    font: 400 16px 'WorkSans', sans-serif;
-}
-
-
-.parte2{
-    display: flex;
-    justify-content: center;
-    gap: 20vh;
-    flex-wrap: wrap;
-}
-
-.Quadrado-da-meia-kit1-0a6, .Quadrado-da-meia-kit1-6a12{
-    margin: 0 50px;
+.roxo {
+    background-color: #5034A9;
 }
 
 /* arrumando as imagens das meias cano curto */
 
-.Quadrado-da-meia-elefante img,
-.Quadrado-da-meia-quadrados img,
-.Quadrado-da-meia-astronauta img,
-.Quadrado-da-meia-triangulo img,
-.Quadrado-da-meia-marinheiro img,
-.Quadrado-da-meia-leao img {
-    width: 220px;
+.Quadrado-da-meia-preta-cano-curto img,
+/* imagem da primeira meia, preta cano curto */
+.Quadrado-da-meia-verde-cano-curto img,
+/* imagem da meia, verde cano curto */
+.Quadrado-da-meia-BrancaRosa-cano-curto img,
+/* imagem da meia, rosa cano curto */
+.Quadrado-da-meia-pretaRosa-cano-curto img {
+    /* imagem dameia, preta com rosa cano curto */
+    width: 250px;
     height: 200px;
 }
 
@@ -235,25 +225,22 @@ a {
     justify-content: center;
 }
 
-.Quadrado-da-meia-kit1-0a6 img,
-.Quadrado-da-meia-kit2-0a6 img,
-.Quadrado-da-meia-kit1-6a12 img,
-.Quadrado-da-meia-kit2-6a12 img {
-    width: 320px;
-    height: 150px;
-    margin: 45px 30px;
+.Quadrado-do-kit-cinza-cano-curto img {
+    margin-top: 2vh;
+    width: 370px;
+    height: 170px;
 }
-
 
 
 
 
 /* estilizando as informações */
-.informacoes-meia {
-    margin: 2vh 2vh 0 2vh;
+.informacoes-meia-cano-curto-feminino {
+    margin-left: 2vh;
+    margin-top: 2vh;
 }
 
-.Subtitulo {
+.CanoCurtoSubtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
 }
@@ -302,12 +289,6 @@ a {
     margin-top: 6.75vh;
     font-family: 'WorkSans';
     font-weight: 600;
-}
-
-
-.selected {
-    border: 2px solid #000000 ;
-    border-radius: 50%; 
 }
 
 
@@ -491,6 +472,15 @@ a {
 /* VERSÃO MOBILE */
 
 @media screen and (max-width: 500px) {
+
+    .Quadrado-da-meia-pretaRosa-cano-curto,
+    .Quadrado-da-meia-BrancaRosa-cano-curto {
+        margin: 0
+    }
+
+
+
+
     .container-rodape {
         padding: 50px 50px;
     }
@@ -550,3 +540,56 @@ a {
 }
 
 
+
+
+/* MEIA FEMININA CASUAL */
+
+
+
+
+.Quadrado-da-meia-Casual-Listrada-PretaRosa img,
+/* imagem da primeira meia, preta cano curto */
+.Quadrado-da-meia-Casual-DesenhadaCoracao-Branca img,
+/* imagem da meia, verde cano curto */
+.Quadrado-da-meia-Casual-Branca-Rendada img {
+    /* imagem da meia, rosa cano curto */
+    /* imagem dameia, preta com rosa cano curto */
+    width: 250px;
+    height: 200px;
+}
+
+
+/* CORES */
+
+.cores-Branca-Rendada,
+.cores-desenhada-Coracao-cinza,
+.cores-meia-casual-listradas {
+    display: flex;
+    gap: 1vh;
+    margin-top: 0.75vh;
+    cursor: pointer;
+}
+
+.ListradaPretaRosa img,
+.ListradaVerde img,
+.DesenhoBrancoCoracao img,
+.DesenhoCinzaCoracao img,
+.BrancaRendada,
+.RosaClaroCasual {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+.BrancaRendada {
+    background-color: white;
+    border: 1px solid rgb(163, 160, 160);
+}
+
+.RosaClaroCasual {
+    background-color: #D6D3DC;
+}
+
+#container img{
+    width: 45vh;
+}

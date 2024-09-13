@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meias Sene</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style-baby.css">
+    <link rel="stylesheet" href="style-feminino.css">
 </head>
 
 <body>
@@ -39,28 +39,31 @@
             <div class="TodasInformacoes">
                 <div class="informacoes">
                     <h2 id="titulo"></h2>
-                    <p id="codigo"></p>    <!-- Código: 4631 -->
+                    <p id="codigo"></p> <!-- Código: 4631 -->
                 </div>
-            
+
                 <div class="linhaDescricaoDoProduto"></div>
                 <div class="informacoesPrecoTamanho">
-                    <h3 class="precoContainer" id="preco">R$ 4,70</h3>
+                    <h3 class="precoContainer" id="preco">gggg</h3>
                     <h3 class="numeracao"> 34 á 38</h3>
-                    <button class="btn-shopee"> Compre na Shopee <i class="fas fa-store"></i></button>
+                    <button class="btn-shopee"> Compre na </button>
                     <button class="btn-whatsapp"> Compre via <i class="fab fa-whatsapp"></i></button>
                 </div>
             </div>
         </div>
+        <style>
 
+        </style>
         <section class="DescricaoDoProduto">
             <h2 class="titulo-DescricaoProduto">DESCRIÇÃO DO PRODUTO</h2>
             <div class="linhaUm-Descricao-do-produto"></div>
             <div class="linhaDois-Descricao-do-produto"></div>
             <div class="texto-Descricao">
-                <p>Uma meia cano curto lisa é um tipo de perfil ou moldura que possui uma seção transversal
-                    semicircular, criando uma aparência suave e arredondada. É curta, indicando que sua extensão ou
-                    comprimento é limitado, e lisa, o que significa que não possui texturas ou detalhes adicionais em
-                    sua superfície.</p>
+                <p>As meias de cano curto "Casual" são a escolha ideal para quem busca conforto e praticidade no dia a
+                    dia. Confeccionadas com materiais de alta qualidade, elas oferecem um toque suave na pele e um
+                    ajuste perfeito que se mantém durante todo o uso. Com design discreto e versátil, essas meias são
+                    ideais para combinar com qualquer look casual, proporcionando o equilíbrio perfeito entre
+                    simplicidade e estilo.</p>
                 <div class="elementosDoTexto-Descricao">
                     <p>• Algodão 60% </p>
                     <p>• Poliamida 28% </p>
@@ -97,7 +100,7 @@
 
 
 
-                <div class="Quadrado-da-Meia-Desenhada-Baby" id="divMeiasBaby">
+                <div class="Quadrado-da-Meia-DesenhadaAzulEscuro-Baby" id="divMeiasBaby">
                     <div class="Imagem-CompreJunto"><img src="../img-baby/MeiaDesenhadaAzulEscuro-Feminina.png" alt="">
                     </div>
                     <div class="informacoesMeiaBaby">
@@ -105,10 +108,11 @@
                         <h3 class="numeracao"> 6 á 12 meses</h3>
                         <div class="coresMeiaDesenhada">
                             <div class="AzulEscuro"></div>
+
                         </div>
                     </div>
                     <div class="preco-informacoes">
-                        <h3 class="preco">R$ 3,80</h3>
+                        <h3 class="preco">R$: 3,80</h3>
                         <h3 class="texto-a-vista">Á Vista</h3>
                         <button class="botao-euQuero">Eu Quero!</button>
                     </div>
@@ -131,10 +135,10 @@
                             <div class="VerdeAguaSapatilha"></div>
                         </div>
                     </div>
-                    <div class="preco-informacoes" id="preco-informacoes-meia-preta-cinza-branca">
+                    <div id="preco-informacoes-Baby">
                         <h3 class="preco">R$ 3,40 </h3>
                         <h3 class="texto-a-vista">Á Vista</h3>
-                        <button class="botao-euQuero" id="botao-da-meia-preta-branca-cinza">Eu Quero!</button>
+                        <button class="botao-euQuero">Eu Quero!</button>
                     </div>
                 </div>
             </div>
@@ -242,7 +246,7 @@
                         document.getElementById('preco').textContent = meia.preco || '';
                         document.getElementById('titulo').textContent = meia.titulo || '';
 
-                        const mensagem = `Olá, gostaria de comprar a meia ${meia.titulo}, do preço: ${meia.preco}. Referência: ${meia.codigo || 'não informado'}.`;
+                        const mensagem = `Olá, gostaria de comprar a meia ${meia.titulo}, do preço: ${meia.preco}.  ${meia.codigo || 'não informado'}.`;
                         const whatsappLink = `https://wa.me/5516997021783?text=${encodeURIComponent(mensagem)}`;
                         whatsappButton.setAttribute('onclick', `window.open('${whatsappLink}', '_blank')`);
                     } else {
@@ -284,8 +288,11 @@
                 AzulEscuroSapatilha: '../img-baby/MeiaBrancaAzulEscuroSapatilha-Masculina.png',
                 AzulClaroSapatilha: '../img-baby/MeiaBrancaAzulClaroSapatilha-Masculina.png',
                 VerdeAguaSapatilha: '../img-baby/MeiaBrancaVerdeAguaSapatilha-Masculina.png'
-             }
+            },
 
+            'Quadrado-da-Meia-DesenhadaAzulEscuro-Baby': {
+                AzulEscuro: '../img-baby/MeiaDesenhadaAzulEscuro-Feminina.png'
+            },
         };
 
 

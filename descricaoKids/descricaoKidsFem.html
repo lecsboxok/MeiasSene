@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meias Sene</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style-feminino.css">
+    <link rel="stylesheet" href="style-kids.css">
 </head>
 
 <body>
@@ -44,8 +44,8 @@
 
                 <div class="linhaDescricaoDoProduto"></div>
                 <div class="informacoesPrecoTamanho">
-                    <h3 class="precoContainer" id="preco">gggg</h3>
-                    <h3 class="numeracao"> 34 á 38</h3>
+                    <h3 class="precoContainer" id="preco"></h3>
+                    <h3 class="numeracao" id="numeracao"></h3>
                     <button class="btn-shopee"> Compre na </button>
                     <button class="btn-whatsapp"> Compre via <i class="fab fa-whatsapp"></i></button>
                 </div>
@@ -59,10 +59,7 @@
             <div class="linhaUm-Descricao-do-produto"></div>
             <div class="linhaDois-Descricao-do-produto"></div>
             <div class="texto-Descricao">
-                <p>Uma meia cano curto lisa é um tipo de perfil ou moldura que possui uma seção transversal
-                    semicircular, criando uma aparência suave e arredondada. É curta, indicando que sua extensão ou
-                    comprimento é limitado, e lisa, o que significa que não possui texturas ou detalhes adicionais em
-                    sua superfície.</p>
+                <p>Estas meias femininas para crianças são perfeitas para manter os pés quentinhos e confortáveis durante todo o dia. Feitas com materiais macios e de alta qualidade, elas oferecem um ajuste seguro e suave na pele delicada das crianças. Disponíveis em cores vibrantes e estampas divertidas, são ideais para adicionar um toque de estilo ao visual das pequenas.</p>
                 <div class="elementosDoTexto-Descricao">
                     <p>• Algodão 60% </p>
                     <p>• Poliamida 28% </p>
@@ -231,7 +228,7 @@
             const urlParams = new URLSearchParams(window.location.search);
             const cor = urlParams.get('cor');
 
-            fetch('../meias.json')
+            fetch('../meiasKids.json')
                 .then(response => response.json())
                 .then(meias => {
                     const meia = meias[cor];
@@ -244,7 +241,7 @@
                         document.getElementById('codigo').textContent = meia.codigo || '';
                         document.getElementById('preco').textContent = meia.preco || '';
                         document.getElementById('titulo').textContent = meia.titulo || '';
-
+                        document.getElementById('numeracao').textContent = meia.numeracao || '';
                         const mensagem = `Olá, gostaria de comprar a meia ${meia.titulo}, do preço: ${meia.preco}.  ${meia.codigo || 'não informado'}.`;
                         const whatsappLink = `https://wa.me/5516997021783?text=${encodeURIComponent(mensagem)}`;
                         whatsappButton.setAttribute('onclick', `window.open('${whatsappLink}', '_blank')`);
@@ -345,7 +342,7 @@
                 const corSelecionada = selectedColor;
 
                 if (corSelecionada) {
-                    window.location.href = `descricaoFeminina/CanoCurtoFeminina.html?cor=${corSelecionada}`;
+                    window.location.href = `descricaoKids/descricaoKidsFem.html?cor=${corSelecionada}`;
                 } else {
                     alert('Por favor, selecione uma cor.');
                 }
