@@ -408,8 +408,8 @@
                 branca: 'img-kids-feminino/Pinguim-Branca.png'
             },
             'Quadrado-da-meia-motoqueira': {
-                rosa4: 'img-kids-feminino/Motoqueira-Lilas.png',
-                lilas: 'img-kids-feminino/Motoqueira-Rosa.png'
+                rosa4: 'img-kids-feminino/Motoqueira-Rosa.png',
+                lilas: 'img-kids-feminino/Motoqueira-Lilas.png'
             },
             'Quadrado-da-meia-coracao': {
                 cinza2: 'img-kids-feminino/Coração-Cinza.png',
@@ -449,7 +449,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('.verde, .rosa1, .vermelho, .preto, cinza, .rosa2, rosa3, .rosa4, .lilas, .branca, .branca2, .cinza3, .cinza2, .rosa5, .verde2, .rosa6, .rosa7, .lilas2, .kitGmeias1, .kitGmeias2, .kitMmeias2, .kitMmeias1, .kitPmeias1, .kitPmeias2');
+            const cores = quadrado.querySelectorAll('.verde, .rosa1, .vermelho, .preto, .cinza, .rosa2, .rosa3, .rosa4, .lilas, .branca, .branca2, .cinza3, .cinza2, .rosa5, .verde2, .rosa6, .rosa7, .lilas2, .kitGmeias1, .kitGmeias2, .kitMmeias2, .kitMmeias1, .kitPmeias1, .kitPmeias2');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
@@ -491,7 +491,7 @@
                 const corSelecionada = selectedColor;
 
                 if (corSelecionada) {
-                    window.location.href = `descricaoFeminina/CanoCurtoFeminina.html?cor=${corSelecionada}`;
+                    window.location.href = `descricaoKids/descricaoKidsFem.html?cor=${corSelecionada}`;
                 } else {
                     alert('Por favor, selecione uma cor.');
                 }

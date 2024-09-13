@@ -1,0 +1,195 @@
+{
+  "verde": {
+    "imagem": "img-kids-feminino/Cachorrinho-Verde.png",
+    "codigo": "Referência: 2311-3/1",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,15",
+    "titulo": "Meia Kids P - Cachorrinho Verde",
+    "numeracao": "21 á 24"
+  },
+  "rosa1": {
+    "imagem": "img-kids-feminino/Cachorrinho-Rosa.png",
+    "codigo": "Referência: 2311-3/2",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,15",
+    "titulo": "Meia Kids P - Cachorrinho Rosa",
+    "numeracao": "21 á 24"
+  },
+  "preto": {
+    "imagem": "img-kids-feminino/Joaninha-Preta.png",
+    "codigo": "Referência: 2311-1/2",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,15",
+    "titulo": "Meia Kids P - Joaninha Preta",
+    "numeracao": "21 á 24"
+  },
+  "vermelho": {
+    "imagem": "img-kids-feminino/Joaninha-Vermelha.png",
+    "codigo": "Referência: 2311-1/1",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,15",
+    "titulo": "Meia Kids P - Joaninha Vermelha",
+    "numeracao": "21 á 24"
+  },
+  "cinza": {
+    "imagem": "img-kids-feminino/Unicornio-Cinza.png",
+    "codigo": "Referência:2311-2/1 ",
+    "class": "imagemKidsUnicornio",
+    "preco": "R$: 4,15",
+    "titulo": "Meia Kids P - Unicórnio Cinza ",
+    "numeracao": "21 á 24"
+  },
+  "rosa2": {
+    "imagem": "img-kids-feminino/Unicornio-Rosa.png",
+    "codigo": "Referência:2311-2/2 ",
+    "class": "imagemKidsUnicornio",
+    "preco": "R$: 4,15",
+    "titulo": "Meia Kids P - Unicórnio Rosa ",
+    "numeracao": "21 á 24"
+  },
+  "kitPmeias1": {
+    "imagem": "img-kids-feminino/kitP-numero-um.png",
+    "codigo": "Referência:2313-1 ",
+    "class": "imagemKidsFemininoKit",
+    "preco": "R$: 12,45",
+    "titulo": "Meias Kids P Feminino Kit n°1",
+    "numeracao": "21 á 24"
+  },
+  "kitPmeias2": {
+    "imagem": "img-kids-feminino/kitP-numero-dois.png",
+    "codigo": "Referência:2313-2 ",
+    "class": "imagemKidsFemininoKit",
+    "preco": "R$: 12,45",
+    "titulo": "Meias Kids P Feminino Kit n°2",
+    "numeracao": "21 á 24"
+  },
+
+  "rosa3": {
+    "imagem": "img-kids-feminino/Pinguim-Pink.png",
+    "codigo": "Referência:2411-1/1  ",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,50",
+    "titulo": "Meia Kids M Feminina - Pinguim Pink",
+    "numeracao": "25 á 28"
+  },
+  "branca": {
+    "imagem": "img-kids-feminino/Pinguim-Branca.png",
+    "codigo": "Referência:2411-1/2  ",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,50",
+    "titulo": "Meia Kids M Feminina - Pinguim Branca",
+    "numeracao": "25 á 28"
+  },
+"lilas": {
+    "imagem": "img-kids-feminino/Motoqueira-Lilas.png",
+    "codigo": "Referência:2411-3/1  ",
+    "class": "imagemKidsCoracao",
+    "preco": "R$: 4,50",
+    "titulo": "Meia Kids M Feminina - Motoqueira Lilás",
+    "numeracao": "25 á 28"
+  },
+  "rosa4": {
+    "imagem": "img-kids-feminino/Motoqueira-Rosa.png",
+    "codigo": "Referência:2411-3/2  ",
+    "class": "imagemKidsCoracao",
+    "preco": "R$: 4,50",
+    "titulo": "Meia Kids M Feminina - Motoqueira Rosa",
+    "numeracao": "25 á 28"
+  },
+  "cinza2": {
+    "imagem": "img-kids-feminino/Coração-Cinza.png",
+    "codigo": "Referência:2411-2/1",
+    "class": "imagemKidsCoracao",
+    "preco": "R$: 4,50",
+    "titulo": "Meia Kids M Feminina - Coração Cinza",
+    "numeracao": "25 á 28"
+  },
+  "rosa5": {
+    "imagem": "img-kids-feminino/Coração-Rosa.png",
+    "codigo": "Referência:2411-2/2",
+    "class": "imagemKidsCoracao",
+    "preco": "R$: 4,50",
+    "titulo": "Meia Kids M Feminina - Coração Rosa",
+    "numeracao": "25 á 28"
+  },
+  "kitMmeias1": {
+    "imagem": "img-kids-feminino/kitM-numero-um.png",
+    "codigo": "Referência::2413-1",
+    "class": "imagemKidsFemininoKit",
+    "preco": "R$13,50",
+    "titulo": "Meias Kids M Feminino Kit n°1",
+    "numeracao": "25 á 28"
+  },
+  "kitMmeias2": {
+    "imagem": "img-kids-feminino/kitM-numero-dois.png",
+    "codigo": "Referência::2413-2",
+    "class": "imagemKidsFemininoKit",
+    "preco": "R$13,50",
+    "titulo": "Meias Kids M Feminino Kit n°2",
+    "numeracao": "25 á 28"
+  },
+ "branca2": {
+    "imagem": "img-kids-feminino/Keep-Calm-Branca.png",
+    "codigo": "Referência:2511-3/2 ",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,85",
+    "titulo": "Meia Kids G Feminina - Keep Calm Branca",
+    "numeracao": "29 á 32"
+  },
+"cinza3": {
+    "imagem": "img-kids-feminino/Keep-Calm-Cinza.png",
+    "codigo": "Referência:2511-3/1 ",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,85",
+    "titulo": "Meia Kids G Feminina - Keep Calm Cinza",
+    "numeracao": "29 á 32"
+  },
+  "verde2": {
+    "imagem": "img-kids-feminino/Panda-Verde.png",
+    "codigo": "Referência:2311-1/2",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,85",
+    "titulo": "Meia Kids G Feminina - Panda Verde",
+    "numeracao": "29 á 32"
+  },
+  "rosa6": {
+    "imagem": "img-kids-feminino/Panda-Rosa.png",
+    "codigo": "Referência:2311-1/1",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,85",
+    "titulo": "Meia Kids G Feminina - Panda Rosa",
+    "numeracao": "29 á 32"
+  },
+  "lilas2": {
+    "imagem": "img-kids-feminino/Maquiagem-Lilas.png",
+    "codigo": "Referência:2511-2/1",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,85",
+    "titulo": "Meia Kids G Feminina - Maquiagem Lilas",
+    "numeracao": "29 á 32"
+  },
+  "rosa7": {
+    "imagem": "img-kids-feminino/Maquiagem-Rosa.png",
+    "codigo": "Referência:2511-2/2",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,85",
+    "titulo": "Meia Kids G Feminina - Maquiagem Rosa",
+    "numeracao": "29 á 32"
+  },
+  "kitGmeias1": {
+    "imagem": "img-kids-feminino/kitG-numero-um.png",
+    "codigo": "Referência:2513-1",
+    "class": "imagemKidsFemininoKit",
+    "preco": "R$14,55",
+    "titulo": "Meias Kids G Feminino Kit n°1",
+    "numeracao": "29 á 32"
+  },
+  "kitGmeias2": {
+    "imagem": "img-kids-feminino/kitG-numero-dois.png",
+    "codigo": "Referência:2513-2",
+    "class": "imagemKidsFemininoKit",
+    "preco": "R$14,55",
+    "titulo": "Meias Kids G Feminino Kit n°2",
+    "numeracao": "29 á 32"
+  }
+}
