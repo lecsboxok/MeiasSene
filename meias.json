@@ -141,7 +141,51 @@
   "preco": "R$ 5,00 ",
   "titulo": "Casual Cano Curto - Rendada Rosa",
   "codigo": "Referência: 3611-1/2 "
-}
+},
+"ArcoIris":{
+  "imagem": "img-feminino/MeiaCanoLongoCasual-ArcoIris.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 7,20",
+  "titulo": "Casual Cano Longo Feminina- Arco-Irís",
+  "codigo": "Referência: 3631-1/3"
+},
 
+"abelha":{
+  "imagem": "img-feminino/MeiaCanoLongoCasual-Abelha.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 7,20",
+  "titulo": "Casual Cano Longo Feminina- Abelha",
+  "codigo": "Referência: 3631-1/1"
+},
+
+"vaquinha":{
+  "imagem": "img-feminino/MeiaCanoLongoCasual-Vaquinha.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 7,20",
+  "titulo": "Casual Cano Longo Feminina - Malhada",
+  "codigo": "Referência: 3631-1/4"
+},
+
+"caveira":{
+  "imagem": "img-feminino/MeiaCanoLongoCasual-Caveira.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 7,20",
+  "titulo": "Casual Cano Longo Feminina - Caveirinhas",
+  "codigo": "Referência: 3631-1/5"
+},
+"cacto":{
+  "imagem": "img-feminino/MeiaCanoLongoCasual-Cacto.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 7,20",
+  "titulo": "Casual Cano Longo Feminina - Cacto",
+  "codigo": "Referência: 3631-1/6"
+},
+"melancia":{
+  "imagem": "img-feminino/MeiaCanoLongoCasual-Melancia.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 7,20",
+  "titulo": "Casual Cano Longo Feminina - Melancia",
+  "codigo": "Referência: 3631-1/2"
+}
 
 }

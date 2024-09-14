@@ -242,6 +242,21 @@
 
         });
 
+       
+        
+        document.querySelectorAll(' .cores-Branca-Rendada div, .cores-desenhada-Coracao-cinza div, .cores-meia-casual-listradas div').forEach(cor => {
+            cor.addEventListener('click', function () {
+                // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
+                document.querySelectorAll('.cores-Branca-Rendada div, .cores-desenhada-Coracao-cinza div, .cores-meia-casual-listradas div').forEach(c => {
+                    c.classList.remove('selected');
+                });
+
+                // Adiciona a borda na cor selecionada
+                this.classList.add('selected');
+                console.log('Classe "selected" adicionada a:', this); // Verifique se o elemento correto está sendo selecionado
+            });
+        });
+
     </script>
 
 
