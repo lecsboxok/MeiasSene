@@ -301,7 +301,7 @@
                 const corSelecionada = selectedColor;
 
                 if (corSelecionada) {
-                    window.location.href = `descricaoBaby/descricaoBabyDesMasc.html?cor=${corSelecionada}`;
+                    window.location.href = `descricaoBaby/descricaoBabyColorsMasc.html?cor=${corSelecionada}`;
                 } else {
                     alert('Por favor, selecione uma cor.');
                 }
@@ -310,10 +310,10 @@
 
         });
 
-        document.querySelectorAll('.cores-verde-offwhite div, .cores-branca-cinza div, .cores-azul-marinho div, .cores-marrom-azul div, .cores-vermelho-amarelo div, .cores-azulTurquesa-cinza div').forEach(cor => {
+        document.querySelectorAll('.cores-branca-verde-colors div, .cores-branca-verde-colors2 div, .cores-kit-colors-masc div, .cores-kit-colors-masc2 div').forEach(cor => {
             cor.addEventListener('click', function () {
                 // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
-                document.querySelectorAll('.cores-verde-offwhite div, .cores-branca-cinza div, .cores-azul-marinho div, .cores-marrom-azul div, .cores-vermelho-amarelo div, .cores-azulTurquesa-cinza div').forEach(c => {
+                document.querySelectorAll('.cores-branca-verde-colors div, .cores-branca-verde-colors2 div, .cores-kit-colors-masc div, .cores-kit-colors-masc2 div').forEach(c => {
                     c.classList.remove('selected');
                 });
 
