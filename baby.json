@@ -205,5 +205,37 @@
       "class": "img-baby",
       "titulo": "Meia Baby Colors Verde Água Masculina",
       "numeracao": "6 á 12 meses"
+    },
+    "kit1Colors1": {
+      "imagem": "img-baby/kitN1-1.png",
+      "codigo": "Referência: 1143-1",
+      "preco": "R$ 10,95",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Masculina - Kit Nº1",
+      "numeracao": "0 á 6 meses"
+    },
+    "kit2Colors1": {
+      "imagem": "img-baby/kitN2-1.png",
+      "codigo": "Referência: 1143-2",
+      "preco": "R$ 10,95",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Masculina - Kit Nº2",
+      "numeracao": "0 á 6 meses"
+    },
+    "kit1Colors2": {
+      "imagem": "img-baby/kitN1-2.png",
+      "codigo": "Referência: 1243-1",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Masculina - Kit Nº1",
+      "numeracao": "6 á 12 meses"
+    },
+    "kit2Colors2": {
+      "imagem": "img-baby/kitN2-2.png",
+      "codigo": "Referência: 1243-2",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Masculina - Kit Nº2",
+      "numeracao": "6 á 12 meses"
     }
 }
