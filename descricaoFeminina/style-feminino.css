@@ -29,46 +29,46 @@ a {
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  
-  .cabecalhoUm {
+}
+
+.cabecalhoUm {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 80px;
     padding: 5px;
-  }
-  
-  .procurando {
+}
+
+.procurando {
     padding: 13px;
     border-radius: 30px;
     width: 400px;
     height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .imagemLogo img {
+
+}
+
+.imagemLogo img {
     width: 150px;
-  }
-  
-  .linha {
+}
+
+.linha {
     background-color: #fff;
     height: 0.4px;
-  }
-  
-  .cabecalho2 {
+}
+
+.cabecalho2 {
     text-align: center;
     padding: 15px 0 10px 0;
-  }
-  
-  .item {
+}
+
+.item {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-  }
-  
-  /* FIM DO CABEÇALHO */
+}
+
+/* FIM DO CABEÇALHO */
 
 
 
@@ -117,7 +117,7 @@ a {
     font-family: 'WorkSans';
     font-size: 6vh;
     font-weight: 600;
-    margin-top:7vh;
+    margin-top: 7vh;
 }
 
 .numeracao {
@@ -151,10 +151,12 @@ a {
     margin-left: 3vh;
     cursor: pointer;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     margin-left: 1vh;
     cursor: pointer;
 }
+
 /* DESCRIÇÃO DO PRODUTO */
 
 .titulo-DescricaoProduto {
@@ -189,7 +191,7 @@ a {
     margin-top: 3vh;
 }
 
-.titulo-CompreJunto  {
+.titulo-CompreJunto {
     text-align: center;
     font-family: 'LibreFranklin';
     font-weight: 500;
@@ -201,7 +203,8 @@ a {
     height: 0.55vh;
     margin-top: 3vh;
     width: 30vh;
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
 }
 
 
@@ -260,54 +263,66 @@ a {
     border: 1px solid #76767688;
 }
 
-.Lilas{
+.Lilas {
     background-color: #9197D5;
 }
-.VerdeAgua{
+
+.VerdeAgua {
     background-color: #04C7AF;
 }
-.RosaChoque{
+
+.RosaChoque {
     background-color: #DF2D8B;
 }
-.RosaClaro{
+
+.RosaClaro {
     background-color: #FCE6ED;
 
 }
-.AzulEscuro{
+
+.AzulEscuro {
     background-color: #0C1628;
 }
-.BrancoSapatilha{
+
+.BrancoSapatilha {
     background-color: #FFFFFF;
 }
-.VermelhoSapatilha{
+
+.VermelhoSapatilha {
     background-color: #C1212A;
 }
-.AzulEscuroSapatilha{
+
+.AzulEscuroSapatilha {
     background-color: #1F2240;
 }
-.AzulClaroSapatilha{
+
+.AzulClaroSapatilha {
     background-color: #8ECBE8;
 }
-.VerdeAguaSapatilha{
+
+.VerdeAguaSapatilha {
     background-color: #64C9AE;
 }
 
 
 /* ARRUMANDO AS IMAGENS PELO JSON */
 
-.imagemCanoCurto-Feminina{
+.imagemCanoCurto-Feminina {
     width: 50vh;
     height: 43vh;
 }
-.Imagem-Kit3-Feminina{
+
+.Imagem-Kit3-Feminina {
     width: 80vh;
     height: 40vh;
 }
-.Imagem-Kit3-Feminina-TresCores{
+
+.Imagem-Kit3-Feminina-TresCores {
     width: 82vh;
     height: 40vh;
 }
-.imagemCanoCurtoBrancaCinza-Feminina{
+
+.imagemCanoCurtoBrancaCinza-Feminina {
     width: 43vh;
     height: 35vh;
 }
@@ -323,12 +338,12 @@ a {
 
 
 /* estilizando as informações */
-.informacoesMeiaBaby{
+.informacoesMeiaBaby {
     margin-left: 2vh;
     margin-top: 2vh;
 }
 
-.MeiaBabySubtitulo{
+.MeiaBabySubtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
     font-size: 2.55vh;
@@ -356,15 +371,17 @@ a {
     margin-top: 4vh;
 
 }
-#preco-informacoes-Baby{
+
+#preco-informacoes-Baby {
     margin-top: 3vh;
     text-align: center;
     margin-top: 6vh;
 }
 
-.texto-a-vista{
+.texto-a-vista {
     margin-top: 1vh;
 }
+
 .botao-euQuero {
     background-color: #252160;
     color: #fff;
@@ -420,19 +437,22 @@ a {
     flex-wrap: wrap;
 }
 
-.contatos-rodape, .acompanhe-rodape {
+.contatos-rodape,
+.acompanhe-rodape {
     margin-top: 20px;
     transition: margin-top 0.5s ease;
 }
 
-.whats-rodape, .email-rodape {
+.whats-rodape,
+.email-rodape {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
 
-.whats-rodape a, .email-rodape a {
+.whats-rodape a,
+.email-rodape a {
     display: inline-flex;
     align-items: center;
     margin: 0;
@@ -533,7 +553,8 @@ a {
         padding: 50px 50px;
     }
 
-    .linha1-rodape, .linha2-rodape {
+    .linha1-rodape,
+    .linha2-rodape {
         display: block;
         text-align: center;
     }
@@ -547,7 +568,9 @@ a {
         font-size: 18px;
     }
 
-    .acompanhe-rodape, .institucional-rodape, .categorias-rodape {
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
         margin-top: 60px;
     }
 
@@ -572,16 +595,112 @@ a {
         margin-right: 50px;
     }
 
-    .categGeral-rodape{
+    .categGeral-rodape {
         justify-content: center;
         align-items: center;
     }
 
-    .whats-rodape, .email-rodape {
-        justify-content: center; /* Centraliza o conteúdo */
+    .whats-rodape,
+    .email-rodape {
+        justify-content: center;
+        /* Centraliza o conteúdo */
     }
 }
 
 
 
 /* MOBIELE */
+@media screen and (max-width: 768px) {
+
+    #imagemMeia {
+        margin-top: 25vh;
+        margin-left: 0;
+
+    }
+
+    /* editando a imagem preta cano curto feminina */
+
+    .imagemCanoCurto-Feminina {
+        width: 43vh;
+        height: 33vh;
+    }
+
+    /* editando imagem de kit cano curto feminina */
+    .Imagem-Kit3-Feminina {
+        width: 60vh;
+        height: 25vh;
+    }
+/* meia Kit feminina cano curto tres cores */
+    .Imagem-Kit3-Feminina-TresCores{
+        width: 52vh;
+        height: 30vh;
+    }
+
+    /* Container geral se adapta à largura do dispositivo móvel */
+    .TodasInformacoes {
+        margin: 5vh auto;
+        max-width: 90vw;
+    }
+
+    /* Ajustar a linha de separação no mobile */
+    .linhaDescricaoDoProduto {
+        width: 90vw;
+        margin-top: 2vh;
+    }
+
+    /* Título e fontes adaptadas para o tamanho da tela */
+    #titulo {
+        font-size: 4vh;
+        text-align: center;
+        /* Centralizar o título no mobile */
+    }
+
+    .precoContainer {
+        font-size: 4.5vh;
+        text-align: center;
+        /* Centralizar o preço */
+        margin-top: 4vh;
+    }
+
+    .numeracao {
+        font-size: 3vh;
+        text-align: center;
+        /* Centralizar a numeração */
+        margin-top: 1vh;
+    }
+
+    /* Botões adaptados para caberem na tela do celular */
+    .informacoesPrecoTamanho button {
+        width: 90%;
+        height: 50px;
+        margin: 3vh auto;
+        display: block;
+        font-size: 2.5vh;
+    }
+
+    .btn-whatsapp,
+    .btn-shopee {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .codigo {
+        margin-left: 2vh;
+    }
+
+    .titulo-CompreJunto {
+        font-size: 3vh;
+    }
+
+    /* Centralizar título de descrição do produto */
+    .titulo-DescricaoProduto {
+        font-size: 4vh;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10vh;
+    }
+
+
+
+
+}
