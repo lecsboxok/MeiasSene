@@ -213,15 +213,19 @@ a {
     height: 200px;
 }
 
+.tudoKit{
+    margin-top: 4vh;
+}
+
 .container {
     display: flex;
     justify-content: center;
 }
 
-.Quadrado-do-kit-cinza-cano-curto img {
+#containerkit img {
     margin-top: 2vh;
     width: 370px;
-    height: 170px;
+    height: 150px;
 }
 
 
@@ -639,4 +643,50 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+/* PARTE MEIAS PRO FEMININA */
+
+/* CORES */
+.cor-da-meia-PretaVerdeLimao div,
+.cor-da-meia-RoxaPreta div,
+.cor-da-meia-Pretabranca div,
+.cor-da-meia-VerdeMusgo div,
+.cor-da-meia-PretaRosa div,
+.cor-da-meia-BrancaAzulEscuro div {
+  
+    margin-top: 0.75vh;
+    cursor: pointer;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+
+.PretaVerdeLimao {
+    background-color: #A7E520;
+
+}
+.VerdeMusgo{
+    background-color: #52703C;
+}
+
+.BrancaAzulEscuro{
+    background-color: #262473;
+}
+.PretaRosa{
+    background-color: #F26BB5;
+}
+.RoxaPreta{
+    background-color: #BF36A8;
+}
+.PretaBranca{
+    background-color: white;
+    border: 1px solid rgb(95, 92, 92);
+}
+
+.container img{
+    width: 240px;
+    height: 198px;
 }
