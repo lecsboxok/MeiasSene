@@ -186,6 +186,53 @@
   "preco": "R$ 7,20",
   "titulo": "Casual Cano Longo Feminina - Melancia",
   "codigo": "Referência: 3631-1/2"
+},
+
+"PretaVerdeLimao":{
+  "imagem": "img-feminino/MeiaProDesenhada-PretaVerdeLimao.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 11,20",
+  "titulo": "Meia Pró Xadrez Verde Feminina",
+  "codigo": "Referência: 8811-1/1"
+},
+"RoxaPreta":{
+  "imagem": "img-feminino/MeiaPro-RoxaPreta.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 11,20",
+  "titulo": "Meia Pró Feminina - Degradê Fucsia",
+  "codigo": "Referência: 8811-1/2"
+},
+"PretaBranca":{
+  "imagem": "img-feminino/MeiaProDesenhada-PretaBranca.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 11,20",
+  "titulo": "Meia Pró Feminina - Corrente Branca",
+  "codigo": "Referência: 8811-2/1"
+},
+
+"VerdeMusgo":{
+  "imagem": "img-feminino/MeiaProDesenhada-PretaVerdeMusgo.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 11,20",
+  "titulo": "Meia Pró Feminina - Corrente Verde",
+  "codigo": "Referência: 8811-2/2"
+},
+
+"PretaRosa":{
+  "imagem": "img-feminino/MeiaProDesenhada-PretaRosa.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 11,20",
+  "titulo": "Meia Pró Feminina - Diagonal Pink",
+  "codigo": "Referência: 8811-3/2"
+},
+"BrancaAzulEscuro":{
+  "imagem": "img-feminino/MeiaProListrada-BrancaAzulEscuro.png",
+  "class": "imagemCanoCurto-Feminina",
+  "preco": "R$ 11,20",
+  "titulo": "Meia Pró Feminina - Diagonal Roxo",
+  "codigo": "Referência: 8811-3/1"
 }
+
+
 
 }
