@@ -213,6 +213,10 @@ a {
     height: 200px;
 }
 
+.tudoKit{
+    margin-top: 4vh;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -221,7 +225,7 @@ a {
 #containerkit img {
     margin-top: 2vh;
     width: 370px;
-    height: 160px;
+    height: 150px;
 }
 
 

@@ -53,21 +53,24 @@
 
 
                 <div class="Quadrado-do-kit-cinza-cano-curto" id="div-meia-cano-curto">
-                    <div class="container" id="containerkit"><img class="le" src="img-feminino/CanoCurto-3-Cinza.png" alt=""></div>
-                    <div class="informacoes-meia-cano-curto-feminino">
-                        <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa Kit 3 Pares</h3>
-                        <h3 class="numeracao"> 34 á 38</h3>
-                        <div class="cores-branca-preto-cinza">
-                            <div class="pretaKit"></div>
-                            <div class="brancaKit"></div>
-                            <div class="cinzaKit"></div>
-                            <div class="tresCoresKit"></div>
+                    <div class="tudoKit">
+                        <div class="container" id="containerkit"><img class="le"
+                                src="img-feminino/CanoCurto-3-Cinza.png" alt=""></div>
+                        <div class="informacoes-meia-cano-curto-feminino">
+                            <h3 class="CanoCurtoSubtitulo"> Cano Curto - Lisa Kit 3 Pares</h3>
+                            <h3 class="numeracao"> 34 á 38</h3>
+                            <div class="cores-branca-preto-cinza">
+                                <div class="pretaKit"></div>
+                                <div class="brancaKit"></div>
+                                <div class="cinzaKit"></div>
+                                <div class="tresCoresKit"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="preco-informacoes">
-                        <h3 class="preco">R$14,10</h3>
-                        <h3 class="texto-a-vista">Á Vista</h3>
-                        <button class="botao-euQuero">Eu Quero!</button>
+                        <div class="preco-informacoes">
+                            <h3 class="preco">R$14,10</h3>
+                            <h3 class="texto-a-vista">Á Vista</h3>
+                            <button class="botao-euQuero">Eu Quero!</button>
+                        </div>
                     </div>
                 </div>
 
@@ -309,10 +312,10 @@
         });
 
 
-        document.querySelectorAll('.cores-branca-preto-cinza div, .cores-rosa-verde div, .cores-verdeEscuro-verdeClaro-cinza div,.cores-roxo-pretaRosa div').forEach(cor => {
+        document.querySelectorAll('.cores-branca-preto-cinza div, .cores-rosa-verde div, .cores-verdeEscuro-verdeClaro-cinza div, .cores-roxo-pretaRosa div').forEach(cor => {
             cor.addEventListener('click', function () {
                 // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
-                document.querySelectorAll('.cores-branca-preto-cinza div, .cores-rosa-verde div, .cores-verdeEscuro-verdeClaro-cinza div,.cores-roxo-pretaRosa div').forEach(c => {
+                document.querySelectorAll('.cores-branca-preto-cinza div, .cores-rosa-verde div, .cores-verdeEscuro-verdeClaro-cinza div ,.cores-roxo-pretaRosa div').forEach(c => {
                     c.classList.remove('selected');
                 });
 
