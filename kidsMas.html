@@ -87,6 +87,8 @@
                     </div>
                 </div>
 
+          
+
                 <div class="KitP-meias" id="div-meia-kids-masculino">
                     <div class="container"> <img src="img-kids-masculina/kitP-masculino-um.png" alt=""></div>
                     <div class="informacoes-meia-kids-femino">
@@ -109,14 +111,32 @@
                     </div>
                 </div>
 
-
-
-
-
-
             </div>
 
-
+            <div>
+                <h2 class="subtitulo-m">Kids M</h2>
+            </div>
+            <!-- Meia Pinguim-->
+            <div class="todas-as-meias-masculina-kids">
+                <div class="Quadrado-da-meia-pinguim" id="div-meia-kids-masculino">
+                    <div class="container"> <img src="img-kids-masculina/Pirata-Branco.png" alt=""></div>
+                    <div class="informacoes-meia-kids-femino">
+                        <h3 class="KidsMasculinoSubtitulo">Meia Kids M Masculina - Pirata-Branco
+                        </h3>
+                        <h3 class="numeracao"> 25 á 28</h3>
+                        <div class="cores-branca-vermelhoM1">
+                            <div class="branca"></div>
+                            <div class="vermelhoM1"></div>
+                        </div>
+                    </div>
+                    <div class="preco-informacoes">
+                        <h3 class="preco">R$4,50</h3>
+                        <h3 class="texto-a-vista">Á Vista</h3>
+                        <button class="botao-euQuero">Eu Quero!</button>
+                    </div>
+                </div>
+            </div>
+                
         </section>
     </main>
 
@@ -215,6 +235,10 @@
                 cinzaM1: 'img-kids-masculina/Povo-Cinza.png',
                 marinhoM: 'img-kids-masculina/Povo-Azul.png',
             },
+            'Quadrado-da-meia-pirata': {
+                branca: 'img-kids-masculina/Pirata-Branco.png',
+                vermelhoM1: 'img-kids-masculina/Pirata-Vermelho',
+            },
             'KitP-meias': {
                 kitPmeias1: 'img-kids-masculino/kitP-masculino-um.png',
                 kitPmeias2: 'img-kids-masculino/kitP-masculino-dois.png'
@@ -228,7 +252,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('.begeM, .cinzaM, .verdeM, .vermelhoM, .cinzaM1, .marinhoM, .kitPmeias1, .kitPmeias2 ');
+            const cores = quadrado.querySelectorAll('.begeM, .cinzaM, .verdeM, .vermelhoM, .cinzaM1,.branca, .vermelhoM1 .marinhoM, .kitPmeias1, .kitPmeias2 ');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
@@ -278,7 +302,7 @@
 
         });
 
-        document.querySelectorAll('cores-begeM-cinzaM div, .cores-cinzaM1-marinhoM div, ').forEach(cor => {
+        document.querySelectorAll('cores-begeM-cinzaM div,.cores-cinzaM1-marinhoM div,.cores-branca-vermelhoM1 div').forEach(cor => {
             cor.addEventListener('click', function () {
                 // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
                 document.querySelectorAll('cores-bege-cinza div, cores-verdeM-vermelhoM div, .cores-kit-feminino div').forEach(c => {

@@ -120,7 +120,8 @@ a {
 .cores-begeM-cinzaM,
 .cores-verdeM-vermelhoM,
 .cores-cinzaM1-marinhoM,
-.cores-kit-feminino
+.cores-kit-feminino,
+.cores-branca-vermelhoM1
  {
     display: flex;
     gap: 1vh;
@@ -130,6 +131,8 @@ a {
 .marinhoM,
 .verdeM,
 .vermelhoM,
+.vermelhoM1,
+.branca
 .begeM,
 .cinzaM,
 .kitPmeias1,
@@ -152,7 +155,9 @@ a {
 .vermelhoM{
     background-color: #913B4B;
 }
-
+.vermelhoM1{
+    background-color: #A44049;
+}
 .begeM{
     background-color: #B0A39B;
 }
@@ -166,6 +171,9 @@ a {
 .cinzaM1{
     background-color: #ABACB0;
 }
+.branca{
+    background-color: #fff;
+}
 
 
 
@@ -178,7 +186,8 @@ a {
 
 .Quadrado-da-meia-raposa img,
 .Quadrado-da-meia-robo img,
-.Quadrado-da-meia-povo img {
+.Quadrado-da-meia-povo img,
+.Quadrado-da-meia-pinguim img {
     width: 200px;
     height: 220px;
 } 
@@ -203,6 +212,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 
 .container {
     display: flex;
