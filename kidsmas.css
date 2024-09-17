@@ -117,15 +117,23 @@ a {
 
 /* CORES */
 
-.cores-bege-cinza
+.cores-begeM-cinzaM,
+.cores-verdeM-vermelhoM,
+.cores-cinzaM1-marinhoM,
+.cores-kit-feminino
  {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
-
-.bege,
-.cinza{
+.cinzaM1,
+.marinhoM,
+.verdeM,
+.vermelhoM,
+.begeM,
+.cinzaM,
+.kitPmeias1,
+.kitPmeias2{
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -138,62 +146,42 @@ a {
 
 
 
-.vermelho {
-    background-color: #C1212A;
+.verdeM{
+    background-color: #98BF6B;
+}
+.vermelhoM{
+    background-color: #913B4B;
 }
 
-
-
-.rosa1,
-.rosa2,
-.rosa,
-.rosa6,
-.rosa5 {
-    background-color: #FCE6ED;
+.begeM{
+    background-color: #B0A39B;
 }
 
-.rosa3 {
-    background-color: #D05274;
-}
-
-.rosa4 {
-    background-color: #DF2D8B;
-}
-.rosa7{
-    background-color: #B24D77;
-}
-
-
-.lilas {
-    background-color: #BD8FE2;
-}
-
-.lilas2 {
-    background-color: #C2C4D3;
-}
-
-.cinza {
+.cinzaM {
     background-color: #A5A5A5;
 }
-
-.branca,
-.branca2 {
-    background-color: #fff;
-    border: 1px solid #76767688;
+.marinhoM{
+    background-color: #30395B;
+}
+.cinzaM1{
+    background-color: #ABACB0;
 }
 
 
 
-.Quadrado-da-meia-cachorrinho img,
-.Quadrado-da-meia-joaninha img {
+
+
+/*.Quadrado-da-meia-raposa img {
     width: 250px;
     height: 200px;
-}
+} */
 
-.Quadrado-da-meia-raposa img {
+.Quadrado-da-meia-raposa img,
+.Quadrado-da-meia-robo img,
+.Quadrado-da-meia-povo img {
     width: 200px;
-    height: 200px;
-}
+    height: 220px;
+} 
 
 .Kit-numero-um img,
 .Kit-numero-dois img,

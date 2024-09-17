@@ -191,5 +191,13 @@
     "preco": "R$14,55",
     "titulo": "Meias Kids G Feminino Kit n°2",
     "numeracao": "29 á 32"
+  },
+  "begeM": {
+    "imagem": "img-kids-masculina/Raposa-Bege.png",
+    "codigo": "Referência:2321-2/2 ",
+    "class": "imagemKidsFeminino",
+    "preco": "R$: 4,85",
+    "titulo": "Meia Kids P Masculina- Raposa Bege",
+    "numeracao": "21 á 24"
   }
 }
