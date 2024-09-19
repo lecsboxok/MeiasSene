@@ -580,24 +580,17 @@ a {
 
     }
 
-    /* editando a imagem preta cano curto feminina */
-
-    .imagemCanoCurto-Feminina {
-        width: 43vh;
-        height: 33vh;
+    .img-baby{
+        width: 35vh;
+        height: 30vh
     }
 
-    /* editando imagem de kit cano curto feminina */
-    .Imagem-Kit3-Feminina {
-        width: 60vh;
-        height: 25vh;
-    }
-/* meia Kit feminina cano curto tres cores */
-    .Imagem-Kit3-Feminina-TresCores{
-        width: 52vh;
-        height: 30vh;
+    .img-babyKit{
+        width: 45vh;
+        height: 25vh
     }
 
+    
     /* Container geral se adapta à largura do dispositivo móvel */
     .TodasInformacoes {
         margin: 5vh auto;

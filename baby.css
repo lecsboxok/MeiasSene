@@ -119,7 +119,10 @@ a {
 .cores-escosses,
 .cores-aviador,
 .cores-malha-kit,
-.cores-sap-kit {
+.cores-sap-kit,
+.cores-rendada,
+.cores-gata,
+.cores-lhama {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -155,10 +158,24 @@ a {
 .kit2Colors1,
 .kit1Colors2,
 .kit2Colors2,
-.brancaM, .azulM, .verdeM, .marinhoM, .vermelhoM,
-.brancaF, .cinzaF,
-.brancaE, .marinhoE,
-.marromA, .azulA, .malhaKit1, .malhaKit2, .sapKit1, .sapKit2 {
+.brancaM,
+.azulM,
+.verdeM,
+.marinhoM,
+.vermelhoM,
+.brancaF,
+.cinzaF,
+.brancaE,
+.marinhoE,
+.marromA,
+.azulA,
+.malhaKit1,
+.malhaKit2,
+.sapKit1,
+.sapKit2,
+.dourada,
+.rosa,
+.rosaG, .verdeG, .rosaL, .cinzaL {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -239,7 +256,8 @@ a {
 
 .cinzaC,
 .cinzaC2,
-.cinzaF {
+.cinzaF,
+.cinzaL {
     background-color: #7F9299;
 }
 
@@ -260,6 +278,22 @@ a {
     background-color: #068FE9;
 }
 
+.dourada {
+    background-color: #F4F1D1;
+}
+
+.rosa {
+    background-color: #E86AAD;
+}
+
+.rosaG, .rosaL{
+    background-color: #E0A1C7;
+}
+
+.verdeG{
+    background-color: #0D9D9D;
+}
+
 .kit1Des0a6,
 .kit2Des0a6,
 .kit2Des6a12,
@@ -270,7 +304,8 @@ a {
 .kit2Colors2,
 .malhaKit1,
 .malhaKit2,
-.sapKit1, .sapKit2 {
+.sapKit1,
+.sapKit2 {
     /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -289,7 +324,8 @@ a {
 .kit2Colors2 p,
 .malhaKit1 p,
 .malhaKit2 p,
-.sapKit1 p, .sapKit2 p {
+.sapKit1 p,
+.sapKit2 p {
     font: 400 16px 'WorkSans', sans-serif;
 }
 
@@ -319,7 +355,10 @@ a {
 .Quadrado-da-meia-malha img,
 .Quadrado-da-meia-sap-faixa img,
 .Quadrado-da-meia-escosses img,
-.Quadrado-da-meia-aviador img {
+.Quadrado-da-meia-aviador img,
+.Quadrado-da-meia-rendada img,
+.Quadrado-da-meia-gata img,
+.Quadrado-da-meia-lhama img {
     width: 220px;
     height: 200px;
 }
@@ -665,12 +704,14 @@ a {
     .Quadrado-da-meia-kit2-6a12 img,
     .Quadrado-da-meia-kitcolors1 img,
     .Quadrado-da-meia-kitcolors2 img,
-    .Quadrado-da-meia-malha img,
-    .Quadrado-da-meia-sap-faixa img,
-    .Quadrado-da-meia-escosses img,
-    .Quadrado-da-meia-aviador img,
     .Quadrado-da-meia-malha-kit img,
-    .Quadrado-da-meia-sap-kit img {
+    .Quadrado-da-meia-sap-kit img, 
+    #meiasBabyDesMasc .Quadrado-da-meia-malha img,
+    #meiasBabyDesMasc .Quadrado-da-meia-sap-faixa img,
+    #meiasBabyDesMasc .Quadrado-da-meia-escosses img,
+    #meiasBabyDesMasc .Quadrado-da-meia-aviador img,
+    #meiasBabyDesMasc .Quadrado-da-meia-rendada img,
+    #meiasBabyDesMasc .Quadrado-da-meia-gata img {
         width: 220px;
         height: 180px;
     }
@@ -688,6 +729,6 @@ a {
     }
 
     .titulo {
-        margin-top: 65px;
+        margin-top: 35px;
     }
 }
