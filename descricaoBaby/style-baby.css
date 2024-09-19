@@ -520,7 +520,7 @@ a {
 
 /* VERSÃO MOBILE */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .container-rodape {
         padding: 50px 50px;
     }
@@ -571,5 +571,93 @@ a {
 
     .whats-rodape, .email-rodape {
         justify-content: center; /* Centraliza o conteúdo */
+    }
+
+    #imagemMeia {
+        margin-top: 25vh;
+        margin-left: 0;
+
+    }
+
+    /* editando a imagem preta cano curto feminina */
+
+    .imagemCanoCurto-Feminina {
+        width: 43vh;
+        height: 33vh;
+    }
+
+    /* editando imagem de kit cano curto feminina */
+    .Imagem-Kit3-Feminina {
+        width: 60vh;
+        height: 25vh;
+    }
+/* meia Kit feminina cano curto tres cores */
+    .Imagem-Kit3-Feminina-TresCores{
+        width: 52vh;
+        height: 30vh;
+    }
+
+    /* Container geral se adapta à largura do dispositivo móvel */
+    .TodasInformacoes {
+        margin: 5vh auto;
+        max-width: 90vw;
+    }
+
+    /* Ajustar a linha de separação no mobile */
+    .linhaDescricaoDoProduto {
+        width: 90vw;
+        margin-top: 2vh;
+    }
+
+    /* Título e fontes adaptadas para o tamanho da tela */
+    #titulo {
+        font-size: 4vh;
+        text-align: center;
+        /* Centralizar o título no mobile */
+    }
+
+    .precoContainer {
+        font-size: 4.5vh;
+        text-align: center;
+        /* Centralizar o preço */
+        margin-top: 4vh;
+    }
+
+    .numeracao {
+        font-size: 3vh;
+        text-align: center;
+        /* Centralizar a numeração */
+        margin-top: 1vh;
+    }
+
+    /* Botões adaptados para caberem na tela do celular */
+    .informacoesPrecoTamanho button {
+        width: 90%;
+        height: 50px;
+        margin: 3vh auto;
+        display: block;
+        font-size: 2.5vh;
+    }
+
+    .btn-whatsapp,
+    .btn-shopee {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .codigo {
+        margin-left: 2vh;
+    }
+
+    .titulo-CompreJunto {
+        font-size: 3vh;
+    }
+
+    /* Centralizar título de descrição do produto */
+    .titulo-DescricaoProduto {
+        font-size: 4vh;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10vh;
     }
 }
