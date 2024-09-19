@@ -122,7 +122,7 @@
                         <h3 class="KidsFeminoSubtitulo">Meia Kids M Masculina - Pirata Branco
                         </h3>
                         <h3 class="numeracao"> 25 á 28</h3>
-                        <div class="cores-brancoM-vermelhaM1">
+                        <div class="cores-brancoM-vermelhoM1">
                             <div class="brancoM"></div>
                             <div class="vermelhoM1"></div>
                         </div>
@@ -449,7 +449,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('.cinzaM, .begeM, .verdeM, .vermelhoM, .marinhoM, .cinzaM1, .brancoM, .vermelhaM1, .cinzaM2, .turquesaM, .royalM, .azulM, .azulM1,.cinzaM3,.marinhoM3, .cinzaM4, .marinhoM2, .marinhoM1,.kitPmeiasM1, .kitPmeiasM2, .kitMmeiasM1, .kitMmeiasM2, .kitGmeiasM2, .kitGmeiasM1 ');
+            const cores = quadrado.querySelectorAll('.cinzaM, .begeM, .verdeM, .vermelhoM, .marinhoM, .cinzaM1, .brancoM, .vermelhoM1, .cinzaM2, .turquesaM, .royalM, .azulM, .azulM1,.cinzaM3,.marinhoM3, .cinzaM4, .marinhoM2, .marinhoM1,.kitPmeiasM1, .kitPmeiasM2, .kitMmeiasM1, .kitMmeiasM2, .kitGmeiasM2, .kitGmeiasM1 ');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
@@ -499,10 +499,10 @@
 
         });
 
-        document.querySelectorAll('.cores-begeM-cinzaM div, .cores-verdeM-vermelhoM div, .cores-marinhoM-cinzaM1 div, .cores-brancoM-vermelhaM1 div,.cores-azulM-cinzaM2 div, .cores-turquesaM-royalM div, .cores-cinzaM3-marinhoM2 div, .cores-marinhoM1-azulM1 div, .cores-marinhoM3-cinzaM4 div,.cores-kit-feminino div').forEach(cor => {
+        document.querySelectorAll('.cores-begeM-cinzaM div, .cores-verdeM-vermelhoM div, .cores-marinhoM-cinzaM1 div, .cores-brancoM-vermelhoM1 div,.cores-azulM-cinzaM2 div, .cores-turquesaM-royalM div, .cores-cinzaM3-marinhoM2 div, .cores-marinhoM1-azulM1 div, .cores-marinhoM3-cinzaM4 div,.cores-kit-feminino div').forEach(cor => {
             cor.addEventListener('click', function () {
                 // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
-                document.querySelectorAll('.cores-begeM-cinzaM div, .cores-verdeM-vermelhoM div, .cores-marinhoM-cinzaM1 div, .cores-brancoM-vermelhaM1 div,.cores-azulM-cinzaM2 div, .cores-turquesaM-royalM div, .cores-cinzaM3-marinhoM2 div, .cores-marinhoM1-azulM1 div, .cores-marinhoM3-cinzaM4 div,.cores-kit-feminino div').forEach(c => {
+                document.querySelectorAll('.cores-begeM-cinzaM div, .cores-verdeM-vermelhoM div, .cores-marinhoM-cinzaM1 div, .cores-brancoM-vermelhoM1 div,.cores-azulM-cinzaM2 div, .cores-turquesaM-royalM div, .cores-cinzaM3-marinhoM2 div, .cores-marinhoM1-azulM1 div, .cores-marinhoM3-cinzaM4 div,.cores-kit-feminino div').forEach(c => {
                     c.classList.remove('selected');
                 });
 
