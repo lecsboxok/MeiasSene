@@ -79,13 +79,13 @@ a {
     margin-left: 5vh;
 }
 
-#meiasBabyDesMasc {
+#meiasDesMasc {
     padding-top: 20vh;
 }
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
 
-.todas-as-meias-baby-des-masc {
+.todas-as-meias-des-masc {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -102,24 +102,14 @@ a {
 }
 
 /* CORES */
-.cores-verde-offwhite,
+.cores-branca-preta-cinza,
 .cores-branca-cinza,
 .cores-azul-marinho,
 .cores-marrom-azul,
 .cores-vermelho-amarelo,
 .cores-azulTurquesa-cinza,
 .cores-kit-des-0a6,
-.cores-kit-des-6a12,
-.cores-branca-verde-colors,
-.cores-branca-verde-colors2,
-.cores-kit-colors-masc,
-.cores-kit-colors-masc2,
-.cores-branca-vermelho-malha,
-.cores-branca-cinza-faixa,
-.cores-escosses,
-.cores-aviador,
-.cores-malha-kit,
-.cores-sap-kit {
+.cores-kit-des-6a12 {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -127,6 +117,7 @@ a {
 
 .verde,
 .offwhite,
+.preta,
 .cinza,
 .branca,
 .azul,
@@ -140,25 +131,7 @@ a {
 .kit1Des0a6,
 .kit2Des0a6,
 .kit1Des6a12,
-.kit2Des6a12,
-.brancaC,
-.azulC,
-.marinhoC,
-.cinzaC,
-.verdeC,
-.brancaC2,
-.azulC2,
-.marinhoC2,
-.cinzaC2,
-.verdeC2,
-.kit1Colors1,
-.kit2Colors1,
-.kit1Colors2,
-.kit2Colors2,
-.brancaM, .azulM, .verdeM, .marinhoM, .vermelhoM,
-.brancaF, .cinzaF,
-.brancaE, .marinhoE,
-.marromA, .azulA, .malhaKit1, .malhaKit2, .sapKit1, .sapKit2 {
+.kit2Des6a12  {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -166,12 +139,7 @@ a {
 }
 
 .branca,
-.brancaKit,
-.brancaC,
-.brancaC2,
-.brancaM,
-.brancaF,
-.brancaE {
+.brancaKit {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
@@ -198,16 +166,11 @@ a {
     background-color: #8FC1EF;
 }
 
-.marinho,
-.marinhoC,
-.marinhoC2,
-.marinhoM,
-.marinhoE {
+.marinho {
     background-color: #0F1922;
 }
 
-.marrom,
-.marromA {
+.marrom {
     background-color: #B9B29E;
 }
 
@@ -215,8 +178,7 @@ a {
     background-color: #0385DE;
 }
 
-.vermelho,
-.vermelhoM {
+.vermelho {
     background-color: #D30411;
 }
 
@@ -232,45 +194,7 @@ a {
     background: linear-gradient(to right, #ABB0AA 50%, #0389DB 50%);
 }
 
-.azulC,
-.azulC2 {
-    background-color: #76A6EF;
-}
-
-.cinzaC,
-.cinzaC2,
-.cinzaF {
-    background-color: #7F9299;
-}
-
-.verdeC,
-.verdeC2 {
-    background-color: #81D49E;
-}
-
-.verdeM {
-    background-color: #69DABB;
-}
-
-.azulM {
-    background-color: #9ED5F3;
-}
-
-.azulA {
-    background-color: #068FE9;
-}
-
-.kit1Des0a6,
-.kit2Des0a6,
-.kit2Des6a12,
-.kit1Des6a12,
-.kit1Colors1,
-.kit2Colors1,
-.kit1Colors2,
-.kit2Colors2,
-.malhaKit1,
-.malhaKit2,
-.sapKit1, .sapKit2 {
+.kit1Des0a6, .kit2Des0a6, .kit2Des6a12, .kit1Des6a12{
     /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -279,47 +203,30 @@ a {
     justify-content: center;
 }
 
-.kit1Des0a6 p,
-.kit2Des0a6 p,
-.kit1Des6a12 p,
-.kit2Des6a12,
-.kit1Colors1 p,
-.kit2Colors1 p,
-.kit1Colors2 p,
-.kit2Colors2 p,
-.malhaKit1 p,
-.malhaKit2 p,
-.sapKit1 p, .sapKit2 p {
+.kit1Des0a6 p, .kit2Des0a6 p, .kit1Des6a12 p, .kit2Des6a12{
     font: 400 16px 'WorkSans', sans-serif;
 }
 
 
-.parte2 {
+.parte2{
     display: flex;
     justify-content: center;
     gap: 20vh;
     flex-wrap: wrap;
 }
 
-.Quadrado-da-meia-kit1-0a6,
-.Quadrado-da-meia-kit1-6a12 {
+.Quadrado-da-meia-kit1-0a6, .Quadrado-da-meia-kit1-6a12{
     margin: 0 50px;
 }
 
 /* arrumando as imagens das meias cano curto */
 
-.Quadrado-da-meia-elefante img,
-.Quadrado-da-meia-quadrados img,
-.Quadrado-da-meia-astronauta img,
+.Quadrado-da-meia-esportiva-lisa img,
+.Quadrado-da-meia-esportiva-horse img,
+.Quadrado-da-meia-esportiva-s img,
 .Quadrado-da-meia-triangulo img,
 .Quadrado-da-meia-marinheiro img,
-.Quadrado-da-meia-leao img,
-.Quadrado-da-meia-colors1 img,
-.Quadrado-da-meia-colors2 img,
-.Quadrado-da-meia-malha img,
-.Quadrado-da-meia-sap-faixa img,
-.Quadrado-da-meia-escosses img,
-.Quadrado-da-meia-aviador img {
+.Quadrado-da-meia-leao img {
     width: 220px;
     height: 200px;
 }
@@ -332,19 +239,10 @@ a {
 .Quadrado-da-meia-kit1-0a6 img,
 .Quadrado-da-meia-kit2-0a6 img,
 .Quadrado-da-meia-kit1-6a12 img,
-.Quadrado-da-meia-kit2-6a12 img,
-.Quadrado-da-meia-malha-kit img,
-.Quadrado-da-meia-sap-kit img {
+.Quadrado-da-meia-kit2-6a12 img {
     width: 320px;
     height: 150px;
-    margin: 45px;
-}
-
-.Quadrado-da-meia-kitcolors1 img,
-.Quadrado-da-meia-kitcolors2 img {
-    width: 320px;
-    height: 150px;
-    margin: 13px 0;
+    margin: 45px 30px;
 }
 
 
@@ -409,18 +307,9 @@ a {
 
 
 .selected {
-    border: 2px solid #000000;
-    border-radius: 50%;
+    border: 2px solid #000000 ;
+    border-radius: 50%; 
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -593,7 +482,7 @@ a {
 
 /* VERSÃO MOBILE */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .container-rodape {
         padding: 50px 50px;
     }
@@ -650,44 +539,6 @@ a {
         justify-content: center;
         /* Centraliza o conteúdo */
     }
-
-    .Quadrado-da-meia-elefante img,
-    .Quadrado-da-meia-quadrados img,
-    .Quadrado-da-meia-astronauta img,
-    .Quadrado-da-meia-triangulo img,
-    .Quadrado-da-meia-marinheiro img,
-    .Quadrado-da-meia-leao img,
-    .Quadrado-da-meia-colors1 img,
-    .Quadrado-da-meia-colors2 img,
-    .Quadrado-da-meia-kit1-0a6 img,
-    .Quadrado-da-meia-kit2-0a6 img,
-    .Quadrado-da-meia-kit1-6a12 img,
-    .Quadrado-da-meia-kit2-6a12 img,
-    .Quadrado-da-meia-kitcolors1 img,
-    .Quadrado-da-meia-kitcolors2 img,
-    .Quadrado-da-meia-malha img,
-    .Quadrado-da-meia-sap-faixa img,
-    .Quadrado-da-meia-escosses img,
-    .Quadrado-da-meia-aviador img,
-    .Quadrado-da-meia-malha-kit img,
-    .Quadrado-da-meia-sap-kit img {
-        width: 220px;
-        height: 180px;
-    }
-
-    #div-meia {
-        align-items: center;
-        width: 300px;
-        margin-top: 10vh;
-
-    }
-
-    #containerkit img {
-        width: 300px;
-        height: 110px;
-    }
-
-    .titulo {
-        margin-top: 65px;
-    }
 }
+
+
