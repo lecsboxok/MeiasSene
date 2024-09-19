@@ -126,8 +126,7 @@ a {
 .cores-verde2-rosa6,
 .cores-branca2-cinza3,
 .cores-rosa7-lilas2,
-.cores-kit-feminino
- {
+.cores-kit-feminino {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -156,14 +155,14 @@ a {
 .kitMmeias1,
 .kitMmeias2,
 .kitPmeias1,
-.kitPmeias2{
+.kitPmeias2 {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.selected{
+.selected {
     border: 2px solid #000000;
 }
 
@@ -199,7 +198,8 @@ a {
 .rosa4 {
     background-color: #DF2D8B;
 }
-.rosa7{
+
+.rosa7 {
     background-color: #B24D77;
 }
 
@@ -239,7 +239,7 @@ a {
 .Quadrado-da-meia-coracao img,
 .Quadrado-da-meia-keep img,
 .Quadrado-da-meia-panda img,
-.Quadrado-da-meia-maquiagem  img {
+.Quadrado-da-meia-maquiagem img {
     width: 200px;
     height: 200px;
 }
@@ -251,13 +251,18 @@ a {
 .KitG-meias img,
 .kitGmeias img,
 .KitM-meias img,
-.KitP-meias img{
+.KitP-meias img {
     width: 320px;
     height: 150px;
     margin: 45px 30px;
 }
 
-.kitGmeias1, .kitGmeias2, .kitMmeias1, .kitMmeias2, .kitPmeias1, .kitPmeias2 {
+.kitGmeias1,
+.kitGmeias2,
+.kitMmeias1,
+.kitMmeias2,
+.kitPmeias1,
+.kitPmeias2 {
     background-color: #ffffff;
     border: 1px solid #76767688;
     display: flex;
@@ -336,9 +341,76 @@ a {
 
 
 
+/*MOBILE*/
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-family: "LibreFranklin";
+        margin-left: 5vh;
+        margin-top: 15px;
+    }
 
+    .subtitulo {
+        font-family: 'WorkSans';
+        font-weight: 300;
+        margin-left: 7vh;
+        margin-top: 1vh;
+    }
 
+    .subtitulo-m {
+        font-family: 'WorkSans';
+        font-weight: 300;
+        margin-left: 7vh;
+        margin-top: 10vh;
+    }
 
+    #meiasKidsFemino {
+        padding-top: 25vh;
+    }
+
+    /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
+
+    .todas-as-meias-feminina-kids {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    #div-meia-kids-femino {
+        align-items: center;
+        width: 300px;
+        margin-top: 10vh;
+        border: 1px solid #A5A5A5;
+        border-radius: 20px;
+
+    }
+
+    .kit-numero-um img,
+    .kit-numero-dois img,
+    .kitM-masculino-um,
+    .kitM-masculino-dois img,
+    .KitG-meias img,
+    .kitGmeias img,
+    .KitM-meias img,
+    .KitP-meias img {
+        width: 300px;
+        height: 150px;
+        margin: 45px 30px;
+    }
+    .Quadrado-da-meia-cachorrinho img,
+    .Quadrado-da-meia-joaninha img,
+    .Quadrado-da-meia-unicornio img,
+    .Quadrado-da-meia-pinguim img,
+    .Quadrado-da-meia-motoqueira img,
+    .Quadrado-da-meia-coracao img,
+    .Quadrado-da-meia-keep img,
+    .Quadrado-da-meia-panda img,
+    .Quadrado-da-meia-maquiagem img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
 
 
 

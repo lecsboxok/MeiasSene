@@ -71,7 +71,6 @@ a {
 /* FIM DO CABEÇALHO */
 
 
-
 /* COMEÇO DAS MEIAS KIDS FEMINO */
 .titulo {
     font-family: "LibreFranklin";
@@ -120,7 +119,7 @@ a {
 .cores-begeM-cinzaM,
 .cores-verdeM-vermelhoM,
 .cores-marinhoM-cinzaM1,
-.cores-brancoM-vermelhaM1,
+.cores-brancoM-vermelhoM1,
 .cores-azulM-cinzaM2,
 .cores-turquesaM-royalM,
 .cores-cinzaM3-marinhoM2,
@@ -336,9 +335,82 @@ a {
 
 
 
+/*MOBILE*/
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-family: "LibreFranklin";
+        margin-left: 5vh;
+        margin-top: 15px;
+    }
+
+    .subtitulo {
+        font-family: 'WorkSans';
+        font-weight: 300;
+        margin-left: 7vh;
+        margin-top: 1vh;
+    }
+
+    .subtitulo-m {
+        font-family: 'WorkSans';
+        font-weight: 300;
+        margin-left: 7vh;
+        margin-top: 10vh;
+    }
+
+    #meiasKidsFemino {
+        padding-top: 25vh;
+    }
+
+    /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
+
+    .todas-as-meias-feminina-kids {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    #div-meia-kids-femino {
+        align-items: center;
+        width: 300px;
+        margin-top: 10vh;
+        border: 1px solid #A5A5A5;
+        border-radius: 20px;
+
+    }
 
 
+    .Quadrado-da-meia-raposa img,
+    .Quadrado-da-meia-pirata img,
+    .Quadrado-da-meia-tubarao img,
+    .Quadrado-da-meia-tigre img,
+    .Quadrado-da-meia-tem22 img,
+    .Quadrado-da-meia-winner img,
+    .Quadrado-da-meia-bike img {
+        width: 150px;
+        height: 150px;
+    }
 
+    .kit-numero-um img,
+    .kit-numero-dois img,
+    .kitM-masculino-um,
+    .kitM-masculino-dois img,
+    .KitG-meias img,
+    .kitGmeias img,
+    .KitM-meias img,
+    .KitP-meias img {
+        width: 300px;
+        height: 150px;
+        margin: 45px 30px;
+    }
+
+    .Quadrado-da-meia-polvo img,
+    .Quadrado-da-meia-robo img
+    {
+        width: 130px;
+        height: 130px;
+    }
+}
 
 
 
