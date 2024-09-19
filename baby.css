@@ -115,7 +115,11 @@ a {
 .cores-kit-colors-masc,
 .cores-kit-colors-masc2,
 .cores-branca-vermelho-malha,
-.cores-branca-cinza-faixa {
+.cores-branca-cinza-faixa,
+.cores-escosses,
+.cores-aviador,
+.cores-malha-kit,
+.cores-sap-kit {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -133,13 +137,28 @@ a {
 .amarelo,
 .azulTurquesa,
 .cinzaMescla,
-.kit1Des0a6, .kit2Des0a6, .kit1Des6a12, .kit2Des6a12,
-.brancaC, .azulC, .marinhoC,
-.cinzaC, .verdeC,
-.brancaC2, .azulC2, .marinhoC2, .cinzaC2, .verdeC2,
-.kit1Colors1, .kit2Colors1, .kit1Colors2, .kit2Colors2,
+.kit1Des0a6,
+.kit2Des0a6,
+.kit1Des6a12,
+.kit2Des6a12,
+.brancaC,
+.azulC,
+.marinhoC,
+.cinzaC,
+.verdeC,
+.brancaC2,
+.azulC2,
+.marinhoC2,
+.cinzaC2,
+.verdeC2,
+.kit1Colors1,
+.kit2Colors1,
+.kit1Colors2,
+.kit2Colors2,
 .brancaM, .azulM, .verdeM, .marinhoM, .vermelhoM,
-.brancaF, .cinzaF {
+.brancaF, .cinzaF,
+.brancaE, .marinhoE,
+.marromA, .azulA, .malhaKit1, .malhaKit2, .sapKit1, .sapKit2 {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -151,7 +170,8 @@ a {
 .brancaC,
 .brancaC2,
 .brancaM,
-.brancaF {
+.brancaF,
+.brancaE {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
@@ -181,11 +201,13 @@ a {
 .marinho,
 .marinhoC,
 .marinhoC2,
-.marinhoM {
+.marinhoM,
+.marinhoE {
     background-color: #0F1922;
 }
 
-.marrom {
+.marrom,
+.marromA {
     background-color: #B9B29E;
 }
 
@@ -193,7 +215,8 @@ a {
     background-color: #0385DE;
 }
 
-.vermelho, .vermelhoM {
+.vermelho,
+.vermelhoM {
     background-color: #D30411;
 }
 
@@ -221,13 +244,20 @@ a {
 }
 
 .verdeC,
-.verdeC2,
-.verdeM {
+.verdeC2 {
     background-color: #81D49E;
 }
 
-.azulM{
+.verdeM {
+    background-color: #69DABB;
+}
+
+.azulM {
     background-color: #9ED5F3;
+}
+
+.azulA {
+    background-color: #068FE9;
 }
 
 .kit1Des0a6,
@@ -237,7 +267,10 @@ a {
 .kit1Colors1,
 .kit2Colors1,
 .kit1Colors2,
-.kit2Colors2 {
+.kit2Colors2,
+.malhaKit1,
+.malhaKit2,
+.sapKit1, .sapKit2 {
     /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -253,7 +286,10 @@ a {
 .kit1Colors1 p,
 .kit2Colors1 p,
 .kit1Colors2 p,
-.kit2Colors2 p {
+.kit2Colors2 p,
+.malhaKit1 p,
+.malhaKit2 p,
+.sapKit1 p, .sapKit2 p {
     font: 400 16px 'WorkSans', sans-serif;
 }
 
@@ -281,7 +317,9 @@ a {
 .Quadrado-da-meia-colors1 img,
 .Quadrado-da-meia-colors2 img,
 .Quadrado-da-meia-malha img,
-.Quadrado-da-meia-sap-faixa img {
+.Quadrado-da-meia-sap-faixa img,
+.Quadrado-da-meia-escosses img,
+.Quadrado-da-meia-aviador img {
     width: 220px;
     height: 200px;
 }
@@ -294,7 +332,9 @@ a {
 .Quadrado-da-meia-kit1-0a6 img,
 .Quadrado-da-meia-kit2-0a6 img,
 .Quadrado-da-meia-kit1-6a12 img,
-.Quadrado-da-meia-kit2-6a12 img {
+.Quadrado-da-meia-kit2-6a12 img,
+.Quadrado-da-meia-malha-kit img,
+.Quadrado-da-meia-sap-kit img {
     width: 320px;
     height: 150px;
     margin: 45px;
@@ -626,12 +666,16 @@ a {
     .Quadrado-da-meia-kitcolors1 img,
     .Quadrado-da-meia-kitcolors2 img,
     .Quadrado-da-meia-malha img,
-    .Quadrado-da-meia-sap-faixa img {
+    .Quadrado-da-meia-sap-faixa img,
+    .Quadrado-da-meia-escosses img,
+    .Quadrado-da-meia-aviador img,
+    .Quadrado-da-meia-malha-kit img,
+    .Quadrado-da-meia-sap-kit img {
         width: 220px;
         height: 180px;
     }
 
-    #div-meia{
+    #div-meia {
         align-items: center;
         width: 300px;
         margin-top: 10vh;
@@ -643,7 +687,7 @@ a {
         height: 110px;
     }
 
-    .titulo{
+    .titulo {
         margin-top: 65px;
     }
 }
