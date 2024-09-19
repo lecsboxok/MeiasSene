@@ -215,6 +215,7 @@ span {
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .branca,
@@ -333,6 +334,7 @@ span {
   font-weight: 600;
   font-size: 3vh;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 #botao-da-meia-preta-branca-cinza {
@@ -563,19 +565,209 @@ span {
   height: 70vh;
 }
 
-/* CARROSSEL DE MEIAS */
+/* TÊNDENCIAS */
 
 .tudoTendencias .tituloCabecalho span {
   border-bottom: #A75D44 solid 4px;
   padding-right: 40px;
 }
 
+/* RODAPÉ */
 
+#footer {
+  background-color: #252160;
+  color: white;
+  margin-top: 120px;
+  transition: background-color 0.5s ease;
+}
 
+#footer a {
+  color: #fff;
+}
 
+#footer:hover {
+  background-color: #1e1b55;
+}
 
+.container-rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 65px 100px 25px 100px;
+  transition: padding 0.5s ease;
+}
 
+.imgLogo-rodape {
+  width: 200px;
+}
 
+.linha1-rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contatos-rodape, .acompanhe-rodape {
+  margin-top: 20px;
+  transition: margin-top 0.5s ease;
+}
+
+.whats-rodape, .email-rodape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.whats-rodape a, .email-rodape a {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.imgContatos-rodape {
+  width: 30px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.imgContatos-rodape:hover {
+  transform: translateY(-5px);
+}
+
+.titulo-rodape {
+  font: 650 20px 'LibreFranklin', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.titulo-rodape:hover {
+  color: #b4b4b4;
+}
+
+.texto-rodape {
+  font: 400 18px 'WorkSans', sans-serif;
+}
+
+.texto2-rodape {
+  font: 400 18px 'WorkSans', sans-serif;
+  margin-top: 12px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.texto2-rodape:hover {
+  color: #b4b4b4;
+  transform: scale(0.97);
+}
+
+.imgRedes-rodape {
+  width: 30px;
+  margin: 0 6px;
+  transition: transform 0.3s ease;
+}
+
+.imgRedes-rodape:hover {
+  transform: translateY(-5px);
+}
+
+.redes-rodape {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.linha2-rodape {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.categGeral-rodape {
+  display: flex;
+}
+
+.subCategoria1-rodape {
+  margin-right: 90px;
+}
+
+.textoInst-rodape {
+  margin-top: 20px;
+}
+
+.categGeral-rodape {
+  margin-top: 10px;
+}
+
+.categorias-rodape {
+  margin-left: 213px;
+}
+
+.final-rodape {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.textoFinal-rodape {
+  font: 400 15px 'WorkSans', sans-serif;
+}
+
+/* VERSÃO MOBILE */
+
+@media screen and (max-width: 500px) {
+  .container-rodape {
+      padding: 50px 50px;
+  }
+
+  .linha1-rodape, .linha2-rodape {
+      display: block;
+      text-align: center;
+  }
+
+  .contatos-rodape {
+      margin-top: 40px;
+  }
+
+  .titulo-rodape {
+      text-align: center;
+      font-size: 18px;
+  }
+
+  .acompanhe-rodape, .institucional-rodape, .categorias-rodape {
+      margin-top: 60px;
+  }
+
+  .categorias-rodape {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .final-rodape {
+      margin-top: 60px;
+  }
+
+  .imgLogo-rodape {
+      width: 150px;
+  }
+
+  .imgRedes-rodape {
+      margin: 10px;
+  }
+
+  .subCategoria1-rodape {
+      margin-right: 50px;
+  }
+
+  .categGeral-rodape{
+      justify-content: center;
+      align-items: center;
+  }
+
+  .whats-rodape, .email-rodape {
+      justify-content: center; /* Centraliza o conteúdo */
+  }
+}
 
 
 
