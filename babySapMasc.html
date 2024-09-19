@@ -54,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="Quadrado-da-meia-sap-faixa" id="div-meia"></div>
+                <div class="Quadrado-da-meia-sap-faixa" id="div-meia">
                     <div class="container" id="containerkit"> <img src="img-baby/sapFaixaGrafiteMasc.png" alt="Meia">
                     </div>
                     <div class="informacoes-meia">
@@ -67,6 +67,78 @@
                     </div>
                     <div class="preco-informacoes">
                         <h3 class="preco">R$ 3,75</h3>
+                        <h3 class="texto-a-vista">Á Vista</h3>
+                        <button class="botao-euQuero">Eu Quero!</button>
+                    </div>
+                </div>
+
+                <div class="Quadrado-da-meia-escosses" id="div-meia">
+                    <div class="container" id="containerkit"> <img src="img-baby/escossesSapMasc.png" alt="Meia">
+                    </div>
+                    <div class="informacoes-meia">
+                        <h3 class="Subtitulo">Meia Baby Sapatilha Escosses Masculina</h3>
+                        <h3 class="numeracao">6 á 12 meses</h3>
+                        <div class="cores-escosses">
+                            <div class="marinhoE"></div>
+                            <div class="brancaE"></div>
+                        </div>
+                    </div>
+                    <div class="preco-informacoes">
+                        <h3 class="preco">R$ 3,75</h3>
+                        <h3 class="texto-a-vista">Á Vista</h3>
+                        <button class="botao-euQuero">Eu Quero!</button>
+                    </div>
+                </div>
+
+                <div class="Quadrado-da-meia-aviador" id="div-meia">
+                    <div class="container" id="containerkit"> <img src="img-baby/aviadorMarromMasc.png" alt="Meia">
+                    </div>
+                    <div class="informacoes-meia">
+                        <h3 class="Subtitulo">Meia Baby Sapatilha Aviador Marrom Masculina</h3>
+                        <h3 class="numeracao">6 á 12 meses</h3>
+                        <div class="cores-aviador">
+                            <div class="marromA"></div>
+                            <div class="azulA"></div>
+                        </div>
+                    </div>
+                    <div class="preco-informacoes">
+                        <h3 class="preco">R$ 3,75</h3>
+                        <h3 class="texto-a-vista">Á Vista</h3>
+                        <button class="botao-euQuero">Eu Quero!</button>
+                    </div>
+                </div>
+
+                <div class="Quadrado-da-meia-malha-kit" id="div-meia">
+                    <div class="container" id="containerkit"> <img src="img-baby/malhaKit1Masc.png" alt="Meia">
+                    </div>
+                    <div class="informacoes-meia">
+                        <h3 class="Subtitulo">Meia Baby Malha Persa Masculina - Kit 3 pares</h3>
+                        <h3 class="numeracao">0 á 6 meses</h3>
+                        <div class="cores-malha-kit">
+                            <div class="malhaKit1"><p>1</p></div>
+                            <div class="malhaKit2"><p>2</p></div>
+                        </div>
+                    </div>
+                    <div class="preco-informacoes">
+                        <h3 class="preco">R$ 10,20</h3>
+                        <h3 class="texto-a-vista">Á Vista</h3>
+                        <button class="botao-euQuero">Eu Quero!</button>
+                    </div>
+                </div>
+
+                <div class="Quadrado-da-meia-sap-kit" id="div-meia">
+                    <div class="container" id="containerkit"> <img src="img-baby/sapKit1Masc.png" alt="Meia">
+                    </div>
+                    <div class="informacoes-meia">
+                        <h3 class="Subtitulo">Meia Baby Sapatilha Masculina - Kit 3 pares</h3>
+                        <h3 class="numeracao">6 á 12 meses</h3>
+                        <div class="cores-sap-kit">
+                            <div class="sapKit1"><p>1</p></div>
+                            <div class="sapKit2"><p>2</p></div>
+                        </div>
+                    </div>
+                    <div class="preco-informacoes">
+                        <h3 class="preco">R$ 11,25</h3>
                         <h3 class="texto-a-vista">Á Vista</h3>
                         <button class="botao-euQuero">Eu Quero!</button>
                     </div>
@@ -169,6 +241,22 @@
                 brancaF: 'img-baby/sapFaixaGrafiteMasc.png',
                 cinzaF: 'img-baby/sapfaixaMarinhoMasc.png'
             },
+            'Quadrado-da-meia-escosses': {
+                brancaE: 'img-baby/escossesSapBrancaMasc.png',
+                marinhoE: 'img-baby/escossesSapMasc.png'
+            },
+            'Quadrado-da-meia-aviador': {
+                marromA: 'img-baby/aviadorMarromMasc.png',
+                azulA: 'img-baby/aviadorAzulMasc.png'
+            },
+            'Quadrado-da-meia-malha-kit': {
+                malhaKit1: 'img-baby/malhaKit1Masc.png',
+                malhaKit2: 'img-baby/malhaKit2Masc.png'
+            },
+            'Quadrado-da-meia-sap-kit': {
+                sapKit1: 'img-baby/sapKit1Masc.png',
+                sapKit2: 'img-baby/sapKit2Masc.png'
+            },
         };
 
         document.querySelectorAll('.todas-as-meias-baby-des-masc > div').forEach((quadrado) => {
@@ -176,7 +264,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('.brancaM, .verdeM, .marinhoM, .vermelhoM, .azulM, .brancaF, .cinzaF');
+            const cores = quadrado.querySelectorAll('.brancaM, .verdeM, .marinhoM, .vermelhoM, .azulM, .brancaF, .cinzaF, .brancaE, .marinhoE, .azulA, .marinhoA, .malhaKit1, .malhaKit2, .sapKit1, .sapKit2, .marromA, .azulA');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
@@ -226,10 +314,10 @@
 
         });
 
-        document.querySelectorAll('.cores-branca-vermelho-malha div, .cores-branca-cinza-faixa div').forEach(cor => {
+        document.querySelectorAll('.cores-branca-vermelho-malha div, .cores-branca-cinza-faixa div, .cores-escosses div, .cores-aviador div, .cores-malha-kit div, .cores-sap-kit div').forEach(cor => {
             cor.addEventListener('click', function () {
                 // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
-                document.querySelectorAll('.cores-branca-vermelho-malha div, .cores-branca-cinza-faixa div').forEach(c => {
+                document.querySelectorAll('.cores-branca-vermelho-malha div, .cores-branca-cinza-faixa div, .cores-escosses div, .cores-aviador div, .cores-malha-kit div, .cores-sap-kit div').forEach(c => {
                     c.classList.remove('selected');
                 });
 
