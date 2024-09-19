@@ -103,8 +103,8 @@ a {
 
 /* CORES */
 .cores-branca-preta-cinza,
-.cores-branca-cinza,
-.cores-azul-marinho,
+.cores-branca-preta-cinza02,
+.cores-branca-preta-cinza03,
 .cores-marrom-azul,
 .cores-vermelho-amarelo,
 .cores-azulTurquesa-cinza,
@@ -115,11 +115,21 @@ a {
     margin-top: 0.75vh;
 }
 
-.verde,
-.offwhite,
-.preta,
-.cinza,
-.branca,
+.pretaLisa,
+.pretaHorse,
+.pretaS,
+.pretaPolo,
+.pretaAero,
+.cinzaLisa,
+.cinzaHorse, 
+.cinzaS,
+.cinzaPolo,
+.cinzaAero,
+.brancaLisa,
+.brancaHorse,
+.brancaS,
+.brancaPolo,
+.brancaAero,
 .azul,
 .marinho,
 .marrom,
@@ -138,24 +148,32 @@ a {
     cursor: pointer;
 }
 
-.branca,
+.brancaLisa,
+.brancaHorse,
+.brancaS,
+.brancaAero,
+.brancaPolo,
 .brancaKit {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
 
-.preta,
+.pretaLisa,
+.pretaHorse,
+.pretaS,
+.pretaAero,
+.pretaPolo,
 .pretaKit {
     background-color: #000000;
 
 }
 
-.cinza {
+.cinzaLisa, 
+.cinzaHorse, 
+.cinzaS,
+.cinzaAero,
+.cinzaPolo {
     background-color: #96A6B5;
-}
-
-.verde {
-    background-color: #07D90A;
 }
 
 .offwhite {
@@ -224,8 +242,8 @@ a {
 .Quadrado-da-meia-esportiva-lisa img,
 .Quadrado-da-meia-esportiva-horse img,
 .Quadrado-da-meia-esportiva-s img,
-.Quadrado-da-meia-triangulo img,
-.Quadrado-da-meia-marinheiro img,
+.Quadrado-da-meia-esportiva-polo img,
+.Quadrado-da-meia-esportiva-aero img,
 .Quadrado-da-meia-leao img {
     width: 220px;
     height: 200px;
@@ -244,9 +262,6 @@ a {
     height: 150px;
     margin: 45px 30px;
 }
-
-
-
 
 
 /* estilizando as informações */
