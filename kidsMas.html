@@ -93,10 +93,10 @@
                         </h3>
                         <h3 class="numeracao"> 21 á 24</h3>
                         <div class="cores-kit-feminino">
-                            <div class="kitPmeias1">
+                            <div class="kitPmeiasM1">
                                 <p>1</p>
                             </div>
-                            <div class="kitPmeias2">
+                            <div class="kitPmeiasM2">
                                 <p>2</p>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                 <div class="Quadrado-da-meia-pirata" id="div-meia-kids-femino">
                     <div class="container"> <img src="img-kids-masculina/Pirata-Branco.png" alt=""></div>
                     <div class="informacoes-meia-kids-femino">
-                        <h3 class="KidsFeminoSubtitulo">Meia Kids M Masculina - Pirata-Branco
+                        <h3 class="KidsFeminoSubtitulo">Meia Kids M Masculina - Pirata Branco
                         </h3>
                         <h3 class="numeracao"> 25 á 28</h3>
                         <div class="cores-brancoM-vermelhaM1">
@@ -161,7 +161,7 @@
                 <div class="Quadrado-da-meia-tigre" id="div-meia-kids-femino">
                     <div class="container"> <img src="img-kids-masculina/Tigre-Turquesa.png" alt=""></div>
                     <div class="informacoes-meia-kids-femino">
-                        <h3 class="KidsFeminoSubtitulo"> Meia Kids M  Masculina - Tigre Turquesa 
+                        <h3 class="KidsFeminoSubtitulo"> Meia Kids M Masculina - Tigre Turquesa
 
                         </h3>
                         <h3 class="numeracao"> 25 á 28</h3>
@@ -186,10 +186,10 @@
                         </h3>
                         <h3 class="numeracao"> 25 á 28</h3>
                         <div class="cores-kit-feminino">
-                            <div class="kitMmeias1">
+                            <div class="kitMmeiasM1">
                                 <p>1</p>
                             </div>
-                            <div class="kitMmeias2">
+                            <div class="kitMmeiasM2">
                                 <p>2</p>
                             </div>
                         </div>
@@ -261,9 +261,9 @@
                         </h3>
                         <h3 class="numeracao"> 29 á 32</h3>
                         <div class="cores-cinzaM4-marinhoM3">
-                            <div class="cinzaM4"></div> 
-                             <div class="marinhoM3"></div>
-                          
+                            <div class="cinzaM4"></div>
+                            <div class="marinhoM3"></div>
+
                         </div>
                     </div>
                     <div class="preco-informacoes">
@@ -281,10 +281,10 @@
                         </h3>
                         <h3 class="numeracao"> 29 á 32</h3>
                         <div class="cores-kit-feminino">
-                            <div class="kitGmeias1">
+                            <div class="kitGmeiasM1">
                                 <p>1</p>
                             </div>
-                            <div class="kitGmeias2">
+                            <div class="kitGmeiasM2">
                                 <p>2</p>
                             </div>
                         </div>
@@ -405,8 +405,8 @@
                 marinhoM: 'img-kids-masculina/Povo-Azul.png',
             },
             'KitP-meias': {
-                kitPmeias1: 'img-kids-masculina/kitP-masculino-um.png',
-                kitPmeias2: 'img-kids-masculina/kitP-masculino-dois.png',
+                kitPmeiasM1: 'img-kids-masculina/kitP-masculino-um.png',
+                kitPmeiasM2: 'img-kids-masculina/kitP-masculino-dois.png',
             },
             'Quadrado-da-meia-pirata': {
                 brancoM: 'img-kids-masculina/Pirata-Branco.png',
@@ -422,8 +422,8 @@
             },
 
             'KitM-meias': {
-                kitMmeias1: 'img-kids-masculina/kitM-masculino-um.png',
-                kitMmeias2: 'img-kids-masculina/kitM-masculino-dois.png',
+                kitMmeiasM1: 'img-kids-masculina/kitM-masculino-um.png',
+                kitMmeiasM2: 'img-kids-masculina/kitM-masculino-dois.png',
             },
             'Quadrado-da-meia-tem22': {
                 azulM1: 'img-kids-masculina/Tem22-Azul.png',
@@ -438,8 +438,8 @@
                 marinhoM3: 'img-kids-masculina/Bike-Marinho.png',
             },
             'KitG-meias': {
-                kitGmeias1: 'img-kids-masculina/kitG-masculino-um.png',
-                kitGmeias2: 'img-kids-masculina/kitG-masculino-dois.png',
+                kitGmeiasM1: 'img-kids-masculina/kitG-masculino-um.png',
+                kitGmeiasM2: 'img-kids-masculina/kitG-masculino-dois.png',
             },
         };
 
@@ -449,7 +449,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('.cinzaM, .begeM, .verdeM, .vermelhoM, .marinhoM, .cinzaM1, .brancoM, .vermelhaM1, .cinzaM2, .turquesaM, .royalM, .azulM, .azulM1,.cinzaM3,.marinhoM3, .cinzaM4, .marinhoM2, .marinhoM1,.kitPmeias1, .kitPmeias2, .kitMmeias1, .kitMmeias2, .kitGmeias2, .kitGmeias1 ');
+            const cores = quadrado.querySelectorAll('.cinzaM, .begeM, .verdeM, .vermelhoM, .marinhoM, .cinzaM1, .brancoM, .vermelhaM1, .cinzaM2, .turquesaM, .royalM, .azulM, .azulM1,.cinzaM3,.marinhoM3, .cinzaM4, .marinhoM2, .marinhoM1,.kitPmeiasM1, .kitPmeiasM2, .kitMmeiasM1, .kitMmeiasM2, .kitGmeiasM2, .kitGmeiasM1 ');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
@@ -491,7 +491,7 @@
                 const corSelecionada = selectedColor;
 
                 if (corSelecionada) {
-                    window.location.href = `descricaoKids/descricaoKidsFem.html?cor=${corSelecionada}`;
+                    window.location.href = `descricaoKids/descricaoKidsMas.html?cor=${corSelecionada}`;
                 } else {
                     alert('Por favor, selecione uma cor.');
                 }

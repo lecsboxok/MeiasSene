@@ -298,8 +298,12 @@ a {
     height: 40h;
 }
 .imagemKidsFemininoKit{
-    width: 50vh;
-    height: 25vh;
+    width: 65vh;
+    height: 30vh;
+}
+.imagemKidsMasculino{
+    width: 65vh;
+    height: 30vh;
 }
 .imagemKidsCoracao{
     width: 40vh;
@@ -527,7 +531,7 @@ a {
 
 /* VERSÃO MOBILE */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .container-rodape {
         padding: 50px 50px;
     }

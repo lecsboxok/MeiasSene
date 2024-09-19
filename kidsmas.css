@@ -126,8 +126,7 @@ a {
 .cores-cinzaM3-marinhoM2,
 .cores-marinhoM1-azulM1,
 .cores-cinzaM4-marinhoM3,
-.cores-kit-feminino
- {
+.cores-kit-feminino {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -151,62 +150,78 @@ a {
 .vermelhoM1,
 .marinhoM1,
 .azulM1,
-.kitPmeias1,
-.kitPmeias2,
-.kitMmeias2,
-.kitMmeias1,
-.kitGmeias1,
-.kitGmeias2{
+.kitPmeiasM1,
+.kitPmeiasM2,
+.kitMmeiasM2,
+.kitMmeiasM1,
+.kitGmeiasM1,
+.kitGmeiasM2 {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.selected{
+.selected {
     border: 2px solid #000000;
 }
 
 
-.verdeM{
+.verdeM {
     background-color: #98BF6B;
 }
-.vermelhoM{
+
+.vermelhoM {
     background-color: #913B4B;
 }
-.vermelhoM1{
+
+.vermelhoM1 {
     background-color: #A44049;
 }
-.cinzaM, .cinzaM2, .cinzaM3, .cinzaM4 {
+
+.cinzaM,
+.cinzaM2,
+.cinzaM3,
+.cinzaM4 {
     background-color: #747880;
 }
-.cinzaM1{
+
+.cinzaM1 {
     background-color: #ABACB0;
 }
-.azulM{
+
+.azulM {
     background-color: #C0D1E3;
 }
-.azulM1{
+
+.azulM1 {
     background-color: #6189AD;
 }
+
 .begeM {
     background-color: #B0A39B;
 }
-.marinhoM{
+
+.marinhoM {
     background-color: #30395B;
 }
-.marinhoM1, .marinhoM2, .marinhoM3{
+
+.marinhoM1,
+.marinhoM2,
+.marinhoM3 {
     background-color: #070b12;
 }
 
-.brancoM{
+.brancoM {
     background-color: #fff;
+    border: 1px solid #76767688;
 }
 
-.turquesaM{
+.turquesaM {
     background-color: #4F8EB6;
 }
-.royalM{
+
+.royalM {
     background-color: #2C4061;
 }
 
@@ -219,8 +234,7 @@ a {
 .Quadrado-da-meia-tigre img,
 .Quadrado-da-meia-tem22 img,
 .Quadrado-da-meia-winner img,
-.Quadrado-da-meia-bike img
- {
+.Quadrado-da-meia-bike img {
     width: 200px;
     height: 200px;
 }
@@ -232,13 +246,18 @@ a {
 .KitG-meias img,
 .kitGmeias img,
 .KitM-meias img,
-.KitP-meias img{
+.KitP-meias img {
     width: 320px;
     height: 150px;
     margin: 45px 30px;
 }
 
-.kitGmeias1, .kitGmeias2, .kitMmeias1, .kitMmeias2, .kitPmeias1, .kitPmeias2 {
+.kitGmeiasM1,
+.kitGmeiasM2,
+.kitMmeiasM1,
+.kitMmeiasM2,
+.kitPmeiasM1,
+.kitPmeiasM2 {
     background-color: #ffffff;
     border: 1px solid #76767688;
     display: flex;
@@ -495,7 +514,7 @@ a {
 
 /* VERSÃO MOBILE */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .container-rodape {
         padding: 50px 50px;
     }
