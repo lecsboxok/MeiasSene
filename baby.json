@@ -237,5 +237,140 @@
       "class": "img-babyKit",
       "titulo": "Meia Baby Colors Masculina - Kit Nº2",
       "numeracao": "6 á 12 meses"
+    },
+    "verdeM": {
+      "imagem": "img-baby/malhaVerdeMasc.png",
+      "codigo": "Referência: 1161-1/3",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Verde Água Masculina",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "brancaM": {
+      "imagem": "img-baby/malhaBrancaMasc.png",
+      "codigo": "Referência: 1161-1/1",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Branca Masculina",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "azulM": {
+      "imagem": "img-baby/malhaAzulMasc.png",
+      "codigo": "Referência: 1161-1/2",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Azul Bebê Masculina",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "marinhoM": {
+      "imagem": "img-baby/malhaMarinhoMasc.png",
+      "codigo": "Referência: 1161-1/4",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Marinho Masculina",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "vermelhoM": {
+      "imagem": "img-baby/malhaVermelhoMasc.png",
+      "codigo": "Referência: 1161-1/5",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Vermelho Masculina",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "brancaF": {
+      "imagem": "img-baby/sapFaixaGrafiteMasc.png",
+      "codigo": "Referência: 1261-1/1",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Sapatilha Faixa Grafite Masculina",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "cinzaF": {
+      "imagem": "img-baby/sapFaixaMarinhoMasc.png",
+      "codigo": "Referência: 1261-1/2",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Sapatilha Faixa Marinho Masculina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "marinhoE": {
+      "imagem": "img-baby/escossesSapMasc.png",
+      "codigo": "Referência: 1261-2/1",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Sapatilha Escosses Marinho Masculina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "brancaE": {
+      "imagem": "img-baby/escossesSapBrancaMasc.png",
+      "codigo": "Referência: 1261-2/2",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Sapatilha Escosses Branca Masculina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "marromA": {
+      "imagem": "img-baby/aviadorMarromMasc.png",
+      "codigo": "Referência: 1261-3/1",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Sapatilha Aviador Marrom Masculina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "azulA": {
+      "imagem": "img-baby/aviadorAzulMasc.png",
+      "codigo": "Referência: 1261-3/2",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Sapatilha Aviador Azul Masculina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "malhaKit1": {
+      "imagem": "img-baby/malhaKit1Masc.png",
+      "codigo": "Referência: 1163-1",
+      "preco": "R$ 10,20",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Malha Persa Masculina - Kit Nº1",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "malhaKit2": {
+      "imagem": "img-baby/malhaKit2Masc.png",
+      "codigo": "Referência: 1163-2",
+      "preco": "R$ 10,20",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Malha Persa Masculina - Kit Nº2",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "sapKit1": {
+      "imagem": "img-baby/sapKit1Masc.png",
+      "codigo": "Referência: 1263-1",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Sapatilha Masculina - Kit Nº1",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "sapKit2": {
+      "imagem": "img-baby/sapKit2Masc.png",
+      "codigo": "Referência: 1263-2",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Sapatilha Masculina - Kit Nº2",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
     }
 }
