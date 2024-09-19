@@ -99,14 +99,14 @@ a {
 
 /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
 
-.todas-as-meias-masculinas-kids {
+.todas-as-meias-feminina-kids {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
 
-#div-meia-kids-masculino {
+#div-meia-kids-femino {
     align-items: center;
     width: 390px;
     margin-top: 10vh;
@@ -119,24 +119,44 @@ a {
 
 .cores-begeM-cinzaM,
 .cores-verdeM-vermelhoM,
-.cores-cinzaM1-marinhoM,
-.cores-kit-feminino,
-.cores-branca-vermelhoM1
+.cores-marinhoM-cinzaM1,
+.cores-brancoM-vermelhaM1,
+.cores-azulM-cinzaM2,
+.cores-turquesaM-royalM,
+.cores-cinzaM3-marinhoM2,
+.cores-marinhoM1-azulM1,
+.cores-cinzaM4-marinhoM3,
+.cores-kit-feminino
  {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
-.cinzaM1,
-.marinhoM,
-.verdeM,
-.vermelhoM,
-.vermelhoM1,
-.branca
+
 .begeM,
 .cinzaM,
+.verdeM,
+.vermelhoM,
+.marinhoM,
+.cinzaM1,
+.cinzaM4,
+.marinhoM3,
+.azulM,
+.cinzaM2,
+.cinzaM3,
+.marinhoM2,
+.brancoM,
+.turquesaM,
+.royalM,
+.vermelhoM1,
+.marinhoM1,
+.azulM1,
 .kitPmeias1,
-.kitPmeias2{
+.kitPmeias2,
+.kitMmeias2,
+.kitMmeias1,
+.kitGmeias1,
+.kitGmeias2{
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -148,7 +168,6 @@ a {
 }
 
 
-
 .verdeM{
     background-color: #98BF6B;
 }
@@ -158,44 +177,58 @@ a {
 .vermelhoM1{
     background-color: #A44049;
 }
-.begeM{
-    background-color: #B0A39B;
-}
-
-.cinzaM {
-    background-color: #A5A5A5;
-}
-.marinhoM{
-    background-color: #30395B;
+.cinzaM, .cinzaM2, .cinzaM3, .cinzaM4 {
+    background-color: #747880;
 }
 .cinzaM1{
     background-color: #ABACB0;
 }
-.branca{
+.azulM{
+    background-color: #C0D1E3;
+}
+.azulM1{
+    background-color: #6189AD;
+}
+.begeM {
+    background-color: #B0A39B;
+}
+.marinhoM{
+    background-color: #30395B;
+}
+.marinhoM1, .marinhoM2, .marinhoM3{
+    background-color: #070b12;
+}
+
+.brancoM{
     background-color: #fff;
 }
 
+.turquesaM{
+    background-color: #4F8EB6;
+}
+.royalM{
+    background-color: #2C4061;
+}
 
-
-
-
-/*.Quadrado-da-meia-raposa img {
-    width: 250px;
-    height: 200px;
-} */
 
 .Quadrado-da-meia-raposa img,
 .Quadrado-da-meia-robo img,
-.Quadrado-da-meia-povo img,
-.Quadrado-da-meia-pinguim img {
+.Quadrado-da-meia-polvo img,
+.Quadrado-da-meia-pirata img,
+.Quadrado-da-meia-tubarao img,
+.Quadrado-da-meia-tigre img,
+.Quadrado-da-meia-tem22 img,
+.Quadrado-da-meia-winner img,
+.Quadrado-da-meia-bike img
+ {
     width: 200px;
-    height: 220px;
-} 
+    height: 200px;
+}
 
-.Kit-numero-um img,
-.Kit-numero-dois img,
-.KitM-numero-um img,
-.KitM-numero-dois img,
+.kit-numero-um img,
+.kit-numero-dois img,
+.kitM-masculino-um,
+.kitM-masculino-dois img,
 .KitG-meias img,
 .kitGmeias img,
 .KitM-meias img,
@@ -212,7 +245,6 @@ a {
     align-items: center;
     justify-content: center;
 }
-
 
 .container {
     display: flex;
@@ -231,7 +263,7 @@ a {
     margin-top: 2vh;
 }
 
-.KidsMasculinoSubtitulo {
+.KidsFeminoSubtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
 }
