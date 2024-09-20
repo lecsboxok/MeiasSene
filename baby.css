@@ -122,7 +122,7 @@ a {
 .cores-sap-kit,
 .cores-rendada,
 .cores-gata,
-.cores-lhama {
+.cores-lhama, .cores-chevron, .cores-urso, .cores-coracoes, .cores-kitLhama, .cores-kitChevron, .cores-colorsFem, .cores-colorsFem1, .cores-colorsFem1-kit, .cores-colorsFem-kit {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -175,7 +175,7 @@ a {
 .sapKit2,
 .dourada,
 .rosa,
-.rosaG, .verdeG, .rosaL, .cinzaL {
+.rosaG, .verdeG, .rosaL, .cinzaL, .rosaCh, .verdeCh, .rosaU, .lilasU, .rosaCoracoes, .marinhoCoracoes, .kitLhama1, .kitLhama2, .kitChevron1, .kitChevron2, .brancaColors, .verdeColors, .rosaColors, .pinkColors, .lilasColors, .brancaColors1, .verdeColors1, .rosaColors1, .pinkColors1, .lilasColors1, .colorsKit1Fem1, .colorsKit2Fem1, .colorsKit1Fem, .colorsKit2Fem {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -188,7 +188,7 @@ a {
 .brancaC2,
 .brancaM,
 .brancaF,
-.brancaE {
+.brancaE, .brancaColors, .brancaColors1 {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
@@ -219,7 +219,7 @@ a {
 .marinhoC,
 .marinhoC2,
 .marinhoM,
-.marinhoE {
+.marinhoE, .marinhoCoracoes {
     background-color: #0F1922;
 }
 
@@ -286,13 +286,30 @@ a {
     background-color: #E86AAD;
 }
 
-.rosaG, .rosaL{
+.rosaG, .rosaL, .rosaColors, .rosaColors1{
     background-color: #E0A1C7;
 }
 
-.verdeG{
+.verdeG, .verdeCh, .verdeColors, .verdeColors1{
     background-color: #0D9D9D;
 }
+
+.rosaCh, .rosaCoracoes, .pinkColors, .pinkColors1{
+    background-color: #DF2D8B;
+}
+
+.rosaU{
+    background-color: #D39EBD;
+}
+
+.lilasU{
+    background-color: #ADC0D9;
+}
+
+.lilasColors, .lilasColors1{
+    background-color: #919AD3;
+}
+
 
 .kit1Des0a6,
 .kit2Des0a6,
@@ -305,7 +322,8 @@ a {
 .malhaKit1,
 .malhaKit2,
 .sapKit1,
-.sapKit2 {
+.sapKit2,
+.kitLhama2, .kitLhama1, .kitChevron1, .kitChevron2, .colorsKit1Fem1, .colorsKit2Fem1, .colorsKit1Fem, .colorsKit2Fem {
     /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -325,7 +343,8 @@ a {
 .malhaKit1 p,
 .malhaKit2 p,
 .sapKit1 p,
-.sapKit2 p {
+.sapKit2 p,
+.kitLhama1 p, .kitLhama2 p, .kitChevron1 p, .kitChevron2 p, .colorsKit1Fem1 p, .colorsKit2Fem1 p, .colorsKit1Fem p, .colorsKit2Fem p  {
     font: 400 16px 'WorkSans', sans-serif;
 }
 
@@ -358,7 +377,12 @@ a {
 .Quadrado-da-meia-aviador img,
 .Quadrado-da-meia-rendada img,
 .Quadrado-da-meia-gata img,
-.Quadrado-da-meia-lhama img {
+.Quadrado-da-meia-lhama img,
+.Quadrado-da-meia-chevron img,
+.Quadrado-da-meia-urso img,
+.Quadrado-da-meia-coracoes img,
+.Quadrado-da-meia-colorsFem img,
+.Quadrado-da-meia-colorsFem1 img {
     width: 220px;
     height: 200px;
 }
@@ -373,14 +397,18 @@ a {
 .Quadrado-da-meia-kit1-6a12 img,
 .Quadrado-da-meia-kit2-6a12 img,
 .Quadrado-da-meia-malha-kit img,
-.Quadrado-da-meia-sap-kit img {
+.Quadrado-da-meia-sap-kit img,
+.Quadrado-da-meia-kitLhama img,
+.Quadrado-da-meia-kitChevron img {
     width: 320px;
     height: 150px;
     margin: 45px;
 }
 
 .Quadrado-da-meia-kitcolors1 img,
-.Quadrado-da-meia-kitcolors2 img {
+.Quadrado-da-meia-kitcolors2 img,
+.Quadrado-da-meia-colorsFem1-kit img,
+.Quadrado-da-meia-colorsFem-kit img {
     width: 320px;
     height: 150px;
     margin: 13px 0;
@@ -711,7 +739,17 @@ a {
     #meiasBabyDesMasc .Quadrado-da-meia-escosses img,
     #meiasBabyDesMasc .Quadrado-da-meia-aviador img,
     #meiasBabyDesMasc .Quadrado-da-meia-rendada img,
-    #meiasBabyDesMasc .Quadrado-da-meia-gata img {
+    #meiasBabyDesMasc .Quadrado-da-meia-lhama img,
+    #meiasBabyDesMasc .Quadrado-da-meia-gata img,
+    #meiasBabyDesMasc .Quadrado-da-meia-chevron img,
+    #meiasBabyDesMasc .Quadrado-da-meia-urso img,
+    #meiasBabyDesMasc .Quadrado-da-meia-coracoes img,
+    .Quadrado-da-meia-kitLhama img,
+    .Quadrado-da-meia-kitChevron img,
+    #meiasBabyDesMasc .Quadrado-da-meia-colorsFem img,
+    #meiasBabyDesMasc .Quadrado-da-meia-colorsFem1 img,
+    .Quadrado-da-meia-colorsFem1-kit img,
+    .Quadrado-da-meia-colorsFem-kit img  {
         width: 220px;
         height: 180px;
     }
