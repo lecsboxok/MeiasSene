@@ -372,5 +372,133 @@
       "titulo": "Meia Baby Sapatilha Masculina - Kit Nº2",
       "numeracao": "6 á 12 meses",
       "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "dourada": {
+      "imagem": "img-baby/rendadaDourada.png",
+      "codigo": "Referência: 1111-1/1",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Rendada Dourada Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "rosa": {
+      "imagem": "img-baby/rendadaRosa.png",
+      "codigo": "Referência: 1111-1/2",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Rendada Rosa Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "rosaG": {
+      "imagem": "img-baby/gataRosa.png",
+      "codigo": "Referência: 1111-2/1",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Gato Rosa Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "verdeG": {
+      "imagem": "img-baby/gataVerde.png",
+      "codigo": "Referência: 1111-2/2",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Gato Verde Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "cinzaL": {
+      "imagem": "img-baby/lhamaCinza.png",
+      "codigo": "Referência: 1111-3/1",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Lhama Cinza Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "rosaL": {
+      "imagem": "img-baby/lhamaRosa.png",
+      "codigo": "Referência: 1111-3/2",
+      "preco": "R$ 3,70",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Lhama Rosa Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "rosaCh": {
+      "imagem": "img-baby/chevronRosa.png",
+      "codigo": "Referência: 1211-3/1",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Chevron Rosa Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "verdeCh": {
+      "imagem": "img-baby/chevronVerde.png",
+      "codigo": "Referência: 1211-3/2",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Chevron Verde Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "rosaU": {
+      "imagem": "img-baby/ursoRosa.png",
+      "codigo": "Referência: 1211-1/1",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Urso Rosa Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "lilasU": {
+      "imagem": "img-baby/ursoLilas.png",
+      "codigo": "Referência: 1211-1/2",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Urso Lilás Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "rosaCoracoes": {
+      "imagem": "img-baby/coracoesRosa.png",
+      "codigo": "Referência: 1211-2/2",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Corações Rosa Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "marinhoCoracoes": {
+      "imagem": "img-baby/coracoesMarinho.png",
+      "codigo": "Referência: 1211-2/1",
+      "preco": "R$ 3,80",
+      "class": "img-baby",
+      "titulo": "Meia Baby Desenhada Corações Marinho Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "kitLhama1": {
+      "imagem": "img-baby/DesKit1Fem.png",
+      "codigo": "Referência: 1113-1",
+      "preco": "R$ 10,95",
+      "class": "img-babyKit",
+      "titulo": "Meias Baby Desenhada - Kit N°1",
+      "numeracao": "0 á 6 meses"
+    },
+    "kitLhama2": {
+      "imagem": "img-baby/DesKit2Fem.png",
+      "codigo": "Referência: 1113-2",
+      "preco": "R$ 10,95",
+      "class": "img-babyKit",
+      "titulo": "Meias Baby Desenhada - Kit N°2",
+      "numeracao": "0 á 6 meses"
+    },
+    "kitChevron1": {
+      "imagem": "img-baby/coracaoKit1Fem.png",
+      "codigo": "Referência: 1213-1",
+      "preco": "R$ 11,40",
+      "class": "img-babyKit",
+      "titulo": "Meias Baby Desenhada - Kit N°1",
+      "numeracao": "6 á 12 meses"
+    },
+    "kitChevron2": {
+      "imagem": "img-baby/coracaoKit2Fem.png",
+      "codigo": "Referência: 1213-2",
+      "preco": "R$ 11,40",
+      "class": "img-babyKit",
+      "titulo": "Meias Baby Desenhada - Kit N°2",
+      "numeracao": "6 á 12 meses"
     }
 }
