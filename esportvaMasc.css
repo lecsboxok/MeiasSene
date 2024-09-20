@@ -105,10 +105,10 @@ a {
 .cores-branca-preta-cinza,
 .cores-branca-preta-cinza02,
 .cores-branca-preta-cinza03,
-.cores-marrom-azul,
-.cores-vermelho-amarelo,
-.cores-azulTurquesa-cinza,
-.cores-kit-des-0a6,
+.cores-branca-preta-cinza04,
+.cores-branca-preta-cinza05,
+.cores-branca-preta-cinza06,
+.cores-branca-preta-cinza07,
 .cores-kit-des-6a12 {
     display: flex;
     gap: 1vh;
@@ -120,24 +120,22 @@ a {
 .pretaS,
 .pretaPolo,
 .pretaAero,
+.pretaKit01,
+.pretaCurto,
 .cinzaLisa,
 .cinzaHorse, 
 .cinzaS,
 .cinzaPolo,
 .cinzaAero,
+.cinzaKit01,
+.cinzaCurto,
 .brancaLisa,
 .brancaHorse,
 .brancaS,
 .brancaPolo,
 .brancaAero,
-.azul,
-.marinho,
-.marrom,
-.azulTriangulo,
-.vermelho,
-.amarelo,
-.azulTurquesa,
-.cinzaMescla,
+.brancaKit01,
+.brancaCurto,
 .kit1Des0a6,
 .kit2Des0a6,
 .kit1Des6a12,
@@ -153,6 +151,8 @@ a {
 .brancaS,
 .brancaAero,
 .brancaPolo,
+.brancaKit01,
+.brancaCurto,
 .brancaKit {
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -163,53 +163,20 @@ a {
 .pretaS,
 .pretaAero,
 .pretaPolo,
+.pretaKit01,
+.pretaCurto,
 .pretaKit {
     background-color: #000000;
-
 }
 
 .cinzaLisa, 
 .cinzaHorse, 
 .cinzaS,
 .cinzaAero,
+.cinzaKit01,
+.cinzaCurto,
 .cinzaPolo {
     background-color: #96A6B5;
-}
-
-.offwhite {
-    background-color: #9B9B82;
-}
-
-.azul {
-    background-color: #8FC1EF;
-}
-
-.marinho {
-    background-color: #0F1922;
-}
-
-.marrom {
-    background-color: #B9B29E;
-}
-
-.azulTriangulo {
-    background-color: #0385DE;
-}
-
-.vermelho {
-    background-color: #D30411;
-}
-
-.amarelo {
-    background-color: #F8D408;
-}
-
-.azulTurquesa {
-    background: linear-gradient(to right, #01C1F6 50%, #AFCF88 50%);
-}
-
-.cinzaMescla {
-    background: linear-gradient(to right, #ABB0AA 50%, #0389DB 50%);
 }
 
 .kit1Des0a6, .kit2Des0a6, .kit2Des6a12, .kit1Des6a12{
@@ -244,7 +211,7 @@ a {
 .Quadrado-da-meia-esportiva-s img,
 .Quadrado-da-meia-esportiva-polo img,
 .Quadrado-da-meia-esportiva-aero img,
-.Quadrado-da-meia-leao img {
+.Quadrado-da-meia-esportiva-cano-curto img {
     width: 220px;
     height: 200px;
 }
@@ -254,7 +221,7 @@ a {
     justify-content: center;
 }
 
-.Quadrado-da-meia-kit1-0a6 img,
+.Quadrado-da-meia-esportiva-kit01 img,
 .Quadrado-da-meia-kit2-0a6 img,
 .Quadrado-da-meia-kit1-6a12 img,
 .Quadrado-da-meia-kit2-6a12 img {
