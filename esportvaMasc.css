@@ -109,7 +109,8 @@ a {
 .cores-branca-preta-cinza05,
 .cores-branca-preta-cinza06,
 .cores-branca-preta-cinza07,
-.cores-kit-des-6a12 {
+.cores-branca-preta-cinza08,
+.cores-branca-preta-cinza09 {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -121,25 +122,28 @@ a {
 .pretaPolo,
 .pretaAero,
 .pretaKit01,
+.pretaKit02,
 .pretaCurto,
+.pretaCurtoKit,
 .cinzaLisa,
 .cinzaHorse, 
 .cinzaS,
 .cinzaPolo,
 .cinzaAero,
 .cinzaKit01,
+.cinzaKit02,
 .cinzaCurto,
+.cinzaCurtoKit,
 .brancaLisa,
 .brancaHorse,
 .brancaS,
 .brancaPolo,
 .brancaAero,
 .brancaKit01,
+.brancaKit02,
 .brancaCurto,
-.kit1Des0a6,
-.kit2Des0a6,
-.kit1Des6a12,
-.kit2Des6a12  {
+.brancaCurtoKit,
+.kitTresCores {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -152,7 +156,9 @@ a {
 .brancaAero,
 .brancaPolo,
 .brancaKit01,
+.brancaKit02,
 .brancaCurto,
+.brancaCurtoKit,
 .brancaKit {
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -164,6 +170,8 @@ a {
 .pretaAero,
 .pretaPolo,
 .pretaKit01,
+.pretaKit02,
+.pretaCurtoKit,
 .pretaCurto,
 .pretaKit {
     background-color: #000000;
@@ -174,13 +182,14 @@ a {
 .cinzaS,
 .cinzaAero,
 .cinzaKit01,
+.cinzaKit02,
 .cinzaCurto,
+.cinzaCurtoKit,
 .cinzaPolo {
     background-color: #96A6B5;
 }
 
-.kit1Des0a6, .kit2Des0a6, .kit2Des6a12, .kit1Des6a12{
-    /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
+.kitTresCores {
     background-color: #ffffff;
     border: 1px solid #76767688;
     display: flex;
@@ -188,20 +197,15 @@ a {
     justify-content: center;
 }
 
-.kit1Des0a6 p, .kit2Des0a6 p, .kit1Des6a12 p, .kit2Des6a12{
+.kitTresCores p {
     font: 400 16px 'WorkSans', sans-serif;
 }
-
 
 .parte2{
     display: flex;
     justify-content: center;
     gap: 20vh;
     flex-wrap: wrap;
-}
-
-.Quadrado-da-meia-kit1-0a6, .Quadrado-da-meia-kit1-6a12{
-    margin: 0 50px;
 }
 
 /* arrumando as imagens das meias cano curto */
@@ -222,9 +226,8 @@ a {
 }
 
 .Quadrado-da-meia-esportiva-kit01 img,
-.Quadrado-da-meia-kit2-0a6 img,
-.Quadrado-da-meia-kit1-6a12 img,
-.Quadrado-da-meia-kit2-6a12 img {
+.Quadrado-da-meia-esportiva-kit02 img,
+.Quadrado-da-meia-esportiva-cano-curto-kit img {
     width: 320px;
     height: 150px;
     margin: 45px 30px;
