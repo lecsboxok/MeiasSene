@@ -500,5 +500,117 @@
       "class": "img-babyKit",
       "titulo": "Meias Baby Desenhada - Kit N°2",
       "numeracao": "6 á 12 meses"
+    },
+    "brancaColors1": {
+      "imagem": "img-baby/colors1BrancaFem.png",
+      "codigo": "Referência: 1131-1/1",
+      "preco": "R$ 3,65",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Branca Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "rosaColors1": {
+      "imagem": "img-baby/colors1RosaFem.png",
+      "codigo": "Referência: 1131-1/2",
+      "preco": "R$ 3,65",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Rosa Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "lilasColors1": {
+      "imagem": "img-baby/colors1LilasFem.png",
+      "codigo": "Referência: 1131-1/3",
+      "preco": "R$ 3,65",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Lilás Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "verdeColors1": {
+      "imagem": "img-baby/colors1VerdeFem.png",
+      "codigo": "Referência: 1131-1/4",
+      "preco": "R$ 3,65",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Verde Jade Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "pinkColors1": {
+      "imagem": "img-baby/colors1PinkFem.png",
+      "codigo": "Referência: 1131-1/5",
+      "preco": "R$ 3,65",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Pink Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "brancaColors": {
+      "imagem": "img-baby/colorsBrancaFem.png",
+      "codigo": "Referência: 1231-1/1",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Branca Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "rosaColors": {
+      "imagem": "img-baby/colorsRosaFem.png",
+      "codigo": "Referência: 1231-1/2",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Rosa Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "lilasColors": {
+      "imagem": "img-baby/colorsLilasFem.png",
+      "codigo": "Referência: 1231-1/3",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Lilás Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "verdeColors": {
+      "imagem": "img-baby/colorsVerdeFem.png",
+      "codigo": "Referência: 1231-1/4",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Verde Jade Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "pinkColors": {
+      "imagem": "img-baby/colorsPinkFem.png",
+      "codigo": "Referência: 1231-1/5",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Colors Pink Feminina",
+      "numeracao": "6 á 12 meses"
+    },
+    "colorsKit1Fem1": {
+      "imagem": "img-baby/colorskit1Fem.png",
+      "codigo": "Referência: 1133-1",
+      "preco": "R$ 10,95",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Feminina - Kit Nº1",
+      "numeracao": "0 á 6 meses"
+    },
+    "colorsKit2Fem1": {
+      "imagem": "img-baby/colorskit2Fem.png",
+      "codigo": "Referência: 1133-2",
+      "preco": "R$ 10,95",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Feminina - Kit Nº2",
+      "numeracao": "0 á 6 meses"
+    },
+    "colorsKit1Fem": {
+      "imagem": "img-baby/colors2kit1Fem.png",
+      "codigo": "Referência: 1233-1",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Feminina - Kit Nº1",
+      "numeracao": "6 á 12 meses"
+    },
+    "colorsKit2Fem": {
+      "imagem": "img-baby/colors2kit2Fem.png",
+      "codigo": "Referência: 1233-2",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Colors Feminina - Kit Nº2",
+      "numeracao": "6 á 12 meses"
     }
 }
