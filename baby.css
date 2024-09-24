@@ -188,7 +188,7 @@ a {
 .brancaC2,
 .brancaM,
 .brancaF,
-.brancaE, .brancaColors, .brancaColors1 {
+.brancaE, .brancaColors, .brancaColors1, .brancaMFem {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
@@ -266,7 +266,7 @@ a {
     background-color: #81D49E;
 }
 
-.verdeM {
+.verdeM, .verdeMFem {
     background-color: #69DABB;
 }
 
@@ -282,7 +282,7 @@ a {
     background-color: #F4F1D1;
 }
 
-.rosa {
+.rosa, .rosaMFem {
     background-color: #E86AAD;
 }
 
@@ -306,7 +306,7 @@ a {
     background-color: #ADC0D9;
 }
 
-.lilasColors, .lilasColors1{
+.lilasColors, .lilasColors1, .lilasMFem{
     background-color: #919AD3;
 }
 
@@ -382,7 +382,8 @@ a {
 .Quadrado-da-meia-urso img,
 .Quadrado-da-meia-coracoes img,
 .Quadrado-da-meia-colorsFem img,
-.Quadrado-da-meia-colorsFem1 img {
+.Quadrado-da-meia-colorsFem1 img,
+.Quadrado-da-meia-malhaFem img {
     width: 220px;
     height: 200px;
 }
@@ -749,7 +750,8 @@ a {
     #meiasBabyDesMasc .Quadrado-da-meia-colorsFem img,
     #meiasBabyDesMasc .Quadrado-da-meia-colorsFem1 img,
     .Quadrado-da-meia-colorsFem1-kit img,
-    .Quadrado-da-meia-colorsFem-kit img  {
+    .Quadrado-da-meia-colorsFem-kit img,
+    #meiasBabyDesMasc .Quadrado-da-meia-malhaFem img  {
         width: 220px;
         height: 180px;
     }

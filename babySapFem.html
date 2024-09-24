@@ -39,12 +39,12 @@
                     <div class="informacoes-meia">
                         <h3 class="Subtitulo">Meia Baby Malha Persa Feminina</h3>
                         <h3 class="numeracao">0 á 6 meses</h3>
-                        <div class="cores-verde-amarela-malha>
-                            <div class="verdeM"></div>
-                            <div class="brancaM"></div>
-                            <div class="azulM"></div>
-                            <div class="marinhoM"></div>
-                            <div class="vermelhoM"></div>
+                        <div class="cores-verde-amarela-malha">
+                            <div class="verdeMFem"></div>
+                            <div class="brancaMFem"></div>
+                            <div class="rosaMFem"></div>
+                            <div class="lilasMFem"></div>
+                            <div class="amareloMFem"></div>
                         </div>
                     </div>
                     <div class="preco-informacoes">
@@ -140,12 +140,12 @@
 
     <script>
         const imagensPorCor = {
-            'Quadrado-da-meia-malha': {
-                brancaM: 'img-baby/malhaBrancaMasc.png',
-                verdeM: 'img-baby/malhaVerdeMasc.png',
-                azulM: 'img-baby/malhaAzulMasc.png',
-                vermelhoM: 'img-baby/malhaVermelhoMasc.png',
-                marinhoM: 'img-baby/malhaMarinhoMasc.png'
+            'Quadrado-da-meia-malhaFem': {
+                verdeMFem: 'img-baby/malhaVerdeFem.png',
+                brancaMFem: 'img-baby/malhaBrancaFem.png',
+                rosaMFem: 'img-baby/malhaRosaFem.png',
+                lilasMFem: 'img-baby/malhaLilasFem.png',
+                amarelaMFem: 'img-baby/malhaAmarelaFem.png',
             },
         };
 
@@ -154,7 +154,7 @@
             const imgMeia = quadrado.querySelector('img');
 
             // Seleciona todas as cores disponíveis para o quadrado atual
-            const cores = quadrado.querySelectorAll('');
+            const cores = quadrado.querySelectorAll('.verdeMFem, .brancaMFem, .rosaMFem, .lilasMFem, .amarelaMFem');
 
             // Obtém o nome da classe do quadrado (primeiro nome de classe)
             const quadradoId = quadrado.className.split(' ')[0];
@@ -204,10 +204,10 @@
 
         });
 
-        document.querySelectorAll('').forEach(cor => {
+        document.querySelectorAll('.cores-verde-amarela-malha div').forEach(cor => {
             cor.addEventListener('click', function () {
                 // Remove a borda de qualquer cor previamente selecionada em todos os grupos de cores
-                document.querySelectorAll('').forEach(c => {
+                document.querySelectorAll('.cores-verde-amarela-malha div').forEach(c => {
                     c.classList.remove('selected');
                 });
 
