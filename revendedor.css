@@ -29,46 +29,111 @@ a {
     position: fixed;
     width: 100%;
     z-index: 10;
-}
-
-.cabecalhoUm {
+  }
+  
+  .cabecalhoUm {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 80px;
     padding: 5px;
-}
-
-.procurando {
+  }
+  
+  .procurando {
     padding: 13px;
     border-radius: 30px;
     width: 400px;
     height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
-
-}
-
-.imagemLogo img {
+  
+  }
+  
+  .imagemLogo img {
     width: 150px;
-}
-
-.linha {
+  }
+  
+  .linha {
     background-color: #fff;
     height: 0.4px;
-}
-
-.cabecalho2 {
+  }
+  
+  .cabecalho2 {
     text-align: center;
-    padding: 15px 0 10px 0;
-}
-
-.item {
+    padding: 15px 0 0px 0;
+  }
+  
+  .item {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-}
-
-/* FIM DO CABEÇALHO */
+  }
+  
+  .cabecalho2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Posiciona logo abaixo do item do menu */
+    left: 50%; /* Centraliza horizontalmente em relação ao item do menu */
+    transform: translateX(-50%); /* Ajusta a posição para centralizar */
+    width: 50vw; /* Largura fixa para o submenu */
+    background-color: #fff;
+    border: 1px solid #2F2F2F;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 20px;
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
+  }
+  
+  .submenuOrganizacao {
+    margin: 10px 80px;
+    text-align: left;
+  }
+  
+  .submenu p {
+    font: 600 16px 'WorkSans', sans-serif;
+  
+  }
+  
+  .submenu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font: 400 16px 'WorkSans', sans-serif;
+    color: #000;
+  }
+  
+  .submenuItem {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  
+  }
+  
+  .menu-item:hover .submenu {
+    display: block;
+    text-align: center;
+  }
+  
+  .item {
+    padding: 10px 10px 8px 10px;
+  }
+  
+  .item:hover {
+    border-bottom: 1px solid #fff;
+  }
+  
+  
+  /* FIM DO CABEÇALHO */
 .seja-revendedor {
     display: flex;
     justify-content: center;
