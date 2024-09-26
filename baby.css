@@ -122,7 +122,22 @@ a {
 .cores-sap-kit,
 .cores-rendada,
 .cores-gata,
-.cores-lhama, .cores-chevron, .cores-urso, .cores-coracoes, .cores-kitLhama, .cores-kitChevron, .cores-colorsFem, .cores-colorsFem1, .cores-colorsFem1-kit, .cores-colorsFem-kit {
+.cores-lhama,
+.cores-chevron,
+.cores-urso,
+.cores-coracoes,
+.cores-kitLhama,
+.cores-kitChevron,
+.cores-colorsFem,
+.cores-colorsFem1,
+.cores-colorsFem1-kit,
+.cores-colorsFem-kit,
+.cores-verde-amarela-malha,
+.cores-flor,
+.cores-listras,
+.cores-elef,
+.cores-malha-kitFem,
+.cores-sap-kitFem {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -175,7 +190,49 @@ a {
 .sapKit2,
 .dourada,
 .rosa,
-.rosaG, .verdeG, .rosaL, .cinzaL, .rosaCh, .verdeCh, .rosaU, .lilasU, .rosaCoracoes, .marinhoCoracoes, .kitLhama1, .kitLhama2, .kitChevron1, .kitChevron2, .brancaColors, .verdeColors, .rosaColors, .pinkColors, .lilasColors, .brancaColors1, .verdeColors1, .rosaColors1, .pinkColors1, .lilasColors1, .colorsKit1Fem1, .colorsKit2Fem1, .colorsKit1Fem, .colorsKit2Fem {
+.rosaG,
+.verdeG,
+.rosaL,
+.cinzaL,
+.rosaCh,
+.verdeCh,
+.rosaU,
+.lilasU,
+.rosaCoracoes,
+.marinhoCoracoes,
+.kitLhama1,
+.kitLhama2,
+.kitChevron1,
+.kitChevron2,
+.brancaColors,
+.verdeColors,
+.rosaColors,
+.pinkColors,
+.lilasColors,
+.brancaColors1,
+.verdeColors1,
+.rosaColors1,
+.pinkColors1,
+.lilasColors1,
+.colorsKit1Fem1,
+.colorsKit2Fem1,
+.colorsKit1Fem,
+.colorsKit2Fem,
+.verdeMFem,
+.rosaMFem,
+.amareloMFem,
+.lilasMFem,
+.brancaMFem,
+.florVerde,
+.florRosa,
+.listrasBranca,
+.listrasRosa,
+.elefRosa,
+.elefVerde,
+.malhaKit1Fem,
+.malhaKit2Fem,
+.sapKit1Fem,
+.sapKit2Fem {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -188,7 +245,11 @@ a {
 .brancaC2,
 .brancaM,
 .brancaF,
-.brancaE, .brancaColors, .brancaColors1, .brancaMFem {
+.brancaE,
+.brancaColors,
+.brancaColors1,
+.brancaMFem,
+.listrasBranca {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
@@ -219,7 +280,8 @@ a {
 .marinhoC,
 .marinhoC2,
 .marinhoM,
-.marinhoE, .marinhoCoracoes {
+.marinhoE,
+.marinhoCoracoes {
     background-color: #0F1922;
 }
 
@@ -266,8 +328,14 @@ a {
     background-color: #81D49E;
 }
 
-.verdeM, .verdeMFem {
+.verdeM,
+.verdeMFem {
     background-color: #69DABB;
+}
+
+.florVerde,
+.elefVerde {
+    background-color: #02CDA9;
 }
 
 .azulM {
@@ -282,32 +350,57 @@ a {
     background-color: #F4F1D1;
 }
 
-.rosa, .rosaMFem {
+.rosa,
+.rosaMFem {
     background-color: #E86AAD;
 }
 
-.rosaG, .rosaL, .rosaColors, .rosaColors1{
+.rosaG,
+.rosaL,
+.rosaColors,
+.rosaColors1 {
     background-color: #E0A1C7;
 }
 
-.verdeG, .verdeCh, .verdeColors, .verdeColors1{
+.verdeG,
+.verdeCh,
+.verdeColors,
+.verdeColors1 {
     background-color: #0D9D9D;
 }
 
-.rosaCh, .rosaCoracoes, .pinkColors, .pinkColors1{
+.rosaCh,
+.rosaCoracoes,
+.pinkColors,
+.pinkColors1,
+.florRosa {
     background-color: #DF2D8B;
 }
 
-.rosaU{
+.elefRosa {
+    background-color: #FC5A90;
+}
+
+.rosaU {
     background-color: #D39EBD;
 }
 
-.lilasU{
+.lilasU {
     background-color: #ADC0D9;
 }
 
-.lilasColors, .lilasColors1, .lilasMFem{
+.lilasColors,
+.lilasColors1,
+.lilasMFem {
     background-color: #919AD3;
+}
+
+.amareloMFem {
+    background-color: #F2F2C4;
+}
+
+.listrasRosa {
+    background-color: #FCE6ED;
 }
 
 
@@ -323,7 +416,18 @@ a {
 .malhaKit2,
 .sapKit1,
 .sapKit2,
-.kitLhama2, .kitLhama1, .kitChevron1, .kitChevron2, .colorsKit1Fem1, .colorsKit2Fem1, .colorsKit1Fem, .colorsKit2Fem {
+.kitLhama2,
+.kitLhama1,
+.kitChevron1,
+.kitChevron2,
+.colorsKit1Fem1,
+.colorsKit2Fem1,
+.colorsKit1Fem,
+.colorsKit2Fem,
+.malhaKit1Fem,
+.malhaKit2Fem,
+.sapKit1Fem,
+.sapKit2Fem {
     /* background: linear-gradient(to right, #07D90A 33%, #96A6B5 33%, #96A6B5 66%, #8FC1EF 66%) */
     background-color: #ffffff;
     border: 1px solid #76767688;
@@ -344,7 +448,18 @@ a {
 .malhaKit2 p,
 .sapKit1 p,
 .sapKit2 p,
-.kitLhama1 p, .kitLhama2 p, .kitChevron1 p, .kitChevron2 p, .colorsKit1Fem1 p, .colorsKit2Fem1 p, .colorsKit1Fem p, .colorsKit2Fem p  {
+.kitLhama1 p,
+.kitLhama2 p,
+.kitChevron1 p,
+.kitChevron2 p,
+.colorsKit1Fem1 p,
+.colorsKit2Fem1 p,
+.colorsKit1Fem p,
+.colorsKit2Fem p,
+.malhaKit1Fem p,
+.malhaKit2Fem p,
+.sapKit1Fem p,
+.sapKit2Fem p {
     font: 400 16px 'WorkSans', sans-serif;
 }
 
@@ -383,7 +498,10 @@ a {
 .Quadrado-da-meia-coracoes img,
 .Quadrado-da-meia-colorsFem img,
 .Quadrado-da-meia-colorsFem1 img,
-.Quadrado-da-meia-malhaFem img {
+.Quadrado-da-meia-malhaFem img,
+.Quadrado-da-meia-flor img,
+.Quadrado-da-meia-listras img,
+.Quadrado-da-meia-elef img {
     width: 220px;
     height: 200px;
 }
@@ -400,7 +518,7 @@ a {
 .Quadrado-da-meia-malha-kit img,
 .Quadrado-da-meia-sap-kit img,
 .Quadrado-da-meia-kitLhama img,
-.Quadrado-da-meia-kitChevron img {
+.Quadrado-da-meia-kitChevron img{
     width: 320px;
     height: 150px;
     margin: 45px;
@@ -409,7 +527,9 @@ a {
 .Quadrado-da-meia-kitcolors1 img,
 .Quadrado-da-meia-kitcolors2 img,
 .Quadrado-da-meia-colorsFem1-kit img,
-.Quadrado-da-meia-colorsFem-kit img {
+.Quadrado-da-meia-colorsFem-kit img, 
+.Quadrado-da-meia-malha-kitFem img,
+.Quadrado-da-meia-sap-kitFem img {
     width: 320px;
     height: 150px;
     margin: 13px 0;
@@ -734,7 +854,7 @@ a {
     .Quadrado-da-meia-kitcolors1 img,
     .Quadrado-da-meia-kitcolors2 img,
     .Quadrado-da-meia-malha-kit img,
-    .Quadrado-da-meia-sap-kit img, 
+    .Quadrado-da-meia-sap-kit img,
     #meiasBabyDesMasc .Quadrado-da-meia-malha img,
     #meiasBabyDesMasc .Quadrado-da-meia-sap-faixa img,
     #meiasBabyDesMasc .Quadrado-da-meia-escosses img,
@@ -751,7 +871,12 @@ a {
     #meiasBabyDesMasc .Quadrado-da-meia-colorsFem1 img,
     .Quadrado-da-meia-colorsFem1-kit img,
     .Quadrado-da-meia-colorsFem-kit img,
-    #meiasBabyDesMasc .Quadrado-da-meia-malhaFem img  {
+    #meiasBabyDesMasc .Quadrado-da-meia-malhaFem img,
+    #meiasBabyDesMasc .Quadrado-da-meia-flor img,
+    #meiasBabyDesMasc .Quadrado-da-meia-listras img,
+    #meiasBabyDesMasc .Quadrado-da-meia-elef img,
+    .Quadrado-da-meia-malha-kitFem img,
+    .Quadrado-da-meia-sap-kitFem img {
         width: 220px;
         height: 180px;
     }
@@ -765,7 +890,7 @@ a {
 
     #containerkit img {
         width: 300px;
-        height: 110px;
+        height: 130px;
     }
 
     .titulo {

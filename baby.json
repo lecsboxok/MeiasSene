@@ -612,5 +612,135 @@
       "class": "img-babyKit",
       "titulo": "Meia Baby Colors Feminina - Kit Nº2",
       "numeracao": "6 á 12 meses"
+    },
+    "verdeMFem": {
+      "imagem": "img-baby/malhaVerdeFem.png",
+      "codigo": "Referência: 1151-1/5",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Verde Água Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "brancaMFem": {
+      "imagem": "img-baby/malhaBrancaFem.png",
+      "codigo": "Referência: 1151-1/1",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Branca Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "amareloMFem": {
+      "imagem": "img-baby/malhaAmarelaFem.png",
+      "codigo": "Referência: 1151-1/2",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Amarela Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "rosaMFem": {
+      "imagem": "img-baby/malhaRosaFem.png",
+      "codigo": "Referência: 1151-1/3",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Rosa Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "lilasMFem": {
+      "imagem": "img-baby/malhaLilasFem.png",
+      "codigo": "Referência: 1151-1/4",
+      "preco": "R$ 3,40",
+      "class": "img-baby",
+      "titulo": "Meia Baby Malha Persa Lilás Feminina",
+      "numeracao": "0 á 6 meses"
+    },
+    "florVerde": {
+      "imagem": "img-baby/florVerdeFem.png",
+      "codigo": "Referência: 1251-2/1",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Flor Verde Sapatilha Feminina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "florRosa": {
+      "imagem": "img-baby/florPinkFem.png",
+      "codigo": "Referência: 1251-2/2",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Flor Pink Sapatilha Feminina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "listrasRosa": {
+      "imagem": "img-baby/listrasRosaFem.png",
+      "codigo": "Referência: 1251-3/2",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Listras Rosa Sapatilha Feminina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "listrasBranca": {
+      "imagem": "img-baby/listrasBrancaFem.png",
+      "codigo": "Referência: 1251-3/1",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Listras Branca Sapatilha Feminina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "elefRosa": {
+      "imagem": "img-baby/elefanteRosaFem.png",
+      "codigo": "Referência: 1251-1/1",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Elefante Rosa Sapatilha Feminina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "elefVerde": {
+      "imagem": "img-baby/elefanteVerdeFem.png",
+      "codigo": "Referência: 1251-1/2",
+      "preco": "R$ 3,75",
+      "class": "img-baby",
+      "titulo": "Meia Baby Elefante Verde Sapatilha Feminina",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "malhaKit1Fem": {
+      "imagem": "img-baby/malhaKit1Fem.png",
+      "codigo": "Referência: 1153-1",
+      "preco": "R$ 10,20",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Malha Persa Feminina - Kit Nº1",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "malhaKit2Fem": {
+      "imagem": "img-baby/malhaKit2Fem.png",
+      "codigo": "Referência: 1153-2",
+      "preco": "R$ 10,20",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Malha Persa Feminina - Kit Nº2",
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "sapKit1Fem": {
+      "imagem": "img-baby/sapKit1Fem.png",
+      "codigo": "Referência: 1253-1",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Sapatilha Feminina - Kit Nº1",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
+    },
+    "sapKit2Fem": {
+      "imagem": "img-baby/sapKit2Fem.png",
+      "codigo": "Referência: 1253-2",
+      "preco": "R$ 11,25",
+      "class": "img-babyKit",
+      "titulo": "Meia Baby Sapatilha Feminina - Kit Nº2",
+      "numeracao": "6 á 12 meses",
+      "descricao": "Estas meias baby sapatilha são perfeitas para os primeiros passos dos bebês. Feitas com materiais macios e confortáveis, elas oferecem um ajuste seguro que não escorrega dos pezinhos. Com um design prático e diversas cores, combinam facilmente com qualquer roupa. Ideais para manter os pés aquecidos e protegidos, proporcionando conforto durante todo o dia."
     }
 }
