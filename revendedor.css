@@ -1,0 +1,121 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FONTES */
+
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+/* CABEÇALHO */
+
+#header {
+    background-color: #252160;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.cabecalhoUm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+    padding: 5px;
+}
+
+.procurando {
+    padding: 13px;
+    border-radius: 30px;
+    width: 400px;
+    height: 35px;
+    font: 600 16px 'WorkSans', sans-serif;
+
+}
+
+.imagemLogo img {
+    width: 150px;
+}
+
+.linha {
+    background-color: #fff;
+    height: 0.4px;
+}
+
+.cabecalho2 {
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+.item {
+    color: #fff;
+    margin: 20px;
+    font: 600 16px 'WorkSans', sans-serif;
+}
+
+/* FIM DO CABEÇALHO */
+.seja-revendedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    padding: 40px;
+    max-width: 1200px;
+}
+
+.seja-revendedor-img {
+    width: 50%;
+    max-width: 600px;
+}
+
+.revendedor {
+    margin-left: 30px;
+}
+
+.revendedor h1 {
+    font-family: 'LibreFranklin', sans-serif;
+    font-size: 48px;
+ 
+}
+
+.revendedor-h1 {
+  color: #000;
+}
+
+.formulario {
+    font-family: 'WorkSans', sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-cadastro {
+    padding: 15px 30px;
+    background-color: #589EA8;
+    color: #ffff;
+    font: 600 18px 'WorkSans', sans-serif;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ margin-left: 30vh;
+
+}
+
+.btn-cadastro:hover {
+    background-color: #087B8B;
+}

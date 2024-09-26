@@ -294,20 +294,24 @@ a {
 /* ARRUMANDO AS IMAGENS PELO JSON */
 
 .imagemKidsFeminino{
-    width: 40vh;
-    height: 40h;
+    width: 30vh;
+    height: 30vh;
 }
 .imagemKidsFemininoKit{
-    width: 65vh;
-    height: 30vh;
+    width: 50vh;
+    height: 28vh;
 }
 .imagemKidsMasculino{
     width: 65vh;
     height: 30vh;
 }
+.imagemKidsMasculinoKit{
+    width: 50vh;
+    height: 25vh;
+}
 .imagemKidsCoracao{
-    width: 40vh;
-    height: 45vh;
+    width: 30vh;
+    height: 30vh;
 }
 .imagemKidsUnicornio{
     width: 40vh;
@@ -407,7 +411,19 @@ a {
         width: 52vh;
         height: 30vh;
     }
-
+    .kit-numero-um img,
+    .kit-numero-dois img,
+    .kitM-masculino-um,
+    .kitM-masculino-dois img,
+    .KitG-meias img,
+    .kitGmeias img,
+    .KitM-meias img,
+    .KitP-meias img {
+        width: 200px;
+        height: 150px;
+        margin: 45px 30px;
+    }
+    
     /* Container geral se adapta à largura do dispositivo móvel */
     .TodasInformacoes {
         margin: 5vh auto;
