@@ -226,12 +226,14 @@ a {
 
 
 
-.Quadrado-da-meia-cachorrinho img,
+
 .Quadrado-da-meia-joaninha img {
-    width: 250px;
+    width: 200px;
     height: 200px;
 }
-
+.Quadrado-da-meia-cachorrinho img{
+    width: 250px;
+height: 200px;}
 .Quadrado-da-meia-joaninha img,
 .Quadrado-da-meia-unicornio img,
 .Quadrado-da-meia-pinguim img,

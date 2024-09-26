@@ -370,7 +370,7 @@
   "kitGmeiasM1": {
     "imagem": "img-kids-masculina/kitG-masculino-um.png",
     "codigo": "Referência: 2523-1 ",
-    "class": "imagemKidsMasculino",
+    "class": "imagemKidsMasculinoKit",
     "preco": "R$: 14,55",
     "titulo": "Meia Kids G Masculina - Kit Nº1",
     "numeracao": "29 á 32"
@@ -378,7 +378,7 @@
   "kitGmeiasM2": {
     "imagem": "img-kids-masculina/kitG-masculino-dois.png",
     "codigo": "Referência: 2523-2 ",
-    "class": "imagemKidsMasculino",
+    "class": "imagemKidsMasculinoKit",
     "preco": "R$: 14,55",
     "titulo": "Meia Kids G Masculina - Kit Nº2",
     "numeracao": "29 á 32"
