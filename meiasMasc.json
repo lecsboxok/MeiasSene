@@ -1,10 +1,170 @@
 {
-    "verde": {
+    "brancaLisa": {
       "imagem": "img-masculino/masculinaEsportivaBrancaLisa.png",
-      "codigo": "Referência: 1121-1/1",
-      "preco": "R$ 9,00",
+      "codigo": "Referência: 5721-1/1",
+      "preco": "R$ 6,00",
       "class": "img-baby",
-      "titulo": "Meia Baby Desenhada Elefante Verde Masculina",
-      "numeracao": "0 á 6 meses"
+      "titulo": "Meia Masculina Esportiva Branca Lisa",
+      "numeracao": "39 á 43"
+    },
+    "pretaLisa": {
+      "imagem": "img-masculino/masculinaEsportivaPretaLisa.png",
+      "codigo": "Referência: 5761-1/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Masculina Esportiva Preta Lisa",
+      "numeracao": "39 á 43"
+    },
+    "cinzaLisa": {
+      "imagem": "img-masculino/masculinaEsportivaCinzaLisa.png",
+      "codigo": "Referência: 5741-1/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Masculina Esportiva Cinza Lisa",
+      "numeracao": "39 á 43"
+    },
+    "brancaHorse": {
+      "imagem": "img-masculino/masculinaEsportivaBrancaHorse.png",
+      "codigo": "Referência: 5721-4/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Horse Branca Masculina",
+      "numeracao": "39 á 43"
+    },
+    "pretaHorse": {
+      "imagem": "img-masculino/masculinaEsportivaPretaHorse.png",
+      "codigo": "Referência: 5761-4/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Horse Preta Masculina",
+      "numeracao": "39 á 43"
+    },
+    "cinzaHorse": {
+      "imagem": "img-masculino/masculinaEsportivaCinzaHorse.png",
+      "codigo": "Referência: 5741-4/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Horse Cinza Masculina",
+      "numeracao": "39 á 43"
+    },
+    "brancaS": {
+      "imagem": "img-masculino/masculinaEsportivaBrancaS.png",
+      "codigo": "Referência: 5721-3/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva S Branca Masculina",
+      "numeracao": "39 á 43"
+    },
+    "pretaS": {
+      "imagem": "img-masculino/masculinaEsportivaPretaS.png",
+      "codigo": "Referência: 5761-3/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva S Preta Masculina",
+      "numeracao": "39 á 43"
+    },
+    "cinzaS": {
+      "imagem": "img-masculino/masculinaEsportivaCinzaS.png",
+      "codigo": "Referência: 5741-3/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva S Cinza Masculina",
+      "numeracao": "39 á 43"
+    },
+    "brancaPolo": {
+      "imagem": "img-masculino/masculinaEsportivaBrancaPolo.png",
+      "codigo": "Referência: 5721-5/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Polo Branca Masculina",
+      "numeracao": "39 á 43"
+    },
+    "pretaPolo": {
+      "imagem": "img-masculino/masculinaEsportivaPretaPolo.png",
+      "codigo": "Referência: 5761-5/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Polo Preta Masculina",
+      "numeracao": "39 á 43"
+    },
+    "cinzaPolo": {
+      "imagem": "img-masculino/masculinaEsportivaCinzaPolo.png",
+      "codigo": "Referência: 5741-5/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Polo Cinza Masculina",
+      "numeracao": "39 á 43"
+    },
+    "brancaAero": {
+      "imagem": "img-masculino/masculinaEsportivaBrancaAero.png",
+      "codigo": "Referência: 5721-2/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Aero Branca Masculina",
+      "numeracao": "39 á 43"
+    },
+    "pretaAero": {
+      "imagem": "img-masculino/masculinaEsportivaPretaAero.png",
+      "codigo": "Referência: 5761-2/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Aero Preta Masculina",
+      "numeracao": "39 á 43"
+    },
+    "cinzaAero": {
+      "imagem": "img-masculino/masculinaEsportivaCinzaAero.png",
+      "codigo": "Referência: 5741-2/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Aero Cinza Masculina",
+      "numeracao": "39 á 43"
+    },
+    "brancaKit01": {
+      "imagem": "img-masculino/masculinaEsportivaBrancaKit01.png",
+      "codigo": "Referência: 5721-3/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Branca Masculina - Kit Nº1",
+      "numeracao": "39 á 43"
+    },
+    "pretaKit01": {
+      "imagem": "img-masculino/masculinaEsportivaPretaKit01.png",
+      "codigo": "Referência: 5761-3/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Preta Masculina - Kit Nº1",
+      "numeracao": "39 á 43"
+    },
+    "cinzaKit01": {
+      "imagem": "img-masculino/masculinaEsportivaCinzaKit01.png",
+      "codigo": "Referência: 5741-3/1",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Cinza Masculina - Kit Nº1",
+      "numeracao": "39 á 43"
+    },
+    "brancaKit02": {
+      "imagem": "img-masculino/masculinaEsportivaBrancaKit02.png",
+      "codigo": "Referência: 5723-2",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Branca Masculina - Kit Nº2",
+      "numeracao": "39 á 43"
+    },
+    "pretaKit02": {
+      "imagem": "img-masculino/masculinaEsportivaPretaKit02.png",
+      "codigo": "Referência: 5763-2",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Preta Masculina - Kit Nº2",
+      "numeracao": "39 á 43"
+    },
+    "cinzaKit02": {
+      "imagem": "img-masculino/masculinaEsportivaCinzaKit02.png",
+      "codigo": "Referência: 5743-2",
+      "preco": "R$ 6,00",
+      "class": "img-baby",
+      "titulo": "Meia Esportiva Cinza Masculina - Kit Nº2",
+      "numeracao": "39 á 43"
     }
 }
