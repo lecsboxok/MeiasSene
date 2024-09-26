@@ -138,14 +138,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto;
-    padding: 40px;
+    
     max-width: 1200px;
+    padding-top: 200px;
 }
 
 .seja-revendedor-img {
     width: 50%;
     max-width: 600px;
+    margin-left: 30vh;
 }
 
 .revendedor {
@@ -155,18 +156,29 @@ a {
 .revendedor h1 {
     font-family: 'LibreFranklin', sans-serif;
     font-size: 48px;
- 
+    margin-left: 30vh;
+
 }
 
 .revendedor-h1 {
-  color: #000;
+    color: #000;
+    text-align: center;
+}
+.revendedor-h2{
+    color: #000;
+    font-weight: 100;
+   text-align: center;
 }
 
 .formulario {
     font-family: 'WorkSans', sans-serif;
     font-size: 18px;
     margin: 20px 0;
+    text-align: left; /* Ajuste de alinhamento para o texto */
+    padding-left: 30vh; /* Espaçamento interno à esquerda */
+    line-height: 1.5; /* Espaçamento entre linhas */
 }
+
 
 .btn-cadastro {
     padding: 15px 30px;
@@ -177,10 +189,13 @@ a {
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
- margin-left: 30vh;
+    margin-left: 38vh;
+  margin-top: 4vh;
 
 }
 
 .btn-cadastro:hover {
     background-color: #087B8B;
 }
+
+
