@@ -175,7 +175,13 @@ a {
 .cores-branca-preta-cinza06,
 .cores-branca-preta-cinza07,
 .cores-branca-preta-cinza08,
-.cores-branca-preta-cinza09 {
+.cores-branca-preta-cinza09,
+.cores-laranja-pro,
+.cores-branca-pro,
+.cores-vermelha-pro,
+.cores-amarela-pro,
+.cores-azul-pro,
+.cores-verde-pro {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
@@ -208,7 +214,13 @@ a {
 .brancaKit02,
 .brancaCurto,
 .brancaCurtoKit,
-.kitTresCores {
+.kitTresCores,
+.laranjaPro,
+.brancaPro,
+.vermelhaPro,
+.amarelaPro,
+.azulPro,
+.verdePro {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -224,7 +236,8 @@ a {
 .brancaKit02,
 .brancaCurto,
 .brancaCurtoKit,
-.brancaKit {
+.brancaKit,
+.brancaPro {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
@@ -250,8 +263,30 @@ a {
 .cinzaKit02,
 .cinzaCurto,
 .cinzaCurtoKit,
-.cinzaPolo {
+.cinzaPolo,
+.azulPro,
+.verdePro {
     background-color: #96A6B5;
+}
+
+.laranjaPro {
+    background-color: #D47B2F;
+}
+
+.vermelhaPro {
+    background-color: #B8312A;
+}
+
+.amarelaPro {
+    background-color: #D4BE1B;
+}
+
+.azulPro {
+    background-color: #269AD3;
+}
+
+.verdePro {
+    background-color: #B9E24A;
 }
 
 .kitTresCores {
@@ -280,7 +315,13 @@ a {
 .Quadrado-da-meia-esportiva-s img,
 .Quadrado-da-meia-esportiva-polo img,
 .Quadrado-da-meia-esportiva-aero img,
-.Quadrado-da-meia-esportiva-cano-curto img {
+.Quadrado-da-meia-esportiva-cano-curto img,
+.Quadrado-da-meia-quadriculada-laranja img,
+.Quadrado-da-meia-quadriculada-branca img,
+.Quadrado-da-meia-faixa-vermelha img,
+.Quadrado-da-meia-faixa-amarela img,
+.Quadrado-da-meia-degrade-azul img,
+.Quadrado-da-meia-degrade-verde img {
     width: 220px;
     height: 200px;
 }
