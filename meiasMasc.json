@@ -222,5 +222,53 @@
       "class": "img-Masckit",
       "titulo": "Meia Esportiva Cano Curto Masculina - Kit Nº1",
       "numeracao": "39 á 43"
+    },
+    "laranjaPro": {
+      "imagem": "img-masculino/masculinaProQuadriculadoLaranja01.png",
+      "codigo": "Referência: 8921-2/2",
+      "preco": "R$ 11,20",
+      "class": "img-Masc",
+      "titulo": "Meia Pró Quadriculado Laranja Masculina",
+      "numeracao": "39 á 44"
+    },
+    "brancaPro": {
+      "imagem": "img-masculino/masculinaProQuadriculadoBranco01.png",
+      "codigo": "Referência: 8921-2/1",
+      "preco": "R$ 11,20",
+      "class": "img-Masc",
+      "titulo": "Meia Pró Quadriculado Branca Masculina",
+      "numeracao": "39 á 44"
+    },
+    "vermelhaPro": {
+      "imagem": "img-masculino/masculinaProFaixaVermelha01.png",
+      "codigo": "Referência: 8921-3/1",
+      "preco": "R$ 11,20",
+      "class": "img-Masc",
+      "titulo": "Meia Pró Faixa Vermelha Masculina",
+      "numeracao": "39 á 44"
+    },
+    "amarelaPro": {
+      "imagem": "img-masculino/masculinaProFaixaAmarela01.png",
+      "codigo": "Referência: 8921-3/2",
+      "preco": "R$ 11,20",
+      "class": "img-Masc",
+      "titulo": "Meia Pró Faixa Amarela Masculina",
+      "numeracao": "39 á 44"
+    },
+    "azulPro": {
+      "imagem": "img-masculino/masculinaProDegradeAzul01.png",
+      "codigo": "Referência: 8921-1/2",
+      "preco": "R$ 11,20",
+      "class": "img-Masc",
+      "titulo": "Meia Pró Degradê Azul Masculina",
+      "numeracao": "39 á 44"
+    },
+    "verdePro": {
+      "imagem": "img-masculino/masculinaProDegradeVerde01.png",
+      "codigo": "Referência: 8921-1/1",
+      "preco": "R$ 11,20",
+      "class": "img-Masc",
+      "titulo": "Meia Pró Degradê Verde Masculina",
+      "numeracao": "39 á 44"
     }
 }
