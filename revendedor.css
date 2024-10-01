@@ -221,6 +221,7 @@ a {
     z-index: 100; /* Garantir que fique acima de outros elementos */
     width: 400px;
     text-align: center;
+    font-family: 'LibreFranklin';
 }
 
 /* Estilo adicional para o fundo quando a caixa de texto estiver ativa */
@@ -268,4 +269,45 @@ a {
 .menor-custo:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.forms img {
+width: 700px;
+height: 800px;
+margin-top:100px ;
+}
+
+.forms-h2{
+  font-size: 4vh;
+  font-family: 'LibreFranklin';
+  font-weight: 100;
+  margin-top: -700px;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.forms-h2 strong{
+  margin-left: 100px;
+}
+
+.titulo-topicos{
+  font-size: 4vh;
+  font-family: 'LibreFranklin';
+  color: #fff;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.circulo-topicos1 h2, .circulo-topicos2 h2, .circulo-topicos3 h2{
+  margin-left: 150px;
+  margin-top: -30px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'LibreFranklin';
+}
+.topicos1, .topicos2, .topicos3{
+  color: #fff;
+  font-family: 'LibreFranklin';
 }
