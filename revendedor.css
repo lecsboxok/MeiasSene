@@ -1,285 +1,297 @@
 /* RESET */
 * {
-    box-sizing: border-box;
-    border: 0;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* FONTES */
 
 @font-face {
-    font-family: 'LibreFranklin';
-    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+  font-family: 'LibreFranklin';
+  src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+  font-family: 'WorkSans';
+  src: url(fonts/WorkSans-VariableFont_wght.ttf);
 }
 
 /* CABEÇALHO */
 
 #header {
-    background-color: #252160;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-  }
-  
-  .cabecalhoUm {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 80px;
-    padding: 5px;
-  }
-  
-  .procurando {
-    padding: 13px;
-    border-radius: 30px;
-    width: 400px;
-    height: 35px;
-    font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .imagemLogo img {
-    width: 150px;
-  }
-  
-  .linha {
-    background-color: #fff;
-    height: 0.4px;
-  }
-  
-  .cabecalho2 {
-    text-align: center;
-    padding: 15px 0 0px 0;
-  }
-  
-  .item {
-    color: #fff;
-    margin: 20px;
-    font: 600 16px 'WorkSans', sans-serif;
-  }
-  
-  .cabecalho2 {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .menu-item {
-    position: relative;
-    padding-bottom: 10px;
-  }
-  
-  .submenu {
-    display: none;
-    position: absolute;
-    top: 100%; /* Posiciona logo abaixo do item do menu */
-    left: 50%; /* Centraliza horizontalmente em relação ao item do menu */
-    transform: translateX(-50%); /* Ajusta a posição para centralizar */
-    width: 50vw; /* Largura fixa para o submenu */
-    background-color: #fff;
-    border: 1px solid #2F2F2F;
-    padding: 10px;
-    z-index: 1;
-    border-radius: 20px;
-    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
-  }
-  
-  .submenuOrganizacao {
-    margin: 10px 80px;
-    text-align: left;
-  }
-  
-  .submenu p {
-    font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .submenu a {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    font: 400 16px 'WorkSans', sans-serif;
-    color: #000;
-  }
-  
-  .submenuItem {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  
-  }
-  
-  .menu-item:hover .submenu {
-    display: block;
-    text-align: center;
-  }
-  
-  .item {
-    padding: 10px 10px 8px 10px;
-  }
-  
-  .item:hover {
-    border-bottom: 1px solid #fff;
-  }
-  
-  
-  /* FIM DO CABEÇALHO */
+  background-color: #252160;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.cabecalhoUm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 80px;
+  padding: 5px;
+}
+
+.procurando {
+  padding: 13px;
+  border-radius: 30px;
+  width: 400px;
+  height: 35px;
+  font: 600 16px 'WorkSans', sans-serif;
+
+}
+
+.imagemLogo img {
+  width: 150px;
+}
+
+.linha {
+  background-color: #fff;
+  height: 0.4px;
+}
+
+.cabecalho2 {
+  text-align: center;
+  padding: 15px 0 0px 0;
+}
+
+.item {
+  color: #fff;
+  margin: 20px;
+  font: 600 16px 'WorkSans', sans-serif;
+}
+
+.cabecalho2 {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  /* Posiciona logo abaixo do item do menu */
+  left: 50%;
+  /* Centraliza horizontalmente em relação ao item do menu */
+  transform: translateX(-50%);
+  /* Ajusta a posição para centralizar */
+  width: 50vw;
+  /* Largura fixa para o submenu */
+  background-color: #fff;
+  border: 1px solid #2F2F2F;
+  padding: 10px;
+  z-index: 1;
+  border-radius: 20px;
+  box-sizing: border-box;
+  /* Garante que o padding seja incluído na largura total */
+}
+
+.submenuOrganizacao {
+  margin: 10px 80px;
+  text-align: left;
+}
+
+.submenu p {
+  font: 600 16px 'WorkSans', sans-serif;
+
+}
+
+.submenu a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  font: 400 16px 'WorkSans', sans-serif;
+  color: #000;
+}
+
+.submenuItem {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+
+.menu-item:hover .submenu {
+  display: block;
+  text-align: center;
+}
+
+.item {
+  padding: 10px 10px 8px 10px;
+}
+
+.item:hover {
+  border-bottom: 1px solid #fff;
+}
+
+
+/* FIM DO CABEÇALHO */
 .seja-revendedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    max-width: 1200px;
-    padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1200px;
+  padding-top: 200px;
 }
 
 .seja-revendedor-img {
-    width: 50%;
-    max-width: 600px;
-    margin-left: 30vh;
+  width: 50%;
+  max-width: 600px;
+  margin-left: 30vh;
 }
 
 .revendedor {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .revendedor h1 {
-    font-family: 'LibreFranklin', sans-serif;
-    font-size: 48px;
-    margin-left: 30vh;
+  font-family: 'LibreFranklin', sans-serif;
+  font-size: 48px;
+  margin-left: 30vh;
 
 }
 
 .revendedor-h1 {
-    color: #000;
-    text-align: center;
+  color: #000;
+  text-align: center;
 }
-.revendedor-h2{
-    color: #000;
-    font-weight: 100;
-   text-align: center;
+
+.revendedor-h2 {
+  color: #000;
+  font-weight: 100;
+  text-align: center;
 }
 
 .formulario {
-    font-family: 'WorkSans', sans-serif;
-    font-size: 18px;
-    margin: 20px 0;
-    text-align: left; /* Ajuste de alinhamento para o texto */
-    padding-left: 30vh; /* Espaçamento interno à esquerda */
-    line-height: 1.5; /* Espaçamento entre linhas */
+  font-family: 'WorkSans', sans-serif;
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: left;
+  /* Ajuste de alinhamento para o texto */
+  padding-left: 30vh;
+  /* Espaçamento interno à esquerda */
+  line-height: 1.5;
+  /* Espaçamento entre linhas */
 }
 
 
 .btn-cadastro {
-    padding: 15px 30px;
-    background-color: #589EA8;
-    color: #ffff;
-    font: 600 18px 'WorkSans', sans-serif;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-left: 38vh;
+  padding: 15px 30px;
+  background-color: #589EA8;
+  color: #ffff;
+  font: 600 18px 'WorkSans', sans-serif;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 38vh;
   margin-top: 4vh;
 
 }
 
 .btn-cadastro:hover {
-    background-color: #087B8B;
+  background-color: #087B8B;
 }
 
 /*VANTAGENS */
-.vantagens-h1{
-    text-align: center;
-    font-family: 'LibreFranklin';
-    margin: 100px;
-    font-size: 35px;
+.vantagens-h1 {
+  text-align: center;
+  font-family: 'LibreFranklin';
+  margin: 100px;
+  font-size: 35px;
 }
 
 /* Estilos para a caixa de informação */
 .info-box {
-    display: none; /* Ocultar inicialmente */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    border: 2px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    z-index: 100; /* Garantir que fique acima de outros elementos */
-    width: 400px;
-    text-align: center;
-    font-family: 'LibreFranklin';
+  display: none;
+  /* Ocultar inicialmente */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  /* Garantir que fique acima de outros elementos */
+  width: 400px;
+  text-align: center;
+  font-family: 'LibreFranklin';
 }
 
 /* Estilo adicional para o fundo quando a caixa de texto estiver ativa */
 .info-box.active {
-    display: block;
+  display: block;
 }
 
 /* Ajuste das imagens específicas de mais-vantagens */
 .mais-vantagens-icon {
-    
-    cursor: pointer; /* Mostrar que é clicável */
-    position: absolute;
-    top: 10px; 
-    right: 10px;
-    width: 20px; 
-    height: auto; 
+
+  cursor: pointer;
+  /* Mostrar que é clicável */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: auto;
 }
 
 /* Estilos adicionais para as seções de vantagens */
 .vantagens {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0;
 }
 
 /* Estilo para cada card de vantagem */
 .maior-rentabilidade,
 .variedade,
 .menor-custo {
-    border: 1px solid #000000;
-    padding: 20px;
-    width: 15%;
-    height: 150px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    position: relative;
+  border: 1px solid #000000;
+  padding: 20px;
+  width: 15%;
+  height: 150px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 }
 
 /* Efeito ao passar o mouse sobre os cards */
 .maior-rentabilidade:hover,
 .variedade:hover,
 .menor-custo:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 
 .forms img {
-width: 700px;
-height: 800px;
-margin-top:100px ;
+  width: 700px;
+  height: 800px;
+  margin-top: 100px;
 }
 
-.forms-h2{
+.forms-h2 {
   font-size: 4vh;
   font-family: 'LibreFranklin';
   font-weight: 100;
@@ -288,26 +300,186 @@ margin-top:100px ;
   margin-left: 100px;
 }
 
-.forms-h2 strong{
+.forms-h2 strong {
   margin-left: 100px;
 }
 
-.titulo-topicos{
-  font-size: 4vh;
+.titulo-topicos {
+  font-size: 6vh;
   font-family: 'LibreFranklin';
   color: #fff;
   margin-left: 100px;
   margin-top: 5px;
 }
 
-.circulo-topicos1 h2, .circulo-topicos2 h2, .circulo-topicos3 h2{
+.circulo-topicos1 h2,
+.circulo-topicos2 h2,
+.circulo-topicos3 h2 {
   margin-left: 150px;
-  margin-top: -30px;
+  margin-top: -35px;
   font-weight: 400;
   color: #fff;
   font-family: 'LibreFranklin';
 }
-.topicos1, .topicos2, .topicos3{
+
+.topicos1,
+.topicos2,
+.topicos3 {
   color: #fff;
   font-family: 'LibreFranklin';
+  margin-left: 100px;
+  margin-top: 30px;
+  word-wrap: break-word;
+
+
+}
+
+
+
+.circulo-topicos1,
+.circulo-topicos2,
+.circulo-topicos3 {
+  margin-top: 50px;
+}
+
+
+.forms-aqui {
+
+  color: #fff;
+  border-radius: 10px;
+  margin-top: -1000px;
+  padding: 20px;
+  margin-top: -500px;
+  margin-left: 600px;
+  width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+  /* SEJA REVENDEDOR */
+  .seja-revendedor {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+
+  .seja-revendedor-img {
+    width: 90%;
+    max-width: 400px;
+    margin: 0;
+  }
+
+  .revendedor {
+    margin: 20px 0;
+  }
+
+  .revendedor h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .formulario {
+    padding-left: 20px;
+  }
+
+  .btn-cadastro {
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 10px 20px;
+
+  }
+
+  /* VANTAGENS */
+  .vantagens-h1 {
+    margin: 50px 20px;
+    font-size: 24px;
+  }
+
+  .vantagens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .maior-rentabilidade,
+  .variedade,
+  .menor-custo {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .info-box {
+    display: none;
+    /* Ocultar inicialmente */
+
+
+    position: fixed;
+    top: 50%;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    /* Garantir que fique acima de outros elementos */
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    font-family: 'LibreFranklin';
+    font-size: 15px;
+  }
+
+  /* FORMS */
+  .forms img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .forms-h2 {
+    font-size: 3vh;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .titulo-topicos {
+    font-size: 5vh;
+    margin-left: 20px;
+  }
+
+  .topicos1,
+  .topicos2,
+  .topicos3 {
+    margin-left: 20px;
+  }
+
+  .forms-aqui {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 }
