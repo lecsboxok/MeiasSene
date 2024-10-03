@@ -705,8 +705,8 @@ a {
     /* editando a imagem preta cano curto feminina */
 
     .imagemCanoCurto-Feminina {
-        width: 43vh;
-        height: 33vh;
+        width: 40vh;
+        height: 30vh;
     }
 
     /* editando imagem de kit cano curto feminina */
@@ -736,6 +736,7 @@ a {
     #titulo {
         font-size: 4vh;
         text-align: center;
+        margin-top: 3vh;
         /* Centralizar o título no mobile */
     }
 
@@ -753,6 +754,9 @@ a {
         margin-top: 1vh;
     }
     
+    #codigo{
+        margin-top: 3vh;
+    }
 
     /* Botões adaptados para caberem na tela do celular */
     .informacoesPrecoTamanho button {
