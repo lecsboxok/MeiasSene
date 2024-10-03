@@ -237,12 +237,9 @@ span {
   padding-right: 40px;
 }
 
-
 .todasAsMeiasBaby-CompreJunto {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-
 }
 
 #divMeiasBaby {
@@ -251,7 +248,6 @@ span {
   margin-top: 10vh;
   border: 1px solid #A5A5A5;
   border-radius: 20px;
-
 }
 
 /* CORES */
@@ -325,6 +321,7 @@ span {
 
 .Imagem-CompreJunto img {
   width: 200px;
+  height: 170px;
 }
 
 /* estilizando as informações */
@@ -604,10 +601,66 @@ span {
 
 /* TÊNDENCIAS */
 
-.tudoTendencias .tituloCabecalho span {
+#tendencias .tudoTendencias .tituloCabecalho span {
   border-bottom: #A75D44 solid 4px;
   padding-right: 40px;
 }
+
+/* #tendencias #divMeiasBaby {
+  align-items: center;
+  width: 320px;
+  margin: 10vh 10px;
+  border: 1px solid #A5A5A5;
+  border-radius: 20px;
+} */
+
+#tendencias .meiasMaisVedidas {
+  position: relative;
+  width: 100%;
+  max-width: 1020px;
+  margin: auto;
+}
+
+#tendencias .carrossel-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+#tendencias .todasAsMeiasBaby-CompreJunto2 {
+  display: flex;
+  transition: transform 0.3s ease;
+  width: calc((320px + 20px) * 9);/* Número de produtos * largura */
+}
+
+#tendencias .Quadrado-da-meia-Color-Baby, 
+#tendencias .Quadrado-da-Meia-Desenhada-Baby-um, 
+#tendencias .Quadrado-da-Meia-Desenhada-Baby {
+  width: 320px;
+  flex-shrink: 0;
+  margin: 0 10px;
+}
+
+#tendencias .tracinhos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#tendencias .ponto {
+  width: 40px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#tendencias .ponto.active {
+  background-color: #A75D44;
+}
+
 
 /* RODAPÉ */
 
@@ -751,8 +804,49 @@ span {
 }
 
 /* VERSÃO MOBILE */
+@media (max-width: 768px) {
+  /* O carrossel vai ocupar 100% da largura da tela */
+  .todasAsMeiasBaby-CompreJunto2 {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  /* Cada item vai ocupar 90% da tela em dispositivos móveis */
+  #divMeiasBaby {
+    width: 90%;
+  }
+
+  /* Exibir os tracinhos até 768px */
+  .tracinhos {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Ocultar os tracinhos em telas maiores */
+@media (max-width: 769px) {
+  #tendencias .tracinhos {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 500px) {
+  
+  #tendencias .todasAsMeiasBaby-CompreJunto2 {
+    width: calc((320px + 20px) * 1); /* Exibe um produto por vez */
+  }
+
+  #tendencias #divMeiasBaby {
+    width: 100%; /* Meias ocupam 100% da tela em celulares pequenos */
+  }
+
+  #tendencias .Imagem-CompreJunto img {
+    width: 100%; /* As imagens se ajustam ao contêiner */
+    height: auto;
+  }
+
+  /* RODAPÉ */
   .container-rodape {
       padding: 50px 50px;
   }

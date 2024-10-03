@@ -48,19 +48,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const imagensPorCor = {
     'Quadrado-da-meia-Color-Baby': {
-        Branco: '../img-baby/MeiaBranca-Feminina.png',
-        RosaClaro: '../img-baby/MeiaRosaClaro-Feminina.png',
-        RosaChoque: '..img-baby/MeiaRosaChoque-Feminina.png',
-        Lilas: '../img-baby/MeiaLilas-Feminina.png',
-        VerdeAgua: '../img-baby/MeiaVerdeAgua-Feminina.png'
+        Branco: 'img-baby/MeiaBranca-Feminina.png',
+        RosaClaro: 'img-baby/MeiaRosaClaro-Feminina.png',
+        RosaChoque: 'img-baby/MeiaRosa-Feminina.png',
+        Lilas: 'img-baby/MeiaLilas-Feminina.png',
+        VerdeAgua: 'img-baby/MeiaVerdeAgua-Feminina.png'
+    },
+
+    'Quadrado-da-Meia-Desenhada-Baby-um': {
+        AzulEscuro: 'img-baby/MeiaDesenhadaAzulEscuro-Feminina.png'
     },
 
     'Quadrado-da-Meia-Desenhada-Baby': {
-        BrancoSapatilha: '../img-baby/MeiaBrancaSapatilha-Masculina.png',
-        VermelhoSapatilha: '../img-baby/MeiaBrancaVermelhaSapatilha-Masculina.png',
-        AzulEscuroSapatilha: '../img-baby/MeiaBrancaAzulEscuroSapatilha-Masculina.png',
-        AzulClaroSapatilha: '../img-baby/MeiaBrancaAzulClaroSapatilha-Masculina.png',
-        VerdeAguaSapatilha: '../img-baby/MeiaBrancaVerdeAguaSapatilha-Masculina.png'
+        BrancoSapatilha: 'img-baby/MeiaBrancaSapatilha-Masculina.png',
+        VermelhoSapatilha: 'img-baby/MeiaBrancaVermelhaSapatilha-Masculina.png',
+        AzulEscuroSapatilha: 'img-baby/MeiaBrancaAzulEscuroSapatilha-Masculina.png',
+        AzulClaroSapatilha: 'img-baby/MeiaBrancaAzulClaroSapatilha-Masculina.png',
+        VerdeAguaSapatilha: 'img-baby/MeiaBrancaVerdeAguaSapatilha-Masculina.png'
      }
 
 };
@@ -120,3 +124,108 @@ document.querySelectorAll('.todasAsMeiasBaby-CompreJunto > div').forEach((quadra
     });
 
 });
+
+const todasAsMeias = document.querySelector('.todasAsMeiasBaby-CompreJunto2');
+let isDragging = false;
+let startPosition = 0;
+let currentTranslate = 0;
+let prevTranslate = 0;
+let animationID = 0;
+let currentIndex = 0;
+let indiceAtual = 0;
+const totalSlides = 3; // Quantos conjuntos de 3 itens você tem
+const larguraSlide = 340;
+
+// Função para detectar o tamanho do item (muda dependendo do tamanho da tela)
+function getItemWidth() {
+  return window.innerWidth <= 768 ? document.querySelector('#divMeiasBaby').offsetWidth : 340;
+}
+
+// Detectar os eventos de arraste (mouse ou toque)
+todasAsMeias.addEventListener('mousedown', startDrag);
+todasAsMeias.addEventListener('touchstart', startDrag);
+todasAsMeias.addEventListener('mouseup', endDrag);
+todasAsMeias.addEventListener('touchend', endDrag);
+todasAsMeias.addEventListener('mousemove', drag);
+todasAsMeias.addEventListener('touchmove', drag);
+
+// Iniciar o arraste
+function startDrag(event) {
+    isDragging = true;
+    startPosition = getPositionX(event);
+    animationID = requestAnimationFrame(animation);
+}
+
+// Terminar o arraste
+function endDrag() {
+    isDragging = false;
+    cancelAnimationFrame(animationID);
+    
+    const movedBy = currentTranslate - prevTranslate;
+
+    // Verifica se arrastou o suficiente para mudar de item
+    if (movedBy < -100 && currentIndex < todasAsMeias.children.length - 1) {
+        currentIndex += 1;
+    }
+
+    if (movedBy > 100 && currentIndex > 0) {
+        currentIndex -= 1;
+    }
+
+    setPositionByIndex();
+}
+
+// Lógica de arraste
+function drag(event) {
+    if (isDragging) {
+        const currentPosition = getPositionX(event);
+        currentTranslate = prevTranslate + currentPosition - startPosition;
+    }
+}
+
+// Pega a posição X (suporte para mouse e touch)
+function getPositionX(event) {
+    return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+}
+
+// Faz a animação do arraste
+function animation() {
+    setCarouselPosition();
+    if (isDragging) requestAnimationFrame(animation);
+}
+
+// Atualiza a posição do carrossel no CSS
+function setCarouselPosition() {
+    todasAsMeias.style.transform = `translateX(${currentTranslate}px)`;
+}
+
+// Alinha o carrossel conforme o índice atual
+function setPositionByIndex() {
+    const itemWidth = getItemWidth(); // Verifica a largura do item para o redimensionamento correto
+    currentTranslate = currentIndex * -itemWidth;
+    prevTranslate = currentTranslate;
+    setCarouselPosition();
+}
+
+function mudarSlide(indice) {
+    const carrossel = document.querySelector('.todasAsMeiasBaby-CompreJunto2');
+    indiceAtual = indice;
+    const deslocamento = indiceAtual * larguraSlide * 3;
+    carrossel.style.transform = `translateX(-${deslocamento}px)`;
+    
+    atualizarTracinhos();
+}
+
+function atualizarTracinhos() {
+    const tracinhos = document.querySelectorAll('.ponto');
+    tracinhos.forEach((ponto, index) => {
+        ponto.classList.toggle('active', index === indiceAtual);
+    });
+}
+
+// Inicializar o primeiro tracinho como ativo
+atualizarTracinhos();
+
+// Atualiza a posição quando a tela redimensionar
+window.addEventListener('resize', setPositionByIndex);
+
