@@ -773,12 +773,20 @@ a {
     height: 180px;
 
 }
+.container img {
+    width: 200px;
+    height: 166px;
+}
 
 #div-meia-cano-curto {
     align-items: center;
     width: 300px;
     margin-top: 10vh;
    
+}
+.titulo{
+    margin-top: 5vh;
+    font-size: 3.55vh;
 }
 
 #containerkit img{
