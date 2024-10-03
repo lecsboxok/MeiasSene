@@ -410,8 +410,13 @@ a {
 .Quadrado-da-meia-CanoCurto-Desenhada-Cinza img,
 .Quadrado-da-meia-CanoCurto-Desenhada-CinzaAzulEscuro img,
 .Quadrado-da-meia-CanoCurto-CinzaAzulMarinho img,
-.Quadrado-da-meia-CanoCurto-Branca img,
-
+.Quadrado-da-meia-CanoCurto-Branca img{
+    width: 220px;
+    height: 200px;
+}
+.Quadrado-da-meia-CanoCurto-Branca img{
+    margin-top: -4vh;
+}
 
 .Quadrado-da-meia-Kit-BrancoAzulEScuro-Chumbo-BrancoCInza img,
 .Quadrado-da-meia-Kit-Cinza-Azul-Branco img,
@@ -430,7 +435,7 @@ a {
 .cores-branca-preta-cinzaMeias,
 .Kit-BrancoAzulEScuro-Chumbo-BrancoCInza,
 .cores-branca-preta-cinza-Kit,
-.cores-preto-branco-cinza-kit3pares
+.cores-preto-branco-cinza-kit3pares,
 .cores-Branca-AzulEscuro {
     gap: 1vh;
     display: flex;
@@ -439,7 +444,7 @@ a {
 
 }
 
-.kit01CinzaAzulBranco, .coresPretoBrancaCinza {
+.kit02, .kit03 {
     font-family: 'WorkSans';
     width: 5vh;
     height: 5vh;
