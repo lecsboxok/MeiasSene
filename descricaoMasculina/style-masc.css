@@ -30,111 +30,116 @@ a {
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  
-  .cabecalhoUm {
+}
+
+.cabecalhoUm {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 80px;
     padding: 5px;
-  }
-  
-  .procurando {
+}
+
+.procurando {
     padding: 13px;
     border-radius: 30px;
     width: 400px;
     height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .imagemLogo img {
+
+}
+
+.imagemLogo img {
     width: 150px;
-  }
-  
-  .linha {
+}
+
+.linha {
     background-color: #fff;
     height: 0.4px;
-  }
-  
-  .cabecalho2 {
+}
+
+.cabecalho2 {
     text-align: center;
     padding: 15px 0 0px 0;
-  }
-  
-  .item {
+}
+
+.item {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-  }
-  
-  .cabecalho2 {
+}
+
+.cabecalho2 {
     display: flex;
     justify-content: center;
-  }
-  
-  .menu-item {
+}
+
+.menu-item {
     position: relative;
     padding-bottom: 10px;
-  }
-  
-  .submenu {
+}
+
+.submenu {
     display: none;
     position: absolute;
-    top: 100%; /* Posiciona logo abaixo do item do menu */
-    left: 50%; /* Centraliza horizontalmente em relação ao item do menu */
-    transform: translateX(-50%); /* Ajusta a posição para centralizar */
-    width: 50vw; /* Largura fixa para o submenu */
+    top: 100%;
+    /* Posiciona logo abaixo do item do menu */
+    left: 50%;
+    /* Centraliza horizontalmente em relação ao item do menu */
+    transform: translateX(-50%);
+    /* Ajusta a posição para centralizar */
+    width: 50vw;
+    /* Largura fixa para o submenu */
     background-color: #fff;
     border: 1px solid #2F2F2F;
     padding: 10px;
     z-index: 1;
     border-radius: 20px;
-    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
-  }
-  
-  .submenuOrganizacao {
+    box-sizing: border-box;
+    /* Garante que o padding seja incluído na largura total */
+}
+
+.submenuOrganizacao {
     margin: 10px 80px;
     text-align: left;
-  }
-  
-  .submenu p {
+}
+
+.submenu p {
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .submenu a {
+
+}
+
+.submenu a {
     display: block;
     padding: 5px;
     text-decoration: none;
     font: 400 16px 'WorkSans', sans-serif;
     color: #000;
-  }
-  
-  .submenuItem {
+}
+
+.submenuItem {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
-  
-  }
-  
-  .menu-item:hover .submenu {
+
+}
+
+.menu-item:hover .submenu {
     display: block;
     text-align: center;
-  }
-  
-  .item {
+}
+
+.item {
     padding: 10px 10px 8px 10px;
-  }
-  
-  .item:hover {
+}
+
+.item:hover {
     border-bottom: 1px solid #fff;
-  }
-  
-  
-  /* FIM DO CABEÇALHO */
+}
+
+
+/* FIM DO CABEÇALHO */
 
 
 
@@ -182,7 +187,7 @@ a {
     font-family: 'WorkSans';
     font-size: 6vh;
     font-weight: 600;
-    margin-top:7vh;
+    margin-top: 7vh;
 }
 
 .numeracao {
@@ -211,16 +216,18 @@ a {
     margin-top: 10vh;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
 .btn-whatsapp {
     margin-left: 3vh;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     margin-left: 1vh;
 }
+
 /* DESCRIÇÃO DO PRODUTO */
 
 .titulo-DescricaoProduto {
@@ -256,7 +263,7 @@ button{
     margin-top: 3vh;
 }
 
-.titulo-CompreJunto  {
+.titulo-CompreJunto {
     text-align: center;
     font-family: 'LibreFranklin';
     font-weight: 500;
@@ -268,7 +275,8 @@ button{
     height: 0.55vh;
     margin-top: 3vh;
     width: 30vh;
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
 }
 
 
@@ -324,50 +332,65 @@ button{
     border: 1px solid #76767688;
 }
 
-.Lilas{
+.Lilas {
     background-color: #9197D5;
 }
-.VerdeAgua{
+
+.VerdeAgua {
     background-color: #04C7AF;
 }
-.RosaChoque{
+
+.RosaChoque {
     background-color: #DF2D8B;
 }
-.RosaClaro{
+
+.RosaClaro {
     background-color: #FCE6ED;
 
 }
-.AzulEscuro{
+
+.AzulEscuro {
     background-color: #0C1628;
 }
-.BrancoSapatilha{
+
+.BrancoSapatilha {
     background-color: #FFFFFF;
 }
-.VermelhoSapatilha{
+
+.VermelhoSapatilha {
     background-color: #C1212A;
 }
-.AzulEscuroSapatilha{
+
+.AzulEscuroSapatilha {
     background-color: #1F2240;
 }
-.AzulClaroSapatilha{
+
+.AzulClaroSapatilha {
     background-color: #8ECBE8;
 }
-.VerdeAguaSapatilha{
+
+.VerdeAguaSapatilha {
     background-color: #64C9AE;
 }
 
 
 /* ARRUMANDO AS IMAGENS PELO JSON */
 
-.img-Masc{
+.img-Masc,
+.img-Masc-CanoCurtoMeia {
     width: 50vh;
     height: 43vh;
 }
 
-.img-Masckit{
-    width: 65vh;
-    height: 32vh;
-    padding: 20px 0;
+.img-Masckit {
+    width: 60vh;
+    height: 34vh;
+     padding: 20px 0;
+}
+
+.img-Masc-CanoCurtoKit {
+    width: 74vh;
+    height: 25vh;
 }
 
 
@@ -382,12 +405,12 @@ button{
 
 
 /* estilizando as informações */
-.informacoesMeiaBaby{
+.informacoesMeiaBaby {
     margin-left: 2vh;
     margin-top: 2vh;
 }
 
-.MeiaBabySubtitulo{
+.MeiaBabySubtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
     font-size: 2.55vh;
@@ -416,9 +439,10 @@ button{
 
 }
 
-.texto-a-vista{
+.texto-a-vista {
     margin-top: 1vh;
 }
+
 .botao-euQuero {
     background-color: #252160;
     color: #fff;
@@ -472,19 +496,22 @@ a {
     flex-wrap: wrap;
 }
 
-.contatos-rodape, .acompanhe-rodape {
+.contatos-rodape,
+.acompanhe-rodape {
     margin-top: 20px;
     transition: margin-top 0.5s ease;
 }
 
-.whats-rodape, .email-rodape {
+.whats-rodape,
+.email-rodape {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
 
-.whats-rodape a, .email-rodape a {
+.whats-rodape a,
+.email-rodape a {
     display: inline-flex;
     align-items: center;
     margin: 0;
@@ -585,7 +612,8 @@ a {
         padding: 50px 50px;
     }
 
-    .linha1-rodape, .linha2-rodape {
+    .linha1-rodape,
+    .linha2-rodape {
         display: block;
         text-align: center;
     }
@@ -599,7 +627,9 @@ a {
         font-size: 18px;
     }
 
-    .acompanhe-rodape, .institucional-rodape, .categorias-rodape {
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
         margin-top: 60px;
     }
 
@@ -624,13 +654,15 @@ a {
         margin-right: 50px;
     }
 
-    .categGeral-rodape{
+    .categGeral-rodape {
         justify-content: center;
         align-items: center;
     }
 
-    .whats-rodape, .email-rodape {
-        justify-content: center; /* Centraliza o conteúdo */
+    .whats-rodape,
+    .email-rodape {
+        justify-content: center;
+        /* Centraliza o conteúdo */
     }
 
     #imagemMeia {
@@ -639,17 +671,17 @@ a {
 
     }
 
-    .img-baby{
+    .img-baby {
         width: 35vh;
         height: 30vh
     }
 
-    .img-babyKit{
+    .img-babyKit {
         width: 45vh;
         height: 25vh
     }
 
-    
+
     /* Container geral se adapta à largura do dispositivo móvel */
     .TodasInformacoes {
         margin: 5vh auto;
@@ -712,5 +744,28 @@ a {
         text-align: center;
         margin-left: 0;
         margin-top: 10vh;
+    }
+
+
+
+
+}
+
+/* CANO CURTO */
+@media screen and (max-width: 768px) {
+    .img-Masc-CanoCurtoMeia {
+        width: 35vh;
+        height: 28vh;
+    }
+.img-Masc-CanoCurtoKit{
+    width: 60vh;
+    height: 20vh;
+}
+    #titulo {
+        font-size: 3.56vh;
+    }
+
+    #codigo {
+        margin-top: 3vh
     }
 }
