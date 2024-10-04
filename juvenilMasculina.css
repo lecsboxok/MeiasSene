@@ -169,40 +169,50 @@ a {
 /* CORES */
 .cores-preta-marrom,
 .cores-cinza-marinho,
-.cores-grafite-marinho{
+.cores-grafite-marinho,
+.cores-marinho-grafite,
+.cores-vermelho-verde,
+.cores-cinza-laranja,
+.cores-brancaLisa-pretaLisa-cinzaLisa,
+.cores-branca-preta-cinzakit{
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
-
+.vermelhoDes,
+.verdeDes,
 .juvenilMarrom,
 .juvenilPreta,
 .cinzaMotors,
 .marinhoMotors,
 .marinhoFut,
-.grafiteFut{
+.grafiteFut,
+.faixaGrafite,
+.faixaMarinho,
+.cinzaLar,
+.royalVer,
+.brancaLisa,
+.pretaLisa,
+.cinzaLisa,
+.pretaKit01,
+.cinzaKit01,
+.brancaKit01,
+.kitDiversa
+{
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.brancaLisa,
-.brancaHorse,
-.brancaS,
-.brancaAero,
-.brancaPolo,
-.brancaKit01,
-.brancaKit02,
-.brancaCurto,
-.brancaCurtoKit,
-.brancaKit,
-.brancaPro {
+
+.faixaMarinho, .royalVer, .brancaLisa, .brancaKit01
+{
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
 
-.juvenilPreta {
+.juvenilPreta,.cinzaLar, .pretaLisa, .pretaKit01{
     background-color: #000000;
 }
 .juvenilMarrom{
@@ -212,33 +222,27 @@ a {
 .cinzaMotors {
     background-color: #96A6B5;
 }
+.faixaGrafite{
+    background-color: #959B97;
+}
 .grafiteFut{
     background-color: #3C4556;
 }
 .marinhoMotors, .marinhoFut{
     background-color: #151829;
 }
-.laranjaPro {
-    background-color: #D47B2F;
+
+.cinzaLisa, .cinzaKit01 {
+    background-color: #9BA1A1;
+}
+.verdeDes{
+    background-color: #AED343;
+}
+.vermelhoDes{
+   background-color: #AC2428;
 }
 
-.vermelhaPro {
-    background-color: #B8312A;
-}
-
-.amarelaPro {
-    background-color: #D4BE1B;
-}
-
-.azulPro {
-    background-color: #269AD3;
-}
-
-.verdePro {
-    background-color: #B9E24A;
-}
-
-.kitTresCores {
+.kitDiversa {
     background-color: #ffffff;
     border: 1px solid #76767688;
     display: flex;
@@ -246,7 +250,7 @@ a {
     justify-content: center;
 }
 
-.kitTresCores p {
+.kitDiversa p {
     font: 400 16px 'WorkSans', sans-serif;
 }
 
@@ -264,15 +268,20 @@ a {
 .Quadrado-da-meia-esportiva-s img,
 .Quadrado-da-meia-esportiva-polo img,
 .Quadrado-da-meia-esportiva-aero img,
-.Quadrado-da-meia-esportiva-cano-curto img,
+
 .Quadrado-da-meia-quadriculada-laranja img,
 .Quadrado-da-meia-quadriculada-branca img,
 .Quadrado-da-meia-faixa-vermelha img,
 .Quadrado-da-meia-faixa-amarela img,
 .Quadrado-da-meia-degrade-azul img,
-.Quadrado-da-meia-degrade-verde img {
-    width: 220px;
-    height: 200px;
+.Quadrado-da-meia-degrade-verde img,
+.Quadrado-da-meia-esportiva-cinza-laranja img {
+    width: 350px;
+    height: 300px;
+}
+.Quadrado-da-meia-esportiva-cano-curto img{
+width: 200px;
+height: 200px;
 }
 
 .container {
