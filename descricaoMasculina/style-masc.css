@@ -374,24 +374,51 @@ button {
 }
 
 
-/* ARRUMANDO AS IMAGENS PELO JSON */
 
-.img-Masc,
-.img-Masc-CanoCurtoMeia {
+
+
+
+
+/* CANO CURTO *//* ARRUMANDO AS IMAGENS PELO JSON */
+#Textodescricao{
+    margin-top: -4vh;
+}
+
+
+@media screen and (max-width: 768px) {
+    .img-Masc-CanoCurtoMeia {
+        width: 35vh;
+        height: 28vh;
+    }
+
+    .img-Masc-CanoCurtoKit {
+        width: 60vh;
+        height: 20vh;
+    }
+
+    #titulo {
+        font-size: 3.56vh;
+    }
+
+    #codigo {
+        margin-top: 3vh
+    }
+}
+
+.img-Masc {
     width: 50vh;
     height: 43vh;
 }
 
 .img-Masckit {
-    width: 60vh;
-    height: 34vh;
-     padding: 20px 0;
+    width: 65vh;
+    height: 30vh;
+    padding: 20px 0;
 }
 
-.img-Masc-CanoCurtoKit {
-    width: 74vh;
-    height: 25vh;
-}
+
+
+
 
 
 /* arrumando as imagens das meias cano curto */
@@ -749,23 +776,4 @@ a {
 
 
 
-}
-
-/* CANO CURTO */
-@media screen and (max-width: 768px) {
-    .img-Masc-CanoCurtoMeia {
-        width: 35vh;
-        height: 28vh;
-    }
-.img-Masc-CanoCurtoKit{
-    width: 60vh;
-    height: 20vh;
-}
-    #titulo {
-        font-size: 3.56vh;
-    }
-
-    #codigo {
-        margin-top: 3vh
-    }
 }
