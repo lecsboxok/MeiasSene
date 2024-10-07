@@ -386,9 +386,90 @@
   "cinzaKit03": {
     "imagem": "img-masculino/CanoCurto-KitCinza.png",
     "codigo": "Referência:  4743",
-    "preco": "R$ 180,40",
+    "preco": "R$ 18,40",
     "class": "img-Masckit",
     "titulo": "Meia Cano Curto Cinza Lisa Masculina - Kit 3 Pares",
     "numeracao": "39 á 43"
+  },
+  "juvenilMarrom": {
+    "imagem": "img-juvenil/camuflada-marrom.png",
+    "codigo": "Referência:  3621-1/2",
+    "preco": "R$ 5,10",
+    "class": "img-Masckit",
+    "titulo": "Meia Casual Camuflada Marrom Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "juvenilPreta": {
+    "imagem": "img-juvenil/camuflada-preta.png",
+    "codigo": "Referência:  3621-1/2",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Casual Camuflada Preta Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "cinzaMotors": {
+    "imagem": "img-juvenil/motors-cinza.png",
+    "codigo": "Referência:  3621-3/1",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Casual Motors Cinza Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "marinhoMotors": {
+    "imagem": "img-juvenil/motors-marinho.png",
+    "codigo": "Referência:  3621-3/2",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Casual Motors Marinho Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "grafiteFut": {
+    "imagem": "img-juvenil/futebol-grafite.png",
+    "codigo": "Referência:  3621-2/1",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Casual Futebol Grafite Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "marinhoFut": {
+    "imagem": "img-juvenil/futebol-marinho.png",
+    "codigo": "Referência:  3621-2/2",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Casual Futebol Marinho Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "faixaGrafite": {
+    "imagem": "img-juvenil/faixa-grafite.png",
+    "codigo": "Referência:  4621-3/1",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Desenhada Faixa Grafite Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "faixaMarinho": {
+    "imagem": "img-juvenil/faixa-grafite.png",
+    "codigo": "Referência:  4621-3/2",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Desenhada Faixa Marinho Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "vermelhoDes": {
+    "imagem": "img-juvenil/marinho-vermelha.png",
+    "codigo": "Referência:  4621-2/2 -",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Desenhada Marinho e Vermelho Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "verdeDes": {
+    "imagem": "img-juvenil/marinho-verde.png",
+    "codigo": "Referência:  4621-2/1 -",
+    "preco": "R$ 5,10",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Desenhada Grafite e Verde Juvenil",
+    "numeracao": "34 á 38"
   }
+
 }

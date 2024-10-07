@@ -320,7 +320,7 @@ button {
 .VermelhoSapatilha,
 .AzulEscuroSapatilha,
 .AzulClaroSapatilha,
-.VerdeAguaSapatilha {
+.VerdeAguaSapatilha{
     width: 4vh;
     height: 4vh;
     border-radius: 50%;
@@ -385,6 +385,7 @@ button {
 }
 
 
+
 @media screen and (max-width: 768px) {
     .img-Masc-CanoCurtoMeia {
         width: 35vh;
@@ -395,6 +396,7 @@ button {
         width: 60vh;
         height: 20vh;
     }
+    
 
     #titulo {
         font-size: 3.56vh;
