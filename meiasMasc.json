@@ -442,7 +442,7 @@
   "faixaGrafite": {
     "imagem": "img-juvenil/faixa-grafite.png",
     "codigo": "Referência:  4621-3/1",
-    "preco": "R$ 5,10",
+    "preco": "R$ 4,80",
     "class": "img-Masc",
     "titulo": "Meia Cano Curto Desenhada Faixa Grafite Juvenil",
     "numeracao": "34 á 38"
@@ -450,26 +450,97 @@
   "faixaMarinho": {
     "imagem": "img-juvenil/faixa-grafite.png",
     "codigo": "Referência:  4621-3/2",
-    "preco": "R$ 5,10",
+    "preco": "R$ 4,80",
     "class": "img-Masc",
     "titulo": "Meia Cano Curto Desenhada Faixa Marinho Juvenil",
     "numeracao": "34 á 38"
   },
   "vermelhoDes": {
     "imagem": "img-juvenil/marinho-vermelha.png",
-    "codigo": "Referência:  4621-2/2 -",
-    "preco": "R$ 5,10",
+    "codigo": "Referência:  4621-2/2",
+    "preco": "R$ 4,80",
     "class": "img-Masc",
     "titulo": "Meia Cano Curto Desenhada Marinho e Vermelho Juvenil",
     "numeracao": "34 á 38"
   },
   "verdeDes": {
     "imagem": "img-juvenil/marinho-verde.png",
-    "codigo": "Referência:  4621-2/1 -",
-    "preco": "R$ 5,10",
+    "codigo": "Referência:  4621-2/1",
+    "preco": "R$ 4,80",
     "class": "img-Masc",
     "titulo": "Meia Cano Curto Desenhada Grafite e Verde Juvenil",
     "numeracao": "34 á 38"
+  },
+  "cinzaLar": {
+    "imagem": "img-juvenil/cinza-laranja.png",
+    "codigo": "Referência:  4621-1/2",
+    "preco": "R$ 4,80",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Desenhada Cinza e Laranja Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "royalVer": {
+    "imagem": "img-juvenil/royal-vermelho.png",
+    "codigo": "Referência:  4621-1/1",
+    "preco": "R$ 4,80",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Desenhada Royal e Vermelho Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "brancaLisajuv": {
+    "imagem": "img-juvenil/lisa-branca.png",
+    "codigo": "Referência: 4641-1/1",
+    "preco": "R$  4,70",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Lisa Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "pretaLisajuv": {
+    "imagem": "img-juvenil/lisa-preta.png",
+    "codigo": "Referência: 4641-1/2",
+    "preco": "R$  4,70",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Lisa Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "cinzaLisajuv": {
+    "imagem": "img-juvenil/lisa-cinza.png",
+    "codigo": "Referência: 4641-1/3",
+    "preco": "R$  4,70",
+    "class": "img-Masc",
+    "titulo": "Meia Cano Curto Lisa Juvenil",
+    "numeracao": "34 á 38"
+  },
+  "pretaKit01Juv": {
+    "imagem": "img-juvenil/kit-preta.png",
+    "codigo": "Referência: 4643",
+    "preco": "R$ 14,10",
+    "class": "img-MascKit",
+    "titulo": "Meia Cano Curto Lisa Juvenil Preta - Kit 3 pares",
+    "numeracao": "34 á 38"
+  },
+  "brancaKit01Juv": {
+    "imagem": "img-juvenil/kit-branca.png",
+    "codigo": "Referência: 4643",
+    "preco": "R$ 14,10",
+    "class": "img-MascKit",
+    "titulo": "Meia Cano Curto Lisa Juvenil Branca - Kit 3 pares",
+    "numeracao": "34 á 38"
+  },
+  "cinzaKit01Juv": {
+    "imagem": "img-juvenil/kit-cinza.png",
+    "codigo": "Referência: 4643",
+    "preco": "R$ 14,10",
+    "class": "img-MascKit",
+    "titulo": "Meia Cano Curto Lisa Juvenil Cinza - Kit 3 pares",
+    "numeracao": "34 á 38"
+  },
+  "kitDiversa": {
+    "imagem": "img-juvenil/kit-diversa.png",
+    "codigo": "Referência: 4643",
+    "preco": "R$ 14,10",
+    "class": "img-MascKit",
+    "titulo": "Meia Cano Curto Lisa Juvenil Diversa - Kit 3 pareses",
+    "numeracao": "34 á 38"
   }
-
 }

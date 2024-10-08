@@ -24,116 +24,218 @@ a {
 
 /* CABEÇALHO */
 
+
+
 #header {
     background-color: #252160;
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  
-  .cabecalhoUm {
+}
+
+.cabecalhoUm {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 80px;
+    justify-content: center;
+    margin: 5px 80px;
     padding: 5px;
-  }
-  
-  .procurando {
+}
+
+.procurando {
     padding: 13px;
     border-radius: 30px;
     width: 400px;
     height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .imagemLogo img {
+
+}
+
+.imagemLogo img {
     width: 150px;
-  }
-  
-  .linha {
+}
+
+.imagemLogo {
+    flex: 1;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
     background-color: #fff;
-    height: 0.4px;
-  }
-  
-  .cabecalho2 {
+    margin-bottom: 10px;
+}
+
+#header::after {
+    content: "";
+    display: block;
+    height: 20px;
+    background-color: #252160;
+}
+
+.cabecalho2 {
     text-align: center;
     padding: 15px 0 0px 0;
-  }
-  
-  .item {
+}
+
+.item {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-  }
-  
-  .cabecalho2 {
+}
+
+.cabecalho2 {
     display: flex;
     justify-content: center;
-  }
-  
-  .menu-item {
+}
+
+.menu-item {
     position: relative;
     padding-bottom: 10px;
-  }
-  
-  .submenu {
+}
+
+.submenu {
     display: none;
     position: absolute;
-    top: 100%; /* Posiciona logo abaixo do item do menu */
-    left: 50%; /* Centraliza horizontalmente em relação ao item do menu */
-    transform: translateX(-50%); /* Ajusta a posição para centralizar */
-    width: 50vw; /* Largura fixa para o submenu */
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20vw;
     background-color: #fff;
     border: 1px solid #2F2F2F;
     padding: 10px;
     z-index: 1;
     border-radius: 20px;
-    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
-  }
-  
-  .submenuOrganizacao {
-    margin: 10px 80px;
+    box-sizing: border-box;
+}
+
+.submenuOrganizacao {
+    margin: 10px 20px;
     text-align: left;
-  }
-  
-  .submenu p {
+}
+
+.submenu p {
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .submenu a {
+
+}
+
+.submenu a {
     display: block;
     padding: 5px;
     text-decoration: none;
     font: 400 16px 'WorkSans', sans-serif;
     color: #000;
-  }
-  
-  .submenuItem {
+}
+
+.submenuItem {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
-  
-  }
-  
-  .menu-item:hover .submenu {
+
+}
+
+.menu-item:hover .submenu {
     display: block;
     text-align: center;
-  }
-  
-  .item {
+}
+
+.item {
     padding: 10px 10px 8px 10px;
-  }
-  
-  .item:hover {
+}
+
+.item:hover {
     border-bottom: 1px solid #fff;
-  }
-  
-  
-  /* FIM DO CABEÇALHO */
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Posiciona o menu fora da tela à direita */
+    width: 100%;
+    height: 100%;
+    background-color: #252160;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+    transition: right 0.5s ease; /* Controla o tempo da animação */
+}
+
+.modal-menu .imagemLogo {
+    margin: 80px 0 30px 0;
+}
+
+.modal-menu .imagemLogo img {
+    width: 120px;/
+}
+
+.modal-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.menu-itemModal {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.itemModal {
+    color: white;
+    font: 600 20px 'WorkSans', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.itemModal:hover {
+    color: #c2c2c2;
+}
+
+.submenuModal {
+    display: none;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.submenuModal a {
+    color: rgb(0, 0, 0);
+    font: 400 16px 'WorkSans', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin: 8px 0;
+}
+
+.submenuModal a:hover {
+    color: #5b5b5b;
+}
+
+.close-modal {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    z-index: 101;
+}
+
+
+/* FIM DO CABEÇALHO */
+
 
 
 
@@ -410,6 +512,49 @@ height: 200px;}
 
 /*MOBILE*/
 @media screen and (max-width: 768px) {
+      /* CABEÇALHO */
+      .cabecalhoUm {
+        justify-content: space-between;
+        margin: 5px 20px;
+    }
+
+    .imagemLogo img {
+        width: 130px;
+    }
+
+    .imagemLogo {
+        flex: none;
+    }
+
+    .cabecalho2 {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .menu-item.open .submenu {
+        display: block;
+    }
+
+    .menu-item:hover .submenu {
+        display: none;
+    }
+
+    #meiasBabyDesMasc {
+        padding-top: 15vh;
+        margin: 0 30px;
+    }
+
+    .modal-menu.show {
+        right: 0;
+    }
+
     .titulo {
         font-family: "LibreFranklin";
         margin-left: 5vh;

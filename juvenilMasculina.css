@@ -29,111 +29,212 @@ a {
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  
-  .cabecalhoUm {
+}
+
+.cabecalhoUm {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 80px;
+    justify-content: center;
+    margin: 5px 80px;
     padding: 5px;
-  }
-  
-  .procurando {
+}
+
+.procurando {
     padding: 13px;
     border-radius: 30px;
     width: 400px;
     height: 35px;
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .imagemLogo img {
+
+}
+
+.imagemLogo img {
     width: 150px;
-  }
-  
-  .linha {
+}
+
+.imagemLogo {
+    flex: 1;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
     background-color: #fff;
-    height: 0.4px;
-  }
-  
-  .cabecalho2 {
+    margin-bottom: 10px;
+}
+
+#header::after {
+    content: "";
+    display: block;
+    height: 20px;
+    background-color: #252160;
+}
+
+.cabecalho2 {
     text-align: center;
     padding: 15px 0 0px 0;
-  }
-  
-  .item {
+}
+
+.item {
     color: #fff;
     margin: 20px;
     font: 600 16px 'WorkSans', sans-serif;
-  }
-  
-  .cabecalho2 {
+}
+
+.cabecalho2 {
     display: flex;
     justify-content: center;
-  }
-  
-  .menu-item {
+}
+
+.menu-item {
     position: relative;
     padding-bottom: 10px;
-  }
-  
-  .submenu {
+}
+
+.submenu {
     display: none;
     position: absolute;
-    top: 100%; /* Posiciona logo abaixo do item do menu */
-    left: 50%; /* Centraliza horizontalmente em relação ao item do menu */
-    transform: translateX(-50%); /* Ajusta a posição para centralizar */
-    width: 50vw; /* Largura fixa para o submenu */
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20vw;
     background-color: #fff;
     border: 1px solid #2F2F2F;
     padding: 10px;
     z-index: 1;
     border-radius: 20px;
-    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
-  }
-  
-  .submenuOrganizacao {
-    margin: 10px 80px;
+    box-sizing: border-box;
+}
+
+.submenuOrganizacao {
+    margin: 10px 20px;
     text-align: left;
-  }
-  
-  .submenu p {
+}
+
+.submenu p {
     font: 600 16px 'WorkSans', sans-serif;
-  
-  }
-  
-  .submenu a {
+
+}
+
+.submenu a {
     display: block;
     padding: 5px;
     text-decoration: none;
     font: 400 16px 'WorkSans', sans-serif;
     color: #000;
-  }
-  
-  .submenuItem {
+}
+
+.submenuItem {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
-  
-  }
-  
-  .menu-item:hover .submenu {
+
+}
+
+.menu-item:hover .submenu {
     display: block;
     text-align: center;
-  }
-  
-  .item {
+}
+
+.item {
     padding: 10px 10px 8px 10px;
-  }
-  
-  .item:hover {
+}
+
+.item:hover {
     border-bottom: 1px solid #fff;
-  }
-  
-  
-  /* FIM DO CABEÇALHO */
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Posiciona o menu fora da tela à direita */
+    width: 100%;
+    height: 100%;
+    background-color: #252160;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+    transition: right 0.5s ease; /* Controla o tempo da animação */
+}
+
+.modal-menu .imagemLogo {
+    margin: 80px 0 30px 0;
+}
+
+.modal-menu .imagemLogo img {
+    width: 120px;/
+}
+
+.modal-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.menu-itemModal {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.itemModal {
+    color: white;
+    font: 600 20px 'WorkSans', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.itemModal:hover {
+    color: #c2c2c2;
+}
+
+.submenuModal {
+    display: none;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.submenuModal a {
+    color: rgb(0, 0, 0);
+    font: 400 16px 'WorkSans', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin: 8px 0;
+}
+
+.submenuModal a:hover {
+    color: #5b5b5b;
+}
+
+.close-modal {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    z-index: 101;
+}
+
+
+/* FIM DO CABEÇALHO */
+
+/* FIM DO CABEÇALHO */
 
 
 
@@ -173,12 +274,13 @@ a {
 .cores-marinho-grafite,
 .cores-vermelho-verde,
 .cores-cinza-laranja,
-.cores-brancaLisa-pretaLisa-cinzaLisa,
-.cores-branca-preta-cinzakit{
+.cores-brancaLisajuv-pretaLisajuv-cinzaLisajuv,
+.cores-branca-preta-cinzakit {
     display: flex;
     gap: 1vh;
     margin-top: 0.75vh;
 }
+
 .vermelhoDes,
 .verdeDes,
 .juvenilMarrom,
@@ -191,14 +293,13 @@ a {
 .faixaMarinho,
 .cinzaLar,
 .royalVer,
-.brancaLisa,
-.pretaLisa,
-.cinzaLisa,
-.pretaKit01,
-.cinzaKit01,
-.brancaKit01,
-.kitDiversa
-{
+.brancaLisajuv,
+.pretaLisajuv,
+.cinzaLisajuv,
+.pretaKit01Juv,
+.brancaKit01Juv,
+.cinzaKit01Juv,
+.kitDiversa {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
@@ -206,40 +307,53 @@ a {
 }
 
 
-.faixaMarinho, .royalVer, .brancaLisa, .brancaKit01
-{
+.faixaMarinho,
+.royalVer,
+.brancaLisajuv,
+.brancaKit01Juv {
     background-color: #ffffff;
     border: 1px solid #76767688;
 }
 
-.juvenilPreta,.cinzaLar, .pretaLisa, .pretaKit01{
+.juvenilPreta,
+.cinzaLar,
+.pretaLisajuv,
+.pretaKit01Juv {
     background-color: #000000;
 }
-.juvenilMarrom{
+
+.juvenilMarrom {
     background-color: #666049;
 }
 
 .cinzaMotors {
     background-color: #96A6B5;
 }
-.faixaGrafite{
+
+.faixaGrafite {
     background-color: #959B97;
 }
-.grafiteFut{
+
+.grafiteFut {
     background-color: #3C4556;
 }
-.marinhoMotors, .marinhoFut{
+
+.marinhoMotors,
+.marinhoFut {
     background-color: #151829;
 }
 
-.cinzaLisa, .cinzaKit01 {
+.cinzaLisajuv,
+.cinzaKit01Juv {
     background-color: #9BA1A1;
 }
-.verdeDes{
+
+.verdeDes {
     background-color: #AED343;
 }
-.vermelhoDes{
-   background-color: #AC2428;
+
+.vermelhoDes {
+    background-color: #AC2428;
 }
 
 .kitDiversa {
@@ -254,7 +368,7 @@ a {
     font: 400 16px 'WorkSans', sans-serif;
 }
 
-.parte2{
+.parte2 {
     display: flex;
     justify-content: center;
     gap: 20vh;
@@ -268,7 +382,6 @@ a {
 .Quadrado-da-meia-esportiva-s img,
 .Quadrado-da-meia-esportiva-polo img,
 .Quadrado-da-meia-esportiva-aero img,
-
 .Quadrado-da-meia-quadriculada-laranja img,
 .Quadrado-da-meia-quadriculada-branca img,
 .Quadrado-da-meia-faixa-vermelha img,
@@ -279,9 +392,10 @@ a {
     width: 350px;
     height: 300px;
 }
-.Quadrado-da-meia-esportiva-cano-curto img{
-width: 200px;
-height: 200px;
+
+.Quadrado-da-meia-esportiva-cano-curto img {
+    width: 200px;
+    height: 200px;
 }
 
 .container {
@@ -356,9 +470,282 @@ height: 200px;
 
 
 .selected {
-    border: 2px solid #000000 ;
-    border-radius: 50%; 
+    border: 2px solid #000000;
+    border-radius: 50%;
 }
+
+
+
+/* ---------------------------RODAPE ----------------------------------------------------------- */
+
+/* RESET */
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FONTES */
+
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+/* RODAPÉ */
+
+#footer {
+    background-color: #252160;
+    color: white;
+    margin-top: 120px;
+    transition: background-color 0.5s ease;
+}
+
+#footer:hover {
+    background-color: #1e1b55;
+}
+
+.container-rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 65px 100px 25px 100px;
+    transition: padding 0.5s ease;
+}
+
+.imgLogo-rodape {
+    width: 200px;
+}
+
+.linha1-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contatos-rodape,
+.acompanhe-rodape {
+    margin-top: 20px;
+    transition: margin-top 0.5s ease;
+}
+
+.whats-rodape,
+.email-rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.whats-rodape a,
+.email-rodape a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imgContatos-rodape {
+    width: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imgContatos-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-rodape {
+    font: 650 20px 'LibreFranklin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.titulo-rodape:hover {
+    color: #b4b4b4;
+}
+
+.texto-rodape {
+    font: 400 18px 'WorkSans', sans-serif;
+}
+
+.texto2-rodape {
+    font: 400 18px 'WorkSans', sans-serif;
+    margin-top: 12px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.texto2-rodape:hover {
+    color: #b4b4b4;
+    transform: scale(0.97);
+}
+
+.imgRedes-rodape {
+    width: 30px;
+    margin: 0 6px;
+    transition: transform 0.3s ease;
+}
+
+.imgRedes-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.redes-rodape {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linha2-rodape {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.categGeral-rodape {
+    display: flex;
+}
+
+.subCategoria1-rodape {
+    margin-right: 90px;
+}
+
+.textoInst-rodape {
+    margin-top: 20px;
+}
+
+.categGeral-rodape {
+    margin-top: 10px;
+}
+
+.categorias-rodape {
+    margin-left: 213px;
+}
+
+.final-rodape {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.textoFinal-rodape {
+    font: 400 15px 'WorkSans', sans-serif;
+}
+
+/* VERSÃO MOBILE */
+
+@media screen and (max-width: 768px) {
+        /* CABEÇALHO */
+        .cabecalhoUm {
+            justify-content: space-between;
+            margin: 5px 20px;
+        }
+    
+        .imagemLogo img {
+            width: 130px;
+        }
+    
+        .imagemLogo {
+            flex: none;
+        }
+    
+        .cabecalho2 {
+            display: none;
+        }
+    
+        .menu-icon {
+            display: block;
+        }
+    
+        .submenu {
+            display: none;
+        }
+    
+        .menu-item.open .submenu {
+            display: block;
+        }
+    
+        .menu-item:hover .submenu {
+            display: none;
+        }
+    
+        #meiasBabyDesMasc {
+            padding-top: 15vh;
+            margin: 0 30px;
+        }
+    
+        .modal-menu.show {
+            right: 0;
+        }
+    
+    
+    
+    
+        /* FIM DO CABEÇALHO */
+    
+    .titulo {
+        font-family: "LibreFranklin";
+        margin-left: 5vh;
+        margin-top: 15px;
+    }
+
+    .subtitulo {
+        font-family: 'WorkSans';
+        font-weight: 300;
+        margin-left: 7vh;
+        margin-top: 1vh;
+    }
+
+    .subtitulo-m {
+        font-family: 'WorkSans';
+        font-weight: 300;
+        margin-left: 7vh;
+        margin-top: 10vh;
+    }
+
+    #meiasDesMasc {
+        padding-top: 25vh;
+    }
+
+    /* FAZENDO ELA FICAR EM HORIZONTAL COM ESPAÇO */
+
+    .todas-as-meias-des-masc {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    #div-meia {
+        align-items: center;
+        width: 300px;
+        margin-top: 10vh;
+        border: 1px solid #A5A5A5;
+        border-radius: 20px;
+
+    }
+
+    .Quadrado-da-meia-esportiva-kit01 img, .Quadrado-da-meia-esportiva-cano-curto-kit img{
+        width: 300px;
+        height: 200px;
+        margin: 45px 30px;
+    }
+
+}
+
+
+
 
 
 
@@ -588,9 +975,4 @@ a {
         justify-content: center;
         /* Centraliza o conteúdo */
     }
-
-
-
 }
-
-
