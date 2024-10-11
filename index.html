@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meias Sene</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/iconLogo.png">
 </head>
 
 <body>
@@ -14,100 +15,174 @@
             <div class="imagemLogo">
                 <a href="index.html"><img src="img/logoSene.png" alt="Logo meias sene"></a>
             </div>
+            <div class="menu-icon" id="menuIcon">&#9776;</div>
+            <nav class="cabecalho2">
+                <div class="menu-item">
+                    <a href="" class="item">Baby Fem</a>
+                    <div class="submenu">
+                        <div class="submenuOrganizacao">
+                            <p>Baby Feminino</p>
+                            <div class="submenuItem">
+                                <a href="babyDesFem.html">Baby Feminina Desenhada</a>
+                                <a href="babyColorsFem.html">Baby Feminina Color’s</a>
+                                <a href="babySapFem.html">Baby Feminina Malha Persa<br>/ Baby Feminina Sapatilha</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a href="" class="item">Baby Masc</a>
+                    <div class="submenu">
+                        <div class="submenuOrganizacao">
+                            <p>Baby Masculina</p>
+                            <div class="submenuItem">
+                                <a href="babyDesMasc.html">Baby Masculina Desenhada</a>
+                                <a href="babyColorsMasc.html">Baby Masculina Color’s</a>
+                                <a href="babySapMasc.html">Baby Masculina Malha Persa<br>/ Baby Feminina Sapatilha</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a href="" class="item">Kids Fem</a>
+                    <div class="submenu">
+                        <div class="submenuOrganizacao">
+                            <p>Kids Feminina</p>
+                            <div class="submenuItem">
+                                <a href="kidsFem.html">Kids Feminina</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a href="" class="item">Kids Masc</a>
+                    <div class="submenu">
+                        <div class="submenuOrganizacao">
+                            <p>Kids Masculina</p>
+                            <div class="submenuItem">
+                                <a href="kidsMas.html">Kids Masculina</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a href="" class="item">Adulto Fem</a>
+                    <div class="submenu">
+                        <div class="submenuOrganizacao">
+                            <p>Adulto Feminino</p>
+                            <div class="submenuItem">
+                                <div><a href="proFeminino.html">Pró</a>
+                                    <a href="CanoCurtoCasualFem.html">Casual</a>
+                                    <a href="babyDesFem.html">Baby Desenhada</a>
+                                    <a href="CanoLongoFem.html">Casual Cano Longo</a>
+                                </div>
+                                <div><a href="babyColorsFem.html">Baby Color’s</a>
+                                    <a href="canoCurtoFem.html">Cano Curto / Cano Curto Desenhada</a>
+                                    <a href="babySapFem.html">Baby Sapatilha / Baby Malha Persa</a>
+                                    <a href="kidsFem.html">Kids</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <a href="" class="item">Adulto Masc</a>
+                    <div class="submenu">
+                        <div class="submenuOrganizacao">
+                            <p>Adulto Masculino</p>
+                            <div class="submenuItem">
+                                <div><a href="proMasculina.html">Pró</a>
+                                    <a href="babyDesMasc.html">Baby Desenhada</a>
+                                    <a href="esportivaMasc.html">Esportiva</a>
+                                    <a href="socialMasculina.html">Social</a>
+                                    <a href="canoCurto-masculino.html">Cano Curto / Cano Curto Desenhada</a>
+                                </div>
+                                <div><a href="babyColorsMasc.html">Baby Color’s</a>
+                                    <a href="babySapMasc.html">Baby Sapatilha / Baby Malha Persa</a>
+                                    <a href="kidsMas.html">Kids</a>
+                                    <a href="juvenilMasculina.html">Juvenil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <div class="linha"></div>
-        <nav class="cabecalho2">
-            <div class="menu-item">
-                <a href="" class="item">Baby Fem</a>
-                <div class="submenu">
-                    <div class="submenuOrganizacao">
-                        <p>Baby Feminino</p>
-                        <div class="submenuItem">
-                            <a href="babyDesFem.html">Baby Feminina Desenhada</a>
-                            <a href="babyColorsFem.html">Baby Feminina Color’s</a>
-                            <a href="babySapFem.html">Baby Feminina Malha Persa<br>/ Baby Feminina Sapatilha</a>
-                        </div>
-                    </div>
+        <div class="linha" id="linha"></div>
+    </header>
+
+    <div class="modal-menu" id="modalMenu">
+        <span class="close-modal" id="closeModal">&times;</span> <!-- Botão de fechar -->
+
+        <!-- Logo centralizada no modal -->
+        <div class="imagemLogo">
+            <a href="index.html"><img src="img/logoSene.png" alt="Logo meias sene"></a>
+        </div>
+
+        <!-- Ícones de navegação no modal -->
+        <nav>
+            <div class="menu-itemModal">
+                <a href="#" class="itemModal" data-submenu="babyFem">Baby Feminina</a>
+                <div class="submenuModal" id="submenu-babyFem">
+                    <a href="babyDesFem.html">Baby Feminina Desenhada</a>
+                    <a href="babyColorsFem.html">Baby Feminina Color’s</a>
+                    <a href="babySapFem.html">Baby Feminina Malha Persa / Sapatilha</a>
                 </div>
             </div>
-            <div class="menu-item">
-                <a href="" class="item">Baby Masc</a>
-                <div class="submenu">
-                    <div class="submenuOrganizacao">
-                        <p>Baby Masculina</p>
-                        <div class="submenuItem">
-                            <a href="babyDesMasc.html">Baby Masculina Desenhada</a>
-                            <a href="babyColorsMasc.html">Baby Masculina Color’s</a>
-                            <a href="babySapMasc.html">Baby Masculina Malha Persa<br>/ Baby Feminina Sapatilha</a>
-                        </div>
-                    </div>
+
+            <div class="menu-itemModal">
+                <a href="#" class="itemModal" data-submenu="babyMasc">Baby Masculina</a>
+                <div class="submenuModal" id="submenu-babyMasc">
+                    <a href="babyDesMasc.html">Baby Masculina Desenhada</a>
+                    <a href="babyColorsMasc.html">Baby Masculina Color’s</a>
+                    <a href="babySapMasc.html">Baby Masculina Malha Persa / Sapatilha</a>
                 </div>
             </div>
-            <div class="menu-item">
-                <a href="" class="item">Kids Fem</a>
-                <div class="submenu">
-                    <div class="submenuOrganizacao">
-                        <p>Kids Feminina</p>
-                        <div class="submenuItem">
-                            <a href="kidsFem.html">Kids Feminina</a>
-                        </div>
-                    </div>
+
+            <div class="menu-itemModal">
+                <a href="#" class="itemModal" data-submenu="kidsFem">Kids Feminina</a>
+                <div class="submenuModal" id="submenu-kidsFem">
+                    <a href="kidsFem.html">Kids Feminina</a>
                 </div>
             </div>
-            <div class="menu-item">
-                <a href="" class="item">Kids Masc</a>
-                <div class="submenu">
-                    <div class="submenuOrganizacao">
-                        <p>Kids Masculina</p>
-                        <div class="submenuItem">
-                            <a href="kidsMas.html">Kids Masculina</a>
-                        </div>
-                    </div>
+
+            <div class="menu-itemModal">
+                <a href="#" class="itemModal" data-submenu="kidsMasc">Kids Masculina</a>
+                <div class="submenuModal" id="submenu-kidsMasc">
+                    <a href="kidsMas.html">Kids Masculina</a>
                 </div>
             </div>
-            <div class="menu-item">
-                <a href="" class="item">Adulto Fem</a>
-                <div class="submenu">
-                    <div class="submenuOrganizacao">
-                        <p>Adulto Feminino</p>
-                        <div class="submenuItem">
-                            <div><a href="proFeminino.html">Pró</a>
-                                <a href="CanoCurtoCasualFem.html">Casual</a>
-                                <a href="babyDesFem.html">Baby Desenhada</a>
-                                <a href="CanoLongoFem.html">Casual Cano Longo</a>
-                            </div>
-                            <div><a href="babyColorsFem.html">Baby Color’s</a>
-                                <a href="canoCurtoFem.html">Cano Curto / Cano Curto Desenhada</a>
-                                <a href="babySapFem.html">Baby Sapatilha / Baby Malha Persa</a>
-                                <a href="kidsFem.html">Kids</a>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="menu-itemModal">
+                <a href="#" class="itemModal" data-submenu="adultoFem">Adulto Feminina</a>
+                <div class="submenuModal" id="submenu-adultoFem">
+                    <a href="proFeminino.html">Pró</a>
+                    <a href="CanoCurtoCasualFem.html">Casual</a>
+                    <a href="babyDesFem.html">Baby Desenhada</a>
+                    <a href="CanoLongoFem.html">Casual Cano Longo</a>
+                    <a href="babyColorsFem.html">Baby Color’s</a>
+                    <a href="canoCurtoFem.html">Cano Curto / Cano Curto Desenhada</a>
+                    <a href="babySapFem.html">Baby Sapatilha / Baby Malha Persa</a>
+                    <a href="kidsFem.html">Kids</a>
                 </div>
             </div>
-            <div class="menu-item">
-                <a href="" class="item">Adulto Masc</a>
-                <div class="submenu">
-                    <div class="submenuOrganizacao">
-                        <p>Adulto Masculino</p>
-                        <div class="submenuItem">
-                            <div><a href="proMasculina.html">Pró</a>
-                                <a href="#">Casual</a>
-                                <a href="babyDesMasc.html">Baby Desenhada</a>
-                                <a href="#">Casual Cano Longo</a>
-                                <a href="#">Cano Curto / Cano Curto Desenhada</a>
-                            </div>
-                            <div><a href="babyColorsMasc.html">Baby Color’s</a>
-                                <a href="babySapMasc.html">Baby Sapatilha / Baby Malha Persa</a>
-                                <a href="kidsMas.html">Kids</a>
-                                <a href="#">Juvenil</a>
-                            </div>
-                        </div>
-                    </div>
+
+            <div class="menu-itemModal">
+                <a href="#" class="itemModal" data-submenu="adultoMasc">Adulto Masculina</a>
+                <div class="submenuModal" id="submenu-adultoMasc">
+                    <a href="proMasculina.html">Pró</a>
+                    <a href="babyDesMasc.html">Baby Desenhada</a>
+                    <a href="esportivaMasc.html">Esportiva</a>
+                    <a href="socialMasculina.html">Social</a>
+                    <a href="canoCurto-masculino.html">Cano Curto / Cano Curto Desenhada</a>
+                    <a href="babyColorsMasc.html">Baby Color’s</a>
+                    <a href="babySapMasc.html">Baby Sapatilha / Baby Malha Persa</a>
+                    <a href="kidsMas.html">Kids</a>
+                    <a href="juvenilMasculina.html">Juvenil</a>
                 </div>
             </div>
         </nav>
-    </header>
+    </div>
 
 
     <main id="main">
@@ -153,7 +228,7 @@
                             <div class="Quadrado-da-meia-Color-Baby" id="divMeiasBaby">
                                 <div class="Imagem-CompreJunto"> <img src="img-baby/MeiaRosa-Feminina.png" alt=""></div>
                                 <div class="informacoesMeiaBaby">
-                                    <h3 class="MeiaBabySubtitulo"> Meia Baby Color’s Feminina</h3>
+                                    <h3 class="Subtitulo"> Meia Baby Color’s Feminina</h3>
                                     <h3 class="numeracao"> 0 á 6 meses</h3>
                                     <div class="coresMeiaBabyColor">
                                         <div class="RosaClaro"></div>
@@ -175,7 +250,7 @@
                                         alt="">
                                 </div>
                                 <div class="informacoesMeiaBaby">
-                                    <h3 class="MeiaBabySubtitulo"> Meia Baby Desenhada Feminina</h3>
+                                    <h3 class="Subtitulo"> Meia Baby Desenhada Feminina</h3>
                                     <h3 class="numeracao"> 6 á 12 meses</h3>
                                     <div class="coresMeiaDesenhada">
                                         <div class="AzulEscuro"></div>
@@ -183,7 +258,7 @@
                                     </div>
                                 </div>
                                 <div class="preco-informacoes">
-                                    <h3 class="preco">R$: 3,80</h3>
+                                    <h3 class="preco">R$ 3,80</h3>
                                     <h3 class="texto-a-vista">Á Vista</h3>
                                     <button class="botao-euQuero">Eu Quero!</button>
                                 </div>
@@ -194,7 +269,7 @@
                                         alt="">
                                 </div>
                                 <div class="informacoesMeiaBaby">
-                                    <h3 class="MeiaBabySubtitulo"> Cano Curto - Lisa</h3>
+                                    <h3 class="Subtitulo"> Cano Curto - Lisa</h3>
                                     <h3 class="numeracao"> 6 á 12 meses</h3>
                                     <div class="coresSapatilhaBaby">
                                         <div class="BrancoSapatilha"></div>
@@ -283,7 +358,7 @@
                             <h2>MEIAS <span>ESPORTIVAS</span></h2>
                         </div>
                         <div class="botaoEsportes">
-                            <a href="">COMPRAR</a>
+                            <a href="esportivaMasc.html">COMPRAR</a>
                         </div>
                     </div>
                 </div>
@@ -404,14 +479,17 @@
                             <img src="img/logoSene.png" alt="">
                         </div>
                         <div class="caixasRevendedor">
-                            <div class="caixinha">
+                            <a href="https://wa.me/5516997021783?text=Ol%C3%A1,%20gostaria%20de%20ser%20um(a)%20revendedor(a)" target="_blank"><div class="caixinha">
                                 <img src="img/telefone.png" alt="">
                                 <p>Telefone</p>
-                            </div>
-                            <div class="caixinha">
-                                <img src="img/formulario.png" alt="">
-                                <p>Formulário</p>
-                            </div>
+                            </div></a>
+                            
+                            <a href="revendedor.html">
+                                <div class="caixinha">
+                                    <img src="img/formulario.png" alt="">
+                                    <p>Formulário</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -523,7 +601,7 @@
                                     <div class="container2"> <img src="img-masculino/masculinaEsportivaBrancaAero.png" alt="Meia Esportiva Aero Branca Masculina">
                                     </div>
                                     <div class="informacoes-meia">
-                                        <h3 class="Subtitulo">Meia Esportiva Aero Branca Masculina</h3>
+                                        <h3 class="Subtitulo">Meia Esportiva Aero Masculina</h3>
                                         <h3 class="numeracao">39 á 43</h3>
                                         <div class="cores-branca-preta-cinza05">
                                             <div class="brancaAero"></div>
@@ -555,45 +633,40 @@
                                     </div>
                                 </div>
 
-                                <div class="Quadrado-da-Meia-Desenhada-Baby-um" id="divMeiasBaby">
-                                    <div class="Imagem-CompreJunto"><img
-                                            src="img-baby/MeiaDesenhadaAzulEscuro-Feminina.png" alt="">
+                                <div class="Quadrado-da-meia-juvenil" id="div-meia">
+                                    <div class="container2"> <img src="img-juvenil/camuflada-preta.png"
+                                            alt="Meia Casual Camuflada Preta Juvenil">
                                     </div>
-                                    <div class="informacoesMeiaBaby">
-                                        <h3 class="MeiaBabySubtitulo"> Meia Baby Desenhada Feminina</h3>
-                                        <h3 class="numeracao"> 6 á 12 meses</h3>
-                                        <div class="coresMeiaDesenhada">
-                                            <div class="AzulEscuro"></div>
-
+                                    <div class="informacoes-meia">
+                                        <h3 class="Subtitulo">Meia Casual Camuflada Juvenil</h3>
+                                        <h3 class="numeracao">34 á 38</h3>
+                                        <div class="cores-preta-marrom">
+                                            <div class="juvenilPreta"></div>
+                                            <div class="juvenilMarrom"></div>
                                         </div>
                                     </div>
                                     <div class="preco-informacoes">
-                                        <h3 class="preco">R$: 3,80</h3>
+                                        <h3 class="preco">R$ 5,10</h3>
                                         <h3 class="texto-a-vista">Á Vista</h3>
                                         <button class="botao-euQuero">Eu Quero!</button>
                                     </div>
                                 </div>
 
-                                <div class="Quadrado-da-Meia-Desenhada-Baby" id="divMeiasBaby">
-                                    <div class="Imagem-CompreJunto"> <img
-                                            src="img-baby/MeiaBrancaSapatilha-Masculina.png" alt="">
-                                    </div>
-                                    <div class="informacoesMeiaBaby">
-                                        <h3 class="MeiaBabySubtitulo"> Cano Curto - Lisa</h3>
-                                        <h3 class="numeracao"> 6 á 12 meses</h3>
-                                        <div class="coresSapatilhaBaby">
-                                            <div class="BrancoSapatilha"></div>
-                                            <div class="VermelhoSapatilha"></div>
-                                            <div class="AzulEscuroSapatilha"></div>
-                                            <div class="AzulClaroSapatilha"></div>
-                                            <div class="VerdeAguaSapatilha"></div>
+                                <div class="Quadrado-da-meia-Casual-DesenhadaCoracao-Branca" id="div-meia">
+                                    <div class="container2"> <img src="img-feminino/MeiaCanoCurtoCasualDesenhada-BrancaCoracao.png" alt=""></div>
+                                    <div class="informacoes-meia">
+                                        <h3 class="Subtitulo"> Casual Cano Curto - Coração Branco</h3>
+                                        <h3 class="numeracao"> 34 á 38</h3>
+                                        <div class="cores-desenhada-Coracao-cinza">
+                                            <div class="DesenhoBrancoCoracao"><img src="img-feminino/CorDesenhada-Branca-Coracao.png" alt=""></div>
+                                            <div class="DesenhoCinzaCoracao"><img src="img-feminino/CorDesenhada-Cinza-Coracao.png" alt=""></div>
+                                            
                                         </div>
                                     </div>
-                                    <div class="preco-informacoes" id="preco-informacoes-meia-preta-cinza-branca">
-                                        <h3 class="preco">R$ 3,40 </h3>
+                                    <div class="preco-informacoes">
+                                        <h3 class="preco">R$ 5,00</h3>
                                         <h3 class="texto-a-vista">Á Vista</h3>
-                                        <button class="botao-euQuero" id="botao-da-meia-preta-branca-cinza">Eu
-                                            Quero!</button>
+                                        <button class="botao-euQuero">Eu Quero!</button>
                                     </div>
                                 </div>
 
@@ -646,7 +719,7 @@
                 <div class="institucional-rodape">
                     <p class="titulo-rodape">INSTITUCIONAL</p>
                     <div class="textoInst-rodape">
-                        <a href="rodape/revendedor.html">
+                        <a href="revendedor.html">
                             <p class="texto2-rodape">Seja um revendedor</p>
                         </a>
                         <a href="rodape/meios.html">
@@ -688,6 +761,82 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script>
+        // CABEÇALHO
+        const menuIcon = document.querySelector('.menu-icon');
+        const modalMenu = document.querySelector('.modal-menu');
+        const closeModal = document.querySelector('.close-modal');
+
+        menuIcon.addEventListener('click', function () {
+            if (modalMenu.classList.contains('show')) {
+                modalMenu.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            } else {
+                modalMenu.classList.add('show');
+                document.body.style.overflow = 'hidden'; 
+            }
+        });
+
+        if (closeModal) {
+            closeModal.addEventListener('click', function () {
+                modalMenu.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            });
+        }
+
+
+        // Selecione todos os itens do menu
+        const menuItems = document.querySelectorAll('.menu-itemModal');
+
+        // Adicione um listener de clique para cada item
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Alterna a classe 'open' no item clicado
+                item.classList.toggle('open');
+
+                // Fecha outros submenus, se necessário (opcional)
+                menuItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('open');
+                    }
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Seleciona todos os itens do menu
+            const itemModals = document.querySelectorAll('.itemModal');
+
+            itemModals.forEach(item => {
+                item.addEventListener('click', function (event) {
+                    event.preventDefault(); // Previne o comportamento padrão do link
+
+                    // Obtém o ID do submenu correspondente
+                    const submenuId = `submenu-${this.getAttribute('data-submenu')}`;
+                    const submenu = document.getElementById(submenuId);
+                    const linha = document.getElementById('linha')
+
+                    // Fecha todos os submenus
+                    document.querySelectorAll('.submenuModal').forEach(sub => {
+                        if (sub !== submenu) {
+                            sub.style.display = 'none'; // Esconde outros submenus
+                        }
+                    });
+
+                    // Alterna a visibilidade do submenu clicado
+                    if (submenu.style.display === "block") {
+                        submenu.style.display = "none";
+                        linha.style.display = "none"; // Esconde se já estiver visível
+                    } else {
+                        submenu.style.display = "block"; // Exibe o submenu
+                    }
+                });
+            });
+        });
+
+        // FIM DO CABEÇALHO
+    </script>
+        
 </body>
 
 </html>

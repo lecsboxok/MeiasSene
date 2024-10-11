@@ -22,10 +22,6 @@ a {
   src: url(fonts/WorkSans-VariableFont_wght.ttf);
 }
 
-body {
-  background-color: #fff;
-}
-
 /* CABEÇALHO */
 
 #header {
@@ -38,8 +34,8 @@ body {
 .cabecalhoUm {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 80px;
+  justify-content: center;
+  margin: 5px 80px;
   padding: 5px;
 }
 
@@ -56,9 +52,22 @@ body {
   width: 150px;
 }
 
+.imagemLogo {
+  flex: 1;
+}
+
 .linha {
+  width: 100%;
+  height: 1px;
   background-color: #fff;
-  height: 0.4px;
+  margin-bottom: 10px;
+}
+
+#header::after {
+  content: "";
+  display: block;
+  height: 20px;
+  background-color: #252160;
 }
 
 .cabecalho2 {
@@ -86,24 +95,19 @@ body {
   display: none;
   position: absolute;
   top: 100%;
-  /* Posiciona logo abaixo do item do menu */
   left: 50%;
-  /* Centraliza horizontalmente em relação ao item do menu */
   transform: translateX(-50%);
-  /* Ajusta a posição para centralizar */
-  width: 50vw;
-  /* Largura fixa para o submenu */
+  width: 20vw;
   background-color: #fff;
   border: 1px solid #2F2F2F;
   padding: 10px;
   z-index: 1;
   border-radius: 20px;
   box-sizing: border-box;
-  /* Garante que o padding seja incluído na largura total */
 }
 
 .submenuOrganizacao {
-  margin: 10px 80px;
+  margin: 10px 20px;
   text-align: left;
 }
 
@@ -139,6 +143,94 @@ body {
 
 .item:hover {
   border-bottom: 1px solid #fff;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  /* Posiciona o menu fora da tela à direita */
+  width: 100%;
+  height: 100%;
+  background-color: #252160;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+  transition: right 0.5s ease;
+  /* Controla o tempo da animação */
+}
+
+.modal-menu .imagemLogo {
+  margin: 80px 0 30px 0;
+}
+
+.modal-menu .imagemLogo img {
+  width: 120px;/
+}
+
+.modal-menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.menu-itemModal {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.itemModal {
+  color: white;
+  font: 600 20px 'WorkSans', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.itemModal:hover {
+  color: #c2c2c2;
+}
+
+.submenuModal {
+  display: none;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.submenuModal a {
+  color: rgb(0, 0, 0);
+  font: 400 16px 'WorkSans', sans-serif;
+  text-decoration: none;
+  display: block;
+  margin: 8px 0;
+}
+
+.submenuModal a:hover {
+  color: #5b5b5b;
+}
+
+.close-modal {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  z-index: 101;
 }
 
 
@@ -279,9 +371,10 @@ span {
 .AzulEscuroSapatilha,
 .AzulClaroSapatilha,
 .VerdeAguaSapatilha {
-  width: 4vh;
-  height: 4vh;
+  width: 5vh;
+  height: 5vh;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .BrancoSapatilha,
@@ -576,6 +669,10 @@ span {
   height: 75vh;
 }
 
+#revendedor a {
+  color: #000000;
+}
+
 .tudoRevendedor {
   display: flex;
 }
@@ -678,8 +775,8 @@ span {
 .Quadrado-da-meia-rendada,
 .Quadrado-da-meia-esportiva-aero,
 .Quadrado-da-meia-faixa-amarela,
-#tendencias .Quadrado-da-Meia-Desenhada-Baby-um,
-#tendencias .Quadrado-da-Meia-Desenhada-Baby {
+.Quadrado-da-meia-juvenil,
+.Quadrado-da-meia-Casual-DesenhadaCoracao-Branca {
   width: 320px;
   flex-shrink: 0;
   margin: 0 10px;
@@ -691,7 +788,9 @@ span {
 .Quadrado-da-meia-chevron img,
 .Quadrado-da-meia-rendada img,
 .Quadrado-da-meia-esportiva-aero img,
-.Quadrado-da-meia-faixa-amarela img {
+.Quadrado-da-meia-faixa-amarela img,
+.Quadrado-da-meia-juvenil img,
+.Quadrado-da-meia-Casual-DesenhadaCoracao-Branca img {
   width: 220px;
   height: 200px;
 }
@@ -713,7 +812,11 @@ span {
 .brancaAero,
 .pretaAero,
 .cinzaAero,
-.amarelaPro {
+.amarelaPro,
+.juvenilMarrom,
+.juvenilPreta,
+.DesenhoBrancoCoracao img,
+.DesenhoCinzaCoracao img {
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
@@ -726,7 +829,9 @@ span {
 .cores-chevron,
 .cores-rendada,
 .cores-branca-preta-cinza05,
-.cores-amarela-pro {
+.cores-amarela-pro,
+.cores-preta-marrom,
+.cores-desenhada-Coracao-cinza {
   display: flex;
   gap: 1vh;
   margin-top: 0.75vh;
@@ -741,7 +846,8 @@ span {
 }
 
 .pretaLisa,
-.pretaAero {
+.pretaAero,
+.juvenilPreta {
   background-color: #000000;
 }
 
@@ -784,6 +890,10 @@ span {
 
 .amarelaPro {
   background-color: #D4BE1B;
+}
+
+.juvenilMarrom {
+  background-color: #666049;
 }
 
 .selected {
@@ -1067,6 +1177,51 @@ span {
     margin: 50px;
   }
 
+  /* CABEÇALHO */
+  .cabecalhoUm {
+    justify-content: space-between;
+    margin: 5px 20px;
+  }
+
+  .imagemLogo img {
+    width: 130px;
+  }
+
+  .imagemLogo {
+    flex: none;
+  }
+
+  .cabecalho2 {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  .menu-item.open .submenu {
+    display: block;
+  }
+
+  .menu-item:hover .submenu {
+    display: none;
+  }
+
+  #meiasBabyDesMasc {
+    padding-top: 15vh;
+    margin: 0 30px;
+  }
+
+  .modal-menu.show {
+    right: 0;
+  }
+
+  /* FIM DO CABEÇALHO */
+
   /* PAGAMENTO */
 
   /* TUDO SOBRE SENE */
@@ -1076,6 +1231,13 @@ span {
   }
 
   /* TENDÊNCIAS */
+  #tendencias .container {
+    margin: 0 5px;
+  }
+
+  #tendencias .container h2{
+    margin: 35px;
+  }
   /* O carrossel vai ocupar 100% da largura da tela */
   .todasAsMeiasBaby-CompreJunto2 {
     width: 100%;
@@ -1092,6 +1254,41 @@ span {
     display: block;
     text-align: center;
     margin-top: 10px;
+  }
+
+  #div-meia {
+    align-items: center;
+    width: 280px;
+    margin-top: 10vh;
+    border: 1px solid #A5A5A5;
+    border-radius: 20px;
+  }
+
+  .Quadrado-da-meia-vaquinha-cano-longo,
+  .Quadrado-da-meia-esportiva-lisa,
+  .Quadrado-da-meia-malhaFem,
+  .Quadrado-da-meia-chevron,
+  .Quadrado-da-meia-rendada,
+  .Quadrado-da-meia-esportiva-aero,
+  .Quadrado-da-meia-faixa-amarela,
+  .Quadrado-da-meia-juvenil,
+  .Quadrado-da-meia-Casual-DesenhadaCoracao-Branca {
+    width: 280px;
+    flex-shrink: 0;
+    margin: 0 3px;
+  }
+
+  .Quadrado-da-meia-vaquinha-cano-longo .container2 img,
+  .Quadrado-da-meia-esportiva-lisa img,
+  .Quadrado-da-meia-malhaFem img,
+  .Quadrado-da-meia-chevron img,
+  .Quadrado-da-meia-rendada img,
+  .Quadrado-da-meia-esportiva-aero img,
+  .Quadrado-da-meia-faixa-amarela img,
+  .Quadrado-da-meia-juvenil img,
+  .Quadrado-da-meia-Casual-DesenhadaCoracao-Branca .container2 img {
+    width: 220px;
+    height: 200px;
   }
 }
 
