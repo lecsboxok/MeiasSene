@@ -192,7 +192,7 @@
     "numeracao": "39 á 43"
   },
   "brancaCurtoKit": {
-    "imagem": "img-masculino/masculinaEsportivaCanoCurtoBrancaLisa.png",
+    "imagem": "img-masculino/masculinaEsportivaCanoCurtoBrancaKit3Pares.png",
     "codigo": "Referência: 5783-1",
     "preco": "R$ 18,00",
     "class": "img-Masckit",
@@ -200,7 +200,7 @@
     "numeracao": "39 á 43"
   },
   "pretaCurtoKit": {
-    "imagem": "img-masculino/masculinaEsportivaCanoCurtoPretaLisa.png",
+    "imagem": "img-masculino/masculinaEsportivaCanoCurtoPretaKit3Pares.png",
     "codigo": "Referência: 5783-1",
     "preco": "R$ 18,00",
     "class": "img-Masckit",
@@ -208,7 +208,7 @@
     "numeracao": "39 á 43"
   },
   "cinzaCurtoKit": {
-    "imagem": "img-masculino/masculinaEsportivaCanoCurtoCinzaLisa.png",
+    "imagem": "img-masculino/masculinaEsportivaCanoCurtoCinzaKit3Pares.png",
     "codigo": "Referência: 5783-1",
     "preco": "R$ 18,00",
     "class": "img-Masckit",
@@ -395,7 +395,7 @@
     "imagem": "img-juvenil/camuflada-marrom.png",
     "codigo": "Referência:  3621-1/2",
     "preco": "R$ 5,10",
-    "class": "img-Masckit",
+    "class": "img-MasMarrom",
     "titulo": "Meia Casual Camuflada Marrom Juvenil",
     "numeracao": "34 á 38"
   },
