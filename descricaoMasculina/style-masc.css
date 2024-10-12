@@ -156,7 +156,8 @@ a {
 .modal-menu {
     position: fixed;
     top: 0;
-    right: -100%; /* Posiciona o menu fora da tela à direita */
+    right: -100%;
+    /* Posiciona o menu fora da tela à direita */
     width: 100%;
     height: 100%;
     background-color: #252160;
@@ -164,7 +165,8 @@ a {
     flex-direction: column;
     align-items: center;
     z-index: 100;
-    transition: right 0.5s ease; /* Controla o tempo da animação */
+    transition: right 0.5s ease;
+    /* Controla o tempo da animação */
 }
 
 .modal-menu .imagemLogo {
@@ -414,7 +416,7 @@ button {
 .VermelhoSapatilha,
 .AzulEscuroSapatilha,
 .AzulClaroSapatilha,
-.VerdeAguaSapatilha{
+.VerdeAguaSapatilha {
     width: 4vh;
     height: 4vh;
     border-radius: 50%;
@@ -468,30 +470,38 @@ button {
 }
 
 
-.img-Masc{
+.img-Masc {
     width: 400px;
     height: 500px;
 }
-.img-MascKit{
-    width:  300px;
+
+.img-MascKit {
+    width: 300px;
     height: 200px;
 }
-.img-MasMarrom{
+
+.img-MasMarrom {
     width: 400px;
     height: 300px;
 }
 
+.img-MascKitJuv {
+    width: 400px;
+    height: 220px;
+}
 
-/* CANO CURTO *//* ARRUMANDO AS IMAGENS PELO JSON */
-#Textodescricao{
+/* CANO CURTO */
+/* ARRUMANDO AS IMAGENS PELO JSON */
+#Textodescricao {
     margin-top: -4vh;
 }
 
 
 
 @media screen and (max-width: 768px) {
-       /*Cabeçalho*/
-       .cabecalhoUm {
+
+    /*Cabeçalho*/
+    .cabecalhoUm {
         justify-content: space-between;
         margin: 5px 20px;
     }
@@ -533,7 +543,7 @@ button {
         right: 0;
     }
 
-/*Fim cabeçalho*/
+    /*Fim cabeçalho*/
     .img-Masc-CanoCurtoMeia {
         width: 35vh;
         height: 28vh;
@@ -543,7 +553,7 @@ button {
         width: 60vh;
         height: 20vh;
     }
-    
+
 
     #titulo {
         font-size: 3.56vh;
@@ -564,6 +574,8 @@ button {
     height: 30vh;
     padding: 20px 0;
 }
+
+
 
 
 

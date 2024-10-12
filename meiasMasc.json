@@ -515,7 +515,7 @@
     "imagem": "img-juvenil/kit-preta.png",
     "codigo": "Referência: 4643",
     "preco": "R$ 14,10",
-    "class": "img-MascKit",
+    "class": "img-MascKitJuv",
     "titulo": "Meia Cano Curto Lisa Juvenil Preta - Kit 3 pares",
     "numeracao": "34 á 38"
   },
@@ -523,7 +523,7 @@
     "imagem": "img-juvenil/kit-branca.png",
     "codigo": "Referência: 4643",
     "preco": "R$ 14,10",
-    "class": "img-MascKit",
+    "class": "img-MascKitJuv",
     "titulo": "Meia Cano Curto Lisa Juvenil Branca - Kit 3 pares",
     "numeracao": "34 á 38"
   },
@@ -531,7 +531,7 @@
     "imagem": "img-juvenil/kit-cinza.png",
     "codigo": "Referência: 4643",
     "preco": "R$ 14,10",
-    "class": "img-MascKit",
+    "class": "img-MascKitJuv",
     "titulo": "Meia Cano Curto Lisa Juvenil Cinza - Kit 3 pares",
     "numeracao": "34 á 38"
   },
@@ -539,7 +539,7 @@
     "imagem": "img-juvenil/kit-diversa.png",
     "codigo": "Referência: 4643",
     "preco": "R$ 14,10",
-    "class": "img-MascKit",
+    "class": "img-MascKitJuv",
     "titulo": "Meia Cano Curto Lisa Juvenil Diversa - Kit 3 pareses",
     "numeracao": "34 á 38"
   }

@@ -422,7 +422,79 @@
             });
 
         });
+  // CABEÇALHO
+  const menuIcon = document.querySelector('.menu-icon');
+        const modalMenu = document.querySelector('.modal-menu');
+        const closeModal = document.querySelector('.close-modal');
 
+        menuIcon.addEventListener('click', function () {
+            if (modalMenu.classList.contains('show')) {
+                modalMenu.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            } else {
+                modalMenu.classList.add('show');
+                document.body.style.overflow = 'hidden'; 
+            }
+        });
+
+        if (closeModal) {
+            closeModal.addEventListener('click', function () {
+                modalMenu.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            });
+        }
+
+
+        // Selecione todos os itens do menu
+        const menuItems = document.querySelectorAll('.menu-itemModal');
+
+        // Adicione um listener de clique para cada item
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                // Alterna a classe 'open' no item clicado
+                item.classList.toggle('open');
+
+                // Fecha outros submenus, se necessário (opcional)
+                menuItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('open');
+                    }
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Seleciona todos os itens do menu
+            const itemModals = document.querySelectorAll('.itemModal');
+
+            itemModals.forEach(item => {
+                item.addEventListener('click', function (event) {
+                    event.preventDefault(); // Previne o comportamento padrão do link
+
+                    // Obtém o ID do submenu correspondente
+                    const submenuId = `submenu-${this.getAttribute('data-submenu')}`;
+                    const submenu = document.getElementById(submenuId);
+                    const linha = document.getElementById('linha')
+
+                    // Fecha todos os submenus
+                    document.querySelectorAll('.submenuModal').forEach(sub => {
+                        if (sub !== submenu) {
+                            sub.style.display = 'none'; // Esconde outros submenus
+                        }
+                    });
+
+                    // Alterna a visibilidade do submenu clicado
+                    if (submenu.style.display === "block") {
+                        submenu.style.display = "none";
+                        linha.style.display = "none"; // Esconde se já estiver visível
+                    } else {
+                        submenu.style.display = "block"; // Exibe o submenu
+                    }
+                });
+            });
+        });
+
+        // FIM DO CABEÇALHO
     </script>
 
 </body>
