@@ -1,0 +1,910 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FONTES */
+
+@font-face {
+    font-family: 'LibreFranklin';
+    src: url(../fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+
+
+/* CABEÇALHO */
+
+#header {
+    background-color: #252160;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.cabecalhoUm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 80px;
+    padding: 5px;
+}
+
+.procurando {
+    padding: 13px;
+    border-radius: 30px;
+    width: 400px;
+    height: 35px;
+    font: 600 16px 'WorkSans', sans-serif;
+
+}
+
+.imagemLogo img {
+    width: 150px;
+}
+
+.imagemLogo {
+    flex: 1;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+#header::after {
+    content: "";
+    display: block;
+    height: 20px;
+    background-color: #252160;
+}
+
+.cabecalho2 {
+    text-align: center;
+    padding: 15px 0 0px 0;
+}
+
+.item {
+    color: #fff;
+    margin: 20px;
+    font: 600 16px 'WorkSans', sans-serif;
+}
+
+.cabecalho2 {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20vw;
+    background-color: #fff;
+    border: 1px solid #2F2F2F;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.submenuOrganizacao {
+    margin: 10px 20px;
+    text-align: left;
+}
+
+.submenu p {
+    font: 600 16px 'WorkSans', sans-serif;
+
+}
+
+.submenu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font: 400 16px 'WorkSans', sans-serif;
+    color: #000;
+}
+
+.submenuItem {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.menu-item:hover .submenu {
+    display: block;
+    text-align: center;
+}
+
+.item {
+    padding: 10px 10px 8px 10px;
+}
+
+.item:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.modal-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Posiciona o menu fora da tela à direita */
+    width: 100%;
+    height: 100%;
+    background-color: #252160;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+    transition: right 0.5s ease; /* Controla o tempo da animação */
+}
+
+.modal-menu .imagemLogo {
+    margin: 80px 0 30px 0;
+}
+
+.modal-menu .imagemLogo img {
+    width: 120px;/
+}
+
+.modal-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.menu-itemModal {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.itemModal {
+    color: white;
+    font: 600 20px 'WorkSans', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.itemModal:hover {
+    color: #c2c2c2;
+}
+
+.submenuModal {
+    display: none;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.submenuModal a {
+    color: rgb(0, 0, 0);
+    font: 400 16px 'WorkSans', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin: 8px 0;
+}
+
+.submenuModal a:hover {
+    color: #5b5b5b;
+}
+
+.close-modal {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    z-index: 101;
+}
+
+
+/* FIM DO CABEÇALHO */
+
+/* COMEÇO DE DESCRIÇÃO */
+
+#imagemMeia {
+    margin-top: 20vh;
+    border: 1px solid #A5A5A5;
+    margin-left: 5vh;
+    border-radius: 30px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Para permitir que os itens quebrem linha em telas menores */
+}
+
+.TodasInformacoes {
+    margin-left: 20vh;
+    margin-top: 25vh;
+    max-width: 50%;
+}
+
+
+.linhaDescricaoDoProduto {
+    max-width: 100%;
+    width: 120vh;
+    height: 0.4px;
+    margin-top: 3vh;
+    background-color: #A5A5A5;
+}
+
+/* EDITANDO AS FONTES DE INFORMACOES */
+#titulo {
+    font-family: 'WorkSans';
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+.precoContainer {
+    font-family: 'WorkSans';
+    font-size: 6vh;
+    font-weight: 600;
+    margin-top: 7vh;
+}
+
+.numeracao {
+    font-family: 'WorkSans';
+    font-weight: 300;
+
+    margin-top: 0.75vh;
+}
+
+#codigo {
+    font-family: 'WorkSans';
+    font-weight: 300;
+    margin-top: 0.75vh;
+}
+
+.informacoesPrecoTamanho button {
+    width: 229px;
+    height: 55px;
+    background-color: #252160;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    font-family: 'WorkSans';
+    font-size: 2.75vh;
+    font-weight: 300;
+    margin-top: 10vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-whatsapp {
+    margin-left: 3vh;
+}
+
+.fa-whatsapp {
+    margin-left: 1vh;
+}
+
+/* DESCRIÇÃO DO PRODUTO */
+
+.titulo-DescricaoProduto {
+    font-family: 'WorkSans';
+    font-weight: 600;
+    margin-top: 15vh;
+    margin-left: 6vh;
+}
+
+.linhaUm-Descricao-do-produto {
+    background-color: #000000;
+    height: 1vh;
+    width: 5vh;
+    margin-left: 6vh;
+    margin-top: 1vh;
+}
+
+.linhaDois-Descricao-do-produto {
+    background-color: #000000;
+    height: 0.05vh;
+    width: 100%;
+}
+
+.texto-Descricao {
+    font-family: 'WorkSans';
+    font-weight: 400;
+    margin-top: 7vh;
+    margin-left: 5vh;
+    margin-right: 2vh;
+}
+
+.elementosDoTexto-Descricao {
+    margin-top: 3vh;
+}
+
+.titulo-CompreJunto {
+    text-align: center;
+    font-family: 'LibreFranklin';
+    font-weight: 500;
+    margin-top: 17vh;
+}
+
+.linhaTres-CompreJunto {
+    background-color: #252160;
+    height: 0.55vh;
+    margin-top: 3vh;
+    width: 30vh;
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+}
+
+/* PARTE DE COMPRE JUNTO */
+.todasAsMeiasBaby-CompreJunto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#divMeiasBaby {
+    align-items: center;
+    width: 320px;
+    margin-top: 10vh;
+    border: 1px solid #A5A5A5;
+    border-radius: 20px;
+
+}
+
+/* CORES */
+.coresSapatilhaBaby,
+.coresMeiaDesenhada,
+.coresMeiaBabyColor {
+    display: flex;
+    gap: 1vh;
+    margin-top: 2vh;
+}
+
+.RosaClaro,
+.Lilas,
+.VerdeAgua,
+.RosaChoque,
+.Branco,
+.AzulEscuro,
+.BrancoSapatilha,
+.VermelhoSapatilha,
+.AzulEscuroSapatilha,
+.AzulClaroSapatilha,
+.VerdeAguaSapatilha{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+}
+
+.BrancoSapatilha,
+.Branco {
+    background-color: #ffffff;
+    border: 1px solid #76767688;
+}
+
+.Lilas {
+    background-color: #9197D5;
+}
+
+.VerdeAgua {
+    background-color: #04C7AF;
+}
+
+.RosaChoque {
+    background-color: #DF2D8B;
+}
+
+.RosaClaro {
+    background-color: #FCE6ED;
+
+}
+
+.AzulEscuro {
+    background-color: #0C1628;
+}
+
+.BrancoSapatilha {
+    background-color: #FFFFFF;
+}
+
+.VermelhoSapatilha {
+    background-color: #C1212A;
+}
+
+.AzulEscuroSapatilha {
+    background-color: #1F2240;
+}
+
+.AzulClaroSapatilha {
+    background-color: #8ECBE8;
+}
+
+.VerdeAguaSapatilha {
+    background-color: #64C9AE;
+}
+
+
+.img-Masc{
+    width: 400px;
+    height: 500px;
+}
+.img-MascKit{
+    width:  300px;
+    height: 200px;
+}
+.img-MasMarrom{
+    width: 400px;
+    height: 300px;
+}
+
+
+/* CANO CURTO *//* ARRUMANDO AS IMAGENS PELO JSON */
+#Textodescricao{
+    margin-top: -4vh;
+}
+
+
+
+@media screen and (max-width: 768px) {
+       /*Cabeçalho*/
+       .cabecalhoUm {
+        justify-content: space-between;
+        margin: 5px 20px;
+    }
+
+    .imagemLogo img {
+        width: 130px;
+    }
+
+    .imagemLogo {
+        flex: none;
+    }
+
+    .cabecalho2 {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .menu-item.open .submenu {
+        display: block;
+    }
+
+    .menu-item:hover .submenu {
+        display: none;
+    }
+
+    #meiasBabyDesMasc {
+        padding-top: 15vh;
+        margin: 0 30px;
+    }
+
+    .modal-menu.show {
+        right: 0;
+    }
+
+/*Fim cabeçalho*/
+    .img-Masc-CanoCurtoMeia {
+        width: 35vh;
+        height: 28vh;
+    }
+
+    .img-Masc-CanoCurtoKit {
+        width: 60vh;
+        height: 20vh;
+    }
+    
+
+    #titulo {
+        font-size: 3.56vh;
+    }
+
+    #codigo {
+        margin-top: 3vh
+    }
+}
+
+.img-descricao {
+    width: 50vh;
+    height: 43vh;
+}
+
+.img-Masckit {
+    width: 65vh;
+    height: 30vh;
+    padding: 20px 0;
+}
+
+/* arrumando as imagens das meias cano curto */
+.Imagem-CompreJunto {
+    margin-top: 1.74vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* estilizando as informações */
+.informacoesMeiaBaby {
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+.MeiaBabySubtitulo {
+    font-family: 'WorkSans';
+    font-weight: 600;
+    font-size: 2.55vh;
+    margin-top: 0.75vh;
+}
+
+.numeracao {
+    font-family: 'WorkSans';
+    font-weight: 300;
+}
+
+.preco {
+    font-family: 'WorkSans';
+    font-size: 4vh;
+    font-weight: 800;
+}
+
+.texto-a-vista {
+    font-family: 'WorkSans';
+    font-weight: 300;
+}
+
+.preco-informacoes {
+    text-align: center;
+    margin-top: 4vh;
+
+}
+
+.texto-a-vista {
+    margin-top: 1vh;
+}
+
+.botao-euQuero {
+    background-color: #252160;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'WorkSans';
+    font-weight: 600;
+    font-size: 2.55vh;
+    margin-top: 3vh;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+/* RODAPE */
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    background-color: #252160;
+    color: white;
+    margin-top: 120px;
+    transition: background-color 0.5s ease;
+}
+
+#footer:hover {
+    background-color: #1e1b55;
+}
+
+.container-rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 65px 100px 25px 100px;
+    transition: padding 0.5s ease;
+}
+
+.imgLogo-rodape {
+    width: 200px;
+}
+
+.linha1-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contatos-rodape,
+.acompanhe-rodape {
+    margin-top: 20px;
+    transition: margin-top 0.5s ease;
+}
+
+.whats-rodape,
+.email-rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.whats-rodape a,
+.email-rodape a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imgContatos-rodape {
+    width: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.imgContatos-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-rodape {
+    font: 650 20px 'LibreFranklin', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.titulo-rodape:hover {
+    color: #b4b4b4;
+}
+
+.texto-rodape {
+    font: 400 18px 'WorkSans', sans-serif;
+}
+
+.texto2-rodape {
+    font: 400 18px 'WorkSans', sans-serif;
+    margin-top: 12px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.texto2-rodape:hover {
+    color: #b4b4b4;
+    transform: scale(0.97);
+}
+
+.imgRedes-rodape {
+    width: 30px;
+    margin: 0 6px;
+    transition: transform 0.3s ease;
+}
+
+.imgRedes-rodape:hover {
+    transform: translateY(-5px);
+}
+
+.redes-rodape {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linha2-rodape {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.categGeral-rodape {
+    display: flex;
+}
+
+.subCategoria1-rodape {
+    margin-right: 90px;
+}
+
+.textoInst-rodape {
+    margin-top: 20px;
+}
+
+.categGeral-rodape {
+    margin-top: 10px;
+}
+
+.categorias-rodape {
+    margin-left: 213px;
+}
+
+.final-rodape {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.textoFinal-rodape {
+    font: 400 15px 'WorkSans', sans-serif;
+}
+
+/* VERSÃO MOBILE */
+
+@media screen and (max-width: 768px) {
+    .container-rodape {
+        padding: 50px 50px;
+    }
+
+    .linha1-rodape,
+    .linha2-rodape {
+        display: block;
+        text-align: center;
+    }
+
+    .contatos-rodape {
+        margin-top: 40px;
+    }
+
+    .titulo-rodape {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
+        margin-top: 60px;
+    }
+
+    .categorias-rodape {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .final-rodape {
+        margin-top: 60px;
+    }
+
+    .imgLogo-rodape {
+        width: 150px;
+    }
+
+    .imgRedes-rodape {
+        margin: 10px;
+    }
+
+    .subCategoria1-rodape {
+        margin-right: 50px;
+    }
+
+    .categGeral-rodape {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whats-rodape,
+    .email-rodape {
+        justify-content: center;
+        /* Centraliza o conteúdo */
+    }
+
+    #imagemMeia {
+        margin-top: 25vh;
+        margin-left: 0;
+
+    }
+
+    .img-baby {
+        width: 35vh;
+        height: 30vh
+    }
+
+    .img-babyKit {
+        width: 45vh;
+        height: 25vh
+    }
+
+
+    /* Container geral se adapta à largura do dispositivo móvel */
+    .TodasInformacoes {
+        margin: 5vh auto;
+        max-width: 90vw;
+    }
+
+    /* Ajustar a linha de separação no mobile */
+    .linhaDescricaoDoProduto {
+        width: 90vw;
+        margin-top: 2vh;
+    }
+
+    /* Título e fontes adaptadas para o tamanho da tela */
+    #titulo {
+        font-size: 4vh;
+        text-align: center;
+        /* Centralizar o título no mobile */
+    }
+
+    .precoContainer {
+        font-size: 4.5vh;
+        text-align: center;
+        /* Centralizar o preço */
+        margin-top: 4vh;
+    }
+
+    .numeracao {
+        font-size: 3vh;
+        text-align: center;
+        /* Centralizar a numeração */
+        margin-top: 1vh;
+    }
+
+    /* Botões adaptados para caberem na tela do celular */
+    .informacoesPrecoTamanho button {
+        width: 90%;
+        height: 50px;
+        margin: 3vh auto;
+        display: block;
+        font-size: 2.5vh;
+    }
+
+    .btn-whatsapp,
+    .btn-shopee {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .codigo {
+        margin-left: 2vh;
+    }
+
+    .titulo-CompreJunto {
+        font-size: 3vh;
+    }
+
+    /* Centralizar título de descrição do produto */
+    .titulo-DescricaoProduto {
+        font-size: 4vh;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10vh;
+    }
+}

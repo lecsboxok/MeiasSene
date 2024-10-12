@@ -153,7 +153,7 @@ document.querySelectorAll('.todasAsMeiasBaby-CompreJunto > div, .todasAsMeiasBab
         const corSelecionada = selectedColor;
 
         if (corSelecionada) {
-            window.location.href = `descricaoPrincipal/todasMeiasPrincipal.html?cor=${corSelecionada}`;
+            window.location.href = `descricaoPrincipal/descricaoMeiasPrincipal.html?cor=${corSelecionada}`;
         } else {
             alert('Por favor, selecione uma cor.');
         }

@@ -1,0 +1,190 @@
+{
+    "vaquinha": {
+        "imagem": "img-feminino/MeiaCanoLongoCasual-Vaquinha.png",
+        "class": "img-descricao",
+        "preco": "R$ 7,20",
+        "titulo": "Casual Cano Longo Feminina - Malhada",
+        "codigo": "Referência: 3631-1/4",
+        "descricao": "As meias femininas de cano longo 'Casual' são a combinação perfeita de estilo e conforto para o seu dia a dia. Fabricadas com um tecido macio e durável, elas oferecem um ajuste confortável que abraça suavemente as pernas, mantendo-as aquecidas e elegantes. O design versátil e discreto permite que sejam usadas com diversos tipos de calçados e roupas."
+    },
+    "brancaLisa": {
+        "imagem": "img-masculino/masculinaEsportivaBrancaLisa.png",
+        "codigo": "Referência: 5721-1/1",
+        "preco": "R$ 6,00",
+        "class": "img-descricao",
+        "titulo": "Meia Masculina Esportiva Branca Lisa",
+        "numeracao": "39 á 43",
+        "descricao": "As meias esportivas são essenciais para quem busca desempenho e conforto durante atividades físicas. Produzidas com materiais que absorvem a umidade e oferecem ventilação, elas mantêm os pés secos e protegidos contra o atrito. O design ergonômico proporciona um ajuste seguro, reduzindo o risco de bolhas e melhorando a performance. Essas meias são a escolha ideal para atletas de todos os níveis, combinando funcionalidade e estilo em cada par."
+    },
+    "pretaLisa": {
+        "imagem": "img-masculino/masculinaEsportivaPretaLisa.png",
+        "codigo": "Referência: 5761-1/1",
+        "preco": "R$ 6,00",
+        "class": "img-descricao",
+        "titulo": "Meia Masculina Esportiva Preta Lisa",
+        "numeracao": "39 á 43",
+        "descricao": "As meias esportivas são essenciais para quem busca desempenho e conforto durante atividades físicas. Produzidas com materiais que absorvem a umidade e oferecem ventilação, elas mantêm os pés secos e protegidos contra o atrito. O design ergonômico proporciona um ajuste seguro, reduzindo o risco de bolhas e melhorando a performance. Essas meias são a escolha ideal para atletas de todos os níveis, combinando funcionalidade e estilo em cada par."
+    },
+    "cinzaLisa": {
+        "imagem": "img-masculino/masculinaEsportivaCinzaLisa.png",
+        "codigo": "Referência: 5741-1/1",
+        "preco": "R$ 6,00",
+        "class": "img-descricao",
+        "titulo": "Meia Masculina Esportiva Cinza Lisa",
+        "numeracao": "39 á 43",
+        "descricao": "As meias esportivas são essenciais para quem busca desempenho e conforto durante atividades físicas. Produzidas com materiais que absorvem a umidade e oferecem ventilação, elas mantêm os pés secos e protegidos contra o atrito. O design ergonômico proporciona um ajuste seguro, reduzindo o risco de bolhas e melhorando a performance. Essas meias são a escolha ideal para atletas de todos os níveis, combinando funcionalidade e estilo em cada par."
+    },
+    "verdeMFem": {
+        "imagem": "img-baby/malhaVerdeFem.png",
+        "codigo": "Referência: 1151-1/5",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Verde Água Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "brancaMFem": {
+        "imagem": "img-baby/malhaBrancaFem.png",
+        "codigo": "Referência: 1151-1/1",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Branca Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "amareloMFem": {
+        "imagem": "img-baby/malhaAmarelaFem.png",
+        "codigo": "Referência: 1151-1/2",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Amarela Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "rosaMFem": {
+        "imagem": "img-baby/malhaRosaFem.png",
+        "codigo": "Referência: 1151-1/3",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Rosa Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "lilasMFem": {
+        "imagem": "img-baby/malhaLilasFem.png",
+        "codigo": "Referência: 1151-1/4",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Lilás Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "rosaCh": {
+        "imagem": "img-baby/chevronRosa.png",
+        "codigo": "Referência: 1211-3/1",
+        "preco": "R$ 3,80",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Desenhada Chevron Rosa Feminina",
+        "numeracao": "6 á 12 meses",
+        "descricao": "Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo."
+    },
+    "verdeCh": {
+        "imagem": "img-baby/chevronVerde.png",
+        "codigo": "Referência: 1211-3/2",
+        "preco": "R$ 3,80",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Desenhada Chevron Verde Feminina",
+        "numeracao": "6 á 12 meses",
+        "descricao": "Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo."
+    },
+    "dourada": {
+        "imagem": "img-baby/rendadaDourada.png",
+        "codigo": "Referência: 1111-1/1",
+        "preco": "R$ 3,70",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Desenhada Rendada Dourada Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo."
+    },
+    "rosa": {
+        "imagem": "img-baby/rendadaRosa.png",
+        "codigo": "Referência: 1111-1/2",
+        "preco": "R$ 3,70",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Desenhada Rendada Rosa Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo."
+    },
+    "brancaAero": {
+        "imagem": "img-masculino/masculinaEsportivaBrancaAero.png",
+        "codigo": "Referência: 5721-2/1",
+        "preco": "R$ 6,00",
+        "class": "img-descricao",
+        "titulo": "Meia Esportiva Aero Branca Masculina",
+        "numeracao": "39 á 43",
+        "descricao": "As meias esportivas são essenciais para quem busca desempenho e conforto durante atividades físicas. Produzidas com materiais que absorvem a umidade e oferecem ventilação, elas mantêm os pés secos e protegidos contra o atrito. O design ergonômico proporciona um ajuste seguro, reduzindo o risco de bolhas e melhorando a performance. Essas meias são a escolha ideal para atletas de todos os níveis, combinando funcionalidade e estilo em cada par."
+    },
+    "pretaAero": {
+        "imagem": "img-masculino/masculinaEsportivaPretaAero.png",
+        "codigo": "Referência: 5761-2/1",
+        "preco": "R$ 6,00",
+        "class": "img-descricao",
+        "titulo": "Meia Esportiva Aero Preta Masculina",
+        "numeracao": "39 á 43",
+        "descricao": "As meias esportivas são essenciais para quem busca desempenho e conforto durante atividades físicas. Produzidas com materiais que absorvem a umidade e oferecem ventilação, elas mantêm os pés secos e protegidos contra o atrito. O design ergonômico proporciona um ajuste seguro, reduzindo o risco de bolhas e melhorando a performance. Essas meias são a escolha ideal para atletas de todos os níveis, combinando funcionalidade e estilo em cada par."
+    },
+    "cinzaAero": {
+        "imagem": "img-masculino/masculinaEsportivaCinzaAero.png",
+        "codigo": "Referência: 5741-2/1",
+        "preco": "R$ 6,00",
+        "class": "img-descricao",
+        "titulo": "Meia Esportiva Aero Cinza Masculina",
+        "numeracao": "39 á 43",
+        "descricao": "As meias esportivas são essenciais para quem busca desempenho e conforto durante atividades físicas. Produzidas com materiais que absorvem a umidade e oferecem ventilação, elas mantêm os pés secos e protegidos contra o atrito. O design ergonômico proporciona um ajuste seguro, reduzindo o risco de bolhas e melhorando a performance. Essas meias são a escolha ideal para atletas de todos os níveis, combinando funcionalidade e estilo em cada par."
+    },
+    "amarelaPro": {
+        "imagem": "img-masculino/masculinaProFaixaAmarela01.png",
+        "codigo": "Referência: 8921-3/2",
+        "preco": "R$ 11,20",
+        "class": "img-descricao",
+        "titulo": "Meia Pró Faixa Amarela Masculina",
+        "numeracao": "39 á 44",
+        "descricao": "As meias 'Pró Masculina' são projetadas para oferecer desempenho e conforto superior para mulheres ativas. Feitas com tecidos de alta tecnologia que absorvem o suor e permitem a respirabilidade, elas mantêm seus pés secos e confortáveis mesmo durante as atividades mais intensas. Com um ajuste ergonômico que se molda perfeitamente aos pés, essas meias proporcionam suporte e estabilidade."
+    },
+    "juvenilMarrom": {
+        "imagem": "img-juvenil/camuflada-marrom.png",
+        "codigo": "Referência:  3621-1/2",
+        "preco": "R$ 5,10",
+        "class": "img-descricao",
+        "titulo": "Meia Casual Camuflada Marrom Juvenil",
+        "numeracao": "34 á 38",
+        "descricao": "Estas meias juvenis são perfeitas para adolescentes que buscam estilo e conforto. Feitas com materiais de alta qualidade, oferecem um ajuste confortável que acompanha o dia a dia agitado. Disponíveis em cores modernas e padrões vibrantes, são ideais para expressar personalidade e completar o visual."
+    },
+    "juvenilPreta": {
+        "imagem": "img-juvenil/camuflada-preta.png",
+        "codigo": "Referência:  3621-1/2",
+        "preco": "R$ 5,10",
+        "class": "img-descricao",
+        "titulo": "Meia Casual Camuflada Preta Juvenil",
+        "numeracao": "34 á 38",
+        "descricao": "Estas meias juvenis são perfeitas para adolescentes que buscam estilo e conforto. Feitas com materiais de alta qualidade, oferecem um ajuste confortável que acompanha o dia a dia agitado. Disponíveis em cores modernas e padrões vibrantes, são ideais para expressar personalidade e completar o visual."
+    },
+    "DesenhoBrancoCoracao": {
+        "imagem": "img-feminino/MeiaCanoCurtoCasualDesenhada-BrancaCoracao.png",
+        "class": "img-descricao",
+        "preco": "R$ 5,00 ",
+        "titulo": "Casual Cano Curto - Coração Branco",
+        "codigo": "Referência: 3611-3/1",
+        "numeracao": "34 á 38",
+        "descricao": "As meias de cano curto 'Casual' são a escolha ideal para quem busca conforto e praticidade no dia a dia. Confeccionadas com materiais de alta qualidade, elas oferecem um toque suave na pele e um ajuste perfeito que se mantém durante todo o uso. Com design discreto e versátil, essas meias são ideais para combinar com qualquer look casual, proporcionando o equilíbrio perfeito entre simplicidade e estilo."
+    },
+    "DesenhoCinzaCoracao": {
+        "imagem": "img-feminino/MeiaCanoCurtoCasualDesenhada-CinzaCoracao.png",
+        "class": "img-descricao",
+        "preco": "R$ 5,00 ",
+        "titulo": "Casual Cano Curto - Coração Cinza",
+        "codigo": "Referência: 3611-3/2",
+        "numeracao": "34 á 38",
+        "descricao": "As meias de cano curto 'Casual' são a escolha ideal para quem busca conforto e praticidade no dia a dia. Confeccionadas com materiais de alta qualidade, elas oferecem um toque suave na pele e um ajuste perfeito que se mantém durante todo o uso. Com design discreto e versátil, essas meias são ideais para combinar com qualquer look casual, proporcionando o equilíbrio perfeito entre simplicidade e estilo."
+    }
+}
