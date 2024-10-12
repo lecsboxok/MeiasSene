@@ -796,6 +796,51 @@ a {
 /* VERSÃO MOBILE */
 
 @media screen and (max-width: 768px) {
+      /* CABEÇALHO */
+  .cabecalhoUm {
+    justify-content: space-between;
+    margin: 5px 20px;
+  }
+
+  .imagemLogo img {
+    width: 130px;
+  }
+
+  .imagemLogo {
+    flex: none;
+  }
+
+  .cabecalho2 {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  .menu-item.open .submenu {
+    display: block;
+  }
+
+  .menu-item:hover .submenu {
+    display: none;
+  }
+
+  #meiasBabyDesMasc {
+    padding-top: 15vh;
+    margin: 0 30px;
+  }
+
+  .modal-menu.show {
+    right: 0;
+  }
+
+  /* FIM DO CABEÇALHO */
+  
     .container-rodape {
         padding: 50px 50px;
     }

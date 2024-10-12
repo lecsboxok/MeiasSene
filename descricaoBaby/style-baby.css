@@ -155,7 +155,8 @@ a {
 .modal-menu {
     position: fixed;
     top: 0;
-    right: -100%; /* Posiciona o menu fora da tela à direita */
+    right: -100%;
+    /* Posiciona o menu fora da tela à direita */
     width: 100%;
     height: 100%;
     background-color: #252160;
@@ -163,7 +164,8 @@ a {
     flex-direction: column;
     align-items: center;
     z-index: 100;
-    transition: right 0.5s ease; /* Controla o tempo da animação */
+    transition: right 0.5s ease;
+    /* Controla o tempo da animação */
 }
 
 .modal-menu .imagemLogo {
@@ -279,7 +281,7 @@ a {
     font-family: 'WorkSans';
     font-size: 6vh;
     font-weight: 600;
-    margin-top:7vh;
+    margin-top: 7vh;
 }
 
 .numeracao {
@@ -308,16 +310,18 @@ a {
     margin-top: 10vh;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
 .btn-whatsapp {
     margin-left: 3vh;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     margin-left: 1vh;
 }
+
 /* DESCRIÇÃO DO PRODUTO */
 
 .titulo-DescricaoProduto {
@@ -353,7 +357,7 @@ button{
     margin-top: 3vh;
 }
 
-.titulo-CompreJunto  {
+.titulo-CompreJunto {
     text-align: center;
     font-family: 'LibreFranklin';
     font-weight: 500;
@@ -365,7 +369,8 @@ button{
     height: 0.55vh;
     margin-top: 3vh;
     width: 30vh;
-    margin: 0 auto; /* Centraliza horizontalmente */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
 }
 
 
@@ -421,47 +426,56 @@ button{
     border: 1px solid #76767688;
 }
 
-.Lilas{
+.Lilas {
     background-color: #9197D5;
 }
-.VerdeAgua{
+
+.VerdeAgua {
     background-color: #04C7AF;
 }
-.RosaChoque{
+
+.RosaChoque {
     background-color: #DF2D8B;
 }
-.RosaClaro{
+
+.RosaClaro {
     background-color: #FCE6ED;
 
 }
-.AzulEscuro{
+
+.AzulEscuro {
     background-color: #0C1628;
 }
-.BrancoSapatilha{
+
+.BrancoSapatilha {
     background-color: #FFFFFF;
 }
-.VermelhoSapatilha{
+
+.VermelhoSapatilha {
     background-color: #C1212A;
 }
-.AzulEscuroSapatilha{
+
+.AzulEscuroSapatilha {
     background-color: #1F2240;
 }
-.AzulClaroSapatilha{
+
+.AzulClaroSapatilha {
     background-color: #8ECBE8;
 }
-.VerdeAguaSapatilha{
+
+.VerdeAguaSapatilha {
     background-color: #64C9AE;
 }
 
 
 /* ARRUMANDO AS IMAGENS PELO JSON */
 
-.img-baby{
+.img-baby {
     width: 50vh;
     height: 43vh;
 }
 
-.img-babyKit{
+.img-babyKit {
     width: 65vh;
     height: 32vh;
     padding: 20px 0;
@@ -479,12 +493,12 @@ button{
 
 
 /* estilizando as informações */
-.informacoesMeiaBaby{
+.informacoesMeiaBaby {
     margin-left: 2vh;
     margin-top: 2vh;
 }
 
-.MeiaBabySubtitulo{
+.MeiaBabySubtitulo {
     font-family: 'WorkSans';
     font-weight: 600;
     font-size: 2.55vh;
@@ -513,9 +527,10 @@ button{
 
 }
 
-.texto-a-vista{
+.texto-a-vista {
     margin-top: 1vh;
 }
+
 .botao-euQuero {
     background-color: #252160;
     color: #fff;
@@ -576,19 +591,22 @@ a {
     flex-wrap: wrap;
 }
 
-.contatos-rodape, .acompanhe-rodape {
+.contatos-rodape,
+.acompanhe-rodape {
     margin-top: 20px;
     transition: margin-top 0.5s ease;
 }
 
-.whats-rodape, .email-rodape {
+.whats-rodape,
+.email-rodape {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
 
-.whats-rodape a, .email-rodape a {
+.whats-rodape a,
+.email-rodape a {
     display: inline-flex;
     align-items: center;
     margin: 0;
@@ -685,11 +703,58 @@ a {
 /* VERSÃO MOBILE */
 
 @media screen and (max-width: 768px) {
+
+    /* CABEÇALHO */
+    .cabecalhoUm {
+        justify-content: space-between;
+        margin: 5px 20px;
+    }
+
+    .imagemLogo img {
+        width: 130px;
+    }
+
+    .imagemLogo {
+        flex: none;
+    }
+
+    .cabecalho2 {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .menu-item.open .submenu {
+        display: block;
+    }
+
+    .menu-item:hover .submenu {
+        display: none;
+    }
+
+    #meiasBabyDesMasc {
+        padding-top: 15vh;
+        margin: 0 30px;
+    }
+
+    .modal-menu.show {
+        right: 0;
+    }
+
+    /* FIM DO CABEÇALHO */
+
     .container-rodape {
         padding: 50px 50px;
     }
 
-    .linha1-rodape, .linha2-rodape {
+    .linha1-rodape,
+    .linha2-rodape {
         display: block;
         text-align: center;
     }
@@ -703,7 +768,9 @@ a {
         font-size: 18px;
     }
 
-    .acompanhe-rodape, .institucional-rodape, .categorias-rodape {
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
         margin-top: 60px;
     }
 
@@ -728,13 +795,15 @@ a {
         margin-right: 50px;
     }
 
-    .categGeral-rodape{
+    .categGeral-rodape {
         justify-content: center;
         align-items: center;
     }
 
-    .whats-rodape, .email-rodape {
-        justify-content: center; /* Centraliza o conteúdo */
+    .whats-rodape,
+    .email-rodape {
+        justify-content: center;
+        /* Centraliza o conteúdo */
     }
 
     #imagemMeia {
@@ -743,17 +812,17 @@ a {
 
     }
 
-    .img-baby{
+    .img-baby {
         width: 35vh;
         height: 30vh
     }
 
-    .img-babyKit{
+    .img-babyKit {
         width: 45vh;
         height: 25vh
     }
 
-    
+
     /* Container geral se adapta à largura do dispositivo móvel */
     .TodasInformacoes {
         margin: 5vh auto;
