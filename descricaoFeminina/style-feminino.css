@@ -416,79 +416,66 @@ a {
 
 }
 
+.todas-as-meias-baby-des-masc {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#div-meia {
+    align-items: center;
+    width: 390px;
+    margin-top: 10vh;
+    border: 1px solid #A5A5A5;
+    border-radius: 20px;
+
+}
+
 /* CORES */
-.coresSapatilhaBaby,
-.coresMeiaDesenhada,
-.coresMeiaBabyColor {
+
+.selected {
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.Quadrado-da-meia-rendada img,
+.Quadrado-da-meia-gata img,
+.Quadrado-da-meia-lhama img{
+    width: 220px;
+    height: 200px;
+}
+.cores-rendada, .cores-gata, .cores-lhama {
     display: flex;
     gap: 1vh;
     margin-top: 2vh;
     cursor: pointer;
 }
-
-
-.RosaClaro,
-.Lilas,
-.VerdeAgua,
-.RosaChoque,
-.Branco,
-.AzulEscuro,
-.BrancoSapatilha,
-.VermelhoSapatilha,
-.AzulEscuroSapatilha,
-.AzulClaroSapatilha,
-.VerdeAguaSapatilha {
-    cursor: pointer;
+.cinzaL, .rosaL, .rosaG, .verdeG, .dourada, .rosa {
     width: 4vh;
     height: 4vh;
     border-radius: 50%;
 }
 
-.BrancoSapatilha,
-.Branco {
-    background-color: #ffffff;
-    border: 1px solid #76767688;
+.cinzaL {
+    background-color: #7F9299;
 }
 
-.Lilas {
-    background-color: #9197D5;
+.dourada {
+    background-color: #F4F1D1;
 }
 
-.VerdeAgua {
-    background-color: #04C7AF;
+.rosa{
+    background-color: #E86AAD;
 }
 
-.RosaChoque {
-    background-color: #DF2D8B;
+.rosaG,
+.rosaL{
+    background-color: #E0A1C7;
 }
 
-.RosaClaro {
-    background-color: #FCE6ED;
-
-}
-
-.AzulEscuro {
-    background-color: #0C1628;
-}
-
-.BrancoSapatilha {
-    background-color: #FFFFFF;
-}
-
-.VermelhoSapatilha {
-    background-color: #C1212A;
-}
-
-.AzulEscuroSapatilha {
-    background-color: #1F2240;
-}
-
-.AzulClaroSapatilha {
-    background-color: #8ECBE8;
-}
-
-.VerdeAguaSapatilha {
-    background-color: #64C9AE;
+.verdeG{
+    background-color: #0D9D9D;
 }
 
 
@@ -525,9 +512,8 @@ a {
 
 
 /* estilizando as informações */
-.informacoesMeiaBaby {
-    margin-left: 2vh;
-    margin-top: 2vh;
+.informacoesMeia {
+    margin: 2vh 2vh 0 2vh;
 }
 
 .MeiaBabySubtitulo {
