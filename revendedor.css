@@ -845,25 +845,25 @@ a {
   .forms-h2 {
     color: #fff;
     font-size: 3vh;
-    margin-top: -55vh;
-    margin-left: 10px;
+    margin-top: -65vh;
+    margin-left: 25px;
   }
 
   .circulo-topicos1 h2,
   .circulo-topicos2 h2,
   .circulo-topicos3 h2 {
     margin-left: 50px;
-    margin-top: -25px;
+    margin-top: -20px;
     font-weight: 400;
     color: #fff;
     font-family: 'LibreFranklin';
-    font-size: 3vh;
+    font-size: 3.5vh;
   }
 
-  .titulo-topicos {
+  .titulo-topicos  {
     font-size: 4vh;
     margin-left: 20px;
-    margin-top: -28px;
+    margin-top: -30px;
   }
 
 
