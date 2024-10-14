@@ -619,7 +619,8 @@
       "preco": "R$ 3,40",
       "class": "img-baby",
       "titulo": "Meia Baby Malha Persa Verde Água Feminina",
-      "numeracao": "0 á 6 meses"
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
     },
     "brancaMFem": {
       "imagem": "img-baby/malhaBrancaFem.png",
@@ -627,7 +628,8 @@
       "preco": "R$ 3,40",
       "class": "img-baby",
       "titulo": "Meia Baby Malha Persa Branca Feminina",
-      "numeracao": "0 á 6 meses"
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
     },
     "amareloMFem": {
       "imagem": "img-baby/malhaAmarelaFem.png",
@@ -635,7 +637,8 @@
       "preco": "R$ 3,40",
       "class": "img-baby",
       "titulo": "Meia Baby Malha Persa Amarela Feminina",
-      "numeracao": "0 á 6 meses"
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
     },
     "rosaMFem": {
       "imagem": "img-baby/malhaRosaFem.png",
@@ -643,7 +646,8 @@
       "preco": "R$ 3,40",
       "class": "img-baby",
       "titulo": "Meia Baby Malha Persa Rosa Feminina",
-      "numeracao": "0 á 6 meses"
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
     },
     "lilasMFem": {
       "imagem": "img-baby/malhaLilasFem.png",
@@ -651,7 +655,8 @@
       "preco": "R$ 3,40",
       "class": "img-baby",
       "titulo": "Meia Baby Malha Persa Lilás Feminina",
-      "numeracao": "0 á 6 meses"
+      "numeracao": "0 á 6 meses",
+      "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
     },
     "florVerde": {
       "imagem": "img-baby/florVerdeFem.png",
