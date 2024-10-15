@@ -166,6 +166,7 @@ a {
     z-index: 100;
     transition: right 0.5s ease;
     /* Controla o tempo da animação */
+    overflow-y: scroll;
 }
 
 .modal-menu .imagemLogo {

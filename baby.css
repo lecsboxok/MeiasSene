@@ -1067,14 +1067,14 @@ a {
     .Quadrado-da-meia-leao img,
     .Quadrado-da-meia-colors1 img,
     .Quadrado-da-meia-colors2 img,
-    .Quadrado-da-meia-kit1-0a6 img,
+    /* .Quadrado-da-meia-kit1-0a6 img,
     .Quadrado-da-meia-kit2-0a6 img,
     .Quadrado-da-meia-kit1-6a12 img,
     .Quadrado-da-meia-kit2-6a12 img,
     .Quadrado-da-meia-kitcolors1 img,
     .Quadrado-da-meia-kitcolors2 img,
     .Quadrado-da-meia-malha-kit img,
-    .Quadrado-da-meia-sap-kit img,
+    .Quadrado-da-meia-sap-kit img, */
     #meiasBabyDesMasc .Quadrado-da-meia-malha img,
     #meiasBabyDesMasc .Quadrado-da-meia-sap-faixa img,
     #meiasBabyDesMasc .Quadrado-da-meia-escosses img,
@@ -1085,35 +1085,59 @@ a {
     #meiasBabyDesMasc .Quadrado-da-meia-chevron img,
     #meiasBabyDesMasc .Quadrado-da-meia-urso img,
     #meiasBabyDesMasc .Quadrado-da-meia-coracoes img,
-    .Quadrado-da-meia-kitLhama img,
-    .Quadrado-da-meia-kitChevron img,
+    /* .Quadrado-da-meia-kitLhama img,
+    .Quadrado-da-meia-kitChevron img, */
     #meiasBabyDesMasc .Quadrado-da-meia-colorsFem img,
     #meiasBabyDesMasc .Quadrado-da-meia-colorsFem1 img,
-    .Quadrado-da-meia-colorsFem1-kit img,
-    .Quadrado-da-meia-colorsFem-kit img,
+    /* .Quadrado-da-meia-colorsFem1-kit img,
+    .Quadrado-da-meia-colorsFem-kit img, */
     #meiasBabyDesMasc .Quadrado-da-meia-malhaFem img,
     #meiasBabyDesMasc .Quadrado-da-meia-flor img,
     #meiasBabyDesMasc .Quadrado-da-meia-listras img,
-    #meiasBabyDesMasc .Quadrado-da-meia-elef img,
+    #meiasBabyDesMasc .Quadrado-da-meia-elef img
+    /* .Quadrado-da-meia-malha-kitFem img,
+    .Quadrado-da-meia-sap-kitFem img*/ { 
+        width: 150px;
+        height: 130px;
+    }
+
+    /* .Quadrado-da-meia-kit1-0a6 img,
+    .Quadrado-da-meia-kit2-0a6 img,
+    .Quadrado-da-meia-kit1-6a12 img,
+    .Quadrado-da-meia-kit2-6a12 img,
+    .Quadrado-da-meia-kitcolors1 img,
+    .Quadrado-da-meia-kitcolors2 img,
+    .Quadrado-da-meia-malha-kit img,
+    .Quadrado-da-meia-sap-kit img,
+    .Quadrado-da-meia-kitLhama img,
+    .Quadrado-da-meia-kitChevron img,
+    .Quadrado-da-meia-colorsFem1-kit img,
+    .Quadrado-da-meia-colorsFem-kit img,
     .Quadrado-da-meia-malha-kitFem img,
     .Quadrado-da-meia-sap-kitFem img {
-        width: 220px;
-        height: 180px;
-    }
+        width: 300px;
+        height: 130px;
+        margin: 45px 30px;
+    } */
 
     #div-meia {
         align-items: center;
-        width: 300px;
+        width: 250px;
         margin-top: 10vh;
 
     }
 
     #containerkit img {
-        width: 300px;
-        height: 130px;
+        width: 230px;
+        height: 100px;
     }
 
     .titulo {
         margin-top: 35px;
+    }
+
+    .botao-euQuero {
+        width: 200px;
+        height: 35px;
     }
 }
