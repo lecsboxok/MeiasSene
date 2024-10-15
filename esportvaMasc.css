@@ -505,8 +505,6 @@ body {
     overflow: hidden;
 }
 
-
-
 /* -------------------------------------CANO CURTO MASCULINA--------------------------------------------------------------- */
 
 .Quadrado-da-meia-CanoCurto-LisaBranca img,
@@ -516,7 +514,6 @@ body {
     width: 220px;
     height: 200px;
 }
-
 
 .Quadrado-da-meia-CanoCurto-LisaKit04 img,
 .Quadrado-da-meia-CanoCurto-LisaKit03 img,
@@ -542,8 +539,6 @@ body {
     margin-top: 0.75vh;
     cursor: pointer;
 }
-
-
 
 .Kit04,
 .Kit03,
@@ -613,7 +608,6 @@ body {
 
 /* COMEÇO SOCIAL */
 
-
 .Quadrado-da-meia-social-desenhada-AzulMarinho img,
 .Quadrado-da-meia-social-desenhada-Preta img,
 .Quadrado-da-meia-social-desenhada-Cinza img,
@@ -623,9 +617,6 @@ body {
     width: 210px;
     height: 180px;
 }
-
-
-
 
 /* CORES */
 
@@ -642,15 +633,6 @@ body {
     align-items: center;
     border: 1px solid #9DA1A0;
 }
-
-
-
-
-
-
-
-
-
 
 /* ---------------------------RODAPE ----------------------------------------------------------- */
 
