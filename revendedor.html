@@ -374,41 +374,45 @@
         </div>
     </footer>
 
+<!-- Script JavaScript -->
+<script>
+    // Seleciona as imagens com a classe 'mais-vantagens-icon'
+    const vantagemIcons = document.querySelectorAll('.mais-vantagens-icon');
+    const infoBoxes = document.querySelectorAll('.info-box');
 
-    <!-- Script JavaScript -->
-    <script>
-        // Seleciona as imagens com a classe 'mais-vantagens-icon'
-        const vantagemIcons = document.querySelectorAll('.mais-vantagens-icon');
-        const infoBoxes = document.querySelectorAll('.info-box');
+    // Adiciona o evento de clique para cada imagem
+    vantagemIcons.forEach(icon => {
+        icon.addEventListener('click', (e) => {
+            e.stopPropagation(); // Evita que o clique no ícone feche a caixa imediatamente
+            // Identifica qual caixa de texto deve ser exibida
+            const targetId = icon.getAttribute('data-target');
+            const targetBox = document.getElementById(targetId);
 
-        // Adiciona o evento de clique para cada imagem
-        vantagemIcons.forEach(icon => {
-            icon.addEventListener('click', () => {
-                // Identifica qual caixa de texto deve ser exibida
-                const targetId = icon.getAttribute('data-target');
-                const targetBox = document.getElementById(targetId);
+            // Oculta todas as caixas de texto
+            infoBoxes.forEach(box => box.classList.remove('active'));
 
-                // Oculta todas as caixas de texto
-                infoBoxes.forEach(box => box.classList.remove('active'));
-
-                // Exibe a caixa de texto correspondente
-                targetBox.classList.add('active');
-            });
+            // Exibe a caixa de texto correspondente
+            targetBox.classList.add('active');
         });
+    });
 
-        // Esconde as caixas de texto ao clicar fora delas
-        infoBoxes.forEach(box => {
-            box.addEventListener('click', (e) => {
-                // Verifica se o clique foi fora do conteúdo da caixa
-                if (e.target === box) {
-                    box.classList.remove('active');
-                }
-            });
+    // Esconde as caixas de texto ao clicar fora delas
+    document.addEventListener('click', () => {
+        infoBoxes.forEach(box => box.classList.remove('active'));
+    });
+
+    // Impede que o clique dentro da caixa feche a própria caixa
+    infoBoxes.forEach(box => {
+        box.addEventListener('click', (e) => {
+            e.stopPropagation(); // Impede que o evento de clique no documento seja acionado
         });
+    });
 
 
 
-        // CABEÇALHO
+
+
+        // CABEÇALHO //
         const menuIcon = document.querySelector('.menu-icon');
         const modalMenu = document.querySelector('.modal-menu');
         const closeModal = document.querySelector('.close-modal');
