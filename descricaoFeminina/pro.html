@@ -389,7 +389,7 @@
                         document.getElementById('preco').textContent = meia.preco || '';
                         document.getElementById('titulo').textContent = meia.titulo || '';
 
-                        const mensagem = `Olá, gostaria de comprar a meia ${meia.titulo}, do preço: ${meia.preco}.  ${meia.codigo || 'não informado'}.`;
+                        const mensagem = `Olá, gostaria de comprar a ${meia.titulo}, do preço: ${meia.preco}.  ${meia.codigo || 'não informado'}.`;
                         const whatsappLink = `https://wa.me/5516997021783?text=${encodeURIComponent(mensagem)}`;
                         whatsappButton.setAttribute('onclick', `window.open('${whatsappLink}', '_blank')`);
                     } else {

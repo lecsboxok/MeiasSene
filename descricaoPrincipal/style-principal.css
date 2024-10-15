@@ -914,8 +914,6 @@ a {
 
     .numeracao {
         font-size: 3vh;
-        text-align: center;
-        /* Centralizar a numeração */
         margin-top: 1vh;
     }
 
@@ -948,5 +946,25 @@ a {
         text-align: center;
         margin-left: 0;
         margin-top: 10vh;
+    }
+
+    .todas-as-meias-baby-des-masc .Quadrado-da-meia-rendada img,
+    .todas-as-meias-baby-des-masc .Quadrado-da-meia-lhama img,
+    .todas-as-meias-baby-des-masc .Quadrado-da-meia-gata img{
+        width: 180px;
+        height: 140px;
+    }
+
+    #div-meia {
+        align-items: center;
+        width: 250px;
+        margin-top: 10vh;
+        margin: 10vh 10vh 0 10vh;
+
+    }
+
+    .botao-euQuero {
+        width: 150px;
+        height: 35px;
     }
 }
