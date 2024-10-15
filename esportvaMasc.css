@@ -170,6 +170,7 @@ body {
     z-index: 100;
     transition: right 0.5s ease;
     /* Controla o tempo da animação */
+    overflow-y: scroll;
 }
 
 .modal-menu .imagemLogo {
@@ -749,6 +750,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .categGeral-rodape {
@@ -767,8 +771,8 @@ body {
     margin-top: 10px;
 }
 
-.categorias-rodape {
-    margin-left: 213px;
+.categorias-rodape, .institucional-rodape {
+    margin: 20px 10px 0 10px;
 }
 
 .final-rodape {
@@ -831,6 +835,11 @@ body {
     /* FIM DO CABEÇALHO */
 
     /* KIT */
+    .botao-euQuero {
+        width: 200px;
+        height: 35px;
+    } 
+    
     .Quadrado-da-meia-esportiva-kit01 img,
     .Quadrado-da-meia-esportiva-kit02 img,
     .Quadrado-da-meia-esportiva-cano-curto-kit img {
@@ -900,7 +909,23 @@ body {
 
     .titulo-rodape {
         text-align: center;
-        font-size: 18px;
+        font-size: 3vh;
+    }
+
+    .texto-rodape{
+        font-size: 2.8vh;
+    }
+
+    .texto2-rodape{
+        font-size: 2.8vh;
+    }
+
+    .textoFinal-rodape{
+        font-size: 2.6vh;
+    }
+
+    .imgContatos-rodape{
+        width: 23px;
     }
 
     .acompanhe-rodape,

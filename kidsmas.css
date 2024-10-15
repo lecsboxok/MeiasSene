@@ -548,7 +548,8 @@ a {
     .titulo {
         font-family: "LibreFranklin";
         margin-left: 5vh;
-        margin-top: 15px;
+        margin-top: 5vh;
+        font-size: 3.45vh;
     }
 
     .subtitulo {
@@ -556,6 +557,7 @@ a {
         font-weight: 300;
         margin-left: 7vh;
         margin-top: 1vh;
+        font-size: 3.45vh;
     }
 
     .subtitulo-m {
@@ -563,6 +565,7 @@ a {
         font-weight: 300;
         margin-left: 7vh;
         margin-top: 10vh;
+        font-size: 3.45vh;
     }
 
     #meiasKidsFemino {
@@ -765,6 +768,9 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .categGeral-rodape {
@@ -783,8 +789,8 @@ a {
     margin-top: 10px;
 }
 
-.categorias-rodape {
-    margin-left: 213px;
+.categorias-rodape, .institucional-rodape {
+    margin: 20px 10px 0 10px;
 }
 
 .final-rodape {
@@ -815,7 +821,23 @@ a {
 
     .titulo-rodape {
         text-align: center;
-        font-size: 18px;
+        font-size: 3vh;
+    }
+
+    .texto-rodape{
+        font-size: 2.8vh;
+    }
+
+    .texto2-rodape{
+        font-size: 2.8vh;
+    }
+
+    .textoFinal-rodape{
+        font-size: 2.6vh;
+    }
+
+    .imgContatos-rodape{
+        width: 23px;
     }
 
     .acompanhe-rodape,
