@@ -155,7 +155,8 @@ a {
 .modal-menu {
     position: fixed;
     top: 0;
-    right: -100%; /* Posiciona o menu fora da tela à direita */
+    right: -100%;
+    /* Posiciona o menu fora da tela à direita */
     width: 100%;
     height: 100%;
     background-color: #252160;
@@ -163,7 +164,8 @@ a {
     flex-direction: column;
     align-items: center;
     z-index: 100;
-    transition: right 0.5s ease; /* Controla o tempo da animação */
+    transition: right 0.5s ease;
+    /* Controla o tempo da animação */
     overflow-y: scroll;
 }
 
@@ -647,54 +649,55 @@ a {
 /* VERSÃO MOBILE */
 
 @media screen and (max-width: 768px) {
-        /* CABEÇALHO */
-        .cabecalhoUm {
-            justify-content: space-between;
-            margin: 5px 20px;
-        }
-    
-        .imagemLogo img {
-            width: 130px;
-        }
-    
-        .imagemLogo {
-            flex: none;
-        }
-    
-        .cabecalho2 {
-            display: none;
-        }
-    
-        .menu-icon {
-            display: block;
-        }
-    
-        .submenu {
-            display: none;
-        }
-    
-        .menu-item.open .submenu {
-            display: block;
-        }
-    
-        .menu-item:hover .submenu {
-            display: none;
-        }
-    
-        #meiasBabyDesMasc {
-            padding-top: 15vh;
-            margin: 0 30px;
-        }
-    
-        .modal-menu.show {
-            right: 0;
-        }
-    
-    
-    
-    
-        /* FIM DO CABEÇALHO */
-    
+
+    /* CABEÇALHO */
+    .cabecalhoUm {
+        justify-content: space-between;
+        margin: 5px 20px;
+    }
+
+    .imagemLogo img {
+        width: 130px;
+    }
+
+    .imagemLogo {
+        flex: none;
+    }
+
+    .cabecalho2 {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .submenu {
+        display: none;
+    }
+
+    .menu-item.open .submenu {
+        display: block;
+    }
+
+    .menu-item:hover .submenu {
+        display: none;
+    }
+
+    #meiasBabyDesMasc {
+        padding-top: 15vh;
+        margin: 0 30px;
+    }
+
+    .modal-menu.show {
+        right: 0;
+    }
+
+
+
+
+    /* FIM DO CABEÇALHO */
+
     .titulo {
         font-family: "LibreFranklin";
         margin-left: 5vh;
@@ -743,9 +746,28 @@ a {
 
     }
 
-    .Quadrado-da-meia-esportiva-kit01 img, .Quadrado-da-meia-esportiva-cano-curto-kit img{
+    .Quadrado-da-meia-esportiva-kit01 img,
+    .Quadrado-da-meia-esportiva-kit02 img,
+    .Quadrado-da-meia-esportiva-cano-curto-kit img {
         width: 230px;
         height: 100px;
+    }
+
+    .Quadrado-da-meia-esportiva-lisa img,
+    .Quadrado-da-meia-esportiva-horse img,
+    .Quadrado-da-meia-esportiva-s img,
+    .Quadrado-da-meia-esportiva-polo img,
+    .Quadrado-da-meia-esportiva-aero img,
+    .Quadrado-da-meia-quadriculada-laranja img,
+    .Quadrado-da-meia-quadriculada-branca img,
+    .Quadrado-da-meia-faixa-vermelha img,
+    .Quadrado-da-meia-faixa-amarela img,
+    .Quadrado-da-meia-degrade-azul img,
+    .Quadrado-da-meia-degrade-verde img,
+    .Quadrado-da-meia-esportiva-cinza-laranja img,
+    .Quadrado-da-meia-esportiva-cano-curto img  {
+        width: 200px;
+        height: 130px;
     }
 
 }
@@ -912,7 +934,8 @@ a {
     margin-top: 10px;
 }
 
-.categorias-rodape, .institucional-rodape {
+.categorias-rodape,
+.institucional-rodape {
     margin: 20px 10px 0 10px;
 }
 
@@ -947,19 +970,19 @@ a {
         font-size: 3vh;
     }
 
-    .texto-rodape{
+    .texto-rodape {
         font-size: 2.8vh;
     }
 
-    .texto2-rodape{
+    .texto2-rodape {
         font-size: 2.8vh;
     }
 
-    .textoFinal-rodape{
+    .textoFinal-rodape {
         font-size: 2.6vh;
     }
 
-    .imgContatos-rodape{
+    .imgContatos-rodape {
         width: 23px;
     }
 

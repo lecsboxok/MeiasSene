@@ -155,7 +155,8 @@ a {
 .modal-menu {
     position: fixed;
     top: 0;
-    right: -100%; /* Posiciona o menu fora da tela à direita */
+    right: -100%;
+    /* Posiciona o menu fora da tela à direita */
     width: 100%;
     height: 100%;
     background-color: #252160;
@@ -163,7 +164,8 @@ a {
     flex-direction: column;
     align-items: center;
     z-index: 100;
-    transition: right 0.5s ease; /* Controla o tempo da animação */
+    transition: right 0.5s ease;
+    /* Controla o tempo da animação */
     overflow-y: scroll;
 }
 
@@ -260,7 +262,7 @@ a {
 #div-meia {
     align-items: center;
     width: 390px;
-    margin-top: 10vh;
+    margin: 10vh 4vh 0 4vh;
     border: 1px solid #A5A5A5;
     border-radius: 20px;
 
@@ -674,6 +676,7 @@ a {
 .container {
     display: flex;
     justify-content: center;
+    margin: 30px 0;
 }
 
 .Quadrado-da-meia-kit1-0a6 img,
@@ -934,7 +937,8 @@ a {
     margin-top: 10px;
 }
 
-.categorias-rodape, .institucional-rodape {
+.categorias-rodape,
+.institucional-rodape {
     margin: 20px 10px 0 10px;
 }
 
@@ -1024,19 +1028,19 @@ a {
         font-size: 3vh;
     }
 
-    .texto-rodape{
+    .texto-rodape {
         font-size: 2.8vh;
     }
 
-    .texto2-rodape{
+    .texto2-rodape {
         font-size: 2.8vh;
     }
 
-    .textoFinal-rodape{
+    .textoFinal-rodape {
         font-size: 2.6vh;
     }
 
-    .imgContatos-rodape{
+    .imgContatos-rodape {
         width: 23px;
     }
 
@@ -1114,8 +1118,10 @@ a {
     #meiasBabyDesMasc .Quadrado-da-meia-flor img,
     #meiasBabyDesMasc .Quadrado-da-meia-listras img,
     #meiasBabyDesMasc .Quadrado-da-meia-elef img
+
     /* .Quadrado-da-meia-malha-kitFem img,
-    .Quadrado-da-meia-sap-kitFem img*/ { 
+    .Quadrado-da-meia-sap-kitFem img*/
+        {
         width: 150px;
         height: 130px;
     }
@@ -1141,13 +1147,16 @@ a {
     #div-meia {
         align-items: center;
         width: 250px;
-        margin-top: 10vh;
 
     }
 
     #containerkit img {
         width: 230px;
         height: 100px;
+    }
+
+    .container {
+        margin: 50px 0;
     }
 
     .titulo {
@@ -1159,4 +1168,6 @@ a {
         width: 200px;
         height: 35px;
     }
+
+
 }

@@ -234,10 +234,15 @@ a {
     z-index: 101;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
 
 @media (max-width: 768px) {
     .container {
-        margin: 50px;
+        margin: 40px ;
     }
 
     /* CABEÇALHO */
@@ -347,7 +352,7 @@ a {
 #div-meia-cano-curto {
     align-items: center;
     width: 390px;
-    margin-top: 10vh;
+    margin: 10vh 4vh 0 4vh;
     border: 1px solid #A5A5A5;
     border-radius: 20px;
 
@@ -465,10 +470,6 @@ a {
     margin-top: 4vh;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
 
 #containerkit img {
     margin-top: 2vh;
@@ -986,8 +987,7 @@ a {
 
     #div-meia-cano-curto {
         align-items: center;
-        width: 290px;
-        margin-top: 10vh;
+        width: 250px;
 
     }
 
