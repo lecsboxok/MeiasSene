@@ -1258,7 +1258,8 @@ span {
 
   #div-meia {
     align-items: center;
-    width: 280px;
+    width: 250px;
+    height: 380px;
     margin-top: 10vh;
     border: 1px solid #A5A5A5;
     border-radius: 20px;
@@ -1287,9 +1288,13 @@ span {
   .Quadrado-da-meia-faixa-amarela img,
   .Quadrado-da-meia-juvenil img,
   .Quadrado-da-meia-Casual-DesenhadaCoracao-Branca .container2 img {
-    width: 220px;
-    height: 200px;
+    width: 150px;
+    height: 130px;
   }
+  .botao-euQuero {
+    width: 150px;
+    height: 35px;
+}
 }
 
 /* Ocultar os tracinhos em telas maiores */
