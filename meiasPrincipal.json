@@ -1,4 +1,112 @@
 {
+    "Branco": {
+        "imagem": "img-baby/colors1BrancaFem.png",
+        "codigo": "Referência: 1131-1/1",
+        "preco": "R$ 3,65",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Colors Branca Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "A Meia Feminina Baby Color’s é a escolha perfeita para quem busca conforto e estilo no dia a dia. Confeccionada em material macio e respirável, ela proporciona uma sensação de leveza e bem-estar durante todo o uso. Com um design moderno e cores vibrantes, essas meias são ideais para adicionar um toque de alegria e personalidade ao seu visual."
+    },
+    "RosaClaro": {
+        "imagem": "img-baby/colors1RosaFem.png",
+        "codigo": "Referência: 1131-1/2",
+        "preco": "R$ 3,65",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Colors Rosa Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "A Meia Feminina Baby Color’s é a escolha perfeita para quem busca conforto e estilo no dia a dia. Confeccionada em material macio e respirável, ela proporciona uma sensação de leveza e bem-estar durante todo o uso. Com um design moderno e cores vibrantes, essas meias são ideais para adicionar um toque de alegria e personalidade ao seu visual."
+    },
+    "Lilas": {
+        "imagem": "img-baby/colors1LilasFem.png",
+        "codigo": "Referência: 1131-1/3",
+        "preco": "R$ 3,65",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Colors Lilás Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "A Meia Feminina Baby Color’s é a escolha perfeita para quem busca conforto e estilo no dia a dia. Confeccionada em material macio e respirável, ela proporciona uma sensação de leveza e bem-estar durante todo o uso. Com um design moderno e cores vibrantes, essas meias são ideais para adicionar um toque de alegria e personalidade ao seu visual."
+    },
+    "VerdeAgua": {
+        "imagem": "img-baby/colors1VerdeFem.png",
+        "codigo": "Referência: 1131-1/4",
+        "preco": "R$ 3,65",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Colors Verde Jade Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "A Meia Feminina Baby Color’s é a escolha perfeita para quem busca conforto e estilo no dia a dia. Confeccionada em material macio e respirável, ela proporciona uma sensação de leveza e bem-estar durante todo o uso. Com um design moderno e cores vibrantes, essas meias são ideais para adicionar um toque de alegria e personalidade ao seu visual."
+    },
+    "RosaChoque": {
+        "imagem": "img-baby/colors1PinkFem.png",
+        "codigo": "Referência: 1131-1/5",
+        "preco": "R$ 3,65",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Colors Pink Feminina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "A Meia Feminina Baby Color’s é a escolha perfeita para quem busca conforto e estilo no dia a dia. Confeccionada em material macio e respirável, ela proporciona uma sensação de leveza e bem-estar durante todo o uso. Com um design moderno e cores vibrantes, essas meias são ideais para adicionar um toque de alegria e personalidade ao seu visual."
+    },
+    "rosaCoracoes": {
+        "imagem": "img-baby/coracoesRosa.png",
+        "codigo": "Referência: 1211-2/2",
+        "preco": "R$ 3,80",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Desenhada Corações Rosa Feminina",
+        "numeracao": "6 á 12 meses",
+        "descricao": "Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo."
+    },
+    "marinhoCoracoes": {
+        "imagem": "img-baby/coracoesMarinho.png",
+        "codigo": "Referência: 1211-2/1",
+        "preco": "R$ 3,80",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Desenhada Corações Marinho Feminina",
+        "numeracao": "6 á 12 meses",
+        "descricao": "Estas meias baby desenhadas são suaves e aconchegantes, feitas especialmente para os pés delicados dos bebês. Com um ajuste confortável e seguro, elas permanecem no lugar sem apertar. As estampas adoráveis adicionam um toque fofo ao visual. Ideais para manter os pezinhos aquecidos e protegidos com estilo."
+    },
+    "VerdeAguaSapatilha": {
+        "imagem": "img-baby/malhaVerdeMasc.png",
+        "codigo": "Referência: 1161-1/3",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Verde Água Masculina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "BrancoSapatilha": {
+        "imagem": "img-baby/malhaBrancaMasc.png",
+        "codigo": "Referência: 1161-1/1",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Branca Masculina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "AzulClaroSapatilha": {
+        "imagem": "img-baby/malhaAzulMasc.png",
+        "codigo": "Referência: 1161-1/2",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Azul Bebê Masculina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "AzulEscuroSapatilha": {
+        "imagem": "img-baby/malhaMarinhoMasc.png",
+        "codigo": "Referência: 1161-1/4",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Marinho Masculina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
+    "VermelhoSapatilha": {
+        "imagem": "img-baby/malhaVermelhoMasc.png",
+        "codigo": "Referência: 1161-1/5",
+        "preco": "R$ 3,40",
+        "class": "img-descricao",
+        "titulo": "Meia Baby Malha Persa Vermelho Masculina",
+        "numeracao": "0 á 6 meses",
+        "descricao": "Estas meias de malha persa são elegantes e confortáveis, feitas com uma mistura de materiais de alta qualidade. O tecido em malha oferece uma textura suave e respirável, garantindo um ajuste perfeito aos pés. Com um design clássico e durável, essas meias são ideais para o uso diário, proporcionando estilo e conforto em qualquer ocasião."
+    },
     "vaquinha": {
         "imagem": "img-feminino/MeiaCanoLongoCasual-Vaquinha.png",
         "class": "img-descricao",

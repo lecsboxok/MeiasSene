@@ -365,12 +365,13 @@ span {
 .VerdeAgua,
 .RosaChoque,
 .Branco,
-.AzulEscuro,
+.marinhoCoracoes,
 .BrancoSapatilha,
 .VermelhoSapatilha,
 .AzulEscuroSapatilha,
 .AzulClaroSapatilha,
-.VerdeAguaSapatilha {
+.VerdeAguaSapatilha,
+.rosaCoracoes {
   width: 5vh;
   height: 5vh;
   border-radius: 50%;
@@ -384,23 +385,23 @@ span {
 }
 
 .Lilas {
-  background-color: #9197D5;
+  background-color: #919AD3;
 }
 
 .VerdeAgua {
-  background-color: #04C7AF;
+  background-color: #0D9D9D;
 }
 
-.RosaChoque {
+.RosaChoque,
+.rosaCoracoes {
   background-color: #DF2D8B;
 }
 
 .RosaClaro {
-  background-color: #FCE6ED;
-
+  background-color: #E0A1C7;
 }
 
-.AzulEscuro {
+.marinhoCoracoes {
   background-color: #0C1628;
 }
 

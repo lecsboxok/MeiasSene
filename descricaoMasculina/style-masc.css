@@ -566,12 +566,6 @@ button {
 }
 
 
-
-
-
-
-
-
 /* arrumando as imagens das meias cano curto */
 
 
@@ -890,19 +884,17 @@ a {
     #imagemMeia {
         margin-top: 25vh;
         margin-left: 0;
-
     }
 
-    .img-baby {
+    .img-Masc {
         width: 35vh;
         height: 30vh
     }
 
-    .img-babyKit {
+    .img-Masckit {
         width: 45vh;
         height: 25vh
     }
-
 
     /* Container geral se adapta à largura do dispositivo móvel */
     .TodasInformacoes {

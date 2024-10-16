@@ -55,7 +55,8 @@ const imagensPorCor = {
         VerdeAgua: 'img-baby/MeiaVerdeAgua-Feminina.png'
     },
     'Quadrado-da-Meia-Desenhada-Baby-um': {
-        AzulEscuro: 'img-baby/MeiaDesenhadaAzulEscuro-Feminina.png'
+        marinhoCoracoes: 'img-baby/coracoesMarinho.png',
+        rosaCoracoes: 'img-baby/coracoesRosa.png'
     },
     'Quadrado-da-Meia-Desenhada-Baby': {
         BrancoSapatilha: 'img-baby/MeiaBrancaSapatilha-Masculina.png',
@@ -111,7 +112,7 @@ document.querySelectorAll('.todasAsMeiasBaby-CompreJunto > div, .todasAsMeiasBab
     const imgMeia = quadrado.querySelector('img');
 
     // Seleciona todas as cores disponíveis para o quadrado atual
-    const cores = quadrado.querySelectorAll('.RosaClaro, .Lilas, .VerdeAgua, .RosaChoque, .Branco, .AzulEscuro, .BrancoSapatilha, .VermelhoSapatilha, .AzulEscuroSapatilha, .AzulClaroSapatilha, .VerdeAguaSapatilha, .brancaLisa, pretaLisa, .cinzaLisa, .vaquinha, .verdeMFem, .brancaMFem, .rosaMFem, .lilasMFem, .amareloMFem, .rosaCh, .verdeCh, .dourada, .rosa, .brancaAreo, .pretaAero, .cinzaAero, .amarelaPro, .juvenilMarrom, .juvenilPreta, .DesenhoBrancoCoracao, .DesenhoCinzaCoracao');
+    const cores = quadrado.querySelectorAll('.RosaClaro, .Lilas, .VerdeAgua, .RosaChoque, .Branco, .marinhoCoracoes, .rosaCoracoes, .BrancoSapatilha, .VermelhoSapatilha, .AzulEscuroSapatilha, .AzulClaroSapatilha, .VerdeAguaSapatilha, .brancaLisa, pretaLisa, .cinzaLisa, .vaquinha, .verdeMFem, .brancaMFem, .rosaMFem, .lilasMFem, .amareloMFem, .rosaCh, .verdeCh, .dourada, .rosa, .brancaAreo, .pretaAero, .cinzaAero, .amarelaPro, .juvenilMarrom, .juvenilPreta, .DesenhoBrancoCoracao, .DesenhoCinzaCoracao');
 
     // Obtém o nome da classe do quadrado (primeiro nome de classe)
     const quadradoId = quadrado.className.split(' ')[0];
