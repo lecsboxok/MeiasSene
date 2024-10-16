@@ -704,7 +704,8 @@ a {
     margin-top: 10px;
 }
 
-.categorias-rodape, .institucional-rodape {
+.categorias-rodape,
+.institucional-rodape {
     margin: 20px 10px 0 10px;
 }
 
@@ -744,19 +745,19 @@ a {
         font-size: 3vh;
     }
 
-    .texto-rodape{
+    .texto-rodape {
         font-size: 2.8vh;
     }
 
-    .texto2-rodape{
+    .texto2-rodape {
         font-size: 2.8vh;
     }
 
-    .textoFinal-rodape{
+    .textoFinal-rodape {
         font-size: 2.6vh;
     }
 
-    .imgContatos-rodape{
+    .imgContatos-rodape {
         width: 23px;
     }
 
@@ -976,14 +977,16 @@ a {
 
     }
 
+  
+
     .container img {
-        width: 230px;
-        height: 100px;
+        width: 300px;
+        height: 150px;
     }
 
     #div-meia-cano-curto {
         align-items: center;
-        width: 250px;
+        width: 290px;
         margin-top: 10vh;
 
     }
@@ -999,7 +1002,7 @@ a {
     }
 
     #containerkit img {
-        
+
         width: 230px;
         height: 100px;
     }
