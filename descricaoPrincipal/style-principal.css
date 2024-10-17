@@ -969,3 +969,82 @@ a {
         height: 35px;
     }
 }
+@media screen and (max-width: 500px) {
+
+
+
+
+
+    .container-rodape {
+        padding: 50px 50px;
+    }
+
+    .linha1-rodape,
+    .linha2-rodape {
+        display: block;
+        text-align: center;
+    }
+
+    .contatos-rodape {
+        margin-top: 40px;
+    }
+
+    .titulo-rodape {
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    .texto-rodape {
+        font-size: 2.8vh;
+    }
+
+    .texto2-rodape {
+        font-size: 2.8vh;
+    }
+
+    .textoFinal-rodape {
+        font-size: 2.6vh;
+    }
+
+    .imgContatos-rodape {
+        width: 23px;
+    }
+
+    .acompanhe-rodape,
+    .institucional-rodape,
+    .categorias-rodape {
+        margin-top: 60px;
+    }
+
+    .categorias-rodape {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .final-rodape {
+        margin-top: 60px;
+    }
+
+    .imgLogo-rodape {
+        width: 150px;
+    }
+
+    .imgRedes-rodape {
+        margin: 10px;
+    }
+
+    .subCategoria1-rodape {
+        margin-right: 50px;
+    }
+
+    .categGeral-rodape {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whats-rodape,
+    .email-rodape {
+        justify-content: center;
+        /* Centraliza o conteúdo */
+    }
+}

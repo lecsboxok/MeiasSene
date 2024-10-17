@@ -383,17 +383,22 @@ a {
 .Quadrado-da-meia-esportiva-lisa img,
 .Quadrado-da-meia-esportiva-horse img,
 .Quadrado-da-meia-esportiva-s img,
-.Quadrado-da-meia-esportiva-polo img,
-.Quadrado-da-meia-esportiva-aero img,
-.Quadrado-da-meia-quadriculada-laranja img,
+
 .Quadrado-da-meia-quadriculada-branca img,
 .Quadrado-da-meia-faixa-vermelha img,
 .Quadrado-da-meia-faixa-amarela img,
 .Quadrado-da-meia-degrade-azul img,
-.Quadrado-da-meia-degrade-verde img,
-.Quadrado-da-meia-esportiva-cinza-laranja img {
+.Quadrado-da-meia-degrade-verde img {
     width: 350px;
     height: 300px;
+}
+
+.Quadrado-da-meia-esportiva-polo img,
+.Quadrado-da-meia-esportiva-aero img,
+.Quadrado-da-meia-quadriculada-laranja img,
+.Quadrado-da-meia-esportiva-cinza-laranja img {
+    width: 200px;
+    height: 250px;
 }
 
 .Quadrado-da-meia-esportiva-cano-curto img {
@@ -756,271 +761,277 @@ a {
     .Quadrado-da-meia-esportiva-lisa img,
     .Quadrado-da-meia-esportiva-horse img,
     .Quadrado-da-meia-esportiva-s img,
-    .Quadrado-da-meia-esportiva-polo img,
-    .Quadrado-da-meia-esportiva-aero img,
-    .Quadrado-da-meia-quadriculada-laranja img,
     .Quadrado-da-meia-quadriculada-branca img,
     .Quadrado-da-meia-faixa-vermelha img,
     .Quadrado-da-meia-faixa-amarela img,
     .Quadrado-da-meia-degrade-azul img,
-    .Quadrado-da-meia-degrade-verde img,
-    .Quadrado-da-meia-esportiva-cinza-laranja img,
-    .Quadrado-da-meia-esportiva-cano-curto img  {
-        width: 200px;
-        height: 130px;
+    .Quadrado-da-meia-degrade-verde img {
+        width: 250px;
+        height: 150px;
     }
 
-}
+    .Quadrado-da-meia-esportiva-polo img,
+    .Quadrado-da-meia-esportiva-aero img,
+    .Quadrado-da-meia-quadriculada-laranja img,
+    .Quadrado-da-meia-esportiva-cinza-laranja img {
+        width: 160px;
+        height: 170px;
+
+    }
+    .Quadrado-da-meia-esportiva-cano-curto img{
+        width: 180px;
+        height: 140px;
+    }
 
 
 
 
 
 
-/* ---------------------------RODAPE ----------------------------------------------------------- */
+    /* ---------------------------RODAPE ----------------------------------------------------------- */
 
-/* RESET */
-* {
-    box-sizing: border-box;
-    border: 0;
-    padding: 0;
-    margin: 0;
-}
+    /* RESET */
+    * {
+        box-sizing: border-box;
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+    a {
+        text-decoration: none;
+        color: white;
+    }
 
-/* FONTES */
+    /* FONTES */
 
-@font-face {
-    font-family: 'LibreFranklin';
-    src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
-}
+    @font-face {
+        font-family: 'LibreFranklin';
+        src: url(fonts/LibreFranklin-VariableFont_wght.ttf);
+    }
 
-@font-face {
-    font-family: 'WorkSans';
-    src: url(fonts/WorkSans-VariableFont_wght.ttf);
-}
+    @font-face {
+        font-family: 'WorkSans';
+        src: url(fonts/WorkSans-VariableFont_wght.ttf);
+    }
 
-/* RODAPÉ */
+    /* RODAPÉ */
 
-#footer {
-    background-color: #252160;
-    color: white;
-    margin-top: 120px;
-    transition: background-color 0.5s ease;
-}
+    #footer {
+        background-color: #252160;
+        color: white;
+        margin-top: 120px;
+        transition: background-color 0.5s ease;
+    }
 
-#footer:hover {
-    background-color: #1e1b55;
-}
+    #footer:hover {
+        background-color: #1e1b55;
+    }
 
-.container-rodape {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 65px 100px 25px 100px;
-    transition: padding 0.5s ease;
-}
-
-.imgLogo-rodape {
-    width: 200px;
-}
-
-.linha1-rodape {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contatos-rodape,
-.acompanhe-rodape {
-    margin-top: 20px;
-    transition: margin-top 0.5s ease;
-}
-
-.whats-rodape,
-.email-rodape {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.whats-rodape a,
-.email-rodape a {
-    display: inline-flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-.imgContatos-rodape {
-    width: 30px;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
-}
-
-.imgContatos-rodape:hover {
-    transform: translateY(-5px);
-}
-
-.titulo-rodape {
-    font: 650 20px 'LibreFranklin', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: color 0.3s ease;
-}
-
-.titulo-rodape:hover {
-    color: #b4b4b4;
-}
-
-.texto-rodape {
-    font: 400 18px 'WorkSans', sans-serif;
-}
-
-.texto2-rodape {
-    font: 400 18px 'WorkSans', sans-serif;
-    margin-top: 12px;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.texto2-rodape:hover {
-    color: #b4b4b4;
-    transform: scale(0.97);
-}
-
-.imgRedes-rodape {
-    width: 30px;
-    margin: 0 6px;
-    transition: transform 0.3s ease;
-}
-
-.imgRedes-rodape:hover {
-    transform: translateY(-5px);
-}
-
-.redes-rodape {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.linha2-rodape {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.categGeral-rodape {
-    display: flex;
-}
-
-.subCategoria1-rodape {
-    margin-right: 90px;
-}
-
-.textoInst-rodape {
-    margin-top: 20px;
-}
-
-.categGeral-rodape {
-    margin-top: 10px;
-}
-
-.categorias-rodape,
-.institucional-rodape {
-    margin: 20px 10px 0 10px;
-}
-
-.final-rodape {
-    margin-top: 110px;
-    text-align: center;
-}
-
-.textoFinal-rodape {
-    font: 400 15px 'WorkSans', sans-serif;
-}
-
-/* VERSÃO MOBILE */
-
-@media screen and (max-width: 500px) {
     .container-rodape {
-        padding: 50px 50px;
-    }
-
-    .linha1-rodape,
-    .linha2-rodape {
-        display: block;
-        text-align: center;
-    }
-
-    .contatos-rodape {
-        margin-top: 40px;
-    }
-
-    .titulo-rodape {
-        text-align: center;
-        font-size: 3vh;
-    }
-
-    .texto-rodape {
-        font-size: 2.8vh;
-    }
-
-    .texto2-rodape {
-        font-size: 2.8vh;
-    }
-
-    .textoFinal-rodape {
-        font-size: 2.6vh;
-    }
-
-    .imgContatos-rodape {
-        width: 23px;
-    }
-
-    .acompanhe-rodape,
-    .institucional-rodape,
-    .categorias-rodape {
-        margin-top: 60px;
-    }
-
-    .categorias-rodape {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .final-rodape {
-        margin-top: 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 65px 100px 25px 100px;
+        transition: padding 0.5s ease;
     }
 
     .imgLogo-rodape {
-        width: 150px;
+        width: 200px;
     }
 
-    .imgRedes-rodape {
-        margin: 10px;
+    .linha1-rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .subCategoria1-rodape {
-        margin-right: 50px;
-    }
-
-    .categGeral-rodape {
-        justify-content: center;
-        align-items: center;
+    .contatos-rodape,
+    .acompanhe-rodape {
+        margin-top: 20px;
+        transition: margin-top 0.5s ease;
     }
 
     .whats-rodape,
     .email-rodape {
-        justify-content: center;
-        /* Centraliza o conteúdo */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .whats-rodape a,
+    .email-rodape a {
+        display: inline-flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imgContatos-rodape {
+        width: 30px;
+        margin-right: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .imgContatos-rodape:hover {
+        transform: translateY(-5px);
+    }
+
+    .titulo-rodape {
+        font: 650 20px 'LibreFranklin', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.3s ease;
+    }
+
+    .titulo-rodape:hover {
+        color: #b4b4b4;
+    }
+
+    .texto-rodape {
+        font: 400 18px 'WorkSans', sans-serif;
+    }
+
+    .texto2-rodape {
+        font: 400 18px 'WorkSans', sans-serif;
+        margin-top: 12px;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .texto2-rodape:hover {
+        color: #b4b4b4;
+        transform: scale(0.97);
+    }
+
+    .imgRedes-rodape {
+        width: 30px;
+        margin: 0 6px;
+        transition: transform 0.3s ease;
+    }
+
+    .imgRedes-rodape:hover {
+        transform: translateY(-5px);
+    }
+
+    .redes-rodape {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .linha2-rodape {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .categGeral-rodape {
+        display: flex;
+    }
+
+    .subCategoria1-rodape {
+        margin-right: 90px;
+    }
+
+    .textoInst-rodape {
+        margin-top: 20px;
+    }
+
+    .categGeral-rodape {
+        margin-top: 10px;
+    }
+
+    .categorias-rodape,
+    .institucional-rodape {
+        margin: 20px 10px 0 10px;
+    }
+
+    .final-rodape {
+        margin-top: 110px;
+        text-align: center;
+    }
+
+    .textoFinal-rodape {
+        font: 400 15px 'WorkSans', sans-serif;
     }
 }
+    /* VERSÃO MOBILE */
+
+    @media screen and (max-width: 500px) {
+        .container-rodape {
+            padding: 50px 50px;
+        }
+
+        .linha1-rodape,
+        .linha2-rodape {
+            display: block;
+            text-align: center;
+        }
+
+        .contatos-rodape {
+            margin-top: 40px;
+        }
+
+        .titulo-rodape {
+            text-align: center;
+            font-size: 3vh;
+        }
+
+        .texto-rodape {
+            font-size: 2.8vh;
+        }
+
+        .texto2-rodape {
+            font-size: 2.8vh;
+        }
+
+        .textoFinal-rodape {
+            font-size: 2.6vh;
+        }
+
+        .imgContatos-rodape {
+            width: 23px;
+        }
+
+        .acompanhe-rodape,
+        .institucional-rodape,
+        .categorias-rodape {
+            margin-top: 60px;
+        }
+
+        .categorias-rodape {
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .final-rodape {
+            margin-top: 60px;
+        }
+
+        .imgLogo-rodape {
+            width: 150px;
+        }
+
+        .imgRedes-rodape {
+            margin: 10px;
+        }
+
+        .subCategoria1-rodape {
+            margin-right: 50px;
+        }
+
+        .categGeral-rodape {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .whats-rodape,
+        .email-rodape {
+            justify-content: center;
+            /* Centraliza o conteúdo */
+        }
+    }
