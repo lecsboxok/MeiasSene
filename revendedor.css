@@ -155,7 +155,8 @@ a {
 .modal-menu {
   position: fixed;
   top: 0;
-  right: -100%; /* Posiciona o menu fora da tela à direita */
+  right: -100%;
+  /* Posiciona o menu fora da tela à direita */
   width: 100%;
   height: 100%;
   background-color: #252160;
@@ -163,7 +164,8 @@ a {
   flex-direction: column;
   align-items: center;
   z-index: 100;
-  transition: right 0.5s ease; /* Controla o tempo da animação */
+  transition: right 0.5s ease;
+  /* Controla o tempo da animação */
 }
 
 .modal-menu .imagemLogo {
@@ -595,6 +597,9 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .categGeral-rodape {
@@ -613,8 +618,9 @@ a {
   margin-top: 10px;
 }
 
-.categorias-rodape {
-  margin-left: 213px;
+.categorias-rodape,
+.institucional-rodape {
+    margin: 20px 10px 0 10px;
 }
 
 .final-rodape {
@@ -628,7 +634,7 @@ a {
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .container-rodape {
     padding: 50px 50px;
   }
@@ -645,7 +651,23 @@ a {
 
   .titulo-rodape {
     text-align: center;
-    font-size: 18px;
+    font-size: 3vh;
+  }
+
+  .texto-rodape {
+    font-size: 2.8vh;
+  }
+
+  .texto2-rodape {
+    font-size: 2.8vh;
+  }
+
+  .textoFinal-rodape {
+    font-size: 2.6vh;
+  }
+
+  .imgContatos-rodape {
+    width: 23px;
   }
 
   .acompanhe-rodape,
@@ -700,53 +722,54 @@ a {
 
 
 @media screen and (max-width: 768px) {
- /* CABEÇALHO */
- .cabecalhoUm {
-  justify-content: space-between;
-  margin: 5px 20px;
-}
 
-.imagemLogo img {
-  width: 130px;
-}
+  /* CABEÇALHO */
+  .cabecalhoUm {
+    justify-content: space-between;
+    margin: 5px 20px;
+  }
 
-.imagemLogo {
-  flex: none;
-}
+  .imagemLogo img {
+    width: 130px;
+  }
 
-.cabecalho2 {
-  display: none;
-}
+  .imagemLogo {
+    flex: none;
+  }
 
-.menu-icon {
-  display: block;
-}
+  .cabecalho2 {
+    display: none;
+  }
 
-.submenu {
-  display: none;
-}
+  .menu-icon {
+    display: block;
+  }
 
-.menu-item.open .submenu {
-  display: block;
-}
+  .submenu {
+    display: none;
+  }
 
-.menu-item:hover .submenu {
-  display: none;
-}
+  .menu-item.open .submenu {
+    display: block;
+  }
 
-#meiasBabyDesMasc {
-  padding-top: 15vh;
-  margin: 0 30px;
-}
+  .menu-item:hover .submenu {
+    display: none;
+  }
 
-.modal-menu.show {
-  right: 0;
-}
+  #meiasBabyDesMasc {
+    padding-top: 15vh;
+    margin: 0 30px;
+  }
+
+  .modal-menu.show {
+    right: 0;
+  }
 
 
 
 
-/* FIM DO CABEÇALHO */
+  /* FIM DO CABEÇALHO */
 
 
   /* SEJA REVENDEDOR */
@@ -754,6 +777,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 50px 20px;
+    text-align: center;
   }
 
   .seja-revendedor-img {
@@ -780,7 +804,7 @@ a {
   }
 
   .btn-cadastro {
-    margin-left: 40px;
+    margin-left: 0;
     margin-top: 20px;
     padding: 10px 20px;
 
@@ -860,7 +884,7 @@ a {
     font-size: 3.5vh;
   }
 
-  .titulo-topicos  {
+  .titulo-topicos {
     font-size: 4vh;
     margin-left: 20px;
     margin-top: -30px;
